@@ -3,9 +3,11 @@
 # Phil's Random Names
 
 ![Foundry v12 Compatible](https://img.shields.io/badge/Foundry-v12-green)
-![System](https://img.shields.io/badge/System-Agnostic-blue)
+![Foundry v13 Compatible](https://img.shields.io/badge/Foundry-v13-brightgreen)
+![System](https://img.shields.io/badge/System-PF2e-blue)
 ![License](https://img.shields.io/badge/License-GPLv3-blue)
-[![Version](https://img.shields.io/badge/version-v0.0.1--beta-blue)](https://github.com/PhilsModules/phils-random-names/releases)
+[![Version](https://img.shields.io/badge/version-v1.4.5-blue)](https://github.com/PhilsModules/phils-pf2e-ai-translator/releases)
+[![Patreon](https://img.shields.io/badge/SUPPORT-Patreon-ff424d?logo=patreon)](https://www.patreon.com/PhilsModules)
 
 <br>
 
@@ -92,6 +94,7 @@ Das Modul kommt bereits **vollgepackt** mit Beispieldaten:
 # ⚖️ License
 
 **Phil's Random Names** is licensed under the [GPL-3.0 License](LICENSE).
+
 
 
 
