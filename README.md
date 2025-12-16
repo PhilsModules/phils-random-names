@@ -39,7 +39,7 @@ Das Modul kommt bereits **vollgepackt** mit Beispieldaten:
     *   Zwerge, Halblinge, Gnome, Goblins, Orks: je ~20.000+ Kombinationen
     *   Leshys: ~30.000+ Kombinationen
 *   **5 Thematische Listen:** Fantasy Drinks, Food, Plants, Shops.
-*   **500+ Gerüchte:** Atmosphärische Plot-Hooks für deine Taverne.
+*   **500+ Gerüchte:** Atmosphärische Plot-Hooks für deine Taverne. (GERMAN ONLY)
 *   **Insgesamt über 13.000 Einträge!** 📚
 
 ## 🚀 Funktionen
@@ -92,5 +92,6 @@ Das Modul kommt bereits **vollgepackt** mit Beispieldaten:
 # ⚖️ License
 
 **Phil's Random Names** is licensed under the [GPL-3.0 License](LICENSE).
+
 
 
