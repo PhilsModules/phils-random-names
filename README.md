@@ -31,6 +31,17 @@
 
 **Phil's Random Names** erlaubt es dir, komplexe Namensgeneratoren (Vorname, Nachname, Geschlecht) und einfache Zufallslisten (z.B. Getränke, Orte) direkt aus Foundry VTT Journalen zu erstellen.
 
+Das Modul kommt bereits **vollgepackt** mit Beispieldaten:
+*   **7 Völker-Listen:**
+    *   Menschen: ~3 Mio. Kombinationen 🤯
+    *   Elfen: ~2 Mio. Kombinationen
+    *   Mwangi: ~1 Mio. Kombinationen
+    *   Zwerge, Halblinge, Gnome, Goblins, Orks: je ~20.000+ Kombinationen
+    *   Leshys: ~30.000+ Kombinationen
+*   **5 Thematische Listen:** Fantasy Drinks, Food, Plants, Shops.
+*   **500+ Gerüchte:** Atmosphärische Plot-Hooks für deine Taverne.
+*   **Insgesamt über 13.000 Einträge!** 📚
+
 ## 🚀 Funktionen
 
 * 🎲 **Komplexe Generatoren:** Erstelle NPCs mit Geschlechts-Auswahl (Männlich/Weiblich/Zufall) und optionalen Nachnamen.
@@ -81,4 +92,5 @@
 # ⚖️ License
 
 **Phil's Random Names** is licensed under the [GPL-3.0 License](LICENSE).
+
 
