@@ -122,20 +122,37 @@ export class RandomNameAPI {
         const suffixSurname = isGerman ? "Nachnamen" : "Surnames";
 
         // Example Files to Load
-        const examples = ["Mwangi_Commoner.md"];
+        // Dynamic Example Loading using FilePicker
+        let examples = [];
+        try {
+            // Attempt to browse the module directory
+            const result = await FilePicker.browse("data", "modules/phils-random-names/examples");
+            examples = result.files
+                .filter(file => file.endsWith(".md"))
+                .map(file => file.split("/").pop()); // Extract filename
+        } catch (err) {
+            console.warn("Phils Random Names | Could not browse examples via FilePicker. Falling back to default list.", err);
+            // Fallback if FilePicker fails (e.g. strict permissions)
+            examples = ["Mwangi_Commoner.md"];
+        }
 
         for (const filename of examples) {
             try {
                 // Fetch from module directory
                 const response = await fetch(`modules/phils-random-names/examples/${filename}`);
                 if (!response.ok) {
-                    console.warn(`Phils Random Names | Could not load ${filename}`);
+                    // console.warn(`Phils Random Names | Could not load ${filename}`);
                     continue;
                 }
                 const text = await response.text();
 
                 // Determine Base Name: "Mwangi_Commoner.md" -> "Mwangi Commoner"
-                const baseName = filename.replace(/_/g, " ").replace(".md", "");
+                // Remove encoded spaces if needed, generally filenames are clean
+                const cleanName = decodeURIComponent(filename);
+                let baseName = cleanName.replace(/_/g, " ").replace(".md", "");
+
+                // Auto-Capitalize first letter (e.g. "elf" -> "Elf")
+                baseName = baseName.charAt(0).toUpperCase() + baseName.slice(1);
 
                 // Parse Data
                 const lines = text.split("\n").map(l => l.trim()).filter(l => l);

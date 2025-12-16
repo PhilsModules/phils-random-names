@@ -14,10 +14,11 @@
     display: flex;
     flex-direction: column;
     gap: 4px;
-    /* Compact gap */
     padding: 5px;
-    overflow-y: auto;
-    max-height: 600px;
+    overflow: hidden;
+    /* Prevent container scrolling */
+    height: 100%;
+    /* Fill available space */
     flex: 1;
 }
 
@@ -25,7 +26,14 @@
     display: flex;
     flex-direction: column;
     gap: 0;
-    /* Remove gap for list look */
+    overflow-y: auto;
+    /* List scrolls independently */
+    flex: 1;
+    /* List takes available space */
+    min-height: 0;
+    /* Enable shrinking */
+    padding-right: 5px;
+    /* Space for scrollbar */
 }
 
 /* Common Item Style using CSS Grid */
