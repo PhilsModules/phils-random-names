@@ -1,0 +1,63 @@
+<div class="phils-random-names-content">
+    {{#if hasCategories}}
+    <p>Wähle eine Kategorie:</p>
+    <div class="category-list">
+        {{#each categories}}
+        <div class="category-item {{#if this.isComplex}}complex-category{{else}}simple-category{{/if}}"
+            data-category="{{#if this.isComplex}}{{this.name}}{{else}}{{this.journal.id}}{{/if}}">
+
+            <!-- Column 1: Name -->
+            <div class="category-name">
+                <i class="{{#if this.isComplex}}fas fa-users{{else}}fas fa-book-open{{/if}} fa-fw"></i> {{this.name}}
+            </div>
+
+            <!-- Column 2: Controls (Options + Button) -->
+            <div class="category-controls">
+
+                {{#if this.isComplex}}
+                <!-- Complex Options -->
+                <div class="complex-options">
+                    <div class="gender-select">
+                        <label><input type="radio" name="gender-{{this.name}}" value="male"> ♂</label>
+                        <label><input type="radio" name="gender-{{this.name}}" value="female"> ♀</label>
+                        <label><input type="radio" name="gender-{{this.name}}" value="any" checked> ⚥</label>
+                    </div>
+                    <div class="surname-select">
+                        <label><input type="checkbox" name="surname-{{this.name}}" checked> Nachname</label>
+                    </div>
+                </div>
+                <button type="button" data-action="generateComplex">
+                    <i class="fas fa-dice"></i>
+                </button>
+
+                {{else}}
+                <!-- Simple Options (Empty but follows structure) -->
+                <div class="complex-options">
+                    <!-- Spacer -->
+                </div>
+                <button type="button" data-action="generateSimple" data-journal-id="{{this.journal.id}}">
+                    <i class="fas fa-dice"></i>
+                </button>
+                {{/if}}
+
+            </div>
+        </div>
+        {{/each}}
+    </div>
+    {{else}}
+    <div style="text-align: center; padding: 20px;">
+        <p class="notification warning">Kein Ordner "Phils Random Namen" gefunden oder er ist leer.</p>
+        <button type="button" data-action="create">
+            <i class="fas fa-magic"></i> Ordner & Beispiele erstellen
+        </button>
+    </div>
+    {{/if}}
+    <div class="footer-actions">
+        <button type="button" data-action="createComplexTemplate" title="Neuen NPC Namen Generator erstellen">
+            <i class="fas fa-plus"></i> <i class="fas fa-users"></i> NPC
+        </button>
+        <button type="button" data-action="createSimpleTemplate" title="Neue einfache Liste erstellen">
+            <i class="fas fa-plus"></i> <i class="fas fa-list"></i> Liste
+        </button>
+    </div>
+</div>

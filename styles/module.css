@@ -1,0 +1,179 @@
+/* Module Styles */
+.phils-random-names-dialog .window-content {
+    /* background: url('../../../ui/parchment.jpg') repeat; REMOVED for dark mode */
+    /* color: #191813; REMOVED for dark mode */
+    padding: 2px;
+    /* Minimal padding */
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    /* Container hides overflow */
+}
+
+.phils-random-names-content {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    /* Compact gap */
+    padding: 5px;
+    overflow-y: auto;
+    max-height: 600px;
+    flex: 1;
+}
+
+.category-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    /* Remove gap for list look */
+}
+
+/* Common Item Style using CSS Grid */
+.category-item {
+    display: grid;
+    /* Grid Definition: 
+       Col 1: Name (Flexible, takes remaining space)
+       Col 2: Controls Area (Auto sized based on content)
+    */
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    gap: 10px;
+
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 0;
+    padding: 5px 8px;
+    margin-bottom: 0px;
+    height: 40px;
+    /* Fixed height for consistency */
+    transition: all 0.2s ease;
+}
+
+.category-item:last-child {
+    border-bottom: none;
+}
+
+/* Column 1: Name */
+.category-name {
+    font-weight: bold;
+    font-size: 1em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    /* Gap between Icon and Text */
+}
+
+/* Column 2: Controls Container */
+.category-controls {
+    display: grid;
+    /* 
+       Grid for Controls:
+       Col 1: Options (Flexible or Auto)
+       Col 2: Action Button (Fixed 30px)
+    */
+    grid-template-columns: auto 30px;
+    align-items: center;
+    gap: 15px;
+    /* Separation between Options and Button */
+}
+
+/* Complex Options Area */
+.complex-options {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    min-width: 250px;
+    /* Force a minimum width to align options? */
+    /* Alternatively, if we want rigid column alignment for buttons, 
+       we should just let the grid handle the button column. 
+       The parent .category-controls having `auto 30px` ensures the button is always 
+       in the last 30px slot, aligned to the right. 
+    */
+    justify-content: flex-end;
+    /* Push options to the right, towards the button */
+}
+
+.gender-select,
+.surname-select {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    font-size: 0.9em;
+}
+
+.gender-select label,
+.surname-select label {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+/* Unified Button Style */
+.category-controls button {
+    width: 30px;
+    height: 25px;
+    padding: 0;
+    line-height: normal;
+    /* Reset line-height */
+
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 3px;
+    cursor: pointer;
+    color: var(--color-text-light-highlight);
+    transition: all 0.2s ease;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.category-controls button:hover {
+    background: rgba(255, 100, 0, 0.2);
+    border-color: var(--color-orange);
+    text-shadow: 0 0 5px var(--color-orange);
+}
+
+/* Chat Card */
+.phils-random-name-card {
+    background: rgba(0, 0, 0, 0.05);
+    padding: 5px;
+    /* Reduced padding */
+    border: 1px solid var(--color-border-light-2);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.phils-random-name-card h3 {
+    display: none;
+    /* Hide header completely */
+}
+
+/* Footer Actions */
+.footer-actions {
+    display: flex;
+    flex-direction: row;
+    /* Ensure horizontal alignment */
+    justify-content: space-between;
+    /* Spread them out or use gap */
+    gap: 10px;
+    margin-top: 10px;
+    padding-top: 5px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.footer-actions button {
+    flex: 1;
+    /* Make them equal width */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    height: 30px;
+    /* Slight height increase for clickable ease */
+}
