@@ -15,16 +15,17 @@
 
 </div>
 
+<div align="center">
+<br>
+<img src="https://github.com/PhilsModules/phils-random-names/blob/main/cover.png" alt="Cover" width="800">
+
+</div>
+<br>
+
 > [!TIP]
 > ### 💡 Support
 > Dieses Modul ist kostenlos und Open Source. Wenn es dir gefällt, freue ich mich über Feedback!
 
-<div align="center">
-<br>
-<!-- Placeholder for Cover Image if available later -->
-<!-- <img src="cover.png" alt="Preview" width="800"> -->
-</div>
-<br>
 
 # <img src="https://flagcdn.com/48x36/de.png" width="28" height="21" alt="DE"> Deutsche Anleitung
 
@@ -80,3 +81,4 @@
 # ⚖️ License
 
 **Phil's Random Names** is licensed under the [GPL-3.0 License](LICENSE).
+
