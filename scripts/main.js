@@ -1,37 +1,28 @@
 import { RandomNameApp } from "./app.js";
+import { RandomNameAPI } from "./api.js";
 
 Hooks.once("init", () => {
     console.log("Phils Random Names | Initializing");
+    // Expose API for Macro use
+    game.modules.get("phils-random-names").api = {
+        RandomNameApp,
+        RandomNameAPI
+    };
 });
 
-Hooks.on("getJournalDirectoryEntryContext", (html, entryOptions) => {
-    // Optional
-});
+Hooks.once("ready", async () => {
+    // Check if Macro exists
+    const macroName = "Phil's Random Names";
+    const existing = game.macros.find(m => m.name === macroName);
 
-// Add button to Journal Directory Header
-Hooks.on("renderJournalDirectory", (app, html, data) => {
-    const element = html instanceof HTMLElement ? html : html[0];
-
-    // Check if button already exists to avoid dupes (unlikely with render hook but good practice)
-    if (element.querySelector(".phils-random-names-btn")) return;
-
-    const button = document.createElement("button");
-    button.type = "button";
-    button.classList.add("phils-random-names-btn");
-    button.style.flex = "0 0 auto";
-    button.style.width = "auto";
-    button.style.minWidth = "0";
-    button.innerHTML = `<i class="fas fa-dice"></i> Random Names`;
-
-    button.addEventListener("click", event => {
-        event.preventDefault();
-        new RandomNameApp().render(true);
-    });
-
-    const headerActions = element.querySelector(".header-actions");
-    if (headerActions) {
-        headerActions.append(button);
-    } else {
-        element.querySelector(".directory-header")?.append(button);
+    if (!existing) {
+        await Macro.create({
+            name: macroName,
+            type: "script",
+            scope: "global",
+            img: "icons/sundries/gaming/dice-runed-brown.webp",
+            command: `const { RandomNameApp } = game.modules.get("phils-random-names").api;\nnew RandomNameApp().render(true);`
+        });
+        ui.notifications.info("Phils Random Names: Macro created in your Macro Directory!");
     }
 });

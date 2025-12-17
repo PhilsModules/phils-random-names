@@ -106,6 +106,329 @@ export class RandomNameAPI {
         return null; // Failed to gen
     }
 
+    // --- New Generator Logic (Menu / Loot) ---
+
+    /**
+     * Parsing Price Ranges from text
+     * Formats: "Name [Price]" or "Name | Description [Price]"
+     * Returns { name: "Item", description: "...", price: 123 (in cp), priceString: "1gp 2sp" }
+     */
+    static processItemWithPrice(rawLine) {
+        // Formats: "Name [Price]" or "Name | Description [Price]"
+        const match = rawLine.match(/(.*?)\[(.*?)\]/);
+
+        let namePart = rawLine;
+        let priceCp = 0;
+        let hasPrice = false;
+
+        if (match) {
+            namePart = match[1].trim();
+            const priceReq = match[2].trim();
+            priceCp = this.resolvePrice(priceReq);
+            hasPrice = true;
+        }
+
+        // Check for Description (Separator "|")
+        let name = namePart;
+        let description = "";
+
+        if (namePart.includes("|")) {
+            const parts = namePart.split("|");
+            name = parts[0].trim();
+            description = parts.slice(1).join("|").trim();
+        }
+
+        // Simplify Price (Top 2 Units)
+        const simplified = this.simplifyPrice(priceCp);
+
+        return {
+            name: name,
+            description: description,
+            priceCp: simplified.cp,
+            priceString: simplified.string,
+            hasPrice: hasPrice
+        };
+    }
+
+    static resolvePrice(priceStr) {
+        // Check for range "X-Y"
+        const parts = priceStr.split("-");
+        if (parts.length === 2) {
+            const min = this.parseCurrency(parts[0]);
+            const max = this.parseCurrency(parts[1]);
+            return Math.floor(Math.random() * (max - min + 1)) + min;
+        } else {
+            return this.parseCurrency(parts[0]);
+        }
+    }
+
+    static parseCurrency(str) {
+        // Parse "1gp 5sp" etc.
+        let totalCp = 0;
+        const regex = /(\d+)\s*(pp|gp|sp|cp)/g;
+        let match;
+        while ((match = regex.exec(str)) !== null) {
+            const val = parseInt(match[1]);
+            const unit = match[2];
+            if (unit === "pp") totalCp += val * 1000;
+            if (unit === "gp") totalCp += val * 100;
+            if (unit === "sp") totalCp += val * 10;
+            if (unit === "cp") totalCp += val;
+        }
+        return totalCp;
+    }
+
+    static simplifyPrice(totalCp) {
+        if (totalCp === 0) return { cp: 0, string: "Free" };
+
+        const isPf2e = game.system.id === "pf2e";
+
+        let remain = totalCp;
+        let pp = 0;
+        let gp = 0;
+
+        // Custom Logic for PF2e: Avoid Platinum, use higher Gold values
+        if (isPf2e) {
+            gp = Math.floor(remain / 100);
+            remain %= 100;
+        } else {
+            pp = Math.floor(remain / 1000);
+            remain %= 1000;
+            gp = Math.floor(remain / 100);
+            remain %= 100;
+        }
+
+        const sp = Math.floor(remain / 10); remain %= 10;
+        const cp = remain;
+
+        let newCp = 0;
+        let parts = [];
+
+        // Logic: Keep top 2 non-zero units
+        // Priority: PP > GP > SP > CP
+
+        if (pp > 0) {
+            parts.push(`${pp}pp`);
+            newCp += pp * 1000;
+
+            if (gp > 0) {
+                parts.push(`${gp}gp`);
+                newCp += gp * 100;
+            }
+        } else if (gp > 0) {
+            parts.push(`${gp}gp`);
+            newCp += gp * 100;
+
+            if (sp > 0) {
+                parts.push(`${sp}sp`);
+                newCp += sp * 10;
+            }
+        } else if (sp > 0) {
+            parts.push(`${sp}sp`);
+            newCp += sp * 10;
+
+            if (cp > 0) {
+                parts.push(`${cp}cp`);
+                newCp += cp;
+            }
+        } else {
+            parts.push(`${cp}cp`);
+            newCp += cp;
+        }
+
+        return { cp: newCp, string: parts.join(" ") };
+    }
+
+    static formatPrice(cp) {
+        // Legacy wrapper if needed, but we use simplifyPrice now upstream
+        return this.simplifyPrice(cp).string;
+    }
+
+    static async getOrCreateLootFolder() {
+        const folderName = "Phils Generated Loot";
+        let folder = game.folders.find(f => f.name === folderName && f.type === "Item");
+        if (!folder) {
+            folder = await Folder.create({
+                name: folderName,
+                type: "Item"
+            });
+        }
+        return folder;
+    }
+
+    static async createItem(name, priceData, typeContext) {
+        const folder = await this.getOrCreateLootFolder();
+        const systemId = game.system.id;
+
+        // Default image fallback
+        let img = "icons/svg/item-bag.svg";
+
+        let itemData = {
+            name: name,
+            folder: folder.id,
+            img: img,
+            system: {}
+        };
+
+        // Assign Description if present
+        if (priceData.description) {
+            if (systemId === "pf2e") {
+                itemData.system.description = { value: `<p>${priceData.description}</p>` };
+            } else if (systemId === "dnd5e") {
+                itemData.system.description = { value: `<p>${priceData.description}</p>` };
+            }
+        }
+
+        // Price breakdown
+        let totalCp = priceData.priceCp;
+        let pp = 0;
+        let gp = 0;
+        let sp = 0;
+        let cp = 0;
+
+        if (systemId === "pf2e") {
+            // PF2e: Aggregate into GP, ignore PP
+            gp = Math.floor(totalCp / 100); totalCp %= 100;
+            sp = Math.floor(totalCp / 10); totalCp %= 10;
+            cp = totalCp;
+            // pp remains 0
+        } else {
+            // Standard/D&D5e: Use PP if applicable
+            pp = Math.floor(totalCp / 1000); totalCp %= 1000;
+            gp = Math.floor(totalCp / 100); totalCp %= 100;
+            sp = Math.floor(totalCp / 10); totalCp %= 10;
+            cp = totalCp;
+        }
+
+        const priceObject = (systemId === "pf2e") ?
+            { value: { pp, gp, sp, cp } } :
+            { value: priceData.priceCp / 100, denomination: "gp" };
+
+        if (systemId === "pf2e") {
+            // PF2e Logic
+            if (typeContext === "food" || typeContext === "drink" || typeContext === "plant") {
+                itemData.type = "consumable";
+                itemData.img = "systems/pf2e/icons/default-icons/consumable.svg";
+                // Merge into existing system object (description might be there)
+                foundry.utils.mergeObject(itemData.system, {
+                    category: "other",
+                    price: priceObject,
+                    uses: { value: 1, max: 1, autoDestroy: true },
+                    stackGroup: null
+                });
+            } else {
+                // Default to Treasure for Trinkets/Gems
+                itemData.type = "treasure";
+                itemData.img = "systems/pf2e/icons/default-icons/treasure.svg";
+                foundry.utils.mergeObject(itemData.system, {
+                    price: priceObject,
+                    stackGroup: null,
+                    size: "med"
+                });
+            }
+        } else if (systemId === "dnd5e") {
+            // D&D5e Logic
+            if (typeContext === "food" || typeContext === "drink" || typeContext === "plant") {
+                itemData.type = "consumable";
+                itemData.img = "systems/dnd5e/icons/svg/items/consumable.svg";
+                foundry.utils.mergeObject(itemData.system, {
+                    type: { value: "food", subtype: "" },
+                    price: priceObject,
+                    quantity: 1
+                });
+            } else {
+                // Default to Loot
+                itemData.type = "loot";
+                itemData.img = "systems/dnd5e/icons/svg/items/loot.svg";
+                foundry.utils.mergeObject(itemData.system, {
+                    price: priceObject,
+                    quantity: 1
+                });
+            }
+        } else {
+            // Generic Fallback
+            itemData.type = "item";
+            itemData.system = {
+                price: priceData.priceCp / 100,
+                description: `Value: ${priceData.priceString}`
+            };
+        }
+
+        return await Item.create(itemData);
+    }
+
+    static async generateCombined(type, config) {
+        // Identify source categories
+        const sources = [];
+
+        // Helper to find journal by name (loose match)
+        const journals = this.getJournals();
+        const findJournal = (namePart) => journals.find(j => j.name.includes(namePart));
+
+        if (type === "menu") {
+            const foods = findJournal("Fantasy Food");
+            const drinks = findJournal("Fantasy Drinks");
+            if (foods) sources.push({ journal: foods, count: config.count1 || 10, label: "Food", type: "food" });
+            if (drinks) sources.push({ journal: drinks, count: config.count2 || 5, label: "Drinks", type: "drink" });
+        } else if (type === "loot") {
+            const trinkets = findJournal("Fantasy Trinkets");
+            const gems = findJournal("Fantasy Gemstones");
+            if (trinkets) sources.push({ journal: trinkets, count: config.count1 || 5, label: "Trinkets", type: "trinket" });
+            if (gems) sources.push({ journal: gems, count: config.count2 || 2, label: "Gemstones", type: "gem" });
+        }
+
+        let outputHtml = `<h3>${type === "menu" ? "Tavern Menu" : "Treasure Pouch"}</h3><hr>`;
+
+        for (const source of sources) {
+            const allItems = this.getNames(source.journal);
+            if (!allItems.length) continue;
+
+            const selected = [];
+            // Random pick unique
+            const pool = [...allItems];
+            for (let i = 0; i < source.count; i++) {
+                if (pool.length === 0) break;
+                const idx = Math.floor(Math.random() * pool.length);
+                selected.push(pool[idx]);
+                pool.splice(idx, 1);
+            }
+
+            if (selected.length > 0) {
+                outputHtml += `<h4>${source.label}</h4><ul>`;
+                for (const raw of selected) {
+                    const data = this.processItemWithPrice(raw);
+
+                    // Create Real Item
+                    let displayHtml = `<b>${data.name}</b>`;
+                    if (game.user.isGM) {
+                        try {
+                            const item = await this.createItem(data.name, data, source.type);
+                            if (item) {
+                                // Use Content Link
+                                displayHtml = `@UUID[${item.uuid}]{${data.name}}`;
+                            }
+                        } catch (err) {
+                            console.error("Phils Random Names | Failed to create item:", err);
+                        }
+                    }
+
+                    // Flex layout for list item to handle long names
+                    outputHtml += `<li style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 2px;">
+                        <span style="flex: 1; margin-right: 5px;">${displayHtml}</span>
+                        <span style="white-space: nowrap; opacity:0.8; margin-top: 1px;">${data.priceString}</span>
+                    </li>`;
+                }
+                outputHtml += `</ul>`;
+            }
+        }
+
+        // Create Chat Message
+        ChatMessage.create({
+            content: outputHtml,
+            speaker: { alias: "Generator" }
+        });
+    }
+
     static async createOneClickContent() {
         let folder = this.getFolder();
         if (!folder) {
@@ -188,6 +511,18 @@ export class RandomNameAPI {
 
     static async createJournal(folder, name, contentList) {
         const html = contentList.map(n => `<p>${n}</p>`).join("");
+
+        const existing = folder.contents.find(j => j.name === name);
+        if (existing) {
+            // Update existing
+            const page = existing.pages.contents[0];
+            if (page) {
+                await page.update({ "text.content": html });
+                console.log(`Phils Random Names | Updated ${name}`);
+            }
+            return;
+        }
+
         await JournalEntry.create({
             name: name,
             folder: folder.id,

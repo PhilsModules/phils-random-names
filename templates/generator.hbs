@@ -1,0 +1,35 @@
+<div class="phils-random-names-generator">
+    <div class="form-group" style="margin-bottom: 20px;">
+        <label><b>{{localize "PRN.Generator.Type"}}</b></label>
+        <select id="gen-type" style="width: 100%; margin-top: 5px;">
+            <option value="menu">{{localize "PRN.Generator.TavernMenu"}}</option>
+            <option value="loot">{{localize "PRN.Generator.TreasurePouch"}}</option>
+        </select>
+    </div>
+
+    <!-- Menu Config -->
+    <div id="config-menu" class="generator-config">
+        <div class="flexrow">
+            <label>{{localize "PRN.Generator.FoodItems"}}: <input type="number" id="menu-food-count" value="10" min="1"
+                    style="width: 50px"></label>
+            <label>{{localize "PRN.Generator.Drinks"}}: <input type="number" id="menu-drink-count" value="5" min="1"
+                    style="width: 50px"></label>
+        </div>
+    </div>
+
+    <!-- Loot Config -->
+    <div id="config-loot" class="generator-config" style="display:none;">
+        <div class="flexrow">
+            <label>{{localize "PRN.Generator.Trinkets"}}: <input type="number" id="loot-trinket-count" value="5" min="1"
+                    style="width: 50px"></label>
+            <label>{{localize "PRN.Generator.Gems"}}: <input type="number" id="loot-gem-count" value="2" min="1"
+                    style="width: 50px"></label>
+        </div>
+    </div>
+
+    <hr>
+
+    <button type="button" id="btn-generate-combined" style="margin-top: 10px;">
+        <i class="fas fa-dice-d20"></i> {{localize "PRN.Generator.GenerateButton"}}
+    </button>
+</div>

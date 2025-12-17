@@ -1,506 +1,506 @@
 List:
-Adder's Tongue
-Angel's Trumpet
-Arcane Root
-Ashen Berry
-Azure Blossom
-Banshee's Bell
-Bear's Breeches
-Bell of Night
-Bitter Bark
-Black Lotus
-Black Rose
-Black Thorn
-Blackroot
-Bleeding Heart
-Blister Bush
-Blood Berry
-Blood Flower
-Blood Grass
-Blood Lily
-Blood Moss
-Blood Orb
-Blood Thorn
-Blood Vine
-Blood Weed
-Blue Cap
-Bone Flower
-Branched Horn
-Bright Bloom
-Tangleweed
-Brimstone Bush
-Brittle Bark
-Bronze Leaf
-Bubble Berry
-Burning Bush
-Butter Weed
-Cinder Rose
-Cloud Berry
-Cobweb Comb
-Cold Snap
-Copper Leaf
-Corpse Flower
-Creeping Death
-Creeping Ivy
-Creeping Moss
-Creeping Vine
-Crimson Clover
-Crown of Thorns
-Crystal Bell
-Crystal Fern
-Crystal Rose
-Dancing Daisy
-Dark Berry
-Dark Moss
-Dark Root
-Dawn Flower
-Dead Man's Finger
-Death Bell
-Death Bloom
-Death Cap
-Death Root
-Death Weed
-Deep Moss
-Devil's Claw
-Devil's Ivy
-Devil's Root
-Devil's Snare
-Devil's Thorn
-Dragon's Blood
-Dragon's Breath
-Dragon's Claw
-Dragon's Eye
-Dragon's Scale
-Dragon's Tail
-Dragon's Tongue
-Dragon's Tooth
-Dream Berry
-Dream Flower
-Dream Leaf
-Dream Root
-Dream Weed
-Dusk Bloom
-Dwarf Ears
-Earth Root
-Ebony Wood
-Elder Berry
-Elf Ear
-Ember Berry
-Ember Flower
-Ember Leaf
-Ember Root
-Emerald Fern
-Emerald Leaf
-Emerald Moss
-Evergreen
-Faerie Bell
-Faerie Fire
-Faerie Grass
-Faerie Lantern
-Faerie Moss
-Faerie Ring
-Faerie Wing
-False Mushroom
-Feather Grass
-Fever Weed
-Fire Berry
-Fire Bloom
-Fire Bush
-Fire Fern
-Fire Flower
-Fire Grass
-Fire Leaf
-Fire Lily
-Fire Moss
-Fire Root
-Fire Thorn
-Fire Vine
-Fire Weed
-Flame Flower
-Flame Leaf
-Flame Root
-Fool's Gold
-Frost Berry
-Frost Bloom
-Frost Fern
-Frost Flower
-Frost Grass
-Frost Leaf
-Frost Lily
-Frost Moss
-Frost Root
-Frost Vine
-Ghost Berry
-Ghost Fern
-Ghost Flower
-Ghost Grass
-Ghost Leaf
-Ghost Lily
-Ghost Moss
-Ghost Orchid
-Ghost Root
-Ghost Vine
-Giant's Toe
-Gloom Berry
-Gloom Flower
-Gloom Leaf
-Gloom Moss
-Gloom Root
-Glow Berry
-Glow Flower
-Glow Moss
-Glow Mushroom
-Glow Root
-Glow Weed
-Goblin Ear
-Goblin Eye
-Goblin Weed
-Gold Berry
-Gold Leaf
-Gold Root
-Golden Bell
-Golden Bloom
-Golden Fern
-Golden Flower
-Golden Grass
-Golden Leaf
-Golden Lily
-Golden Moss
-Golden Root
-Grave Moss
-Grave Root
-Gray Moss
-Gray Root
-Green Briar
-Green Leaf
-Green Moss
-Green Root
-Grim Berry
-Grim Flower
-Grim Leaf
-Grim Moss
-Grim Root
-Hag's Hair
-Hag's Tooth
-Heart Berry
-Heart Flower
-Heart Leaf
-Heart Root
-Hell Berry
-Hell Flower
-Hell Root
-Hollow Reed
-Holly Berry
-Holy Berry
-Holy Flower
-Holy Leaf
-Holy Root
-Honey Berry
-Honey Flower
-Honey Leaf
-Honey Root
-Horned Melon
-Ice Berry
-Ice Bloom
-Ice Fern
-Ice Flower
-Ice Grass
-Ice Leaf
-Ice Lily
-Ice Moss
-Ice Root
-Iron Bark
-Iron Berry
-Iron Flower
-Iron Leaf
-Iron Root
-Iron Vine
-Iron Wood
-Ivory Flower
-Ivory Leaf
-Ivory Root
-Jade Berry
-Jade Fern
-Jade Flower
-Jade Leaf
-Jade Moss
-Jade Root
-Jewel Berry
-Jewel Flower
-King's Crown
-King's Foil
-King's Root
-Lady's Slipper
-Lantern Plant
-Lava Berry
-Lava Flower
-Lightning Root
-Lion's Mane
-Mage's Staff
-Magic Mushroom
-Maiden's Hair
-Maiden's Tear
-Mana Berry
-Mana Flower
-Mana Leaf
-Mana Root
-Marsh Mallow
-Mist Berry
-Mist Flower
-Mist Leaf
-Mist Moss
-Mist Root
-Moon Berry
-Moon Bloom
-Moon Fern
-Moon Flower
-Moon Grass
-Moon Leaf
-Moon Lily
-Moon Moss
-Moon Root
-Moon Vine
-Mossy Log
-Night Bell
-Night Berry
-Night Bloom
-Night Fern
-Night Flower
-Night Grass
-Night Leaf
-Night Lily
-Night Moss
-Night Root
-Night Shade
-Night Vine
-Ogre ear
-Pale Berry
-Pale Flower
-Pale Leaf
-Pale Moss
-Pale Root
-Pearl Berry
-Pearl Flower
-Phoenix Feather
-Poison Berry
-Poison Bush
-Poison Fern
-Poison Flower
-Poison Grass
-Poison Ivy
-Poison Leaf
-Poison Lily
-Poison Moss
-Poison Mushroom
-Poison Oak
-Poison Root
-Poison Thorn
-Poison Vine
-Prickly Pear
-Purple Haze
-Queen's Lace
-Rainbow Berry
-Rainbow Flower
-Red Berry
-Red Fern
-Red Flower
-Red Leaf
-Red Moss
-Red Root
-Rock Moss
-Rock Root
-Rose Thorn
-Royal Fern
-Ruby Berry
-Ruby Flower
-Sage Brush
-Sand Berry
-Sand Flower
-Sand Grass
-Sand Root
-Sapphire Berry
-Sapphire Flower
-Savage Thorn
-Scale Leaf
-Scarlet Runner
-Scorpion Tail
-Sea Berry
-Sea Fern
-Sea Flower
-Sea Grass
-Sea Kelp
-Sea Moss
-Sea Weed
-Serpent's Tongue
-Shadow Berry
-Shadow Fern
-Shadow Flower
-Shadow Grass
-Shadow Leaf
-Shadow Lily
-Shadow Moss
-Shadow Root
-Shadow Vine
-Silver Bell
-Silver Berry
-Silver Bloom
-Silver Fern
-Silver Flower
-Silver Grass
-Silver Leaf
-Silver Lily
-Silver Moss
-Silver Root
-Silver Vine
-Skeleton Key
-Skull Berry
-Skull Flower
-Sky Berry
-Sky Flower
-Sky Leaf
-Sky Root
-Sleep Berry
-Sleep Flower
-Sleep Leaf
-Sleep Root
-Snake Berry
-Snake Grass
-Snake Root
-Snake Tongue
-Snake Vine
-Snap Dragon
-Snow Berry
-Snow Drop
-Snow Flower
-Solar Flare
-Soul Berry
-Soul Flower
-Soul Root
-Spark Berry
-Spark Flower
-Spider Lily
-Spider Moss
-Spider Plant
-Spider Root
-Spider Silk
-Spider Web
-Spirit Berry
-Spirit Flower
-Spirit Leaf
-Spirit Moss
-Spirit Root
-Star Anise
-Star Berry
-Star Dust
-Star Flower
-Star Grass
-Star Leaf
-Star Lily
-Star Moss
-Star Root
-Star Vine
-Stone Berry
-Stone Flower
-Stone Grass
-Stone Leaf
-Stone Moss
-Stone Root
-Storm Berry
-Storm Flower
-Storm Grass
-Storm Leaf
-Storm Root
-Sun Berry
-Sun Bloom
-Sun Fern
-Sun Flower
-Sun Grass
-Sun Leaf
-Sun Lily
-Sun Moss
-Sun Root
-Swamp Berry
-Swamp Flower
-Swamp Grass
-Swamp Leaf
-Swamp Moss
-Swamp Root
-Sweet Berry
-Sweet Briar
-Sweet Fern
-Sweet Flag
-Sweet Grass
-Sweet Leaf
-Sweet Pea
-Sweet Root
-Sword Fern
-Sword Grass
-Sword Leaf
-Tangle Weed
-Thorn Bush
-Thorn Vine
-Thunder Berry
-Thunder Flower
-Thunder Root
-Tiger Lily
-Toad Stool
-Troll Berry
-Troll Root
-True Love
-Twilight Berry
-Twilight Flower
-Twin Leaf
-Twisted Root
-Unicorn Horn
-Vampire Vine
-Velvet Leaf
-Venom Berry
-Venom Flower
-Venom Root
-Violet Leaf
-Void Berry
-Void Flower
-Void Root
-Wanderlust
-War Flower
-Water Lily
-Weeping Willow
-Whisper Berry
-Whisper Flower
-Whisper Leaf
-Whisper Root
-White Berry
-White Fern
-White Flower
-White Leaf
-White Moss
-White Root
-Wild Berry
-Wild Flower
-Wild Grass
-Wild Rose
-Wind Berry
-Wind Flower
-Wind Grass
-Wind Leaf
-Wind Root
-Winter Berry
-Winter Flower
-Winter Leaf
-Winter Root
-Witch Hazel
-Witch's Broom
-Witch's Finger
-Witch's Hair
-Wolf Bane
-Wolf Berry
-Wolf Root
-Wonder Berry
-Wood Rose
-Wyvern Tail
-Yellow Berry
-Yellow Flower
-Yellow Leaf
-Yellow Moss
-Yellow Root
-Zombie Root
+Adder's Tongue | A fern with a snake-like stalk. Cures poison. [5sp-2gp]
+Angel's Trumpet | Large, hanging white flowers. Hallucinogenic pollen. [2gp-8gp]
+Arcane Root | Glows faintly blue. Used to boost mana potions. [10gp-40gp]
+Ashen Berry | Grey berries that taste like smoke. Fire resistance. [1gp-5gp]
+Azure Blossom | Bright blue petals. Used in dyeing royal fabrics. [5sp-2gp]
+Banshee's Bell | Pale flower that screams when picked. [50gp-150gp]
+Bear's Breeches | Broad jagged leaves. Treats burns. [2sp-1gp]
+Bell of Night | Black tulip that blooms only under a new moon. [5gp-20gp]
+Bitter Bark | Chewed to suppress appetite or pain. Tastes awful. [1cp-5cp]
+Black Lotus | Extremely rare magical narcotic. Induces euphoria (or death). [100gp-500gp]
+Black Rose | Thorny flower representing pure hatred. [5gp-20gp]
+Black Thorn | Sharp spines used for blowdarts. [5sp-2gp]
+Blackroot | Tuber that stains everything pitch black. Ink source. [2sp-1gp]
+Bleeding Heart | Pink flower that drips red sap. Symbol of unrequited love. [1sp-5sp]
+Blister Bush | Touching the leaves causes painful boils. Trap plant. [1sp-1gp]
+Blood Berry | Iron-rich red berry. Restores vitality. [2gp-8gp]
+Blood Flower | Deep crimson petals used in blood magic rituals. [5gp-20gp]
+Blood Grass | Sharp red blades that grow on battlefields. [5cp-2sp]
+Blood Lily | Spiky red ball flower. Poisonous. [2gp-6gp]
+Blood Moss | Soaks up spilled blood. Used for bandaging. [5sp-1gp]
+Blood Orb | Round red fungus. Explodes into spores if touched. [1gp-5gp]
+Blood Thorn | Drinking its sap causes rage. [3gp-10gp]
+Blood Vine | Parasitic vine that drains host trees (or adventurers). [5gp-15gp]
+Blood Weed | Invasive red weed. Hard to kill. [1cp-5cp]
+Blue Cap | Magic mushroom that restores mana. [2gp-8gp]
+Bone Flower | White, calcified petals. Grows near graves. [1gp-5gp]
+Branched Horn | Seaweed that looks like antlers. Edible. [2cp-5cp]
+Bright Bloom | Neon colored flower. Lights up caves. [1gp-4gp]
+Tangleweed | Sticky vines that hinder movement. [1sp-5sp]
+Brimstone Bush | Smells of rotten eggs. Repels insects. [5cp-2sp]
+Brittle Bark | Snaps loud enough to alert guards. Fire starter. [1cp]
+Bronze Leaf | Metallic sheen leaves. Durable. [5cp-2sp]
+Bubble Berry | Fruits filled with air. They pop in your mouth. [2cp-5cp]
+Burning Bush | Oily leaves that catch fire easily. [2sp-1gp]
+Butter Weed | Yellow flower, tastes buttery. Cooking herb. [5cp-2sp]
+Cinder Rose | Blooms in volcanic ash. Heat resistant. [5gp-20gp]
+Cloud Berry | White puffy fruit. Tastes like cotton candy. [1gp-5gp]
+Cobweb Comb | Plant that traps insects in sticky fibers. [2sp-1gp]
+Cold Snap | Ice-blue flower. Freezes water around it. [10gp-30gp]
+Copper Leaf | Leaves turn green-blue when dried. [1sp-5sp]
+Corpse Flower | Massive bloom that smells of rotting flesh. Attracts flies. [50gp-200gp]
+Creeping Death | Vine with paralyzing toxins. [20gp-60gp]
+Creeping Ivy | Covers walls overnight. Structural nuisance. [1cp-5cp]
+Creeping Moss | Spreads rapidly. Soft bedding. [1cp]
+Creeping Vine | Strong tensile strength. Rope substitute. [5cp-2sp]
+Crimson Clover | Four-leafed variety is unlucky. [1cp-3cp]
+Crown of Thorns | Spiky wreath plant. Causes deep wounds. [1sp-5sp]
+Crystal Bell | Translucent flower that rings in the wind. [5gp-20gp]
+Crystal Fern | Rigid, glassy fronds. Decorative. [2gp-8gp]
+Crystal Rose | Fragile glass-like petals. Highly valued. [20gp-80gp]
+Dancing Daisy | Sways without wind. [5sp-2gp]
+Dark Berry | Poisonous black fruit. Causes blindness. [5gp-15gp]
+Dark Moss | Absorbs light. Used for stealth camouflage. [2gp-8gp]
+Dark Root | Bitter tuber. Used in weak necromancy. [1gp-5gp]
+Dawn Flower | Opens exactly at sunrise. [5sp-2gp]
+Dead Man's Finger | Fungus looking like grey digits. Edible (?) [5cp-2sp]
+Death Bell | Ringing it summons spirits (allegedly). [10gp-50gp]
+Death Bloom | Pollen stops the heart. Assassins favor it. [100gp-300gp]
+Death Cap | Deadly poisonous mushroom. No antidote known. [5gp-20gp]
+Death Root | Looks like a skull. Extracts are lethal. [10gp-40gp]
+Death Weed | Chokes all other plants near it. [1cp]
+Deep Moss | Bioluminescent moss from the Underdark. [1gp-5gp]
+Devil's Claw | Hooked seed pod. Catches on ankles. [1cp-5cp]
+Devil's Ivy | Impossible to trim. Grows back instantly. [2cp-5cp]
+Devil's Root | Shaped like horns. Aphrodisiac? [5gp-20gp]
+Devil's Snare | Constricting vine. Hunts small game. [10gp-30gp]
+Devil's Thorn | Long sharp spines. Pierces leather boots. [5sp-2gp]
+Dragon's Blood | Tree sap is thick red resin. Magic varnish. [5gp-20gp]
+Dragon's Breath | Spicy pepper. VERY spicy. [1gp-5gp]
+Dragon's Claw | Succulent with sharp points. [2sp-1gp]
+Dragon's Eye | Longan fruit. Looks like an eyeball. [5cp-2sp]
+Dragon's Scale | Lichen that looks like metallic scales. [1gp-5gp]
+Dragon's Tail | Fern with a spiky tip. [5sp-2gp]
+Dragon's Tongue | Leaf with a split end. Cures burns. [2gp-8gp]
+Dragon's Tooth | White pointed bamboo shoots. Strong as steel. [5gp-20gp]
+Dream Berry | Causes vivid dreams. [2gp-8gp]
+Dream Flower | Scent puts people to sleep. [10gp-40gp]
+Dream Leaf | Smoked to relax. Mild narcotic. [5sp-2gp]
+Dream Root | Brewed into tea for insomnia. [1gp-5gp]
+Dream Weed | Invasive plant that causes drowsiness. [5cp-2sp]
+Dusk Bloom | Opens at sunset. Glows purple. [2gp-6gp]
+Dwarf Ears | Fungi shaped like ears. Stone-like texture. [2cp-5cp]
+Earth Root | Potato-like tuber. Very filling. [1cp-3cp]
+Ebony Wood | Heavy black wood. Sinks in water. [2gp-10gp]
+Elder Berry | Medicinal berry. Good for colds. [5cp-2sp]
+Elf Ear | Leaf shape resembles an ear. Enhances hearing? [5sp-2gp]
+Ember Berry | Spicy berry that warms the body. [1gp-4gp]
+Ember Flower | Petals flicker like flames. [5gp-15gp]
+Ember Leaf | Dried leaves can start fires. [2sp-8sp]
+Ember Root | Chewing it keeps you warm in snow. [2gp-6gp]
+Emerald Fern | Vibrant green. Never fades. [1gp-4gp]
+Emerald Leaf | Glossy green. Used in expensive salads. [5sp-2gp]
+Emerald Moss | Softest moss. Luxury bedding. [2gp-8gp]
+Evergreen | Pine variant. Needles stay green forever. [5cp-2sp]
+Faerie Bell | Tiny flowers that chime when fairies are near. [5gp-20gp]
+Faerie Fire | Bioluminescent fungus. Dyes skin blue. [2gp-8gp]
+Faerie Grass | Sparkles with dew even at noon. [1gp-5gp]
+Faerie Lantern | Glowing fruit pod. Natural light source. [5gp-15gp]
+Faerie Moss | Pink moss. Soft as silk. [2gp-8gp]
+Faerie Ring | Circle of mushrooms. Portal warning. [0gp]
+Faerie Wing | Petals look like insect wings. Delicate. [2gp-6gp]
+False Mushroom | Looks like a tasty bolete. Tastes like wax. [1cp]
+Feather Grass | Soft plumes tickle the skin. [2cp-5cp]
+Fever Weed | Lowers body temperature. [1sp-5sp]
+Fire Berry | Explodes if thrown. Mini grenade. [5gp-15gp]
+Fire Bloom | Red flower that thrives in heat. [2gp-8gp]
+Fire Bush | Red leaves. Grows in deserts. [1sp-5sp]
+Fire Fern | Fronds resemble flames. Warm to touch. [5gp-15gp]
+Fire Flower | Grants temporary fire resistance. [10gp-30gp]
+Fire Grass |Sharp blades that inflict burning cuts. [2sp-1gp]
+Fire Leaf | Spice for cooking. Adds heat. [5cp-2sp]
+Fire Lily | Orange lily. Symbol of passion. [1gp-5gp]
+Fire Moss | Glows red. Warm bedding. [2gp-8gp]
+Fire Root | Spicy radish. Clears sinuses. [2cp-5cp]
+Fire Thorn | Spines deliver a burning toxin. [2gp-8gp]
+Fire Vine | Climbs chimneys. Likes soot. [5cp-2sp]
+Fire Weed | Stinging nettle variant. Burns for days. [1cp-5cp]
+Flame Flower | Shaped like a candle flame. [2gp-6gp]
+Flame Leaf | Red maple variant. [5cp-2sp]
+Flame Root | Fuel source. Burns slow and hot. [5cp-2sp]
+Fool's Gold | Yellow flowers that look like gold coins. [1cp-3cp]
+Frost Berry | Frozen texture. Refreshing. [1gp-4gp]
+Frost Bloom | Crystals grow on petals. [5gp-15gp]
+Frost Fern | White fern. Melts in warm hands. [2gp-8gp]
+Frost Flower | Only grows in snow. [5gp-20gp]
+Frost Grass | Sharp and cold. Cuts like glass. [5cp-2sp]
+Frost Leaf | Cools fevers placed on forehead. [1sp-5sp]
+Frost Lily | Ice blue. Preserves food wrapped in it. [5gp-20gp]
+Frost Moss | Slippery and cold. [1sp-5sp]
+Frost Root | Numbing agent. Dental anesthetic. [2gp-8gp]
+Frost Vine | Strong white vine. Cold resistant rope. [1gp-5gp]
+Ghost Berry | Translucent white berry. Tastes of nothing. [5sp-2gp]
+Ghost Fern | Pale fronds that seem to fade in and out. [2gp-10gp]
+Ghost Flower | Only visible to those who have seen death. [50gp-150gp]
+Ghost Grass | Makes no sound when walked upon. [5gp-20gp]
+Ghost Leaf | Skeletal leaf structure. [2cp-5cp]
+Ghost Lily | Pale white. Funeral flower. [1gp-5gp]
+Ghost Moss | Grows on tombstones. [5cp-2sp]
+Ghost Orchid | Rare epiphyte. Can detach and float. [100gp-300gp]
+Ghost Root | Hallsucinogen. Connects to spirit world. [20gp-60gp]
+Ghost Vine | Pale creeper. Looks like spiderwebs. [5sp-2gp]
+Giant's Toe | Large, lumpy potato. [2cp-5cp]
+Gloom Berry | Dark purple. Depressant. [2gp-6gp]
+Gloom Flower | Drooping black petals. Absorbs joy. [5gp-20gp]
+Gloom Leaf | Large dark leaf. Umbrella. [5cp-2sp]
+Gloom Moss | Grows in deep caves. [1gp-5gp]
+Gloom Root | Used in poisons. [5gp-15gp]
+Glow Berry | Bioluminescent blueberry. Lantern snack. [1gp-5gp]
+Glow Flower | Soft yellow light. Romantic. [2gp-8gp]
+Glow Moss | Common cave light source. [5sp-2gp]
+Glow Mushroom | Green neon cap. Caution advised. [1sp-1gp]
+Glow Root | Extracts make glowing ink. [2gp-10gp]
+Glow Weed | Roadside weed that illuminates paths at night. [1cp-5cp]
+Goblin Ear | Large, floppy leaf. Hairy texture. [1cp-3cp]
+Goblin Eye | Berry with a red pupil spot. [1cp-5cp]
+Goblin Weed | Stinks like unwashed goblin. Repels pests. [1cp]
+Gold Berry | Yellow berry. Sweet and tart. [5sp-2gp]
+Gold Leaf | Tree with actual gold leaf coating? No, just yellow. [5sp-2gp]
+Gold Root | Turmeric-like root. Dyes cloth yellow. [2sp-1gp]
+Golden Bell | Yellow flower. Honey scent. [5cp-2sp]
+Golden Bloom | Rare desert flower. [5gp-20gp]
+Golden Fern | Spores are gold dust (valueless but pretty). [1gp-5gp]
+Golden Flower | Symbol of royalty. [2gp-10gp]
+Golden Grass | Wheat-like grass. Nutritious fodder. [2cp-5cp]
+Golden Leaf | Tobacco variety. Smooth flavor. [5sp-2gp]
+Golden Lily | Large showy flower. Expensive gift. [5gp-15gp]
+Golden Moss | Grows on gold deposits? Miner's myth. [2gp-8gp]
+Golden Root | Ginseng variant. Energy booster. [5gp-20gp]
+Grave Moss | Feeds on necrotic energy. [1gp-5gp]
+Grave Root | Grows downwards into coffins. Don't eat. [1cp]
+Gray Moss | Dull, dry moss. Kindling. [0cp]
+Gray Root | Bland tuber. Famine food. [1cp]
+Green Briar | Thorny thicket plant. Defensive hedge. [5cp-2sp]
+Green Leaf | Generic salad leaf. Healthy. [1cp]
+Green Moss | Standard forest moss. North side indicator. [0cp]
+Green Root | Radish. Spicy. [1cp-2cp]
+Grim Berry | Skull-shaped berry. Poisonous. [5gp-15gp]
+Grim Flower | Black petals with red edges. [5gp-20gp]
+Grim Leaf | Dark grey leaf. Rough texture. [1cp-5cp]
+Grim Moss | Grows on sites of murder. [1sp-1gp]
+Grim Root | Knotty black root. Bad omen. [1sp-5sp]
+Hag's Hair | Stringy grey lichen. Used in curses. [2sp-1gp]
+Hag's Tooth | Jagged white fungus. Hard as rock. [5cp-2sp]
+Heart Berry | Shaped like a heart. Love potion base. [5gp-20gp]
+Heart Flower | Pulse visibly. Creepy. [10gp-40gp]
+Heart Leaf | Cardioid shape. [1cp-5cp]
+Heart Root | Beets. Stain red. [1cp-3cp]
+Hell Berry | Spicy hot. Induces sweating. [1gp-4gp]
+Hell Flower | Smells of sulfur. Summoning reagent. [10gp-30gp]
+Hell Root | Twisted red root. Demonic affinity. [5gp-20gp]
+Hollow Reed | Natural straw or snorkel. [1cp]
+Holly Berry | Red winter berries. Decoration only. [1cp-5cp]
+Holy Berry | White glowing berry. Cures disease. [50gp-150gp]
+Holy Flower | Petals used in blessing oils. [10gp-40gp]
+Holy Leaf | Burned as incense. [5gp-15gp]
+Holy Root | Chew to repel undead. [20gp-60gp]
+Honey Berry | Incredibly sweet yellow fruit. [1sp-5sp]
+Honey Flower | Nectar is pure honey. [2sp-8sp]
+Honey Leaf | Stevia-like sweetener. [1sp-5sp]
+Honey Root | Sticky sweet tuber. [2cp-5cp]
+Horned Melon | Orange fruit with spikes. Green jelly inside. [5sp-2gp]
+Ice Berry | Blue berry. Brain freeze in a bite. [1gp-5gp]
+Ice Bloom | Crystal flower. Melts at room temp. [5gp-20gp]
+Ice Fern | Sharp, brittle white fronds. [2gp-8gp]
+Ice Flower | Blooms in blizzards. [10gp-40gp]
+Ice Grass | Sharp blades hidden in snow. [1sp-5sp]
+Ice Leaf | Minty. Cools the breath. [5cp-2sp]
+Ice Lily | Frosty white. Cold tolerance potion base. [5gp-20gp]
+Ice Moss | Slippery coating on ice. Hazard. [0cp]
+Ice Root | White carrot. Crisp and cold. [1sp-5sp]
+Iron Bark | Tree bark as hard as metal. Armor plating. [5gp-20gp]
+Iron Berry | Hard grey berry. Must be boiled. [2cp-5cp]
+Iron Flower | Grey metallic petals. Rusts if wet. [2sp-1gp]
+Iron Leaf | Razor sharp edges. Weapon upgrade? [5gp-15gp]
+Iron Root | Impossible to dig up. Anchors trees firmly. [1sp-5sp]
+Iron Vine | Wire-like vine. Trip hazard. [1sp-5sp]
+Iron Wood | Dense wood. Replaces metal in druid gear. [10gp-50gp]
+Ivory Flower | White creamy petals. Luxury perfume. [5gp-20gp]
+Ivory Leaf | Smooth white leaf. Writing surface. [1sp-5sp]
+Ivory Root | Carvable root. Fake ivory. [2gp-8gp]
+Jade Berry | Hard green fruit. Sour. [5cp-2sp]
+Jade Fern | Glossy dark green. Indoor plant. [5sp-2gp]
+Jade Flower | Green orchid. Good luck. [2gp-8gp]
+Jade Leaf | Thick succulent leaf. Healing gel inside. [1gp-5gp]
+Jade Moss | Vibrant green moss. [2sp-1gp]
+Jade Root | Green ginseng. Vitality tonic. [5gp-20gp]
+Jewel Berry | Faceted fruit. Looks artificial. [5gp-20gp]
+Jewel Flower | Refracts light. Stunning centerpiece. [10gp-50gp]
+King's Crown | Purple flower with gold tips. [5gp-20gp]
+King's Foil | Aethelas. Healing herb. [2gp-10gp]
+King's Root | Reserved for royalty. Cures gout. [10gp-40gp]
+Lady's Slipper | Orchid shaped like a shoe. Rare. [5gp-20gp]
+Lantern Plant | Paper-like pods containing glowing seeds. [2gp-8gp]
+Lava Berry | Hot to the touch. Spicy. [2gp-8gp]
+Lava Flower | Opsens in magma. [20gp-80gp]
+Lightning Root | Zig-zag shape. Conducts electricity. [5gp-20gp]
+Lion's Mane | Shaggy white mushroom. Brain food. [1sp-5sp]
+Mage's Staff | Tall plant with a glowing orb tip. [5gp-20gp]
+Magic Mushroom | Random magical effect when eaten. Risky. [5gp-25gp]
+Maiden's Hair | Delicate hanging fern. [2sp-1gp]
+Maiden's Tear | Tiny white flowers. Sad properties. [1sp-5sp]
+Mana Berry | Blue glowing berry. Restores spell slots? [50gp-150gp]
+Mana Flower | Blue lotus. Meditative aid. [20gp-80gp]
+Mana Leaf | Tea leaf. Mild magical buzz. [5gp-20gp]
+Mana Root | Raw magic source. Unstable. [10gp-40gp]
+Marsh Mallow | Root used for sweets and soothing throat. [1sp-5sp]
+Mist Berry | Grey berry. Fog enshrouds the bush. [2gp-8gp]
+Mist Flower | Petals turn into vapor when picked. [5gp-20gp]
+Mist Leaf | Translucent grey. [1sp-5sp]
+Mist Moss | Collects water from fog. [5cp-2sp]
+Mist Root | Watery tuber. Hydration source. [1sp-5sp]
+Moon Berry | Silver fruit. Glows under moonlight. [2gp-8gp]
+Moon Bloom | Large white flower. Night blooming. [5gp-20gp]
+Moon Fern | Silver-backed fronds. [2gp-8gp]
+Moon Flower | Narcotic scent. [10gp-40gp]
+Moon Grass | Silver blades. [1sp-5sp]
+Moon Leaf | Pale leaf. Reflects moonlight. [5cp-2sp]
+Moon Lily | Pale blue. Lycanthropy cure component? [20gp-80gp]
+Moon Moss | Silvery moss. [2gp-6gp]
+Moon Root | Harvested at midnight. [5gp-20gp]
+Moon Vine | Climbs towards the moon. Fast growing. [1gp-5gp]
+Mossy Log | Not a plant, just a log with moss. Shelter. [0cp]
+Night Bell | Dark purple flower. Rings for the dead. [5gp-20gp]
+Night Berry | Black berry. Stain is permanent. [1sp-5sp]
+Night Bloom | Generic night flower. [1sp-5sp]
+Night Fern | Black fronds. Shadowfell native. [5gp-20gp]
+Night Flower | Absorbs darkness. [5gp-20gp]
+Night Grass | Black grass. Kills other plants. [1sp-5sp]
+Night Leaf | Dark camouflage cloak material. [2sp-8sp]
+Night Lily | Jet black lily. Poisonous. [5gp-20gp]
+Night Moss | Black moss. Slippery. [1sp-5sp]
+Night Root | Tuber used in sleep poisons. [5gp-20gp]
+Night Shade | Deadly berries. Do not eat. [2gp-8gp]
+Night Vine | Strangler vine. Active at night. [5gp-20gp]
+Ogre Ear | Huge fuzzy leaf. Toilet paper of the giants. [1cp]
+Pale Berry | White strawberry. Sweet but lacks tartness. [1sp-5sp]
+Pale Flower | Albino variant. Weak scent. [5cp-2sp]
+Pale Leaf | Sickly looking leaf. Fungus prone. [1cp]
+Pale Moss | White moss. Cave Dweller. [1cp-5cp]
+Pale Root | Parsnip. Sweet. [1cp-3cp]
+Pearl Berry | White lustrous berry. Ornamental. [2gp-8gp]
+Pearl Flower | Petals look like nacre. [5gp-20gp]
+Phoenix Feather | Red fern frond. Warm. [5gp-20gp]
+Poison Berry | Bright red offering. Warning color. [1sp-5sp]
+Poison Bush | Thorns are toxic. [1sp-5sp]
+Poison Fern | Spores cause coughing. [1sp-5sp]
+Poison Flower | Scent causes dizziness. [5gp-20gp]
+Poison Grass | Sharp blades deliver mild toxin. [5cp-2sp]
+Poison Ivy | Itchy rash. The classic. [0cp]
+Poison Leaf | Don't use as a plate. [1cp]
+Poison Lily | Beautiful but deadly. [10gp-30gp]
+Poison Moss | Contact poison. [1sp-5sp]
+Poison Mushroom | Purple cap. Gastric distress. [2cp-5cp]
+Poison Oak | Rash inducing shrub. [0cp]
+Poison Root | Hemlock. Fatal. [5gp-20gp]
+Poison Thorn | Hooked thorn delivered toxin. [1sp-5sp]
+Poison Vine | Dripping with toxic sap. [1gp-5gp]
+Prickly Pear | Cactus fruit. Delicious if peeled dangerously. [5cp-2sp]
+Purple Haze | Strangely colored moss. Confusing spores. [5gp-20gp]
+Queen's Lace | White flat flower cluster. Carrot family. [2cp-5cp]
+Rainbow Berry | Striped fruit. Tastes of all fruits. [5gp-20gp]
+Rainbow Flower | Multi-colored petals. Dyes cloth unpredictably. [2gp-8gp]
+Red Berry | Generic red berry. Probably safe? [1cp-5cp]
+Red Fern | Red fronds. Iron indicator. [5cp-2sp]
+Red Flower | Red poppy. Soporific. [2sp-1gp]
+Red Leaf | Autumn color year round. [2cp-5cp]
+Red Moss | Iron rich moss. Rusty taste. [1cp-5cp]
+Red Root | Beetroot. [1cp-2cp]
+Rock Moss | Lichen that eats stone. [1cp-5cp]
+Rock Root | Grows through solid granite. [1gp-5gp]
+Rose Thorn | Just the thorns. Trap component. [1cp]
+Royal Fern | Large, majestic fronds. Garden status symbol. [10gp-40gp]
+Ruby Berry | Translucent red berry. Pomegranate-like. [2gp-8gp]
+Ruby Flower | Crystalline red petals. [10gp-40gp]
+Sage Brush | Dry shrub. Tumbleweed ancestor. [1cp-5cp]
+Sand Berry | Dry, gritty berry. Water source? [2cp-5cp]
+Sand Flower | Blooms after rain in deserts. [1sp-5sp]
+Sand Grass | Sharp dune grass. [1cp]
+Sand Root | Water retaining tuber. Survival food. [1sp-5sp]
+Sapphire Berry | Deep blue. Stains teeth blue. [5sp-2gp]
+Sapphire Flower | Blue crystal flower. [10gp-40gp]
+Savage Thorn | Barbed thorns that tear flesh. [1sp-5sp]
+Scale Leaf | Overlapping leaves look like armor. [5cp-2sp]
+Scarlet Runner | Fast growing bean vine with red flowers. [2cp-5cp]
+Scorpion Tail | Coiled seed pod with a barb. [1sp-5sp]
+Sea Berry | Salty orange berry. Seabuckthorn. [5sp-2gp]
+Sea Fern | Underwater fronds. [2cp-5cp]
+Sea Flower | Anemone-like plant. [1sp-5sp]
+Sea Grass | Submerged meadows. [1cp]
+Sea Kelp | Giant algae stalks. Edible. [2cp-5cp]
+Sea Moss | Irish moss. Thickener. [1sp-5sp]
+Sea Weed | Nori. Wrapper. [1cp-3cp]
+Serpent's Tongue | Forked leaf. Poison cure intermediate. [2gp-8gp]
+Shadow Berry | Black berry. If eaten, you cast no shadow for a day. [2gp-8gp]
+Shadow Fern | Fronds that seem to evaporate when looked at directly. [2gp-8gp]
+Shadow Flower | Blooms in total darkness. Withers in candlelight. [10gp-40gp]
+Shadow Grass | Absorbs sound. Walking on it is silent. [1sp-5sp]
+Shadow Leaf | Semitransparent dark leaf. Cold to the touch. [1sp-5sp]
+Shadow Lily | Dark purple lily. Favored by necromancers. [5gp-20gp]
+Shadow Moss | Grows in shadows only. Dies in direct light. [1gp-5gp]
+Shadow Root | Tuber used for darkvision potions. Stains teeth black. [10gp-30gp]
+Shadow Vine | Constricts prey in the dark. Loosens at dawn. [5gp-20gp]
+Silver Bell | Metallic silver flower. Chimes softly in the wind. [5gp-20gp]
+Silver Berry | Metallic skin. Toxic heavy metals, but pretty. [1gp-5gp]
+Silver Bloom | Reflects moonlight with startling intensity. [2gp-8gp]
+Silver Fern | Underside represents loyalty. Turns black if betrayed. [1sp-1gp]
+Silver Flower | Rare mountain flower. Symbol of endurance. [5gp-20gp]
+Silver Grass | Shimmers like a blade in the wind. [5cp-2sp]
+Silver Leaf | Fuzzy white leaf using for bandaging wounds. [5cp-2sp]
+Silver Lily | Ingredient for restoration potions. [5gp-20gp]
+Silver Moss | Anti-bacterial properties. Glows when disease is near. [2gp-8gp]
+Silver Root | Metallic taproot. Hard to chew. [2gp-8gp]
+Silver Vine | Attracts dragons like catnip. Dangerous to cultivate. [5gp-20gp]
+Skeleton Key | Seed pod shaped remarkably like a skeleton key. [1sp-5sp]
+Skull Berry | White berry with black spots resembling a skull. [5sp-2gp]
+Skull Flower | Snapdragon that looks like a grinning skull. [1gp-5gp]
+Sky Berry | Light blue berry that makes you feel lighter. [2gp-8gp]
+Sky Flower | Blue as the heavens. Petals float upward when picked. [5gp-20gp]
+Sky Leaf | Blue tinted leaf. Tastes like fresh air. [1sp-5sp]
+Sky Root | Pale root. Levitation potion base. [20gp-80gp]
+Sleep Berry | One berry causes a nap. Two cause a coma. [5gp-20gp]
+Sleep Flower | Red poppies. Crossing the field is dangerous. [2gp-10gp]
+Sleep Leaf | Tea ingredient. Powerful sedative. [1sp-5sp]
+Sleep Root | Valerian variant. Stinks of dirty socks but works. [1gp-5gp]
+Snake Berry | Red strawberry-like but tasteless. [1cp-5cp]
+Snake Grass | Striped grass. Snakes hide in it perfectly. [1cp]
+Snake Root | Twisted root used as an antidote for venom. [2gp-8gp]
+Snake Tongue | Sharp leaf that can cut skin. [2cp-5cp]
+Snake Vine | Looks like a green python. Startles travelers. [1sp-5sp]
+Snap Dragon | Flower mouth actually bites small insects. [2cp-5cp]
+Snow Berry | White poisonous berry. Causes hypothermia. [2cp-5cp]
+Snow Drop | First flower of spring. Pushes through ice. [5cp-2sp]
+Snow Flower | Is it a crystal or a plant? Does not melt. [5gp-20gp]
+Solar Flare | Orange flower that releases pulses of heat. [10gp-40gp]
+Soul Berry | Ghostly translucent fruit. Do not eat if haunted. [10gp-50gp]
+Soul Flower | Glows when undead are nearby. [20gp-80gp]
+Soul Root | Used to bind spirits to objects. Illegal in some realms. [50gp-200gp]
+Spark Berry | Static shock when eaten. Zesty flavor. [1gp-5gp]
+Spark Flower | Pollen sparks like flint when struck. [2gp-8gp]
+Spider Lily | Red flower with long stamens. Death omen. [2gp-10gp]
+Spider Moss | Web-like growth. Sticky. [1sp-5sp]
+Spider Plant | Hanging plant with "babies". Spiders nest in it. [5cp-2sp]
+Spider Root | Twisted knotty root looks like legs. [1sp-5sp]
+Spider Silk | Plant that spins silk. Harvested for cloth. [10gp-40gp]
+Spider Web | Just cobwebs. Not a plant. [0cp]
+Spirit Berry | Eat to see the ethereal plane for a minute. [50gp-200gp]
+Spirit Flower | Translucent petal. Can pass through solid objects? No. [10gp-40gp]
+Spirit Leaf | Ghostly leaf. Fades if taken far from the tree. [2gp-8gp]
+Spirit Moss | Glows with pale light. Cold to the touch. [5gp-20gp]
+Spirit Root | Ethereal anchor. Keeps ghosts bound to a grave. [20gp-80gp]
+Star Anise | Star shaped spice. Aromatic and licorice-like. [5sp-2gp]
+Star Berry | 5-pointed yellow fruit. Tastes like starlight (lemon). [1gp-5gp]
+Star Dust | Pollen markings looks like constellations. [2gp-8gp]
+Star Flower | Blue borage. Edible and cheers the heart. [1sp-5sp]
+Star Grass | Blades grow in star patterns. [2cp-5cp]
+Star Leaf | Maple leaf shape. Turns gold in autumn. [1cp]
+Star Lily | Stargazer lily. Strong scent that causes headaches. [2gp-8gp]
+Star Moss | Tiny star shaped moss tufts. Soft carpet. [5cp-2sp]
+Star Root | Ginseng variant. shaped like a person. [5gp-20gp]
+Star Vine | Flowers only at night under clear skies. [1gp-5gp]
+Stone Berry | Hard as a rock. Effective slingshot ammo. [1cp]
+Stone Flower | Lithops. Looks exactly like a pebble until it blooms. [1gp-5gp]
+Stone Grass | Grey rigid blades. Dull your scythe. [1cp]
+Stone Leaf | Fossilized leaf? No, just very hard biological matter. [1sp-5sp]
+Stone Moss | Grey lichen, hard crust. Edible if boiled for days. [1cp]
+Stone Root | Petrified root. Used for skin hardening potions. [5sp-2gp]
+Storm Berry | Tastes like ozone and rain. [2gp-8gp]
+Storm Flower | Blooms before a thunderstorm. Closes when rain starts. [5gp-20gp]
+Storm Grass | While the wind blows, it sings a low hum. [1sp-5sp]
+Storm Leaf | Static charge. Makes hair stand up. [2gp-8gp]
+Storm Root | Fulgurite root? Formed by lightning strikes. [10gp-40gp]
+Sun Berry | Golden raspberry. Warm to the touch. [1gp-5gp]
+Sun Bloom | Helianthus variant. Follows the sun aggressively. [5cp-2sp]
+Sun Fern | Gold fronds. Requires direct sunlight to survive. [2gp-8gp]
+Sun Flower | Giant yellow head. Seeds are a staple snack. [2cp-5cp]
+Sun Grass | Golden dry grass. Extremely flammable. [1cp]
+Sun Leaf | Captures sunlight. Glows like a lamp at night. [10gp-40gp]
+Sun Lily | Bright orange. Symbol of rebirth. [2gp-8gp]
+Sun Moss | Gold moss. Warm bedding for luxury pets. [2gp-8gp]
+Sun Root | Jerusalem artichoke. Nutty flavor. [5cp-2sp]
+Swamp Berry | Cloudberry? Tart and full of vitamin C. [5sp-2gp]
+Swamp Flower | Iris. Water lover. Smells like mud. [1sp-5sp]
+Swamp Grass | Reeds. Good for thatching roofs. [1cp]
+Swamp Leaf | Skunk cabbage. Stinks to high heaven. [1cp]
+Swamp Moss | Sphagnum. Water absorbent. Bandage material. [1cp-5cp]
+Swamp Root | Mangrove root. Filters salt water. [1cp]
+Sweet Berry | Generic sweet fruit. Comfort food. [1cp-5cp]
+Sweet Briar | Wild rose with apple scent. [5cp-2sp]
+Sweet Fern | Aromatic leaves. Repels midges. [1sp-5sp]
+Sweet Flag | Calamus root. Sugary treat for children. [1sp-5sp]
+Sweet Grass | Vanilla scented grass. used in weaving baskets. [5sp-2gp]
+Sweet Leaf | Stevia precursor. Incredible natural sweetener. [1sp-5sp]
+Sweet Pea | Fragrant climbing flower. Seeds are toxic. [5cp-2sp]
+Sweet Root | Licorice. Blackens teeth. [1sp-5sp]
+Sword Fern | Upright stiff fronds. Good for improvised camouflage. [5cp-2sp]
+Sword Grass | Sharp edges cut skin. Wear boots. [0cp]
+Sword Leaf | Yucca. Needle point tips. [5cp-2sp]
+Tangle Weed | Aquatic vine that drowns swimmers. [0cp]
+Thorn Bush | Defensive barrier. Keeps wolves out. [1sp-5sp]
+Thorn Vine | Barbed wire of nature. [5cp-2sp]
+Thunder Berry | Pop rocks effect. Explodes in the mouth. [1gp-5gp]
+Thunder Flower | Blooms with a crack of sound. Startling. [5gp-20gp]
+Thunder Root | Sensitive to vibrations. Used in early warning systems. [10gp-40gp]
+Tiger Lily | Orange with black spots. Aggressive root system. [2gp-8gp]
+Toad Stool | Red and white mushroom. Iconic but inedible. [5cp-2sp]
+Troll Berry | Lumpy and green. Regenerates on the bush if half eaten. [2gp-8gp]
+Troll Root | Regenerates if a piece is left in the soil. [5gp-20gp]
+True Love | Blue flower. Extremely rare and hard to find. [10gp-50gp]
+Twilight Berry | Shifts from purple to blue as the sun sets. [2gp-8gp]
+Twilight Flower | Blooms at dusk. Scents the evening air. [5gp-20gp]
+Twin Leaf | Always grows in pairs. Symbol of friendship. [1sp-5sp]
+Twisted Root | Magic warped tuber. Causes chaos effects when eaten. [10gp-40gp]
+Unicorn Horn | Proboscidea. Seed pod looks like a hooked horn. [2gp-8gp]
+Vampire Vine | Parasitic plant that drinks blood from animals. [20gp-80gp]
+Velvet Leaf | Soft fuzzy leaf. Nature's toilet paper. [1cp-5cp]
+Venom Berry | Deadly neurotoxin. Do not touch. [50gp-150gp]
+Venom Flower | Spits poison? No, just toxic pollen. [10gp-40gp]
+Venom Root | Source of potent arrow poison. [5gp-20gp]
+Violet Leaf | Heart shaped. Used in salads. [1cp-3cp]
+Void Berry | Blacker than black. Nutty taste, emptiness aftertaste. [10gp-50gp]
+Void Flower | Petals look like holes in reality. [100gp-500gp]
+Void Root | Grows without soil or water. Just exists. [50gp-200gp]
+Wanderlust | Seeds stick to clothes and travel miles. [1cp]
+War Flower | Red poppies growing on old graves. [1cp-5cp]
+Water Lily | Floating pad and flower. Frog perch. [1sp-5sp]
+Weeping Willow | Drooping branches. Symbol of melancholy. [5gp-20gp]
+Whisper Berry | Fizzing sound when eaten. Tingle. [1gp-5gp]
+Whisper Flower | Rustles without wind. Secrets of the forest. [2gp-8gp]
+Whisper Leaf | Paper thin. Used for secret messages. [1sp-5sp]
+Whisper Root | Silencing poison ingredient. [20gp-80gp]
+White Berry | Snowberry. Toxic to humans, food for birds. [1cp-5cp]
+White Fern | Albino fern. Burns in direct sunlight. [1gp-5gp]
+White Flower | Jasmine. Heavy, intoxicating scent. [1sp-5sp]
+White Leaf | Silver poplar. Underside is white. [1cp]
+White Moss | Reindeer moss. Edible if boiled for a long time. [5cp-2sp]
+White Root | Parsnip. Sweet winter vegetable. [1cp-5cp]
+Wild Berry | Strawberry/Raspberry mix. Stains fingers red. [1cp-5cp]
+Wild Flower | Meadow mix. Bees love them. [0cp]
+Wild Grass | Tall prairie grass. Hides predators. [0cp]
+Wild Rose | Single layer petals. Produces hips in winter. [5cp-2sp]
+Wind Berry | Hollow fruit, floats on wind. [1sp-5sp]
+Wind Flower | Anemone. Petals fall easily in the breeze. [1sp-5sp]
+Wind Grass | Waves beautifully. Hypnotic to watch. [1cp]
+Wind Leaf | Aerodynamic shape. Travels far. [1cp]
+Wind Root | Air element affinity. Makes you light-headed. [5gp-20gp]
+Winter Berry | Holly or Wintergreen. Persists through snow. [5cp-2sp]
+Winter Flower | Hellebore. Blooms in snow. Poisonous. [2gp-8gp]
+Winter Leaf | Evergreen. Tough and waxy. [1cp]
+Winter Root | Parsnip kept in ground. Sweeter after frost. [1cp-5cp]
+Witch Hazel | Astringent bark. Healing properties for cuts. [1sp-5sp]
+Witch's Broom | Abnormal growth on trees. Magical nest? [1gp-5gp]
+Witch's Finger | Gnarled succulent. Looks like a green digit. [5sp-2gp]
+Witch's Hair | Parasitic Dodder vine. Orange threads strangling hosts. [1sp-5sp]
+Wolf Bane | Aconite. Werewolf poison. Handle with gloves. [5gp-20gp]
+Wolf Berry | Goji berry. Healthy antioxidant. [5sp-2gp]
+Wolf Root | Toxic root. Induces frenzy in wolves. [2gp-8gp]
+Wonder Berry | Solanum. Edible sweet berry. [1cp-5cp]
+Wood Rose | Wooden seed pod looks like a flower. Used in carving. [5sp-2gp]
+Wyvern Tail | Spiky succulent. Looks like a tail. [2gp-8gp]
+Yellow Berry | Cloudberry or yellow raspberry. Rare treat. [1sp-5sp]
+Yellow Flower | Dandelion. Edible weed, wine maker. [0cp]
+Yellow Leaf | Autumn falls. Mulch. [0cp]
+Yellow Moss | Sulphur moss. Acidic and stinging. [1sp-5sp]
+Yellow Root | Goldenseal. Natural antibiotic. [5gp-20gp]
+Zombie Root | Creates mind-control potions. Voodoo magic. [50gp-200gp]

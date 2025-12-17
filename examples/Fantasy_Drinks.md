@@ -1,435 +1,435 @@
 List:
-Abyssal Ale
-Acorn Stout
-Alchemist's Firewater
-Amber Ale
-Amber Mead
-Ambrosia
-Ancient Brandy
-Angel's Tear
-Apple Cider
-Arcane Ale
-Ashen Ale
-Autumn Ale
-Badger Brew
-Banshee's Wail
-Barley Wine
-Basilisk Blood
-Bear's Blood
-Beetle Juice
-Berry Wine
-Bitter Bark Brew
-Bitter Black
-Black Dragon Ale
-Black Lagoon
-Black Pearl
-Black Root Brew
-Black Sail Rum
-Black Velvet
-Bladeberry Wine
-Blood Orange Ale
-Blood Red Wine
-Blood Rum
-Blood Wine
-Blue Moon Ale
-Blue Mountain Coffee
-Blue Velvet
-Bog Water
-Bone Breaker
-Bramble Berry Wine
-Brass Knuckle Ale
-Braveheart Brew
-Bright Berry Juice
-Brimstone Brew
-Broken Heart
-Brown Bear Ale
-Bubble Brew
-Bugbear's Breath
-Burning Ember
-Butterbeer
-Cactus Juice
-Celestial Wine
-Centaur's Kick
-Chaos Cider
-Cherry Cordial
-Chimera's Charm
-Cinder Ale
-Cloudberry Wine
-Cocoa Warm
-Cold Snap
-Copper Coin Ale
-Corpse Reviver
-Cracked Skull
-Crimson Cider
-Crystal Clear Water
-Dagger Ale
-Dancing Dwarf
-Dark Descent
-Dark Forest Ale
-Dark Matter
-Dark Roast
-Dawn's Dew
-Dead Man's Ale
-Deep Blue
-Deep Cave Ale
-Deep Dark Stout
-Demon's Delight
-Desert Mirage
-Devil's Brew
-Devil's Spit
-Dire Wolf Ale
-Dragon Breath
-Dragon Fire
-Dragon Scale Ale
-Dragon's Blood
-Dragon's Milk
-Dragon's Piss
-Dragon's Tears
-Dream Weaver
-Drow Poison
-Druid's Delight
-Dusk Wine
-Dusty Throat
-Dwarf Hammer
-Dwarven Forge Ale
-Dwarven Miner's Ale
-Dwarven Stout
-Earth Rumble
-Elderberry Wine
-Elemental Essence
-Elf Leaf Tea
-Elven Dew
-Elven Grace
-Elven Moon
-Elven Nectar
-Ember Ale
-Emerald Ale
-Enchanted Water
-Eternal Spring
-Evergreen Tea
-Fae Nectar
-Faerie Fire
-Faerie Fizz
-Faerie Wine
-Falcon's Flight
-Fallen Star
-Feather Fall
-Feywild Fizz
-Fire Brand
-Fire Water
-Firefly Ale
-Five Finger Discount
-Flame Tongue
-Fool's Gold
-Forest Floor
-Forgotten Ale
-Fortune's Favor
-Frost Bite
-Frost Giant's Sweat
-Frosty Mug
-Frozen Tear
-Gargoyle's Gargle
-Ghost Ale
-Ghost Spirit
-Ghostly Gulp
-Giant's Grog
-Giant's Strength
-Gilded Lily
-Ginger Beer
-Glacial Water
-Gloom Gloy
-Glow Berry Juice
-Goblin Goo
-Goblin Grog
-Goblin Spit
-Goblin Squeeze
-Gold Dust
-Golden Grain
-Golden Honey Mead
-Golden Wheat
-Gorgon's Gaze
-Grandma's Tea
-Grave Dirt Coffee
-Graveyard Fog
-Green Dragon Ale
-Green Fairy
-Green Goo
-Green Slime
-Griffin's Claw
-Grim Reaper
-Grizzly Ale
-Guard's Grog
-Gypsy Gin
-Hag's Brew
-Hag's Curse
-Hag's Spit
-Half-Orc Heavy
-Hammer Head
-Hangman's Noose
-Harpy's Song
-Harvest Ale
-Heart's Desire
-Healer's Tea
-Hellfire Whisky
-Hero's Feast
-High Elf Wine
-Hobgoblin Hops
-Hollow Man
-Holy Water
-Honey Mead
-Honey Wine
-Hornet's Nest
-Horse Kick
-Hunter's Moon
-Hydra's Head
-Ice Cold Ale
-Ice Wine
-Icy Breath
-Infernal Ichor
-Iron Belly
-Iron Clad
-Iron Fist
-Iron Stomach
-Ivy Ale
-Jade Tea
-Jungle Juice
-King's Cup
-King's Reserve
-Knight's Honor
-Kobold Kick
-Kraken Rum
-Lady's Choice
-Lantern Light
-Last Call
-Last Drop
-Last Laugh
-Lava Flow
-Leviathan Lager
-Lich's Touch
-Light Ale
-Liquid Courage
-Liquid Gold
-Liquid Luck
-Liquid Midnight
-Liquid Night
-Liquid Shadow
-Liquid Sunshine
-Lost Soul
-Lovers' Leap
-Lucky Clover
-Lunar Ale
-Mad Dog
-Mage's Mana
-Magic Mist
-Magma Mug
-Maiden's Kiss
-Mammoth Milk
-Mana Potion
-Maple Mead
-Mead of Poetry
-Mermaid's Kiss
-Mermaid's Tear
-Midnight Moon
-Midnight Oil
-Midnight Run
-Minotaur Milk
-Mirthful Mead
-Mist Walker
-Misty Mountain Hop
-Molten Lava
-Monk's Meditation
-Moon Beam
-Moon Shine
-Moonlight Mead
-Morning Dew
-Morning Glory
-Mossy Mug
-Mountain Dew
-Mountain Spring
-Muddy Water
-Mug of Mud
-Mushroom Tea
-Mystic Mist
-Naga's Venom
-Necromancer's Nectar
-Night Cap
-Night Crawler
-Night Fury
-Night Mare
-Night Owl
-Night Shade
-Night Watch
-Night Whisper
-Night's Embrace
-Noble Rot
-Northern Light
-Oak Barrel Ale
-Oatmeal Stout
-Obsidian Ale
-Ocean Breeze
-Ogre's Belch
-Ogre's Sweat
-Old Barn
-Old Bone
-Old Toby
-Orc Smash
-Orcish Rotgut
-Pale Ale
-Paladin's Prayer
-Pegasus Pale
-Phantom Punch
-Phoenix Fire
-Pirate's Grog
-Pirate's Rum
-Pixie Dust
-Plague Bringer
-Platinum Pale
-Poison Apple
-Potion of Healing (Fake)
-Purple Haze
-Queen's Delight
-Quick Silver
-Rage Ale
-Rain Water
-Rainbow Rum
-Rat Poison
-Red Dragon Ale
-Red Eye
-Red River
-River Water
-Rock Bottom
-Rock Gnome Ale
-Root Beer
-Rose Water
-Rot Gut
-Royal Blood
-Royal Flush
-Ruby Red
-Rusty Nail
-Sage Tea
-Sailor's Delight
-Sailor's Ruin
-Salt Water (Purified)
-Sand Storm
-Savage Spirit
-Scarlet Fever
-Scorpion Sting
-Sea Foam
-Sea Serpent
-Secret Sauce
-Serpent's Bite
-Seven Seas
-Shadow Ale
-Shadow Walk
-Shaman's Brew
-Shark Bite
-Shield Wall
-Shining Star
-Shipwreck
-Silent Night
-Silver Lining
-Silver Moon
-Silver Tongue
-Siren's Call
-Skeleton Key
-Skull Crusher
-Sky High
-Sleeping Draft
-Slime Slurp
-Smoke Signal
-Smoked Porter
-Snake Bite
-Snake Oil
-Snow Melt
-Solar Flare
-Sorcerer's Stone
-Soul Stealer
-Sour Grape
-Sparkling Water
-Specter Spirit
-Spice Trade
-Spider Bite
-Spider Venom
-Spirit of the Wolf
-Spit Fire
-Spring Water
-Starlight
-Steaming Stout
-Stone Cold
-Stone Giant's Stomp
-Storm Brew
-Storm Cloud
-Storm Giant's Thunder
-Strawberry Wine
-Strong Arm
-Summer Ale
-Sun Burst
-Sun Kissed
-Sun Rise
-Sun Set
-Swamp Gas
-Swamp Water
-Sweet Dreams
-Sweet Nectar
-Swordfish Ale
-Sylvan Spring
-Tears of a Clown
-Tempest Tea
-The Black Death
-The Green Death
-The Red Death
-Thieves' Tools
-Thorn Berry Wine
-Thunder Bolt
-Thunder Clap
-Thunder Mug
-Tiger's Blood
-Time Warp
-Toad Stool Tea
-Troll Blood
-Troll Spit
-Tropical Storm
-True Love's Kiss
-Twilight Tea
-Twisted Tree
-Unicorn Blood
-Unicorn Tears
-Vampire's Kiss
-Velvet Hammer
-Venomous Vial
-Viper's Venom
-Void Walker
-Volcano
-Wanderer's Water
-War Cry
-War Hammer
-Warlock's Whisper
-Warm Heart
-Warrior's Rest
-Wasp Sting
-Water of Life
-Weeping Widow
-Werewolf's Bite
-Whispering Wind
-White Dragon
-White Knight
-White Lightning
-White Widow
-Wild Berry Wine
-Wild Fire
-Wild Hunt
-Wild Magic
-Willow Weep
-Wind Walker
-Winter Ale
-Winter Chill
-Winter's Breath
-Witch's Brew
-Wolf's Blood
-Wolfsbane
-Wonder Water
-Wood Elf Wine
-Wraith's Breath
-Wyvern's Sting
-Yellow Snow
-Zombie Juice
+Abyssal Ale | Dark as the void, with a hint of sulfur and a kick that feels like a punch from a demon. [5sp-1gp]
+Acorn Stout | A rich, nutty brew favored by squirrels and druids alike. Served best in a wooden mug. [3sp-6sp]
+Alchemist's Firewater | A volatile spirit that burns with a green flame before consumption. Guaranteed to clear sinuses. [10gp-20gp]
+Amber Ale | A classic golden ale with a smooth finish and a glowing hue reminiscent of fossilized resin. [2sp-5sp]
+Amber Mead | Sweet honey mead aged in amber-encrusted barrels. A favorite at weddings. [3sp-6sp]
+Ambrosia | Nectar of the gods, glowing with a faint golden light. Restores the spirit and tastes of summer. [50gp-100gp]
+Ancient Brandy | Aged for centuries in a forgotten cellar. Thick as syrup and remarkably potent. [50gp-100gp]
+Angel's Tear | A crystal clear liqueur that tastes of pure sorrow and divine forgiveness. [100gp]
+Apple Cider | Crisp and refreshing, made from orchard-fresh red apples. [1sp-3sp]
+Arcane Ale | Shimmers with shifting colors. Side effects may include speaking in rhymes or floating hair. [5gp-10gp]
+Ashen Ale | Brewed near a volcano, it has a smoky, charcoal aftertaste. [2sp-4sp]
+Autumn Ale | Spiced with cinnamon and nutmeg, tasting of falling leaves and crisp air. [2sp-5sp]
+Badger Brew | Earthy and strong, fermented with roots and berries. Gritty texture. [1sp-3sp]
+Banshee's Wail | A screamingly strong spirit. Drinkers often wake up with a ringing in their ears. [10gp-20gp]
+Barley Wine | Strong and malty, bridging the gap between beer and wine. [4sp-8sp]
+Basilisk Blood | Thick, green, and sluggish. Claims to harden your skin, but mostly just hardens your liver. [20gp-50gp]
+Bear's Blood | A heavy red ale fortified with iron filings. Metallic and hearty. [2sp-5sp]
+Beetle Juice | Crunch in every sip. Made from crushed giant beetles. Acquired taste. [1cp-3cp]
+Berry Wine | Sweet dessert wine made from a mix of forest berries. [4sp-8sp]
+Bitter Bark Brew | Extremely bitter tonic made from oak bark. Good for digestion, bad for the tongue. [1sp-3sp]
+Bitter Black | Opaque stout as dark as midnight inside a coffin. Coffee notes. [2sp-5sp]
+Black Dragon Ale | Acidic and sharp, leaves a tingling sensation like a mild chemical burn. [10gp-25gp]
+Black Lagoon | Murky green cocktail with floating bits of unknown origin. Salty. [1gp-3gp]
+Black Pearl | A smooth dark rum with a single edible black pearl at the bottom (usually just licorice). [5gp-15gp]
+Black Root Brew | Fermented root vegetable mash. Cheap, filling, and mostly harmless. [1cp-3cp]
+Black Sail Rum | Pirates' favorite. Spiced with gunpowder and sea salt. [2gp-5gp]
+Black Velvet | A mix of stout and sparkling wine. Smooth as silk, hits like a hammer. [1gp-3gp]
+Bladeberry Wine | Made from razor-sharp berries. The liquid is blood red and metallic. [5gp-10gp]
+Blood Orange Ale | A citrusy ale with a deep red color. Tart and refreshing. [3sp-6sp]
+Blood Red Wine | A dry red wine, favored by vampires (or those acting like them). [1gp-3gp]
+Blood Rum | Rum mixed with spices that turn it a deep crimson. [2gp-5gp]
+Blood Wine | A staple of warrior cultures. Thick, strong, and served warm. [5gp-10gp]
+Blue Moon Ale | Only brewed during a blue moon. Tastes of blueberries and secrets. [3sp-6sp]
+Blue Mountain Coffee | Rare coffee beans grown on floating islands. Energizing. [1gp-3gp]
+Blue Velvet | An electric blue liqueur that numbs the tongue. [5gp-10gp]
+Bog Water | Literally ditch water, maybe boiled. [1cp]
+Bone Breaker | A dwarven spirit so strong it feels like it breaks your ribs. [5sp-1gp]
+Bramble Berry Wine | Sweet but with a thorny aftertaste that prickles the throat. [2sp-5sp]
+Brass Knuckle Ale | Hits you right in the jaw. High alcohol content. [2sp-5sp]
+Braveheart Brew | Dutch courage in a bottle. Removes fear (and common sense). [5sp-1gp]
+Bright Berry Juice | Glowing juice that acts as a weak torch while in the stomach. [1sp-3sp]
+Brimstone Brew | Smells of rotten eggs but tastes oddly spicy. Demonic origin suspect. [1gp-3gp]
+Broken Heart | A bitter cocktail that brings tears to your eyes. served with a wilted rose. [5sp-1gp]
+Brown Bear Ale | A standard brown ale, reliable and fuzzy. [2sp-5sp]
+Bubble Brew | Carbonated to the extreme. Burping is inevitable. [1sp-3sp]
+Bugbear's Breath | Smells like old gym socks. Tastes slightly better. [1cp-5cp]
+Burning Ember | Served flaming. Must be blown out before drinking (usually). [5gp-10gp]
+Butterbeer | Warm, frothy, and buttery with butterscotch notes. Non-alcoholic favoring. [2sp-5sp]
+Cactus Juice | Hydrating but prickly. Extracted from desert cactuses. [1sp-3sp]
+Celestial Wine | Light as air, tasting of starlight and clouds. [20gp-50gp]
+Centaur's Kick | A grain alcohol that hits with the force of a hoof. [1gp-3gp]
+Chaos Cider | Every sip tastes different. Strawberry? Fish? Mud? Random! [2gp-5gp]
+Cherry Cordial | Syrupy sweet cherry liqueur with a chocolate center. [5sp-1gp]
+Chimera's Charm | A three-layered drink that never mixes. Lion, Goat, Snake flavors. [10gp-20gp]
+Cinder Ale | Brewed over open flame, possessing a distinct smoky char. [3sp-6sp]
+Cloudberry Wine | Made from rare berries found on high mountain peaks. Tart. [5gp-10gp]
+Cocoa Warm | Rich hot chocolate with marshmallows. Comfort in a cup. [2sp-5sp]
+Cold Snap | Instantly freezes the inside of your mouth. Refreshing in deserts. [2sp-5sp]
+Copper Coin Ale | Cheap ale that tastes famously metallic. [1cp-3cp]
+Corpse Reviver | Morning hangover cure. Shockingly sour and spicy. [5gp-10gp]
+Cracked Skull | Served in a skull-shaped mug. A headache in liquid form. [2sp-5sp]
+Crimson Cider | Made from blood apples. A deep, ominous red. [3sp-6sp]
+Crystal Clear Water | Purest spring water, blessed by a priest. [1cp-2cp]
+Dagger Ale | Sharp, crisp taste that cuts through the grease of tavern food. [2sp-5sp]
+Dancing Dwarf | A lively lager that makes your feet twitch. [4sp-8sp]
+Dark Descent | A stout that gets thicker the deeper you drink. [1gp-3gp]
+Dark Forest Ale | Brewed with pine needles and juniper berries. [3sp-6sp]
+Dark Matter | Absorbs light around the glass. Tastes void-like. [10gp-20gp]
+Dark Roast | Coffee so black it has an event horizon. [1sp-3sp]
+Dawn's Dew | Collected from morning flowers. delicate and floral. [5sp-1gp]
+Dead Man's Ale | A pale, flavorless ale found often in shipwrecks. [1gp-3gp]
+Deep Blue | Bioluminescent deep-sea water mixed with gin. [2gp-5gp]
+Deep Cave Ale | Fermented mushrooms and cave water. Earthy. [3sp-6sp]
+Deep Dark Stout | Thick as oil, practically a meal. [4sp-8sp]
+Demon's Delight | Spicy, sulfurous, and arguably poisonous to mortals. [15gp-30gp]
+Desert Mirage | You swear the glass is full, but it's always empty. Magic trick drink. [2gp-5gp]
+Devil's Brew | Guaranteed to make you sin. Or at least karaoke. [10gp-20gp]
+Devil's Spit | Burningly hot sauce masquerading as a shot. [15gp-30gp]
+Dire Wolf Ale | A hairy brew (hopefully just the name). Wild and gamey. [1gp-3gp]
+Dragon Breath | Exhaling smoke is a common side effect. Cinnamon spice. [10gp-25gp]
+Dragon Fire | Liquid flame. Requires a Constitution save. [15gp-30gp]
+Dragon Scale Ale | The bottle is plated in fake scales. The ale is iridescent. [5gp-15gp]
+Dragon's Blood | Thick, magical vintage. Provides a feeling of immense power. [50gp-100gp]
+Dragon's Milk | Creamy liqueur, not actually from a dragon (we hope). [20gp-50gp]
+Dragon's Piss | Warm, yellow, and terrible. The cheapest swill available. [1cp]
+Dragon's Tears | Salty, magical vodka that induces melancholy. [50gp-100gp]
+Dream Weaver | Induces mild, pleasant hallucinations or vivid dreams. [5gp-10gp]
+Drow Poison | DO NOT DRINK. Oh wait, this is the tavern version (just blackberry brandy). [200gp-500gp]
+Druid's Delight | Herbal tea spiked with nature magic. Flowers bloom in your hair. [2gp-5gp]
+Dusk Wine | Purple wine that swirls with twilight shadows. [5gp-10gp]
+Dusty Throat | Dry cider that leaves you thirstier than before. [1cp-3cp]
+Dwarf Hammer | A shot that feels like a blunt force trauma. [2sp-5sp]
+Dwarven Forge Ale | Served boiling hot. Molten caramel flavors. [3sp-6sp]
+Dwarven Miner's Ale | Loaded with minerals. Gritty and sustaining. [2sp-5sp]
+Dwarven Stout | The gold standard of stouts. Strong, dark, reliable. [3sp-6sp]
+Earth Rumble | A tremor in every sip. Deep root flavors. [2sp-5sp]
+Elderberry Wine | Your father smells of this. Sweet and tart. [4sp-8sp]
+Elemental Essence | Pure elemental chaos captured in a flask. Random flavor. [20gp-50gp]
+Elf Leaf Tea | Delicate tea brewed from silver leaves. [5sp-1gp]
+Elven Dew | Collected drop by drop from moon-flowers. Refreshing and pure. [5gp-10gp]
+Elven Grace | A vintage wine that makes you move more elegantly for an hour. [10gp-20gp]
+Elven Moon | Silver wine that glows under the moon. [15gp-30gp]
+Elven Nectar | Sweet, floral syrup. Overwhelmingly distinct. [20gp-50gp]
+Ember Ale | A red ale that stays warm in the glass. [3sp-6sp]
+Emerald Ale | A vibrant green drink that smells of fresh cut grass and mint. [5gp-10gp]
+Enchanted Water | Just water, but it sparkles unnaturally and never runs out of the glass. [5gp-10gp]
+Eternal Spring | Water from the fountain of youth (heavily diluted, cosmetic effects only). [50gp-100gp]
+Evergreen Tea | Tea brewed from ancient pines. Tastes like a cold winter forest. [2sp-5sp]
+Fae Nectar | Intoxicatingly sweet. May cause you to lose track of time for days. [10gp-20gp]
+Faerie Fire | Glowing drink that illuminates the drinker from the inside for 1d4 hours. [15gp-30gp]
+Faerie Fizz | Bubbles that float downwards. Tastes slightly of giggles. [5gp-15gp]
+Faerie Wine | Made from fermented starlight beans. Light as a feather. [10gp-25gp]
+Falcon's Flight | An energy drink of the middle ages. Grants twitchy reflexes. [2gp-5gp]
+Fallen Star | A glowing fragment dissolves in the glass. Tastes of ozone and lemon. [20gp-50gp]
+Feather Fall | Makes you feel light as a feather. Don't jump off roofs though (it's just a feeling). [5gp-10gp]
+Feywild Fizz | Randomly changes flavor and color while you drink it. Disorienting. [10gp-20gp]
+Fire Brand | Brandy stamped with a fire rune. Warms the chest instantly. [2gp-5gp]
+Fire Water | High proof grain alcohol. Flammable and dangerous. [1gp-3gp]
+Firefly Ale | Contains (harmless) bioluminescent bugs. Your burps will glow. [2sp-5sp]
+Five Finger Discount | Stolen ale, tastes better because it was free. [0cp]
+Flame Tongue | Spicy pepper vodka that numbs the tongue. [5gp-10gp]
+Fool's Gold | Golden colored ale with pyrite flakes. Pretty but metallic. [1cp-5cp]
+Forest Floor | Mushroom and moss tea. Acquired taste for dryads. [1sp-3sp]
+Forgotten Ale | Aged so long the label has rotted away. Mystery vintage. [2sp-5sp]
+Fortune's Favor | A golden liquid said to bring luck. Taste is remarkably plain. [10gp-20gp]
+Frost Bite | Mint liqueur served on ice. Numbing cold. [2gp-5gp]
+Frost Giant's Sweat | Salty blue sports drink. Replenishes electrolytes! [5gp-15gp]
+Frosty Mug | The mug is magical ice, the drink is standard ale. Keeps cold forever. [1gp-3gp]
+Frozen Tear | A drop of ice wine suspended in clear spirits. Melancholic sweetness. [10gp-20gp]
+Gargoyle's Gargle | Gravelly texture, tastes of minerals and rain. [1sp-4sp]
+Ghost Ale | Transparent ale. You can see through back of the glass. [5gp-10gp]
+Ghost Spirit | Ethereal vodka. Leaves no hangover (allegedly). [10gp-20gp]
+Ghostly Gulp | Chills you to the bone, regardless of ambient temperature. [5gp-10gp]
+Giant's Grog | Served in a bucket. Quantity over quality. [1gp-3gp]
+Giant's Strength | Protein shake with raw eggs and ogre sweat. [50gp-100gp]
+Gilded Lily | Fancy cocktail with edible gold leaf. Purely for showing off. [5gp-10gp]
+Ginger Beer | Spicy and non-alcoholic. Good for nausea and stomach aches. [2sp-5sp]
+Glacial Water | Melted from ancient ice. Crisp, pure, and incredibly cold. [1sp-3sp]
+Gloom Gloy | Opaque grey sludge. Orcs love it, elves faint at the sight. [1gp-3gp]
+Glow Berry Juice | Luminescent juice that acts as a dim light source. [2sp-5sp]
+Goblin Goo | Green, viscous, and moving slightly. Don't ask what's in it. [1cp-2cp]
+Goblin Grog | A mix of leftover drinks from other patrons. The house special! [1cp-3cp]
+Goblin Spit | Acidic lime juice mix. Burns a little going down. [1cp-2cp]
+Goblin Squeeze | Fermented trash juice. Only for the desperate. [1cp-3cp]
+Gold Dust | Whisky with gold flakes. Tastes like wealth (and metal). [10gp-20gp]
+Golden Grain | Standard wheat beer, reliable and hearty. [2sp-5sp]
+Golden Honey Mead | Smooth, sweet, and classic. The standard for mead. [5sp-1gp]
+Golden Wheat | Light summer ale, perfect for a hot day. [2sp-5sp]
+Gorgon's Gaze | Turn to stone drunk. High alcohol, petrifying hangover. [10gp-20gp]
+Grandma's Tea | Herbal tea with a hint of sherry. Comforting and warm. [1sp-2sp]
+Grave Dirt Coffee | Chicory coffee, earthy and dark. Wakes the dead. [1sp-3sp]
+Graveyard Fog | Dry ice cocktail, misty and smelling of wet earth. [5gp-10gp]
+Green Dragon Ale | Poisonous-looking green ale. Sour apple taste. [5gp-15gp]
+Green Fairy | Absinthe. Hallucinogenic and extremely potent. [10gp-25gp]
+Green Goo | Algae shake. Healthy(?), but slimy. [1cp-5cp]
+Green Slime | Gelatinous dessert drink. Eat it with a spoon. [1pv-2cp]
+Griffin's Claw | A sharp cocktail with a talon garnish. Fearsome presentation. [5gp-10gp]
+Grim Reaper | Black vodka and cranberry. Deadly serious drink. [10gp-20gp]
+Grizzly Ale | Furry mouthfeel? No, just strong brown ale. [2sp-5sp]
+Guard's Grog | Cheap ration allotment alcohol. Gets the job done. [1sp-3sp]
+Gypsy Gin | Infused with herbs and wanderlust. Tastes of travel. [2gp-5gp]
+Hag's Brew | Swamp water fermentation. Chunky and suspicious. [1cp-5cp]
+Hag's Curse | Makes you croak like a toad for minutes. Hilarious party trick. [5gp-10gp]
+Hag's Spit | Vinegar based drink. Pucker up! [1cp-2cp]
+Half-Orc Heavy | A blend of ale and stout. Heavy indeed, almost a meal. [2sp-5sp]
+Hammer Head | A strong amber ale that hits hard. Headache guaranteed. [2sp-5sp]
+Hangman's Noose | A stiff drink. A dark rum that leaves you breathless. [2gp-5gp]
+Harpy's Song | Makes your voice screechy. Great for harassing bards. [10gp-20gp]
+Harvest Ale | Pumpkin spice ale. Seasonal favorite in autumn. [2sp-5sp]
+Heart's Desire | A love potion... or just strawberry vodka with glitter. [50gp-100gp]
+Healer's Tea | Medicinal tea with healing herbs. Bitter but effective. [1gp-3gp]
+Hellfire Whisky | Cinnamon whisky that burns like the Nine Hells. [20gp-50gp]
+Hero's Feast | A liquid meal equivalent to a banquet. Sustains a creature for a day. [100gp-500gp]
+High Elf Wine | Refined, sophisticated, and incredibly pretentious. [20gp-50gp]
+Hobgoblin Hops | Disciplined, bitter IPA. Precisely brewed, zero sediment. [1sp-4sp]
+Hollow Man | Invisible drink in a glass. You only feel the cold. [2gp-5gp]
+Holy Water | Blessed water. Damages undead, refreshing for the righteous. [25gp]
+Honey Mead | Simple fermented honey. The taste of home. [3sp-6sp]
+Honey Wine | Sweeter variant of mead, more refined and filtered. [4sp-8sp]
+Hornet's Nest | Spicy honey liqueur. Stings the tongue. [1gp-3gp]
+Horse Kick | Kick in the teeth strong. A raw grain spirit. [2sp-5sp]
+Hunter's Moon | Drink for the hunt. Increases focus and night vision (slightly). [2gp-5gp]
+Hydra's Head | Drink one, feel like you drank two. Multiplies intoxication. [15gp-30gp]
+Ice Cold Ale | Enchanted to stay cold forever. Perfect for deserts. [2sp-5sp]
+Ice Wine | Dessert wine from frozen grapes. Syrupy sweet. [10gp-25gp]
+Icy Breath | Minty fresh. Leaves a cloud of frost when you exhale. [5gp-10gp]
+Infernal Ichor | Black, smoking liquid. Tiefling favorite, smells of brimstone. [50gp-100gp]
+Iron Belly | Tests the constitution of any dwarf. Corrosive to non-dwarves. [2sp-5sp]
+Iron Clad | Served in an iron flask. Tastes distinctively metallic. [3sp-6sp]
+Iron Fist | Punchy fruit spirit. Hits sudden and hard. [2sp-5sp]
+Iron Stomach | Digestif for eating rocks. A gorgon's favorite. [1sp-4sp]
+Ivy Ale | Green, leafy taste. Brewed by dryads. [2sp-5sp]
+Jade Tea | Green tea with jade dust. Supposedly good for longevity. [1gp-3gp]
+Jungle Juice | Tropical fruit mash. Fermented in the sun. [1gp-3gp]
+King's Cup | A goblet of the finest red wine. Fit for royalty. [10gp-20gp]
+King's Reserve | Aged 50 years. Notes of oak, leather, and power. [50gp-100gp]
+Knight's Honor | Straight gin. No chaser. As stiff as a salute. [2gp-5gp]
+Kobold Kick | Lizard spit and berries. Surprisingly fruity. [1cp-3cp]
+Kraken Rum | Spiced black rum. Releases the beast within. [5gp-15gp]
+Lady's Choice | Sweet, pink, and sparkling. A dessert in a glass. [2gp-5gp]
+Lantern Light | Glows softly. Good for reading in dark taverns. [1gp-3gp]
+Last Call | The dregs of the barrel mixed together. Cheap and risky. [1sp-5sp]
+Last Drop | The very best bottom-shelf whisky. Squeezed from the rag? [2gp-5gp]
+Last Laugh | Makes you giggle uncontrollably for 1d10 minutes. [5gp-10gp]
+Lava Flow | Thick red smoothie with chili. Burns going down. [10gp-20gp]
+Leviathan Lager | Salty sea-water beer. Only a sailor could love it. [5gp-10gp]
+Lich's Touch | Frostbitten glass. Necrotic taste that numbs the soul. [50gp-100gp]
+Light Ale | Low calorie ale. Tastes like watered down hope. [1sp-3sp]
+Liquid Courage | Cheap whisky. Removes fear and inhibits judgment. [2sp-5sp]
+Liquid Gold | Melted butter and honey. Rich, heavy, and caloric. [25gp-50gp]
+Liquid Luck | A golden potion. Everything seems to go your way tonight. [100gp]
+Liquid Midnight | Black coffee and blackberry liqueur. Wakes you up to knock you out. [10gp-25gp]
+Liquid Night | A powerful sleeping drought. Dreamless sleep guaranteed. [5gp-10gp]
+Liquid Shadow | Makes blending into shadows easier (placebo effect). [15gp-30gp]
+Liquid Sunshine | Orange juice and sparkling wine. Pure joy in a glass. [10gp-20gp]
+Lost Soul | A wistful pale spirit. Tastes of nostalgia and regret. [5gp-10gp]
+Lovers' Leap | Two straws, one glass. Sweet, red, and bubbly. [5gp-10gp]
+Lucky Clover | Green beer with a four-leaf clover. A halfling favorite. [2gp-5gp]
+Lunar Ale | White ale brewed by moonlight. Silver in color. [4sp-8sp]
+Mad Dog | Foaming ale. Froths excessively in the mouth. [1gp-3gp]
+Mage's Mana | Blue potion. Restores slots? Maybe just sugar rush. [10gp-25gp]
+Magic Mist | Use a straw to inhale the vapor. A gaseous drink. [5gp-10gp]
+Magma Mug | Spiced cider served boiling. Stays hot for an hour. [5gp-10gp]
+Maiden's Kiss | Rose water and vodka. Soft and floral. [2gp-5gp]
+Mammoth Milk | Fermented woolly mammoth milk. Ancient recipe, very creamy. [1gp-3gp]
+Mana Potion | Classic blue energy drink. Vibrating with arcane caffeine. [50gp]
+Maple Mead | Sweetened with maple syrup. Sticky and delicious. [3sp-6sp]
+Mead of Poetry | Makes you rhyme involuntarily. Bards love (or hate) it. [20gp-50gp]
+Mermaid's Kiss | Salt water taffy flavor. Hints of ocean breeze. [10gp-25gp]
+Mermaid's Tear | A pearl in every glass. Salty and expensive. [25gp-50gp]
+Midnight Moon | Dark stout. Brewed during a new moon. [5gp-10gp]
+Midnight Oil | Coffee liqueur. Fuel for the late-night scholar. [1gp-3gp]
+Midnight Run | Bootleg moonshine. Burns away your fingerprints. [2gp-5gp]
+Minotaur Milk | Strong White Russian. Heavy on the cream. [2gp-5gp]
+Mirthful Mead | Infused with laughing gas herbs. Hysteria ensues. [3sp-6sp]
+Mist Walker | Grey fog in a glass. Swirls even when still. [5gp-10gp]
+Misty Mountain Hop | Hoppy IPA from the mountains. Fresh pine notes. [2sp-5sp]
+Molten Lava | Cinnamon whisky shot with chili. Literally hot. [10gp-20gp]
+Monk's Meditation | Green tea, perfectly brewed. Brings clarity and calm. [1gp-3gp]
+Moon Beam | White wine. Cool and refreshing light. [5gp-10gp]
+Moon Shine | Illegal corn whisky. High blindness risk, great paint stripper. [1gp-3gp]
+Moonlight Mead | Glowing pale mead. Harvested from moon-bees? [5gp-10gp]
+Morning Dew | Collected from grass blades. Fresh and grassy. [1sp-3sp]
+Morning Glory | Orange juice and champagne. The breakfast of champions. [1sp-3sp]
+Mossy Mug | Algae based drink. Tastes like a pond, in a good (?) way. [1cp-3cp]
+Mountain Dew | Green sugary soda (technically alchemy). Buzzing with energy. [1gp-3gp]
+Mountain Spring | Bottled at source. Pure and crisp. [1cp-2cp]
+Muddy Water | Literal mud. Why is this on the menu? [0cp]
+Mug of Mud | Thick chocolate drink. Hot and comforting. [1cp-2cp]
+Mushroom Tea | Earthy and fungal. Strange texture. [1sp-3sp]
+Mystic Mist | Dry ice presentation. Looks magical, tastes like grape. [5gp-10gp]
+Naga's Venom | Spicy serpent production. A creeping numbness ensues. [25gp-50gp]
+Necromancer's Nectar | Green glowing vial. Smells of embalming fluid. [50gp-100gp]
+Night Cap | Sleepytime tea with brandy. Knockout drops included. [2gp-5gp]
+Night Crawler | Worm in the bottle tequila. The worm is still alive. [1gp-3gp]
+Night Fury | Black dragon themed drink. Pitch black and smokey. [5gp-10gp]
+Night Mare | Dark beer. Foam forms shapes of galloping horses. [2gp-5gp]
+Night Owl | Espresso martini. Keeps you up all night hooting. [1gp-3gp]
+Night Shade | Poisonous berry wine (carefully diluted). Thrillingly toxic. [10gp-25gp]
+Night Watch | Caffeinated ale. Gritty coffee grounds at the bottom. [1sp-5sp]
+Night Whisper | Quiet fizzing drink. Bubbles pop silently. [2gp-5gp]
+Night's Embrace | Blackberry porter. Hugs your stomach with warmth. [5gp-10gp]
+Noble Rot | Sweet dessert wine affected by fungus. Highly prized. [10gp-25gp]
+Northern Light | Aurora borealis in a cup. Shifting colors of green and violet. [5gp-15gp]
+Oak Barrel Ale | Aged in charred oak. Strong wood notes. [2sp-5sp]
+Oatmeal Stout | Chewy breakfast beer. A meal in a glass. [3sp-6sp]
+Obsidian Ale | Black and glossy. Reflects your soul (or lack thereof). [4sp-8sp]
+Ocean Breeze | Coconut and rum. A vacation in a glass. [2gp-5gp]
+Ogre's Belch | Gas inducing lager. Loud burps are guaranteed. [1cp-3cp]
+Ogre's Sweat | Salty warm beer. Unpleasantly musky. [1cp-2cp]
+Old Barn | Tastes like hay and horses. Rustic. [1sp-3sp]
+Old Bone | Dry white wine. Chalky finish. [1cp-3cp]
+Old Toby | Tobacco infused spirit. Like drinking a pipe. [2sp-5sp]
+Orc Smash | Green cocktail. Served in a cracked mug. SMASH! [1sp-3sp]
+Orcish Rotgut | Methanol heavy. Can run an engine or kill a horse. [1cp-3cp]
+Pale Ale | Light, hoppy, and unoffensive. A safe choice. [2sp-5sp]
+Paladin's Prayer | Non-alcoholic grape juice. Pious and boring. [2gp-5gp]
+Pegasus Pale | Airy, light beer. Foam shaped like wings. [4sp-8sp]
+Phantom Punch | Invisible fruit punch. You can't see how much is left. [5gp-10gp]
+Phoenix Fire | Spiciness that returns after you swallow. Rebirth of the burn. [25gp-50gp]
+Pirate's Grog | Rum, water, lime, and scurvy prevention. [1gp-3gp]
+Pirate's Rum | Spiced rum. Harsh enough to strip paint. [2gp-5gp]
+Pixie Dust | Edible glitter drink. You'll be finding glitter for weeks. [5gp-10gp]
+Plague Bringer | Green bubbling concoction. Looks diseased, tastes like lime. [10gp-25gp]
+Platinum Pale | Expensive pale ale. Brewed with gold-filtered water. [10gp-20gp]
+Poison Apple | Cider with a bite. Green apple with a hidden kick. [5gp-10gp]
+Potion of Healing (Fake) | Just red water and sugar. Placebo effect maxed. [1gp-5gp]
+Purple Haze | Lavender infused gin. Foggy and floral. [5gp-10gp]
+Queen's Delight | Tea with milk and honey. Proper and refined. [10gp-25gp]
+Quick Silver | Mercury looking (safe) drink. Heavy metal texture. [20gp-50gp]
+Rage Ale | Pre-workout for barbarians. Infused with spicy peppers. [2sp-5sp]
+Rain Water | Collected from a storm. Tastes electric. [1cp-2cp]
+Rainbow Rum | Layered colorful cocktail. A spectrum of flavors. [5gp-10gp]
+Rat Poison | Strong cheap whisky. "Good enough to kill lightweights." [5sp-1gp]
+Red Dragon Ale | Spicy red ale. Smells of smoke and fire. [5gp-15gp]
+Red Eye | Ale with tomato juice. Hair of the dog breakfast. [1sp-3sp]
+Red River | Red wine blend. Flows smooth and deep. [2sp-5sp]
+River Water | Just river water. Hopefully boiled (probably not). [0cp]
+Rock Bottom | The cheapest drink on the menu. Regret included. [1sp-3sp]
+Rock Gnome Ale | Served in a stone cup. Earthy and strong. [2sp-5sp]
+Root Beer | Sassafras soft drink. Bubbly and sweet. [1sp-3sp]
+Rose Water | Perfumed water. Tastes like a garden. [1gp-3gp]
+Rot Gut | Causes fortitude saves. burns all the way down. [1cp-2cp]
+Royal Blood | Premium red wine. Deep crimson, almost black. [50gp-100gp]
+Royal Flush | 5 liquors mixed. A gamble for your liver. [20gp-50gp]
+Ruby Red | Grapefruit juice and vodka. Tart and jeweled color. [5gp-10gp]
+Rusty Nail | Scotch and Drambuie. A classic old man's drink. [1gp-3gp]
+Sage Tea | Herbal wisdom tea. Makes you feel smarter (briefly). [1sp-3sp]
+Sailor's Delight | "Red sky at night..." Berry rum punch. [2gp-5gp]
+Sailor's Ruin | "Red sky in morning..." Stormy, dark brew. [2gp-5gp]
+Salt Water (Purified) | Desalinated water. Still vaguely salty. [1cp-2cp]
+Sand Storm | Gritty texture cocktail. Rum, sugar, and... spices? [2gp-5gp]
+Savage Spirit | Raw grain alcohol. Untamed and harsh. [2gp-5gp]
+Scarlet Fever | Bright red spicy drink. Raises body temperature. [5gp-10gp]
+Scorpion Sting | Tequila with a preserved scorpion. Eat the bug! [5gp-10gp]
+Sea Foam | Salty cappuccino with meringue foam. [1gp-3gp]
+Sea Serpent | Long curled straw. Green and mysterious liquid. [5gp-10gp]
+Secret Sauce | Thousand island dressing? No, a proprietary ale blend. [2gp-5gp]
+Serpent's Bite | Cider and lager mix. Sudden aftertaste. [5gp-10gp]
+Seven Seas | Blend of 7 rums from 7 different ports. [5gp-15gp]
+Shadow Ale | Drinking in the dark. Consumes light sources near it. [2sp-5sp]
+Shadow Walk | Makes you feel insubstantial and drifty. [10gp-25gp]
+Shaman's Brew | Ayahuasca style tea (mild). Visions of animals may occur. [2gp-5gp]
+Shark Bite | Grenadine "blood" in blue curacao water. [3gp-6gp]
+Shield Wall | A fortifying heavy stout. Feels like armor in your belly. [2sp-5sp]
+Shining Star | Lemon garnish cut like a star. Bright citrus vodka. [5gp-10gp]
+Shipwreck | Messy mix of everything left at the bar. [2gp-5gp]
+Silent Night | So strong it silences the room (by passing everyone out). [5gp-10gp]
+Silver Lining | Cloudberry liqueur with a silver shimmer. [5gp-10gp]
+Silver Moon | White tea harvested at night. Delicate. [10gp-20gp]
+Silver Tongue | Honey and lemon. +1 to Charisma checks for 10 minutes. [10gp-25gp]
+Siren's Call | You can't resist ordering another... and another. [5gp-15gp]
+Skeleton Key | Opens any... thirst? Strong, clear spirit. [2gp-5gp]
+Skull Crusher | A massive mug of ale. Heavy enough to be a weapon. [1gp-3gp]
+Sky High | Blue aviation cocktail. Tastes of violets and air. [5gp-10gp]
+Sleeping Draft | Warm milk and valerian. Goodnight. [5gp-10gp]
+Slime Slurp | Green jelly drink. Requires suction to consume. [1cp-3cp]
+Smoke Signal | Smoky mezcal. You breathe smoke rings afterwards. [2gp-5gp]
+Smoked Porter | Peat smoked beer. Liquid campfire. [3sp-6sp]
+Snake Bite | Lager and cider. A common tavern mix. [2gp-5gp]
+Snake Oil | Cures everything! (Actually cures nothing, just vodka). [1gp-5gp]
+Snow Melt | Fresh water from mountain peaks. [1sp-3sp]
+Solar Flare | Bright orange citrus. Blindingly sour. [10gp-25gp]
+Sorcerer's Stone | A jawbreaker in the glass that changes flavor. [100gp]
+Soul Stealer | Absinthe and vodka. You wake up feeling empty. [50gp-100gp]
+Sour Grape | Unripe wine. Makes your face pucker. [1sp-3sp]
+Sparkling Water | Bubbles! Fancy expensive water. [5sp-1gp]
+Specter Spirit | See-through white whisky. Haunting aroma. [5gp-10gp]
+Spice Trade | Cinnamon, cardamom, cloves. Exotic and warming. [5gp-10gp]
+Spider Bite | Two prick marks on the garnish. Numbing sensation. [2gp-5gp]
+Spider Venom | Black vodka. Thick and syrupy. [10gp-25gp]
+Spirit of the Wolf | Vodka made from potatoes in the tundra. [5gp-10gp]
+Spit Fire | Spiced rum shot. Lit on fire before serving. [2gp-5gp]
+Spring Water | Fresh from the source. [1cp-2cp]
+Starlight | Glittery yellow lemonade. Tastes like sparklers. [10gp-25gp]
+Steaming Stout | Served hot. Thick like porridge. [2sp-5sp]
+Stone Cold | Chilled on stones. Ale served at near freezing. [1sp-3sp]
+Stone Giant's Stomp | Heavy gravity beer. Hard to stand up after one. [5gp-10gp]
+Storm Brew | Dark and cloudy. Lightning arcs in the foam. [2gp-5gp]
+Storm Cloud | Grey cotton candy garnish dissolves into rain. [2gp-5gp]
+Storm Giant's Thunder | Loud popping candy rim. Explosive flavor. [10gp-25gp]
+Strawberry Wine | Summer favorite. Sweet and nostalgic. [4sp-8sp]
+Strong Arm | Arm wrestling enhancer? Spinach based ale. [2sp-5sp]
+Summer Ale | Citrus hops. Light and zesty. [2sp-5sp]
+Sun Burst | Orange and tequila. Like staring into the sun. [2sp-5sp]
+Sun Kissed | Limoncello. Sweet Italian sunshine. [2gp-5gp]
+Sun Rise | Tequila sunrise. Layers of red and orange. [2sp-5sp]
+Sun Set | Darker rum cocktail. The end of a long day. [2sp-5sp]
+Swamp Gas | Farty smell, good taste. Don't light a match near it. [1cp-3cp]
+Swamp Water | Algae water. Green, murky, and lukewarm. [0cp]
+Sweet Dreams | Nighttime tea. Chamomile and lavender. [5gp-10gp]
+Sweet Nectar | Pure sugar syrup. Instant cavity. [1gp-3gp]
+Swordfish Ale | Sharp taste. Fin-shaped garnish. [2sp-5sp]
+Sylvan Spring | Forest water. Tastes of pine and earth. [5gp-10gp]
+Tears of a Clown | Sad taste. Salted caramel vodka. [1gp-3gp]
+Tempest Tea | Stormy grey tea. Earl Grey with a kick. [2gp-5gp]
+The Black Death | Licorice spirit. Paints your tongue black. [20gp-50gp]
+The Green Death | Absinthe 80%. Illegal in three kingdoms. [20gp-50gp]
+The Red Death | Chili vodka. So spicy you'll cry blood (figuratively). [20gp-50gp]
+Thieves' Tools | A lockpick in the glass (don't swallow it). [2gp-5gp]
+Thorn Berry Wine | Sharp tartness. Scratches the throat pleasantly. [3sp-6sp]
+Thunder Bolt | Energy drink. Blue and vibrating. [2sp-5sp]
+Thunder Clap | Loud noise when opened. Startles the tavern. [2sp-5sp]
+Thunder Mug | Large tankard. Holds 3 pints. [2sp-5sp]
+Tiger's Blood | Strawberry and coconut. Red and white stripes. [5gp-10gp]
+Time Warp | You lose an hour of memory. Or maybe you just slept? [50gp-100gp]
+Toad Stool Tea | Mushroom tea. Slightly hallucinogenic. [1cp-5cp]
+Troll Blood | Regenerating foam? No, just keeps foaming forever. [10gp-25gp]
+Troll Spit | Green slime. Coats the stomach. [1cp-3cp]
+Tropical Storm | Rum punch. fruity but deadly strong. [2gp-5gp]
+True Love's Kiss | A romantic cocktail. Served with chocolate. [50gp-100gp]
+Twilight Tea | Purple tea. Changes color with lemon. [1gp-3gp]
+Twisted Tree | Root beer with a kick. A gnarled root garnish. [2sp-5sp]
+Unicorn Blood | Silver and accursed. Drinking this feels morally wrong. [500gp]
+Unicorn Tears | Rainbow colored. Restores vitality and hope. [500gp]
+Vampire's Kiss | Red wine and cola. Gothic cocktail. [20gp-50gp]
+Velvet Hammer | Smooth but strong. Hits you when you stand up. [2gp-5gp]
+Venomous Vial | Green shot. Served in a test tube. [10gp-25gp]
+Viper's Venom | Snake wine. High potency. [10gp-25gp]
+Void Walker | Black as night. You feel detached from reality. [50gp-100gp]
+Volcano | Flaming tiki drink. Erupts with cinnamon sparks. [5gp-10gp]
+Wanderer's Water | Canteen water. Tastes like warm leather. [1cp-2cp]
+War Cry | Encourages shouting. A barbaric yawp in a glass. [2sp-5sp]
+War Hammer | A heavy stout. Feels like a dull thud. [2sp-5sp]
+Warlock's Whisper | Eldritch fizz. Bubbles whisper secrets. [10gp-25gp]
+Warm Heart | Cinnamon schnapps. Warms the coldest dispositions. [2sp-5sp]
+Warrior's Rest | Protein beer. Thick and filling. [2sp-5sp]
+Wasp Sting | Honey and pepper. Sweet then sharp. [1gp-3gp]
+Water of Life | Whisky (Aqua Vitae). Pure distilled spirit. [50gp-100gp]
+Weeping Widow | Black lace garnish. Mournful taste of gin and ash. [5gp-10gp]
+Werewolf's Bite | Hair of the dog. Cure for lycanthopy? Unlikely. [10gp-25gp]
+Whispering Wind | Airy foam. Dissolves on the tongue. [2gp-5gp]
+White Dragon | Cold milk cocktail with peppermint. [10gp-25gp]
+White Knight | Creamy liqueur. Saves you from sobriety. [5gp-10gp]
+White Lightning | Moonshine. Blinding white clarity (and pain). [1sp-3sp]
+White Widow | Pale ale. Light and ghostly. [5gp-10gp]
+Wild Berry Wine | Foraged berries. A taste of the untamed forest. [2sp-5sp]
+Wild Fire | Cinnamon whisky. Spreads like wildfire in the belly. [5gp-10gp]
+Wild Hunt | Gamey flavor. Makes you want to run. [10gp-20gp]
+Wild Magic | Changes color every sip. Unpredictable effects. [15gp-30gp]
+Willow Weep | A sad gin. Tastes of willow bark and tears. [2gp-5gp]
+Wind Walker | Air elemental infused. Makes you burp gusts of wind. [5gp-10gp]
+Winter Ale | Spiced holiday ale. Gingerbread in a glass. [2sp-5sp]
+Winter Chill | Ice cold. Brain freeze imminent. [2sp-5sp]
+Winter's Breath | Minty fresh. Cools the lungs. [5gp-10gp]
+Witch's Brew | Cauldron mixed. A pinch of newt? Hopefully not. [2gp-5gp]
+Wolf's Blood | Red ale. Ferocious flavor. [2gp-5gp]
+Wolfsbane | Herbal liqueur. Protection from werewolves (folk remedy). [5gp-10gp]
+Wonder Water | Magical hydration. One sip equals a gallon of water. [10gp-25gp]
+Wood Elf Wine | Oak aged. Earthy and refined. [5gp-15gp]
+Wraith's Breath | Cold smoke. You exhale visible breath. [10gp-20gp]
+Wyvern's Sting | Acidic lime and poison. Tingles the lips. [10gp-20gp]
+Yellow Snow | Lemon slurry. Don't eat the real yellow snow. [0cp]
+Zombie Juice | Brain juice (peach schnapps). Curdles slightly. [1cp-3cp]

@@ -1,428 +1,564 @@
 List:
-Acorn Soup
-Aged Cheese Platter
-Apple Pie
-Bacon and Eggs
-Baked Apple
-Baked Beans
-Baked Potato
-Baked Salmon
-Barley Stew
-Basilisk Steak
-Bear Claws (Pastry)
-Bear Paw Stew
-Bear Steak
-Beef Jerky
-Beef Stew
-Beer Battered Fish
-Berry Cobbler
-Berry Tart
-Biscuit and Gravy
-Black Bread
-Black Pudding
-Blackberry Pie
-Blood Sausage
-Blueberry Muffin
-Boiled Cabbage
-Boiled Egg
-Boiled Potato
-Bone Marrow
-Borscht
-Braised Beef
-Braised Lamb
-Bread Pudding
-Breakfast Burrito (Fantasy Style)
-Brisket
-Broccol and Cheese
-Broth
-Brown Bread
-Buffalo Wings (Wyvern Wings)
-Bunny Chow
-Butter Bread
-Cabbage Soup
-Candied Apple
-Candied Nuts
-Candied Yam
-Carrot Cake
-Carrot Soup
-Catfish Delight
-Cauldron Cakes
-Cave Mushroom Stew
-Cheese Fondue
-Cheese Wheel
-Chicken Breast
-Chicken Curry
-Chicken Leg
-Chicken Noodle Soup
-Chicken Pie
-Chicken Wings
-Chili
-Chocolate Cake
-Chocolate Chip Cookie
-Cinnamon Roll
-Clam Chowder
-Cockatrice Egg
-Cold Cuts
-Corn Bread
-Corn on the Cob
-Cornish Pasty
-Crab Cakes
-Crab Legs
-Crayfish Boil
-Cream of Mushroom
-Crispy Bacon
-Crispy Duck
-Crocodile Steak
-Cucumber Sandwich
-Curried Goat
-Dark Chocolate
-Demon Wings (Spicy)
-Deviled Eggs
-Dire Wolf Steak
-Dragon Egg Omelet
-Dragon Steak
-Dried Fruit
-Dried Meat
-Duck Confit
-Dumplings
-Dwarf Bread (Stone Hard)
-Eel Pie
-Egg Salad
-Elk Steak
-Elven Bread (Lembas style)
-Elven Salad
-Exotic Fruit Salad
-Eye of Newt Soup
-Fae Cakes
-Falcon Pie
-Farmer's Breakfast
-Feast of Legends
-Figgy Pudding
-Fire Roasted Corn
-Fish and Chips
-Fish Stew
-Fish Tacos (Fantasy Style)
-Flank Steak
-Forest Berry Pie
-Forest Mushroom Risotto
-Fried Chicken
-Fried Dough
-Fried Egg
-Fried Fish
-Fried Green Tomatoes
-Fried Mushrooms
-Fried Onion Rings
-Fried Pickles
-Fried Rice
-Fried Spider Legs
-Frog Legs
-Fruit Bowl
-Fruit Cake
-Fruit Tart
-Game Hen
-Game Pie
-Garlic Bread
-Garlic Mashed Potatoes
-Giant Clam
-Giant Crab Leg
-Giant Mushroom Steak
-Gingerbread Man
-Glazed Carrots
-Glazed Ham
-Goat Cheese Salad
-Goat Stew
-Goblin Goulash
-Goose Roast
-Gorgon Steak
-Goulash
-Grain Porridge
-Grape Leaves
-Gravy Boat
-Green Bean Casserole
-Green Salad
-Grilled Asparagus
-Grilled Cheese
-Grilled Chicken
-Grilled Corn
-Grilled Fish
-Grilled Salmon
-Grilled Shrimp
-Grilled Vegetables
-Grits
-Gruel
-Haggis
-Ham and Cheese Sandwich
-Ham Hock
-Hard Tack
-Hard Boiled Egg
-Hash Browns
-Hawk Wings
-Hazelnut Soup
-Hearty Stew
-Hedgehog Pie
-Herb Crusted Chicken
-Herbal Soup
-Herring
-Honey Cake
-Honey Glazed Carrots
-Honey Glazed Ham
-Honey Nut Bread
-Honey Roasted Peanuts
-Hot Dog (Fantasy Sausage)
-Hot Pot
-Hot Wings
-Hydra Head Stew
-Ice Cream (Magic)
-Imperial Feast
-Iron Ration
-Jelly Bean
-Jerky
-Kale Salad
-Kebab
-Kidney Pie
-King Crab
-King's Feast
-Knuckle Sandwich
-Kobold Kebab
-Lamb Chop
-Lamb Shank
-Lamb Stew
-Lasagna (Fantasy Style)
-Lavender Bread
-Leek Soup
-Lemon Cake
-Lemon Tart
-Lentil Soup
-Lobster Bisque
-Lobster Tail
-Lollipop
-Long Pig (Beware)
-Lotus Root Salad
-Mage's Muffin
-Mammoth Steak
-Mango Salsa
-Maple Syrup Pancakes
-Marrow Bone
-Mashed Potatoes
-Mashed Turnips
-Meat Loaf
-Meat Pie
-Meat Skewer
-Meatball Sub
-Meatballs
-Melon Slice
-Minotaur Steak
-Mint Jelly
-Mixed Grill
-Mixed Nuts
-Moon Cake
-Moose Steak
-Moss Salad (Dwarf favorite)
-Muffin
-Mushroom Omelet
-Mushroom Pie
-Mushroom Soup
-Mussel Pot
-Mutton Chop
-Mutton Stew
-Nachos (Fantasy Chips)
-Noodle Bowl
-Nut Loaf
-Oatmeal
-Oatmeal Cookie
-Octopus Salad
-Ogre Steak
-Onion Rings
-Onion Soup
-Oxtail soup
-Oyster Platter
-Pancake Stack
-Partridge
-Pasta Primavera
-Pasty
-Pea Soup
-Peach Cobbler
-Peanut Butter
-Pear Salad
-Pecan Pie
-Pepper Steak
-Pheasant
-Pickled Egg
-Pickled Fish
-Pickled Herring
-Pickled Onion
-Pig Roast
-Pigeon Pie
-Pineapple Upside Down Cake
-Pizza (Fantasy Flatbread)
-Plum Pudding
-Poached Egg
-Poached Pear
-Poached Salmon
-Popcorn
-Pork Belly
-Pork Chop
-Pork Pie
-Pork Ribs
-Pork Roast
-Pork Sausage
-Porridge
-Pot Pie
-Pot Roast
-Potato Casserole
-Potato Leek Soup
-Potato Salad
-Potato Skins
-Potato Soup
-Prawn Cocktail
-Pretzel
-Prime Rib
-Pumpkin Pie
-Pumpkin Soup
-Quail
-Rabbit Pie
-Rabbit Stew
-Rack of Lamb
-Rainbow Trout
-Rat on a Stick
-Rat Stew
-Ration Pack
-Raw Oysters
-Red Bean Soup
-Red Dragon Steak
-Ribeye Steak
-Rice Ball
-Rice Pudding
-Roast Beef
-Roast Boar
-Roast Chicken
-Roast Duck
-Roast Goose
-Roast Lamb
-Roast Pig
-Roast Pork
-Roast Turkey
-Roasted Garlic
-Roasted Nuts
-Roasted Potatoes
-Roasted Vegetables
-Rock Candy
-Root Vegetable Stew
-Rum Cake
-Rye Bread
-Salad
-Salmon Fillet
-Salted Pork
-Sandwich
-Sausage and Mash
-Sausage Roll
-Scallops
-Scone
-Scrambled Eggs
-Sea Weed Salad
-Seafood Chowder
-Seafood Paella
-Seafood Platter
-Seared Scallops
-Seared Tuna
-Shepherd's Pie
-Short Ribs
-Shrimp Cocktail
-Shrimp Scampi
-Slime Jelly
-Smoked Fish
-Smoked Ham
-Smoked Salmon
-Smoked Sausage
-Snail
-Snake Steak
-Soft Boiled Egg
-Sorbet
-Soup of the Day
-Sour Dough Bread
-Spaghetti (Noodles)
-Spare Ribs
-Spiced Nuts
-Spider Leg
-Spinach Dip
-Spinach Pie
-Spinach Salad
-Squab
-Squid Rings
-Squirrel Stew
-Steak and Kidney Pie
-Steak and Potatoes
-Steak Tartare
-Steamed Clams
-Steamed Mussels
-Steamed Rice
-Steamed Vegetables
-Stewed Fruit
-Stewed Prunes
-Stewed Rabbit
-Stewed Tomatoes
-Sticky Bun
-Sticky Rice
-Sticky Toffee Pudding
-Stir Fry
-Strawberry Shortcake
-Stuffed Cabbage
-Stuffed Chicken
-Stuffed Mushroom
-Stuffed Pepper
-Stuffing
-Sucking Pig
-Sugar Cookie
-Summer Salad
-Sushi (Raw Fish)
-Sweet Corn
-Sweet Potato Fries
-Sweet Potato Pie
-Sweet Roll
-Swordfish Steak
-Taco (Flatbread Fold)
-Tavern Steak
-Tea Sandwich
-Three Bean Salad
-Toad in the Hole
-Toast
-Toasted Cheese
-Tomato Soup
-Tortilla (Flatbread)
-Trail Mix
-Trifle
-Troll Steak
-Trout
-Truffle
-Tuna Salad
-Turkey Leg
-Turnip Stew
-Turtle Soup
-Vegetable Curry
-Vegetable Lasagna
-Vegetable Pie
-Vegetable Soup
-Vegetable Stew
-Venison Burger
-Venison Jerky
-Venison Sausage
-Venison Steak
-Venison Stew
-Waffle
-Walnut Bread
-Watermelon Slice
-Wedding Cake
-Wheat Bread
-White Bread
-Whole Hog
-Wild Boar
-Wild Rice
-Wolf Steak
-Wonton Soup
-Wyvern Steak
-Yak Steak
-Yam Fries
-Yogurt
-Yorkshire Pudding
-Zucchini Bread
-Zucchini Fritters
+Absalom Clam Chowder | A rich, creamy soup filled with chunks of clam and potato, seasoned with rare spices from the city at the center of the world. [5sp-1gp]
+Abadaran Coin-Cookies | Golden, coin-shaped shortbread cookies stamped with the key of Abadar. A favorite of merchants. [2sp-4sp]
+Aboleth Slime-Jelly | A translucent, quivering delicacy (?). Tastes faintly of salt and ancient memories. [15gp-30gp]
+Acorn Soup | A thick, earthy soup made from crushed acorns. A staple of druids and the very poor. [2cp-5cp]
+Aged Goat Cheese | Crumbly, sharp cheese aged in mountain caves. Pungent and delicious. [5sp-1gp]
+Aldori Dueling Tarts | Sharp lemon tarts that make your lips pucker. A popular pre-duel snack in Brevoy. [5sp-1gp]
+Alkenstar Gunpowder-Spice Steak | Steak rub that tastes of charcoal and pepper. Explosively spicy. [2gp-5gp]
+Almond Brittle | Crunchy caramelized sugar with roasted almonds. Sticks to your teeth. [2sp-5sp]
+Andoren Apple Pie | A symbol of freedom and domesticity. Served warm with cream. [2sp-5sp]
+Anadi Web-Candy | Spun sugar that looks like spider silk. Dissolves instantly on the tongue. [1sp-3sp]
+Ancient Osiriani Honey-Bread | Sweet bread made from a recipe found in a tomb. Lasts forever without molding. [5sp-1gp]
+Angel Wing Cake | Light, fluffy sponge cake that seems to float on the plate. [2gp-5gp]
+Apple Cider Beef Stew | Beef stew slow-cooked in hard cider. Sweet, savory, and tender. [5sp-1gp]
+Apple Fritters | Fried dough rings filled with apple chunks. Greasy and satifying. [2sp-5sp]
+Arcadia Corn-Cakes | Flat cakes made of maize flour. Served with spicy salsa. [2cp-5cp]
+Artichoke Hearts | Pickled in vinegar and oil. A tangy appetizer. [5sp-1gp]
+Ash-Baked Potatoes | Potatoes thrown directly into the campfire coals. Skins are black, insides are soft. [2cp-5cp]
+Asparagus with Hollandaise | Steamed asparagus smothered in rich, buttery sauce. [1gp-2gp]
+Asmodean Red-Hot Chili | So spicy it feels like a contract with the devil. [1gp-3gp]
+Azarketi Seaweed Salad | Fresh kelp harvested from the ocean floor. Salty and crunchy. [2sp-5sp]
+Azata Starlight-Soufflé | A dessert that glows faintly. Tastes of whimsical berries. [10gp-25gp]
+Bacon and Cabbage Fry-Up | Simple, hearty breakfast. A lot of grease, a lot of flavor. [3sp-6sp]
+Bacon Wrapped Dates | Sweet dates wrapped in crispy bacon. A perfect mix of sweet and savory. [5sp-1gp]
+Baked Apples with Cinnamon | Whole apples cored and stuffed with sugar and spice. [1sp-3sp]
+Baked Brie with Honey | A wheel of melted cheese served with crackers. [2gp-5gp]
+Baked Salmon with Herbs | Whole salmon fillet seasoned with dill and lemon. [1gp-3gp]
+Barghest Bone-Marrow | Roasted bones split open. A goblin "delicacy". [5sp-1gp]
+Barley and Vegetable Stew | Thick, inoffensive, and filling. The definition of "innkeeper's special". [2cp-5cp]
+Basilisk Stone-Steak | Incredibly tough meat. You might break a tooth, but it's very mineral-rich. [1gp-3gp]
+Bean and Ham Soup | Smoky soup thick with white beans. A winter comfort. [3sp-6sp]
+Bear Flank | Roasted bear meat, seasoned with pine needles. Gamey, dark, and greasy. [2gp-5gp]
+Beckett's Special Stew | Named after a famous beggar. Contains... whatever was found today. [2cp-5cp]
+Beef and Ale Pie | A tavern class. Savory gravy and chunks of beef inside a flaky crust. [5sp-1gp]
+Beef Brisket | Smoked for 12 hours. Falls apart at the touch of a fork. [1gp-3gp]
+Beef Jerky | Strips of dried, spiced meat. Chewy and lasts for months in a pack. [3sp-6sp]
+Beef Wellington | Filet mignon wrapped in pastry. Extremely fancy and difficult to make. [5gp-10gp]
+Beetroot Salad | Roasted beets with goat cheese. Stains your mouth red. [2sp-5sp]
+Belkzen Boar Ribs | Huge rack of ribs slathered in spicy brown sauce. Messy. [5sp-1gp]
+Berry Cobbler | Warm fruit filling with a biscuit topping. Served with cream. [3sp-6sp]
+Blackberry Jam | A jar of homemade preserve. Heavy on the seeds. [2sp-5sp]
+Blood Sausage and Eggs | Dark, metallic tasting sausage served with fried eggs. [4sp-8sp]
+Boar Roast with Apples | Whole roasted boar centerpiece. Crackling skin. [2gp-5gp]
+Boiled Crayfish | Bright red crayfish served in a bucket. Peel them yourself. [5sp-1gp]
+Boiled Eggs | Pickled in vinegar. A sour bar snack stored in huge jars. [1sp-3sp]
+Boggard Fly-Pie | Crust filled with insects. Crunchy. Only suitable for boggards (or darings). [2cp-5cp]
+Bone Broth | Nutrient rich broth made by boiling bones for days. Medicinal taste. [5cp-2sp]
+Braised Lamb Shanks | Meat so tender it falls off the bone. Rich red wine sauce. [2gp-5gp]
+Braised Oxtail | Gelatinous and rich. Served with mashed roots to soak up the sauce. [1gp-3gp]
+Braised Rabbit | Cooked slowly with carrots and onions. A rural staple. [8sp-2gp]
+Bread Pudding | Leftover stale bread soaked in custard and baked. Sweet and heavy. [3sp-6sp]
+Breverian Smoked Trout | Cold smoked fish. Salty and firm. Served with horseradish. [1gp-2gp]
+Broccoli and Stilton Soup | Creamy green soup with pungent blue cheese. [4sp-8sp]
+Brown Bread with Butter | Dense, dark rye bread. Sustaining but heavy. [5cp-1sp]
+Buffalo Wings | Chicken wings tossed in spicy red sauce. Served with blue cheese dip. [5sp-1gp]
+Bunyip Blubber Stew | Extremely fatty soup. "Keeps you warm in freezing water" they say. [2sp-5sp]
+Buttered Corn on the Cob | Sweet corn dripped in butter. Messy to eat. [2cp-5cp]
+Buttered Toast | Simple slices of white bread, toasted over a fire. [2cp-5cp]
+Cabbage Rolls | Cabbage leaves stuffed with minced pork and rice. Boiled in tomato sauce. [4sp-8sp]
+Calistrian Wasp-Honey Cakes | Sweet cakes with a spicy, stinging aftertaste. Exciting. [2gp-5gp]
+Candied Orange Peels | Strips of rind boiled in sugar syrup. Chewy and sweet. [2sp-5sp]
+Caramelized Onion Tart | Sweet onions in a savory pastry shell. [5sp-1gp]
+Carrot and Ginger Soup | Bright orange soup with a spicy kick. Clears the sinuses. [2sp-5sp]
+Catfolk Jungle-Skewers | Grilled meat and tropical fruit on a stick. Glazed with honey. [5sp-1gp]
+Cauliflower Cheese | Cauliflower baked in a thick cheese sauce. Comfort food. [5sp-1gp]
+Cave Fisher Claw Meat | Extracted from the crab-like claws. Taste like lobster but stonier. [3gp-8gp]
+Cayden's Hangover Cure | Greasy fried egg sandwich with extra bacon. Miracle worker. [2sp-5sp]
+Centaur Herb-Salad | A massive bowl of wild greens and flowers. Crunchy and fresh. [5sp-1gp]
+Cheese Fondue | A pot of melted cheese and wine. Dip your bread/friends in it. [2gp-5gp]
+Cheese Platter | A selection of local cheeses, from mild to nose-hair-curling. [1gp-3gp]
+Chelish Devil-Sauce Wings | Wings so hot they are actually painful. A test of constitution. [1gp-3gp]
+Chelish Hellfire Peppers | Small red peppers stuffed with cheese. Deceptively mild at first. [5sp-1gp]
+Cherry Pie | Tart cherries in a lattice crust. Stains the plate (and shirt) red. [4sp-8sp]
+Chicken and Dumplings | Comfort food in a bowl. Dough balls in thick gravy. [5sp-1gp]
+Chicken Curry | Spicy, yellow curry with chunks of tender chicken. Aromatic. [8sp-2gp]
+Chicken Liver Pâté | Smooth, rich spread served with toast points. [5sp-1gp]
+Chicken Noodle Soup | Clear broth with noodles. Cures the common cold (?) [3sp-6sp]
+Chicken Pot Pie | Personal pie with creamy filling and vegetables. [5sp-1gp]
+Chicken Tikka Skewers | Yogurt marinated chicken cooked in a clay oven. Charred edges. [8sp-2gp]
+Choker Tentacle Stew | Chewy rubbery meat. Tastes of dungeon dampness. [1gp-2gp]
+Chocolate Truffles | Rich ganache balls dusted with cocoa. [1gp-3gp]
+Chuul Claw Chowder | Thick soup made from aberration meat. A metallic aftertaste. [5gp-10gp]
+Cinnamon Rolls | Spirals of dough with cinnamon sugar and icing. Served warm. [2sp-5sp]
+Clam Chowder | Cream based soup. White, thick, and full of sea flavor. [6sp-12sp]
+Clockwork Roast | Perfectly geometric slices of roast. Precision cooking from Alkenstar. [1sp-3sp]
+Cloud Giant's Bread | A slice of bread the size of a mattress. Very airy and bland. [2sp-5sp]
+Cockatrice Egg Omelet | Richer than chicken eggs. May cause slight stiffening of joints. [5gp-10gp]
+Cold Iron Rations | Tasteless, hard blocks of nutrition. Designed not to spoil, ever. [2sp-5sp]
+Conrasu Wood-Chips | Bark-like snacks. Only digestible by Conrasu or termites. [1cp]
+Cornish Pasty | Meat and potatoes wrapped in a crimped pastry D-shape. Portable lunch. [3sp-6sp]
+Crab Cakes | Patties of crab meat and breadcrumbs, fried golden. [8sp-2gp]
+Cream of Mushroom Soup | Grey-brown soup. Earthy flavor. [4sp-8sp]
+Crispy Duck with Pancakes | Shredded duck served with plum sauce and thin pancakes. [2gp-5gp]
+Crispy Pork Belly | Layers of fat and meat with a crackling skin. [1gp-3gp]
+Cucumber Sandwiches | Crustless white bread with thin cucumber. Very polite. [2sp-5sp]
+Curried Goat | Goat meat stewed until tender in strong spices. [1gp-3gp]
+Darklands Mushroom Steaks | Giant mushroom caps grilled like steaks. Glow faintly blue. [2gp-5gp]
+Deep Gnome Gem-Pastries | Rock-hard pastries shaped like gems. Filled with crystal sugar. [2sp-5sp]
+Deer Venison Burger | Lean meat patty on a bun. [6sp-12sp]
+Derro Fungus-Gruel | White, pasty, and hallucinogenic if eaten in large quantities. [1cp-2cp]
+Desert Cactus Steaks | Grilled prickly pear pads. Slimy texture like okra. [5sp-1gp]
+Desnan Star-Cookies | Sugar cookies shaped like butterflies and stars. [1sp-3sp]
+Devil's Food Cake | Rich, dark chocolate cake. Sinfully good. [2gp-5gp]
+Deviled Eggs | Hard boiled eggs filled with a spiced yolk paste. [2sp-5sp]
+Dhampir Blood-Pudding | Black pudding made with extra... iron. Appeals to pale customers. [1gp-2gp]
+Dinosaur Steaks | Massive steak from a thunder lizard. Feeds a family of four. [5gp-15gp]
+Dire Wolf Ribs | A single rib is the size of your forearm. Good doggy bag item. [2gp-5gp]
+Druma Profit-Pudding | Rice pudding with gold leaf. Tastes like compound interest. [5gp-10gp]
+Draconic Breath Chili | Made with peppers grown in dragon soil. Each bite burns differently. [5gp-15gp]
+Drake Tail Steaks | Tough, fibrous meat. Needs lots of marinade. [2gp-5gp]
+Dried Apricots | Chewy orange fruit. Good for the trail. [2sp-5sp]
+Dried Figs | Sweet and sticky. Full of seeds. [2sp-5sp]
+Dried Fish Strips | Salty, leathery fish jerky. Requires good teeth. [5cp-2sp]
+Drowner's Dumplings | Soggy dumplings served in briny water. A Sodden Lands favorite. [2cp-5cp]
+Dryad's Fruit Platter | Fresh fruit arranged beautifully. No knife used, only torn. [2gp-5gp]
+Duck Confit | Duck leg slow cooked in its own fat. Rich and tender. [3gp-8gp]
+Duck Terrine | Pressed duck meat loaf. Served cold with pickles. [1gp-3gp]
+Duergar Grey-Porridge | As depressing as it sounds. Sustaining but joyless. [1cp-2cp]
+Dwarf Bread | Rock hard. Can be used as a weapon in an emergency. [2cp-5cp]
+Dwarven Ale-Stew | Beef stew where the broth is 100% stout. [5sp-1gp]
+Dwarven Rock-Cakes | Scones with currants. Dense enough to sink in water. [1cp-3cp]
+Eagle Knight Rations | Efficient, lightweight, and patriotic. [5sp]
+Eel and Jelly Pie | Eels baked in a savory jelly. A Vidrian classic. [5sp-1gp]
+Egg Salad Sandwich | Chopped eggs and mayonnaise. Smells sulfury. [2sp-4sp]
+Elementals (Fire) Peppers | Peppers that are legally considered elementals. They fight back. [2gp-5gp]
+Elf Bread | Light, airy bread that fills the stomach with one bite. [1gp-3gp]
+Elk Venison | Lean, dark red meat. Served with berry sauce. [1gp-3gp]
+Erratic Time-Tart | A tart that tastes like breakfast, lunch, and dinner simultaneously. [5gp-10gp]
+Ethereal Essence Sorbet | Invisible ice cream. You just feel the cold sweetness. [10gp-20gp]
+Ettercap Poison-Sac | Carefully prepared to be non-toxic (mostly). Tingly. [10gp-20gp]
+Eye of Newt Stew | Actually just mustard seeds (usually). Sometimes actual eyes. [2sp-5sp]
+Faerie Dragon Fruit-Tart | Colorful mini tarts. Eating one makes you giggle. [2gp-5gp]
+Farmer's Breakfast | A skillet of eggs, sausage, beans, and potatoes. Fuel for the day. [5sp-1gp]
+Fetchling Shadow-Cake | Dark grey cake. Tastes of licorice and smoke. [2gp-5gp]
+Fey-Touched Berries | Berries that shimmer. Eating them turns your tongue blue for a week. [2gp-5gp]
+Figgy Pudding | Traditional steamed pudding. Heavy and dense. [5sp-1gp]
+Filet Mignon | The tenderest cut of beef. Served with truffle butter. [5gp-10gp]
+Fire Beetle Glands | Roasted glowing glands. Spicy and they light up your throat. [1sp-3sp]
+Fire Giant Chili | Molten hot chili served in an obsidian bowl. Smoke rises from it. [5gp-10gp]
+Fish and Chips | Battered fried fish with thick cut potato fries. Wrapped in newspaper. [5sp-1gp]
+Fish Stew | Creamy white stew with chunks of white fish. [4sp-8sp]
+Fisherman's Pie | Fish baked in white sauce topped with mashed potato. [5sp-1gp]
+Flatbread with Hummus | Warm pita bread with chickpea dip. [2sp-5sp]
+Fleshwarp Mystery Meat | Meat from... something that changed. Texture varies wildly. [1cp-5cp]
+Forest Mushroom Risotto | Creamy rice with wild foraged mushrooms. [1gp-3gp]
+Fresh Baked Bread | A warm, round crusty loaf. Smells of yeast and home. [2cp-5cp]
+Fresh Oysters on Ice | Raw oysters. Slurp them down. Supposedly an aphrodisiac. [2gp-5gp]
+Fried Calamari | Rings of squid, battered and deep fried. Rubber texture. [8sp-2gp]
+Fried Catfish | Cornmeal crusted river fish. Muddy taste. [5sp-1gp]
+Fried Chicken Drumsticks | Breaded and fried legs. Greasy and crispy. [4sp-8sp]
+Fried Dough | Lumps of dough fried in oil and rolled in sugar. Tavern fair food. [2cp-5cp]
+Fried Green Tomatoes | Unripe tomatoes breaded and fried. Tangy. [3sp-6sp]
+Fried Plantains | Sweet banana-like slices fried until caramelized. [2sp-5sp]
+Frog Legs | Tastes like chicken, but with a fishy texture. Garlic butter. [1gp-2gp]
+Fruit Salad | Chopped seasonal fruits in their own juice. [2sp-5sp]
+Frost Worm Ice Cream | Ice cream that stays frozen even in fire. [5gp-15gp]
+Galtan Guillotine-Sliced Ham | Wafer thin slices of ham. A revolutionary cut. [2gp-5gp]
+Garlic Bread | Toasted baguette soaked in garlic butter. Breath killer. [2sp-5sp]
+Garlic Roasted Chicken | Whole chicken stuffed with 40 cloves of garlic. [1gp-3gp]
+Gargoyle Gravel-Gum | A rock that takes hours to chew down. Cleans teeth by abrasion. [1cp]
+Gazpacho | Cold tomato soup. Refreshing on hot days. [3sp-6sp]
+Gebbite Rot-Rations | Meat that has been "aged" to near putrefaction. Only for undead. [0cp]
+Gelatinous Cube Jello | Green lime jello with floating skull candies. [1sp-3sp]
+Genie-Touched Spice-Plate | Food spiced with elemental fire. Warmth spreads through limbs. [5gp-15gp]
+Ghoran Sap-Syrup | Sweet syrup tapped from a plant person (with consent?). [5gp-10gp]
+Ghoul Goulash | Mystery meat stew. Smells terrible. Do not ask for seconds. [0cp]
+Giant Ant Larvae | Roasted white grubs. Pop when you bite them. Creamy center. [1sp-3sp]
+Giant Bee Honey | A chunk of comb the size of a plate. [2gp-5gp]
+Giant Centipede Legs | Fried crispy legs. Like french fries but with too many joints. [5cp-2sp]
+Giant Frilled Lizard Neck | Rubber, fan-shaped meat steak. Tough. [1gp-3gp]
+Giant Frog Legs | Like a turkey drumstick, but amphibian. [1gp-3gp]
+Giant Maggot Stew | Protein rich white stew. Try not to look at it. [1cp-2cp]
+Giant Scorpion Claw | The meat is sweet, similar to lobster. Shell is hard to crack. [5gp-10gp]
+Giant Slug Escargot | A single slug fills the plate. Garlic covers the slime taste. [2gp-5gp]
+Giant Spider Leg | Crack open the hairy shell to get the stringy meat inside. [1gp-3gp]
+Giant Vulture Wings | Stringy, scavenger meat. Heavily spiced to mask the rot flavor. [1gp-3gp]
+Giant Wasp Honey | Spicy honey. The bees were angry. [5gp-15gp]
+Gibbering Mouther Meatballs | The meatballs occasionally mutter. Don't listen. [2gp-5gp]
+Gingerbread Men | Cookies shaped like little men. Run them down before eating. [1sp-3sp]
+Glazed Carrots | Carrots cooked in honey and butter. [2sp-5sp]
+Glazed Ham | Pink ham with a sweet clove-studded glaze. [1gp-3gp]
+Gnome Bleach-Berry Pie | Berries that drain color from your face (temporarily). [2gp-5gp]
+Gnome Clockwork Candy | Hard candy with moving sugar gears inside. [1gp-3gp]
+Goat Cheese Salad | Warm goat cheese on a bed of bitterness. [5sp-1gp]
+Goblin Pickle Surprise | The surprise is usually a toad or a rock in the jar. [1cp-3cp]
+Goblin Slug-Slurp | A live slug in brine. Swallow it whole. [1cp-2cp]
+Golarion Golden Apple | A perfect yellow apple. Crisp, sweet, and flawless. [5gp-10gp]
+Golden Road Curry | A rich, yellow curry with dried fruits and saffron. [2gp-5gp]
+Golem Grease | Black, tar-like substance goblins eat on a dare. [1cp]
+Goose Roast with Prunes | Fatty bird roasted with sweet dried plums. [3gp-8gp]
+Gorgon Beef | The meat is grey and heavy. Digesting it takes a Fortitude save. [5gp-10gp]
+Goulash | Heavy meat and paprika stew. [6sp-12sp]
+Grain Porridge | Oats and water. Survival food. [1cp-2cp]
+Gravelands Zombie-Jerky | Dried meat that twitches. Evil. [0cp]
+Greek Salad | Cucumber, tomato, olives, and feta. No lettuce. [4sp-8sp]
+Green Bean Casserole | Beans in mushroom sauce topped with fried onions. [3sp-6sp]
+Gremlin Greasy-Grub | Fried bugs and machine oil. [1cp-3cp]
+Griffon Drumstick | Massive bird leg. Muscle meat, a bit tough. [5gp-10gp]
+Griffon Egg Omelet | Fluffy and rich. Feeds a party of 5. [8gp-15gp]
+Grilled Asparagus | Charred stalks with oil and salt. [3sp-6sp]
+Grilled Cheese Sandwich | Melted cheese between toasted slices. [2sp-5sp]
+Grilled Corn on the Cob | Charred kernels. [2cp-5cp]
+Grilled Lobster Tail | Split tail meat brushed with butter. [3gp-8gp]
+Grilled Mackerel | Oily fish with crispy skin. [4sp-8sp]
+Grilled Octopus | Tender tentacles with sucker char marks. [1gp-3gp]
+Grilled Peaches | Warm fruit dessert with cream. [3sp-6sp]
+Grilled Pork Chops | Bone-in chop with grill marks. [8sp-2gp]
+Grilled Sardines | Small whole fish. Eat the bones. [3sp-6sp]
+Grilled Trout with Almonds | Freshwater fish with nutty topping. [1gp-2gp]
+Grilled Vegetable Skewers | Peppers, onions, and squash on a stick. [3sp-6sp]
+Grimlock Blind-Fish Stew | Fish from the deep dark. They have no eyes. [2sp-5sp]
+Grippli Fly-Bog Mix | A paste of flies and mosquito larvae. High protein... [5cp-2sp]
+Grot Grubs | Deep fried white grubs. Taste like popcorn. [2cp-5cp]
+Haggis | Sheep stuffing boiled in a stomach. Savory and polarizing. [5sp-1gp]
+Hag's Finger Sausage | Ladyfingers... literally? No, just pork. Hopefully. [2sp-5sp]
+Halfling Herb-Bread | Bread baked with rosemary and thyme. Smells amazing. [5sp-1gp]
+Halfling Second Breakfast | A plate with bacon, eggs, toast, and sausage. [1gp-3gp]
+Ham and Cheese Croissant | Flaky pastry filled with ham and swiss. [4sp-8sp]
+Hard Boiled Eggs | Simple portable protein. [1cp-3cp]
+Hardtack | Biscuit so hard it breaks teeth. Dip in water first. [1cp-2cp]
+Hazelnut Soup | Creamy soup made from roasted nuts. [4sp-8sp]
+Hearty Beef Stew | Thick brown gravy with beef chunks. Sticks to your ribs. [5sp-1gp]
+Hellknight Iron-Rations | Black blocks of food. Tastes like discipline.. and ash. [1gp]
+Herbal Tea Cakes | Little cakes flavored with Earl Grey. [2sp-5sp]
+Herring in Sour Cream | Pickled fish in white sauce. [3sp-6sp]
+Hobgoblin Military Ration | Precise calorie count. Taste immaterial. [1sp-2sp]
+Honey Glazed Parsnips | Sweet root vegetables. [3sp-6sp]
+Honey Roast Ham | Ham with a sweet sticky coating. [1gp-3gp]
+Horse Meat | Sweet, lean red meat. Taboo in some cultures. [5sp-1gp]
+Hot Smoked Salmon | Flaky cooked fish with smoke flavor. [1gp-3gp]
+Hydra Head Roast | Seven glorious roasts in one beast. Keeps growing back on the plate? [20gp-50gp]
+Ice Cream | A scoop of frozen vanilla cream. Requires magic to keep cold. [2gp-5gp]
+Ice Devil Popsicle | Made of unmelting hell-ice. Zero calories, pure cold. [2gp-5gp]
+Iobarian Mammoth Steak | Woolly mammoth meat. Aged in permafrost. [10gp-30gp]
+Irori Fasting-Broth | Clear water with one single herb. Discipline training. [1cp]
+Irrisen Frost-Berries | Frozen berries. If they thaw, they rot instantly. [1sp-5sp]
+Irrisen Ice-Fish | Fish that swims in solid ice. Transparent meat. [2gp-5gp]
+Isger Orphan-Gruel | Watery oatmeal. Sadness in a bowl. [1cp]
+Jalmeray Curry | Spicy, aromatic curry that stains your fingers yellow. [2gp-5gp]
+Jalmeray Spice-Tea Cakes | Cakes infused with cardamom and chai spices. [1gp-3gp]
+Jellied Eels | Cold eels in gelatin. A cheap dockside snack. [3sp-6sp]
+Jungle Drake Tail | Green meat, slightly acidic. [5gp-10gp]
+Kale and Quinoa Salad | Health food. Dry and fibrous. [3sp-6sp]
+Katapesh Cactus-Jelly | Very sweet pink jelly. [2sp-5sp]
+Katapesh Market-Kebab | Spiced meat on a skewer. Mystery animal. [5sp-1gp]
+Kelpie Seaweed-Wrap | Seaweed wrapping a fish filling. Tastes of the deep. [1gp-3gp]
+Kidney Pie | Strong flavored organ meat pie. [5sp-1gp]
+Kitsune Tofu-Treats | Fried tofu squares. [1gp-2gp]
+Knight of Lastwall Bread | Bread stamped with a shield. Stales slowly. [2sp-5sp]
+Kobold Snare-Snacks | Crunchy fried beetles. "Snack trapped fresh!" [1cp-2cp]
+Kobold Trap-Door Tart | A tart with a hidden spicy pepper inside. Surprise! [1sp-3sp]
+Kolo Molo | A large, sweet Mwangi fruit with purple flesh. [1sp-3sp]
+Kraken Calamari | A single calamari ring the size of a steering wheel. [10gp-25gp]
+Krooth Steak | Crocodile-like meat. Fishy and tough. [2gp-5gp]
+Kyonin Moon-Bread | Bread that glows in the dark. Tastes of starlight. [2gp-5gp]
+Lake Encarthan Trout | Fresh lake fish. Pan fried in butter. [5sp-1gp]
+Lamb Chops with Mint Sauce | Grilled chops with sweet green sauce. [1gp-3gp]
+Lamb Korma | Mild, creamy almond curry. [1gp-3gp]
+Lamb Stew with Dumplings | Tender lamb stew topped with dough balls. [8sp-2gp]
+Lamashtu's Monstrous Mix | A stew of various monster parts. Eating it risks mutation. [1cp-5cp]
+Lands of the Linnorm Kings Stew | Whale blubber and root vegetable stew. Heavy. [1gp-3gp]
+Lasagna | Layers of pasta, meat sauce, and cheese. [8sp-2gp]
+Lastwall Hardtack | The hardest biscuit known to man. Used as armor plating? [1cp]
+Leek and Potato Soup | Classic creamy soup. [3sp-6sp]
+Lemon Meringue Pie | Tart lemon curd with fluffy egg white topping. [5sp-1gp]
+Lentil Soup | Thick brown soup. Very filling. [2cp-5cp]
+Leshy Fruit-Salad | Is it cannibalism if a Leshy serves it? Sweet fruit mix. [2sp-5sp]
+Leshy Nutrient-Paste | Soil-like texture. Good for plants, edible for humans. [1cp-3cp]
+Lich Dust | A grey spice made from bone dust (fake, hopefully). Salty. [5sp-2gp]
+Linnorm Tail Steak | Primeval dragon meat. Radiates faint magic. [10gp-30gp]
+Lion Blade Skewers | Meat skewers sharp enough to be weapons. [2gp-5gp]
+Liver and Onions | Iron-rich organ meat fried with onions. Love it or hate it. [4sp-8sp]
+Lizardfolk Swamp-Stew | Turtles, frogs, and snake meat boiled together. [2sp-5sp]
+Lobster Bisque | Rich, velvet-smooth shellfish soup. [2gp-5gp]
+Locathah Fish-Paste | Fermented fish paste. Extremely pungent. [2cp-5cp]
+Magaambya Scholar-Snacks | Seeds and nuts for brain power. [1gp-2gp]
+Mammoth Cheese | Cheese made from mammoth milk. Furry rind? [5gp-10gp]
+Manticore Spike Kebabs | Meat skewered on actual manticore spikes (cleaned). [3gp-6gp]
+Mantis Cult Shrimp | Red shrimp dishes. Symmetrically plated. [2gp-5gp]
+Maple Glazed Bacon | Bacon baked with maple syrup. Sweet and salty. [5sp-1gp]
+Marinated Olives | Olives in oil, garlic and herbs. [2sp-5sp]
+Mashed Potatoes and Gravy | Fluffy spuds with brown sauce. [3sp-6sp]
+Mashed Turnips | Bitter root mash. An acquired taste. [2sp-5sp]
+Meatball Sub-Sandwich | Meatballs and marinara in a long roll. [5sp-1gp]
+Mediogalti Assassin's Feast | A meal so good it's worth dying for. (Check for poison). [10gp-30gp]
+Mendevian Crusader-Meal | Standardized healthy meal. Boring but effective. [5sp-1gp]
+Mephit Steam-Buns | Buns steamed over a mephit. Sulphurous aroma. [5sp-1gp]
+Merfolk Kelp-Salad | Raw seaweed salad. Slimy texture. [1gp-3gp]
+Minotaur Ribeye | A huge steak from a maze-dweller. Very lean. [5gp-15gp]
+Mite Vermin-Stew | Ticks, fleas, and spiders boiled into a broth. [1cp]
+Mixed Fruit Tarts | Small pastries topped with glazed fruit. [3sp-6sp]
+Mixed Grill Platter | Steak, chop, sausage, kidney, and egg. [2gp-5gp]
+Molthune Military-Mash | Uniformly grey potato mash. Fortified with vitamins. [2sp-5sp]
+Mongrelman Mystery Meat | You really don't want to know what this is. [1cp-3cp]
+Moon-Radish Stew | Spicy stew made from kobold-loved radishes. [1gp-2gp]
+Morlock Flesh-Strips | Dried meat from... surface dwellers? [2cp-5cp]
+Moss-Covered Rock | Authentic dwarven cuisine. It's just a rock with moss. "Rich in minerals." [0cp]
+Mushroom Omelet | Eggs folded over sautéed mushrooms. [4sp-8sp]
+Mushroom Risotto | Rice cooked with wine and wild mushrooms. [1gp-3gp]
+Mutton Stew | Stew made from older sheep meat. Strong flavor. [5sp-1gp]
+Mwangi Banana Fritters | Fried sweet bananas dusted with sugar. [5cp-2sp]
+Mwangi Coffee-Cake | Cake flavored with strong coffee. Wakes you up. [2sp-5sp]
+Myconid Shroom-Steak | A sentient mushroom gave itself for this meal. It feels judging. [2gp-5gp]
+Nagaji Snake-Eggs | Large, soft-shelled eggs. Salty yolk. [2sp-5sp]
+Nexian Arcane-Soufflé | A magical dessert that changes flavor every bite. [10gp-20gp]
+Night Hag Dream-Pastry | Eating it causes strange dreams. Highly addictive. [5gp-15gp]
+Nirmathas Forest-Venison | Deer hunted in the rebel forests. Tastes of freedom. [1gp-3gp]
+Norgorber's Secret Sauce | A black sauce. Nobody knows the ingredients (best not to ask). [1gp-5gp]
+Numerian Fluids | Glowing dip. Causes mild tingling in the extremities. [5gp-15gp]
+Numerian Metal-Scraps | Rusty bolts (Actually Goblin candy). [0cp]
+Nymph's Nectar-Glaze | Honey glaze that makes anything taste divine. [5gp-15gp]
+Oatmeal Raisin Cookies | The disappointment of thinking it was chocolate chip. [1sp-3sp]
+Ogre's Toe | Sausage shaped like a toe. (Hopefully just shaped). [2sp-5sp]
+Ogre-Sized Turkey Leg | An entire turkey on a stick. [2gp-5gp]
+Old Cheliax Vintage-Cheese | Sharp cheese aged since the Thrune ascendance. [10gp-25gp]
+Onion Soup with Cheese Crouton | Sweet onion broth with melted cheese topping. [3sp-6sp]
+Orcish Battle-Bread | Bread baked with gravel for texture. Toughens the gums. [1cp-3cp]
+Orcish Mammoth-Bacon | Thick slabs of fatty smoked meat. [2gp-5gp]
+Osirion Dates | Sweet sticky fruit stuffed with almonds. [5sp-1gp]
+Osirion Honey-Cakes | Soaked in honey. Very sticky. [1gp-3gp]
+Otyugh Garbage-Stew | Smells like a sewer. Tastes like a sewer. Why? [0cp]
+Oven Roasted Potatoes | Crispy skin, fluffy inside. [2sp-5sp]
+Owlbear Steak | Tastes like chicken AND beef. Confusing texture. [5gp-10gp]
+Oxtail Soup | Rich meaty soup. [6sp-12sp]
+Pancakes with Syrup | Stack of fluffly hotcakes. [4sp-8sp]
+Pan-Seared Scallops | Delicate white meat with a golden crust. [2gp-5gp]
+Pasta Carbonara | Noodles with egg, cheese, and cured pork. [8sp-2gp]
+Pasty | Handheld meat pie with a thick crust handle. Miner's lunch. [3sp-6sp]
+Pathfinder Rations | Standard trail food. Jerky, dried fruit, hard biscuits. [4sp]
+Pea and Ham Soup | Green soup with pink ham chunks. [3sp-6sp]
+Peach Cobbler | Baked peach dessert with a biscuit crust. [4sp-8sp]
+Pear and Blue Cheese Salad | Sweet and savory fancy salad with walnuts. [5sp-1gp]
+Pecan Pie | Sugar pie with nuts. Very sweet. [5sp-1gp]
+Pemmican | Fat and meat paste. High energy, low taste. Explorer's staple. [3sp-6sp]
+Pepperoni Pizza | Flatbread with tomato sauce, cheese, and spicy sausage. [6sp-12sp]
+Phase Spider Silk-Cakes | Cakes made from spun silk. Sticky and ethereally light. [5gp-10gp]
+Pheasant with Berries | Game bird with juniper and currant sauce. [2gp-5gp]
+Phoenix Egg | Boiled egg that is still hot to the touch. Spicy yolk. [50gp-100gp]
+Pickled Beets | Purple slices in vinegar. Stain everything. [1sp-3sp]
+Pickled Eggs | Hard boiled eggs from a jar on the bar. Rubber texture. [2sp-5sp]
+Pickled Goblin Toes | Pickled garlic cloves (nicknamed, usually). [5cp-1sp]
+Pickled Herring | Sour fish snack. Good with vodka. [2sp-5sp]
+Pickled Onions | Crunchy pearl onions. Sour. [1sp-3sp]
+Pickled Pugwampi | Why would you pickle a gremlin? Bad luck to eat. [1cp-3cp]
+Pigeon Pie | Pie made from city birds. Tastes fine, just don't think about it. [5sp-1gp]
+Pixie Dust Donuts | Donuts with edible glitter. Prone to causing levitation burps. [1gp-3gp]
+Ploughman's Lunch | Cold plate of cheese, bread, pickle, and onion. [5sp-1gp]
+Poached Eggs on Toast | Runny yolk over bread. [3sp-6sp]
+Poached Pears in Wine | Pears colored red from wine boiling. Elegant. [5sp-1gp]
+Poached Salmon | Gently cooked fish. Tender and flaky. [2gp-5gp]
+Poison Ivy Salad | Special salad for druids (poison immunity required). Spicy? [2sp-5sp]
+Popcorn | Corn kernels popped by heat. Buttered and salted. [2cp-5cp]
+Poppit Stuffed-Bread | Bread with a toy baked inside? No, meat. [1sp-3sp]
+Pork Chop with Applesauce | Classic combo. Sweet sauce cuts the fat. [6sp-12sp]
+Pork Pie | Cold meat pie with jelly. Dense. [4sp-8sp]
+Pork Ribs | BBQ ribs, sticky fingers guaranteed. [8sp-2gp]
+Pork Sausage Rolls | Spiced pork wrapped in flaky pastry. [3sp-6sp]
+Porridge with Honey | Warm breakfast mush. Fills the hole. [3cp-6cp]
+Pot Roast with Veggies | Beef braised until falling apart. Sunday special. [1gp-3gp]
+Potato Leek Soup | Smooth and creamy. Mild. [3sp-6sp]
+Potato Salad | Boiled potatoes in mayonnaise. Heavy. [2sp-5sp]
+Prime Rib Roast | The king of roasts. Pink in the middle. [3gp-8gp]
+Pumpkin Pie | Spiced squash custard pie. Autumn classic. [4sp-8sp]
+Pumpkin Soup | Smooth orange soup. Creamy and sweet. [3sp-6sp]
+Purple Worm Loaf | Meatloaf made from giant worm. A bit rubbery and earthy. [5gp-10gp]
+Qadira Spice-Lamb | Lamb rubbed with 20 exotic spices. Fragrant. [5gp-10gp]
+Qadiran Coffee-Beans | Chocolate covered espresso beans. A bite of energy. [2gp-5gp]
+Quiche Lorraine | Egg tart with bacon and cheese. Rich and custardy. [6sp-12sp]
+Quickling Fast-Food | Served instantly. Gone before you know it. [1gp-3gp]
+Rabbit Stew | Rustic stew with whole rabbit parts. Watch for small bones. [5sp-1gp]
+Rack of Lamb | Fancy cut of ribs. Expensive and impressive. [3gp-8gp]
+Rahadoum Ration-Pack | Godless food. Pure science and nutrition, zero flavor. [5sp]
+Rakshasa Tiger-Teacakes | Striped cakes. Deceptively rich. [5gp-10gp]
+Rat on a Stick | Fried rat. Cheap street food. "It's a squirrel, promise." [1cp-3cp]
+Ratfolk Scavenger-Stew | "We found it, we cooked it." Ingredients unknown. [1cp-5cp]
+Ration Pack | Standard adventuring gear. Keeps you alive. [5sp]
+Razmiran Mask-Cake | Cake with a gold fondant mask. Tribute to the living god. [2gp-5gp]
+Red Beans and Rice | Spicy beans and rice mixture. Southern comfort. [3sp-6sp]
+Red Cap Mushroom Stew | Made from red mushrooms. Dyes your teeth red. [5sp-1gp]
+Red Dragon Pepper Steak | Steak with peppers that are actually hot. Fire resistance recommended. [25gp-50gp]
+Red Mantis Shrimp | Large red prawns. Dangerous catch. [5gp-10gp]
+Remorhaz Heat-Stew | Stew that stays boiling hot in your stomach. Warmth for hours. [10gp-20gp]
+Rice Pudding | Creamy rice dessert with nutmeg. Soft food. [3sp-6sp]
+River Kingdom River-Eel | Slippery eel cooked in herbs. [5sp-1gp]
+Roast Beef Sandwich | Cold beef slices on bread with mustard. [4sp-8sp]
+Roast Chicken | Whole bird with crispy skin. [8sp-2gp]
+Roast Duck with Orange Sauce | Fatty duck with citrus glaze. Decadent. [2gp-5gp]
+Roast Goose | Traditional holiday bird. Very fatty. [3gp-8gp]
+Roast Lamb with Rosemary | Garlic and herb crust. [2gp-5gp]
+Roast Pheasant | Game bird. Watch out for shot pellets. [1gp-3gp]
+Roast Pork with Crackling | Pork joint with hard crunchy skin. [1gp-3gp]
+Roast Turkey | Massive bird, dry breast meat. Needs gravy. [3gp-8gp]
+Roasted Chestnuts | Warm nuts peeled by hand. Sold by street vendors. [2sp-5sp]
+Roasted Garlic Bulbs | Soft spreadable garlic cloves. Sweet and pungent. [1sp-3sp]
+Roasted Parsnips | Sweet roasted roots. Candy-like carrots. [2sp-5sp]
+Roasted Pumpkin Seeds | Salty crunchy snack. [1cp-3cp]
+Roasted Root Vegetables | Carrots, Parsnips, Potatoes. The earth's bounty. [3sp-6sp]
+Roc Egg Omelet | An omelet the size of a shield. Feeds a squad. [10gp-25gp]
+Roc Wing Drumstick | Looks like a tree trunk of meat. [5gp-10gp]
+Roper Tentacle | Chewy and fibrous. Tastes somewhat earthy and bitter. [5gp-10gp]
+Rovagug's Hunger | Spicy dish that leaves you perfectly empty inside. [5gp-15gp]
+Runelord's Sin-Cake | An indulgent, overly rich chocolate cake (Gluttony). [5gp-15gp]
+Rust Monster Antennae | Delicacy? Tastes metallic and slightly electric. [2gp-5gp]
+Rye Bread | Dark, sour bread. Good with cheese. [2cp-5cp]
+Salted Beef with Cabbage | Preserved meat boiled with greens. Salty. [5sp-1gp]
+Salted Cod | Dried fish, rehydrated. Firm texture. [3sp-6sp]
+Salted Nuts | Bowl of peanuts. Makes you thirsty. [2sp-5sp]
+Salted Pork | Slab of cured pork. Ration food. [3sp-6sp]
+Sarenrae's Sun-Bun | Warm, golden sweet roll. Topped with orange glaze. [2sp-5sp]
+Sarkoris Scar-Stew | Stew from the demon-wastes. Mutated vegetables are spicy. [1cp-5cp]
+Satyr's Song-Wine Cake | Cake soaked in wine. Makes you hum. [5gp-10gp]
+Sausage and Mash | Pork sausages on mashed potato with onion gravy. [5sp-1gp]
+Sausage Roll | Flaky pastry with sausage meat. Greasy. [3sp-6sp]
+Scallops with Bacon | Wrapped shellfish. Surf and turf bite. [2gp-5gp]
+Scones with Clotted Cream | Tea time classic. Jam first or cream first? [4sp-8sp]
+Scorpion Skewer | Crunchy fried scorpion. Sting removed. [2sp-5sp]
+Scrambled Eggs | Fluffy yellow eggs. Breakfast staple. [2sp-5sp]
+Sea Hag Seaweed Stew | Salty green slime soup. Looks frightening. [2cp-5cp]
+Sea Serpent Steak | Cut from a massive sea monster. Tastes like salty chicken. [10gp-25gp]
+Seafood Paella | Rice dish with saffron and shellfish. Colorful. [2gp-5gp]
+Seafood Platter | Shrimp, crab, oysters, clams. Fresh from the net. [3gp-8gp]
+Seared Tuna Steak | Raw in the middle. Sesame crust. [2gp-5gp]
+Serpentfolk Snake-Pie | Pie filled with python meat. Tastes like chicken. [2gp-5gp]
+Shackles Pirate-Grog-Cake | Rum cake. So soaked it's technically a drink. [2gp-5gp]
+Shackles Seafood-Platter | Whatever was caught in the net today. [3gp-8gp]
+Shadow Plane Shadow-Meat | Meat that dissolves into cold shadow on your tongue. [5gp-15gp]
+Shambling Mound Salad | Active salad. Lettuce might grab your fork. [2gp-5gp]
+Shark Fin Soup | Controversial soup. Gelatinous texture. [5gp-15gp]
+Shelyn's Artistic-Tart | A tart so beautiful it's a shame to eat it. [5gp-10gp]
+Shepherd's Pie | Lamb mince topped with mashed potato crust. [6sp-12sp]
+Shoanti Spirit-Jerky | Ritualistically prepared dried meat. Smoky. [1gp-3gp]
+Shocker Lizard Tails | Fried tails. Static electricity tingle on the tongue. [2gp-5gp]
+Shortbread Cookies | Buttery biscuits. Crumble instantly. [2sp-5sp]
+Shrimp Cocktail | Cold shrimp with red sauce. [1gp-3gp]
+Shrieker Mushroom Salad | The mushrooms scream faintly when you bite them. [5sp-2gp]
+Sin-Eater's Bread | Bread eaten off a corpse (ritualistic). Tastes of guilt. [1cp-5cp]
+Skum Fish-Head Soup | Fish heads boiling in water. They stare back at you. [1cp-5cp]
+Slaad Tadpole Salad | Wriggly amphibians in lettuce. Chaos food. [5gp-10gp]
+Slurk Slime-Jelly | Viscous adhesive jelly. Glue your mouth shut? [1cp-2cp]
+Smoked Ham Hock | Pork knuckle. Good for soup base. [5sp-1gp]
+Smoked Mackerel | Golden smoked fish. Oily and rich. [3sp-6sp]
+Smoked Salmon | Thin slices of cured fish. Orange and translucent. [2gp-5gp]
+Smoked Sausage | Cured spicy sausage. Snap casing. [3sp-6sp]
+Sodden Lands Soggy-Bread | Bread that never dries out. Mildew flavor. [1cp]
+Sodden Lands Turtle-Soup | Thick turtle stew. Shell served as bowl. [1gp-3gp]
+Soft Boiled Egg | Runny yolk for dipping toast soldiers. [1cp-3cp]
+Soul Larva | An evil outsider larva. Destroys a soul if eaten. (Evil Act). [50gp]
+Spaghetti Bolognese | Noodles with meat sauce. Classic pasta. [6sp-12sp]
+Sphinx Riddle-Cake | Layered cake. You have to guess the flavor to get dessert. [5gp-15gp]
+Spiced Apple Cider | Warm drink/soup. Apples and cinnamon. [2sp-5sp]
+Spiced Nuts | Roasted with chili and cumin. Bar snack. [3sp-6sp]
+Spicy Bean Burger | Meat substitute patty. Actually tasty. [4sp-8sp]
+Spider-Egg Caviar | Drow delicacy. Tiny white eggs pop in mouth. [5gp-10gp]
+Spinach and Ricotta Pie | Savory cheese pie. Flaky filo pastry. [5sp-1gp]
+Spinach Salad | Fresh leaves with vinaigrette. Healthy green. [3sp-6sp]
+Split Pea Soup | Green soup with ham. Thick as fog. [2sp-5sp]
+Sponge Cake | Plain yellow cake. Good for soaking up tea. [4sp-8sp]
+Spring Rolls | Crispy veggie rolls. Dipped in sweet sauce. [3sp-6sp]
+Sprite Apple-Crisp | Tiny apples baked to perfection. Fairy food. [2gp-5gp]
+Squid Ink Pasta | Black noodles. Salty sea taste. [1gp-3gp]
+Starstone Rock-Candy | Hard candy that grants godhood (lies, it's just sugar). [1gp-3gp]
+Steak and Ale Pie | Beef simmered in dark beer in a pie. [6sp-12sp]
+Steak and Kidney Pie | Beef and organ pie. Distinctive iron taste. [6sp-12sp]
+Steak and Mushroom Pie | Beef and fungus pie. Earthy. [6sp-12sp]
+Steam Mephit Dumplings | Steamy hot dumplings. Keep piping hot forever. [1gp-2gp]
+Steamed Artichoke | Pull off leaves and drape with teeth. Butter dip. [3sp-6sp]
+Steamed Clams | Clams in white wine broth. Open shells. [1gp-3gp]
+Steamed Mussels | Pot of mussels. Garlic and wine sauce. [1gp-3gp]
+Steamed Rice | Plain white rice. Sticky. [1sp-3sp]
+Steamed Vegetables | Healthy vegetable mix. Crisp-tender. [2sp-5sp]
+Stewed Prunes | Good for digestion. Sweet and dark. [1sp-3sp]
+Stewed Rabbit | Rabbit cooked in liquid. Soft meat. [5sp-1gp]
+Stewed Tomatoes | Sweet cooked tomatoes. Side dish. [2sp-5sp]
+Sticky Toffee Pudding | Sponge cake date pudding with toffee sauce. Decadent. [5sp-1gp]
+Stirge Blood-Pudding | Black pudding made from stirge-harvested blood. Efficient. [1sp-3sp]
+Stolen Lands Venison | Poached deer meat. Tastes rebellious. [2gp-5gp]
+Stone Giant Granite-Bread | Grain mixed with rock dust. Wears down teeth. [5cp-2sp]
+Storm Giant Thunder-Cheese | Cheese that rumbles in your gut. Shockingly sharp. [5gp-10gp]
+Strawberry Shortcake | Cake cups with berries and cream. Summer treat. [5sp-1gp]
+Strix Owl-Pellet | Regurgitated fur and bones. Not food for humans. [0cp]
+Stuffed Bell Peppers | Peppers filled with rice and meat. Soft and sweet. [4sp-8sp]
+Stuffed Mushrooms | Caps filled with breadcrumbs and herbs. [3sp-6sp]
+Stuffed Turkey | Bird filled with bread stuffing. Holiday feast. [3gp-8gp]
+Stuffed Vine Leaves | Rice wrapped in grape leaves. Lemon flavor. [3sp-6sp]
+Succubus Sweet-Roll | Sinfully sweet pastry. Tempting. [5gp-10gp]
+Sun Orchid Elixir | The legendary immortality potion (It's definitely fake sugar water). [100gp]
+Sweet Corn Fritters | Fried corn dough balls. Golden. [2sp-5sp]
+Sweet Potato Fries | Orange fries, sweeter than normal. [2sp-5sp]
+Sweet Potato Pie | Spiced tuber pie. Similar to pumpkin. [4sp-8sp]
+Swordfish Steak | Meaty fish steak. Firm texture. [2gp-5gp]
+Taldan Fancy-Feast | 12 course meal. Tiny portions on big plates. [50gp-200gp]
+Taldan Tea-Sandwich | Crustless cucumber bite. Pinkies up. [1gp-2gp]
+Tengu Bird-Seed Bread | Bread full of millet and seeds. Crunchy. [2sp-5sp]
+Thassilonian Rune-Bread | Bread baked in rune shapes. Slight magical aftertaste. [5gp-15gp]
+Thuvian Spiced Goat | Goat heavily spiced to mask heat spoilage. Tasty though. [2gp-5gp]
+Tian Xia Rice-Ball | Sticky rice ball wrapped in seaweed. Portable lunch. [1sp-2sp]
+Tiefling Spicy Curry | Curry with abyssal peppers. Burns twice. [2gp-5gp]
+Toad in the Hole | Sausages baked in batter. Comfort food. [4sp-8sp]
+Tomato and Basil Soup | Red soup with herb garnish. Smooth. [2sp-5sp]
+Tomato Salad | Sliced tomatoes with oil and balsamic. [2sp-5sp]
+Torag's Anvil-Cake | Fruitcake dense as an anvil. Lasts for centuries. [2sp-5sp]
+Trail Mix | Nuts, raisins, and chocolate chips. Energy boost. [2sp-5sp]
+Treant Bark-Tea | Tea brewed from sentient bark. Woody and wise. [1gp-2gp]
+Trifle | Layers of sponge, custard, jelly and cream. A messy delight. [6sp-12sp]
+Troglodyte Musk-Melon | Smelly fruit. Tastes better than it smells (barely). [1sp-3sp]
+Troll Sausage | Sausage that refills the casing as you eat? Infinite food glitch? [1gp-3gp]
+Troll Thumb | Pickled green thumb. Texture of cucumber. Regenerates in the jar. [5sp-2gp]
+Trout with Almonds | Pan fried fish with nut crust. [1gp-2gp]
+Tuna Salad Sandwich | Canned fish mix on bread. Fishy. [3sp-6sp]
+Turkey Pot Pie | Leftover turkey in pie form. Good reuse. [5sp-1gp]
+Turnip Stew | Watery root stew. Peasant staple. [2cp-5cp]
+Uguloth Stew | Stew made from disgusting things. Don't ask. [1cp]
+Ulstalav Garlic-Bread | Extra garlic to ward off vampires. Protection you can eat. [1sp-3sp]
+Ulstalav Wolf-Steak | Wolf meat. Tough and stringy. Tastes like fear. [2gp-5gp]
+Unicorn Hoof-Pastry | Pastry shaped like a hoof. Sprinkled with silver sugar. [2gp-5gp]
+Urgathoa's Gluttony-Feast | An endless magical buffet. You can't stop eating. [50gp-150gp]
+Vanilla Custard | Sweet yellow cream sauce. Pour on everything. [3sp-6sp]
+Varisian Fortune-Cookie | Cookie with a harrow reading inside. Prophetic snack. [5sp-1gp]
+Varisian Trail-Stew | Spicy butterfly-stew. Colorful ingredients. [5sp-1gp]
+Veal Cutlet | Breaded young beef. Tender and mild. [2gp-5gp]
+Vegepygmy Salad | Salad made from mold folk. Slightly parasitic. [2cp-5cp]
+Vegetable Curry | Spicy veg mix. No meat, fully flavor. [5sp-1gp]
+Vegetable Lasagna | Pasta with veggies and white sauce. [6sp-12sp]
+Vegetable Soup | Clear broth with veg. Light lunch. [2cp-5cp]
+Vegetable Stew | Thick veg mix. Hearty. [2cp-5cp]
+Vegetarian Haggis | Oats and spices without the stomach. Less terrifying. [4sp-8sp]
+Velstrac Chain-Links | Hard candy chains. Sharp edges cut your mouth. [1sp-5sp]
+Venison Burger | Deer meat burger. Lean and gamey. [6sp-12sp]
+Venison Sausages | Deer meat tubes. Herbed. [5sp-1gp]
+Venison Steak | Deer steak. Seared rare with berry reduction. [2gp-5gp]
+Venison Stew | Deer stew. Dark rich gravy. [8sp-2gp]
+Vidrian Independence-Pie | A pie celebrating freedom. Sweet apples and liberty. [1gp-3gp]
+Violet Fungus Stew | Purple stew. Slightly toxic if uncooked. [1gp-2gp]
+Vudra Spiced-Curry | Authentic hot curry. Sweating is guaranteed. [2gp-5gp]
+Waffles with Fruit | Breakfast grid cakes. Pockets of syrup. [3sp-6sp]
+Waldorf Salad | Apples, celery, and walnuts. Crunchy salad. [4sp-8sp]
+Walnut Bread | Bread with nuts. Nutty texture. [4sp-8sp]
+Water Elemental Water | The purest water possible. Hydrates instantly. [1gp-3gp]
+Watermelon Slice | Red juicy fruit. Sticky juice runs down chin. [1sp-3sp]
+Were-Boar Bacon | Smells like man, tastes like pig. Confusing ethics. [5gp-10gp]
+Were-Rat Ratatouille | Vegetable stew made by rats? Surprisingly hygienic. [2gp-5gp]
+Were-Wolf Steaks | Rare steak. Makes you want to howl at the moon. [5gp-10gp]
+Wheat Bread | Standard brown loaf. Wholesome. [2cp-5cp]
+Whispering Tyrant Toast | Burnt black toast. Tastes of undeath. [1cp]
+White Bread | Refined flour loaf. Soft as a cloud. [2cp-5cp]
+Whole Roasted Pig | Apple in mouth. Banquet centerpiece with glaze. [5gp-15gp]
+Wild Boar Roast | Gamey pork roast. Shot in the local woods. [5gp-15gp]
+Wild Rice Salad | Nutty grain salad. Chewy texture. [3sp-6sp]
+Winter Wolf Ice-Cream | Minty ice cream. Breaths cold air. [5gp-10gp]
+Witch's Brew Stew | Bubbling green stew. Newt eyes are just onions. [1sp-5sp]
+Worldwound Corruption-Cake | Cake that looks tainted. Tastes fine, probably. [1cp]
+Wraith Wrap | Cold tortilla wrap. Chills your hand when you hold it. [2gp-5gp]
+Wyvern Tail Soup | Poison gland removed (hopefully). Spicy sting. [5gp-15gp]
+Xulgath Stench-Cheese | Smells appalling. Tastes amazing. Hold your nose. [2gp-5gp]
+Yam and Bean Stew | Sweet and savory stew. Hearty filling. [2cp-5cp]
+Yeti Shaved Ice | Snow cone from the mountains. Yellow flavor is lemon. [2gp-5gp]
+Yoghurt with Honey | Sour milk and sweet bee vomit. Breakfast of champions. [2sp-5sp]
+Yorkshire Pudding | Batter popover. Soaks up gravy perfectly. [2sp-5sp]
+Ysoki Scrap-Stew | Ratfolk communal stew. Nothing wasted. [1cp-3cp]
+Zombie Brain-Freeze | Cold dessert. Gives you a headache. [1gp-3gp]
+Zombie Jerky | Don't eat this. Seriously. It's moving. [0cp]
+Zon-Kuthon Pain-Bread | Bread with sharp seeds. Hurts to eat. [1sp-3sp]
+Zucchini Bread | Sweet cake made with veg. Moist and spiced. [3sp-6sp]
+Zucchini Fritters | Fried squash patties. Crispy edges. [3sp-6sp]

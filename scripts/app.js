@@ -1,4 +1,5 @@
 import { RandomNameAPI } from "./api.js";
+import { RandomNameGeneratorApp } from "./generator-app.js";
 
 const { ApplicationV2, HandlebarsApplicationMixin } = foundry.applications.api;
 
@@ -22,7 +23,8 @@ export class RandomNameApp extends HandlebarsApplicationMixin(ApplicationV2) {
             generateComplex: RandomNameApp.prototype._onGenerateComplex,
             create: RandomNameApp.prototype._onCreate,
             createComplexTemplate: RandomNameApp.prototype._onCreateComplexTemplate,
-            createSimpleTemplate: RandomNameApp.prototype._onCreateSimpleTemplate
+            createSimpleTemplate: RandomNameApp.prototype._onCreateSimpleTemplate,
+            openGenerator: RandomNameApp.prototype._onOpenGenerator
         }
     };
 
@@ -40,39 +42,62 @@ export class RandomNameApp extends HandlebarsApplicationMixin(ApplicationV2) {
         };
     }
 
+    _onRender(context, options) {
+        super._onRender(context, options);
+    }
+
+    _onOpenGenerator(event, target) {
+        new RandomNameGeneratorApp().render(true);
+    }
+
     async _onGenerateSimple(event, target) {
-        // Simple generation: just pick from the journal
-        // The ID of the category for simple ones is the journal ID or Name? 
-        // In getStructure I set it to Name because simple journals don't have parts.
-        // Wait, for simple I passed the journal object. Let's look at getStructure again.
-        // structure.set(journal.name, { ..., journal: journal })
-        // We need lookup.
-
-        // Actually, let's pass the ID in the dataset.
-        // But getStructure creates ad-hoc objects.
-        // Let's rely on re-fetching or passing the journal ID.
-
         const journalId = target.dataset.journalId;
         const journal = game.journal.get(journalId);
         if (!journal) return;
 
-        const name = RandomNameAPI.getRandomName(journal);
-        this._displayResult(journal.name, name);
+        const rawName = RandomNameAPI.getRandomName(journal);
+        const data = RandomNameAPI.processItemWithPrice(rawName);
+
+        let displayText = data.name;
+
+        // Try to create real item
+        if (game.user.isGM && data.hasPrice) {
+            let typeContext = "generic"; // Default to generic loot
+            if (journal.name.includes("Food")) typeContext = "food";
+            else if (journal.name.includes("Drinks")) typeContext = "drink";
+            else if (journal.name.includes("Trinkets")) typeContext = "trinket";
+            else if (journal.name.includes("Gemstones")) typeContext = "gem";
+            else if (journal.name.includes("Plants")) typeContext = "plant";
+
+            if (typeContext) {
+                try {
+                    const item = await RandomNameAPI.createItem(data.name, data, typeContext);
+                    if (item) {
+                        displayText = `@UUID[${item.uuid}]{${data.name}}`;
+                    }
+                } catch (e) {
+                    console.error("PRN | Failed to create item", e);
+                }
+            }
+        }
+
+        if (data.hasPrice) {
+            displayText += `<br><span style="font-size: 0.6em; color: var(--color-text-light-2);">${data.priceString}</span>`;
+        }
+
+        this._displayResult(journal.name, displayText);
     }
 
     async _onGenerateComplex(event, target) {
-        // Complex generation: read form inputs relative to this container
         const container = target.closest(".complex-category");
         const categoryName = container.dataset.category;
 
-        // Find inputs
         const genderInput = container.querySelector(`input[name="gender-${categoryName}"]:checked`);
         const surnameInput = container.querySelector(`input[name="surname-${categoryName}"]`);
 
-        const gender = genderInput ? genderInput.value : "any"; // male, female, any
+        const gender = genderInput ? genderInput.value : "any";
         const withSurname = surnameInput ? surnameInput.checked : false;
 
-        // Re-fetch structure to get journals (efficient enough)
         const categories = RandomNameAPI.getStructure();
         const catData = categories.find(c => c.name === categoryName);
 
@@ -94,7 +119,6 @@ export class RandomNameApp extends HandlebarsApplicationMixin(ApplicationV2) {
             ui.notifications.warn(`Could not generate name for ${title}`);
         }
     }
-
 
     async _onCreate(event, target) {
         try {

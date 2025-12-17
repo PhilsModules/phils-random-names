@@ -1,662 +1,663 @@
 List:
-Niemand, der nach Mitternacht in den Nebelwald ging, kam je wieder ganz bei Verstand zurück.
-Seit der Müller sich erhängt hat, stehen die Räder der alten Mühle niemals mehr völlig still.
-Nicht einmal der Priester traut sich noch, den hinteren Teil des Friedhofs zu segnen.
-Gestern Nacht habe ich wieder dieses bleiche, flackernde Licht im Fenster des verlassenen Turms gesehen.
-Die Hunde bellen jeden Abend die leere Ecke im Schankraum an, als stünde dort jemand.
-Das Herrenhaus steht seit Jahren leer, aber jeden Morgen sind die Vorhänge anders zugezogen.
-Selbst im Hochsommer ist der Keller des Anwesens so kalt wie ein frisch ausgehobenes Grab.
-Manchmal hört man ein klares Kinderlachen aus dem Brunnen, obwohl der seit Jahren trocken liegt.
-Wenn der Wind von Norden weht, klingt es nicht wie Wind, sondern wie das Weinen einer Frau.
-Die Augen der Statuen im Garten scheinen einem zu folgen, egal wohin man tritt.
-In den Nächten vor dem Neumond verschwinden immer die Katzen aus dem Dorf.
-Der Schmied redet seit Wochen mit dem Feuer, und manche schwören, das Feuer antwortet ihm.
-Hinter der Wand im Gästezimmer hört man manchmal ein Kratzen, als würde etwas herauswollen.
-Die alte Brücke ist sicher, solange man beim Überqueren nicht nach unten ins Wasser schaut.
-Es heißt, der Baron habe keinen Schatten mehr, seit er von seiner Reise zurückkehrte.
-Jedes Mal, wenn die Kirchenglocke dreizehn Mal schlägt, stirbt jemand im Dorf.
-Die Puppen im Spielzeugladen verändern ihre Positionen, wenn niemand hinsieht.
-Im Moor wurde eine Kutsche gefunden, vollkommen unversehrt, aber ohne Pferde oder Fahrer.
-Die Milch wird sauer, sobald sie in die Nähe des alten Hünengrabs gebracht wird.
-Manche sagen, die Krähen in diesem Tal sind eigentlich die Seelen der Verdammten.
-Der See friert niemals zu, selbst wenn es Steine hagelt und Vögel tot vom Himmel fallen.
-Unter den Dielenbrettern der Taverne wurde ein Buch gefunden, das in keiner bekannten Sprache geschrieben ist.
-Der neue Arzt hat Hände, die so kalt sind wie Eis, und er blinzelt niemals.
-Nachts kann man Schritte auf dem Dachboden hören, obwohl es dort keinen Zugang gibt.
-Wenn man einen Spiegel in den Wald mitnimmt, zeigt er manchmal Dinge, die nicht da sind.
-Die Vogelscheuche auf dem Feld hat sich seit gestern umgedreht und schaut nun zum Haus.
-Im Keller der Bäckerei riecht es manchmal nach Schwefel, nicht nach Brot.
-Die alte Eiche blutet rotes Harz, wenn man ihre Rinde anritzt.
-Seit dem letzten Sturm fehlen zwei Tage in den Aufzeichnungen des Stadtarchivs.
-Ein Fremder kam ins Dorf und kannte jeden beim Namen, obwohl ihn niemand je gesehen hatte.
-Die Blumen auf dem Grab der Hexe blühen auch im tiefsten Winter.
-Manchmal, wenn man ganz leise ist, kann man den Fluss flüstern hören.
-Der Uhrmacher behauptet, er habe eine Uhr gebaut, die die Zeit rückwärts laufen lässt.
-In der Bibliothek gibt es ein Buch, das beim Lesen anfängt zu schreien.
-Die Ratten verlassen das Dorf in Scharen, als würden sie vor etwas fliehen.
-Jeder, der im Zimmer 13 übernachtet hat, klagt über dieselben Albträume.
-Der Nebel riecht heute Morgen nach altem Rauch und verbranntem Fleisch.
-Es gibt einen Pfad im Wald, der auf keiner Karte verzeichnet ist und nirgendwohin führt.
-Die Wölfe heulen nicht mehr den Mond an, sondern das alte Herrenhaus auf dem Hügel.
-Ein Kind wurde im Wald gefunden, das eine Sprache spricht, die seit Jahrhunderten tot ist.
-Die Reflexion im Dorfbrunnen zeigt manchmal ein anderes Gesicht als das eigene.
-Wenn man dem Bettler eine Goldmünze gibt, erzählt er einem das Datum des eigenen Todes.
-Die Kerzen in der Kapelle lassen sich nicht entzünden, egal wie sehr man es versucht.
-Es heißt, der Wirt mischt etwas in den Eintopf, das die Gäste vergessen lässt.
-Die Fische im Teich haben alle milchig weiße Augen und schwimmen auf dem Rücken.
-Ein Schatten huschte durch die Gasse, aber es war niemand da, der ihn hätte werfen können.
-Die Rüstung in der Halle klappert nachts, als würde jemand darin tanzen.
-Seit der Komet am Himmel stand, werden alle Kälber mit zwei Köpfen geboren.
-Der Fährmann nimmt kein Geld mehr, er verlangt jetzt eine Geschichte als Bezahlung.
-Manchmal riecht der Wind nach Meer, obwohl wir hunderte Meilen von der Küste entfernt sind.
-Die alten Runen am Torbogen leuchten manchmal schwach auf, wenn Gewitter aufziehen.
-Ein Brief kam an, datiert auf hundert Jahre in der Zukunft.
-Der Spiegel im Flur ist immer beschlagen, selbst wenn es warm und trocken ist.
-Es gibt Gerüchte über einen Tunnel, der direkt von der Krypta in den Keller des Rathauses führt.
-Die Katzen starren alle gleichzeitig auf einen leeren Fleck an der Wand und fauchen.
-Wenn man am Waldesrand einschläft, wacht man manchmal an einem ganz anderen Ort auf.
-Der Metzger hat Messer, die niemals stumpf werden, und niemand weiß, woraus sie geschmiedet sind.
-Es heißt, der See hat keinen Boden, und wer hineinfällt, fällt ewig.
-Die Vögel meiden den alten Kirchturm, sie fliegen lieber einen weiten Bogen darum.
-Jede Nacht um dieselbe Zeit klopft es dreimal an die Hintertür, aber niemand steht davor.
-Im Kaminfeuer sah ich gestern das Gesicht meines Großvaters, der mich warnte.
-Der Wein aus dem Jahrgang des großen Feuers schmeckt nach Asche und Tränen.
-Die Spieluhr spielt manchmal von alleine, aber die Melodie ist schief und falsch.
-Man sagt, unter dem Marktplatz ruht ein Drache, der nur darauf wartet, geweckt zu werden.
-Der alte Mann auf der Bank füttert Tauben, die es gar nicht gibt.
-Hinter dem Wasserfall soll eine Höhle sein, in der die Zeit stillsteht.
-Die Wände des Kerkers schwitzen eine schwarze, ölige Substanz aus.
-Wenn man den Namen des alten Königs dreimal laut sagt, beginnt die Nase zu bluten.
-Der Schatten der Sonnenuhr zeigt immer auf 12 Uhr, egal wie spät es ist.
-Die Treppe hat 13 Stufen, wenn man hochgeht, aber nur 12, wenn man runtergeht.
-Ein Leichenwagen fährt jede Nacht durch die Hauptstraße, aber er hält nie an.
-Die Äpfel im Garten des Pfarrers sind innen blutig rot.
-Es wird gemunkelt, der Bürgermeister sei eigentlich schon seit Jahren tot.
-Die Spinnen weben ihre Netze in Form von seltsamen Symbolen.
-Ein leeres Boot treibt seit Tagen auf dem See, aber es kommt nie ans Ufer.
-Die Glocke im Turm läutet manchmal, obwohl der Klöppel fehlt.
-Wenn man im Nebel pfeift, pfeift manchmal etwas zurück.
-Der Honig der Bienen schimmert grün und lässt einen seltsame Dinge träumen.
-Die alte Brücke singt im Wind, ein Lied von Trauer und Verlust.
-Manchmal findet man morgens nasse Fußabdrücke im Flur, die ins Kinderzimmer führen.
-Der Leiermann spielt eine Melodie, die man nicht mehr aus dem Kopf bekommt.
-Die Raben auf dem Galgenhügel sind größer als anderswo und haben keine Angst.
-Ein geisterhafter Reiter sucht jede Nacht nach seinem verlorenen Kopf.
-Die Laternen gehen aus, sobald der Nachtwächter vorbeigegangen ist.
-Im Wald gibt es eine Lichtung, auf der kein Schnee liegen bleibt.
-Die Hühner legen Eier mit Schalen so hart wie Stein.
-Man sagt, der Waldläufer habe sein Herz gegen ewiges Leben getauscht.
-In der alten Mine hört man immer noch das Hämmern der verschütteten Bergleute.
-Der Teich im Park färbt sich einmal im Jahr dunkelrot.
-Die Statue auf dem Platz weint echte Tränen, wenn ein Unglück bevorsteht.
-Der Wind trägt manchmal Fetzen von Gesprächen heran, die vor Jahren geführt wurden.
-Ein schwarzer Hund mit rot glühenden Augen bewacht die Wegkreuzung.
-Die Tür zum Keller lässt sich nicht abschließen, das Schloss springt immer wieder auf.
-Es heißt, der Müller mahlt Knochen mit unter das Mehl.
-Die Motten hier sind riesig und haben Muster auf den Flügeln, die wie Totenköpfe aussehen.
-Manchmal sieht man ein Gesicht im Fenster des Turms, das vor Schmerz verzerrt ist.
-Der alte Brunnen flüstert Wünsche, aber man sollte sie niemals erfüllen.
-Die Kräuterfrau braut Tränke, die Tote für kurze Zeit sprechen lassen.
-Im Winter wachsen Eisblumen an den Fenstern, die wie verzerrte Fratzen aussehen.
-Der Schatten des Galgens ist länger, als er sein dürfte.
-Manchmal hört man Pferdegewieher aus dem leeren Stall.
-Der alte Friedhofswärter spricht mit den Gräbern, als wären es seine Kinder.
-Ein Buch im Antiquariat blättert sich von selbst um.
-Die Milchstraße am Himmel sieht hier anders aus als im Nachbardorf.
-Es gibt eine Tür im Herrenhaus, die nur erscheint, wenn man nicht nach ihr sucht.
-Die Vögel singen hier nicht, sie schreien.
-Manchmal regnet es Asche, obwohl kein Feuer brennt.
-Der See ist so klar, dass man die Ruinen einer Stadt auf dem Grund sehen kann.
-Die Puppenspielerin steuert ihre Puppen ohne Fäden.
-Ein seltsames Summen kommt aus dem Boden, das einem die Zähne vibrieren lässt.
-Der Nebel im Tal leuchtet nachts schwach grünlich.
-Die Fledermäuse fliegen hier auch am hellichten Tag.
-Man sagt, der Wirt habe seine Seele beim Kartenspiel verloren.
-Die alten Steine im Kreis werden jede Nacht wärmer.
-Ein Kind im Dorf malt Bilder von Dingen, die erst noch passieren werden.
-Der Fluss fließt an manchen Tagen bergauf.
-Die Schatten in der Gasse bewegen sich, auch wenn niemand da ist.
-Wenn man Salz verschüttet, formt es manchmal Buchstaben.
-Der Schmied kann Eisen mit bloßen Händen biegen, wenn er wütend ist.
-Es gibt eine Melodie, die Wahnsinn verursacht, wenn man sie zu lange hört.
-Die Ratten haben angefangen, auf zwei Beinen zu laufen.
-Der alte Leuchtturm leuchtet, obwohl er seit Jahren kein Öl mehr hat.
-In den Katakomben wachsen Pilze, die im Dunkeln leuchten.
-Manchmal hört man das Klappern von Würfeln aus dem leeren Hinterzimmer.
-Der Wein schmeckt hier immer leicht nach Eisen.
-Die Bäume im Wald scheinen sich zu bewegen, wenn man blinzelt.
-Ein Rabe sitzt jeden Tag auf demselben Zaunpfahl und krächzt "Niemals".
-Die Uhren im Dorf bleiben alle gleichzeitig stehen, immer um 3 Uhr nachts.
-Man sagt, der See verlange jedes Jahr ein Opfer.
-Der alte Mann hat keine Spiegel im Haus, weil er "die anderen" nicht sehen will.
-Im Keller hört man manchmal das Rauschen des Meeres.
-Die Katzen haben Angst vor dem neuen Pfarrer.
-Wenn man eine Münze in den Brunnen wirft, kommt sie manchmal wieder hoch.
-Der Nebel verschluckt Geräusche, man hört nicht einmal seine eigenen Schritte.
-Es gibt ein Zimmer im Gasthaus, das immer kalt bleibt, egal wie sehr man heizt.
-Die Statue des Helden hat ihren Kopf gedreht und schaut nun nach Osten.
-Manchmal riecht man Parfüm im Wald, wo niemand ist.
-Die Kerzenflammen sind manchmal blau statt gelb.
-Ein Geisterschiff segelt bei Vollmond über den Nebel im Tal.
-Die alten Leute sagen, der Berg wächst.
-Manchmal findet man Knochen im Garten, die zu keinem Tier gehören.
-Der Wind heult Namen, wenn man genau hinhört.
-Die Vogelscheuche hat heute Morgen frisches Blut an den Händen.
-Im Spiegel sieht man manchmal jemanden hinter sich stehen.
-Der Schatten eines Mannes geht durch das Dorf, aber er hat keinen Körper.
-Die Glocken läuten von selbst, wenn ein Sturm aufzieht.
-Es gibt eine Tür, die man nur öffnen kann, wenn man die Augen schließt.
-Die Fische im Fluss haben menschliche Zähne.
-Man sagt, die Hexe im Wald könne Träume stehlen.
-Der alte Brunnen ist tiefer als die Welt.
-Die Motten fliegen immer ins Feuer, als wollten sie sterben.
-Ein Kind wurde geboren, das schon sprechen konnte.
-Der Nebel formt Gestalten, die nach einem greifen.
-Die Sterne stehen falsch am Himmel.
-Manchmal hört man Gelächter aus dem leeren Saal.
-Der Boden bebt leicht, als würde etwas darunter atmen.
-Die Blumen welken, sobald der Baron vorbeigeht.
-Es gibt einen Schatten, der sich vom Körper löst und eigenständig handelt.
-Der See spiegelt den Mond nicht wider.
-Manchmal fallen Vögel tot vom Himmel, ohne erkennbaren Grund.
-Die alte Eiche hat ein Gesicht in der Rinde, das sich mit den Jahren verändert.
-Der Wind trägt den Geruch von Ozon und Magie.
-Ein Buch, das man nicht verbrennen kann.
-Die Rattenkönigin beherrscht die Kanalisation.
-Der Schmied hämmert einen Rhythmus, der Tote wecken könnte.
-Im Wald gibt es Pilze, die schreien, wenn man sie pflückt.
-Die alte Brücke fordert Wegzoll von jedem, der sie überquert.
-Man sagt, der See ist ein Tor in eine andere Welt.
-Die Krähen beobachten jeden Schritt, den man tut.
-Ein Schatten, der in der Ecke kauert und wimmert.
-Die Milch schmeckt bitter, wenn der Vollmond scheint.
-Der alte Mann im Wald füttert Wölfe mit der Hand.
-Es gibt eine Melodie, die man nur im Traum hören kann.
-Die Spinnen weben Netze, die stark genug sind, um Vögel zu fangen.
-Ein Flüstern, das aus den Wänden kommt.
-Die Statue blinzelt, wenn niemand hinsieht.
-Der Nebel greift mit kalten Fingern nach einem.
-Manchmal sieht man Lichter im Sumpf, die einen in die Irre führen.
-Der alte Turm hat kein Eingangstor, aber manchmal sieht man Licht im oberen Fenster.
-Die Katze des Bäckers hat zwei Schwänze.
-Es heißt, der Friedhofsgärtner schlafe in einem offenen Grab.
-Die Äpfel schmecken nach Asche.
-Der Wind singt ein Schlaflied, das einen nie wieder aufwachen lässt.
-Ein Schatten, der länger ist als der Mann, der ihn wirft.
-Die Bäume flüstern Warnungen.
-Der See ist voller Aale, die nach Fleisch gieren.
-Man sagt, der Baron trinke Blut, um jung zu bleiben.
-Die Puppe im Fenster hat heute eine andere Position.
-Ein kalter Hauch n im Nacken, obwohl kein Wind weht.
-Die Tür knarrt, als würde sie sprechen.
-Der Spiegel zeigt Dinge, die erst noch geschehen werden.
-Die Vögel fliegen in Spiralen über dem alten Steinkreis.
-Ein Hund, der keinen Schatten wirft.
-Die Glocke läutet den Tod von jemandem ein, der noch lebt.
-Es gibt Gerüchte über einen Kult, der in den Katakomben haust.
-Der Nebel schmeckt metallisch.
-Die alte Frau am Markt verkauft Tränke, die "Glück" bringen.
-Ein Kind, das niemals blinzelt.
-Die Ratten flüstern sich Geheimnisse zu.
-Der See kocht manchmal, obwohl er kalt ist.
-Die Statue hat heute Morgen ihre Hand bewegt.
-Ein Buch, das sich nicht öffnen lässt.
-Der Wind trägt das Lachen eines toten Kindes.
-Die Schatten werden länger, wenn die Sonne am höchsten steht.
-Man sagt, der Wald verschlucke Wanderer.
-Der alte Brunnen stinkt nach Verwesung.
-Die Krähen haben heute alle weiße Federn.
-Ein Schatten, der sich gegen den Wind bewegt.
-Die Milch wird zu Blut.
-Der Schmied schmiedet Waffen für Geister.
-Im Wald gibt es eine Hütte, die auf Hühnerbeinen steht.
-Die Brücke ist aus Knochen gebaut.
-Man sagt, der See sei das Auge eines schlafenden Riesen.
-Die Vögel haben aufgehört zu singen.
-Man sagt, der Schatten des Turms zeige am längsten Tag des Jahres auf einen verborgenen Schatz.
-Wenn man den Namen des Toten flüstert, bewegt sich die Flamme der Kerze.
-Die alte Brücke hält dem Gewicht eines Lügners nicht stand.
-Im Wald gibt es einen Pfad, der immer zurück zum Anfang führt.
-Die Vögel meiden das Dach des Richterhauses, als wäre es aus Feuer.
-Ein Schatten huschte über den Boden, obwohl die Sonne direkt über uns stand.
-Die Glocke läutet manchmal von selbst, immer dann, wenn ein Kind stirbt.
-Der Nebel im Moor hat schon viele Wanderer in den Tod geführt.
-Die alte Frau am Wegkreuz kennt angeblich den Tag, an dem die Welt endet.
-Manchmal sieht man nachts Lichter im verlassenen Bergwerk tanzen.
-Die Ratten haben die Vorräte gefressen, aber das Korn war völlig unberührt.
-Der See wirft manchmal Knochen an den Strand, die von keinem Tier stammen.
-Die Statue im Park vergießt an jedem Jahrestag der Schlacht rote Tränen.
-Ein Buch, das man nicht öffnen kann, weil es mit Haut gebunden ist.
-Der Wind trägt manchmal das Lachen eines Mädchens heran, das vor Jahren ertrank.
-Die Schatten im Wald bewegen sich, als wollten sie einen umzingeln.
-Man sagt, das alte Herrenhaus sei auf einem alten Friedhof erbaut.
-Der Brunnen im Dorf ist versiegt, aber man hört Wasser rauschen.
-Die Krähen begleiten den Leichenwagen, als wären sie die Trauergäste.
-Ein Schatten, der keine Umrisse hat, sondern wie Rauch wirkt.
-Die Vögel fallen brennend vom Himmel.
-Es gibt eine Höhle, die jeden, der sie betritt, jünger macht - bis sie verschwinden.
-Der Spielmann hat keine Finger, spielt aber die schönste Harfe der Welt.
-Wenn man nachts in den Spiegel starrt, sieht man nicht sich selbst, sondern seinen Vorfahren.
-Der Fluss führt manchmal Goldstaub mit sich, aber wer danach greift, ertrinkt.
-Die Kräuterkundige gießt ihre Pflanzen mit Blut, damit sie schneller wachsen.
-Ein Wolf mit menschlichen Augen bewacht das Grab des alten Königs.
-Die Glocken der versunkenen Stadt läuten bei Sturm unter Wasser.
-Man sagt, der Schatten des Berges bewegt sich erst Stunden nach der Sonne.
-Die Tauben auf dem Dach gurren in einem Rhythmus, der wie Morsecode klingt.
-Ein Wanderer kam vorbei, der behauptete, er sei der Wind.
-Die Äpfel vom Baum des Gehenkten heilen jede Krankheit, kosten aber die Stimme.
-Der alte Leuchttürmwärter spricht mit den Stürmen, um sie zu beruhigen.
-Im Keller der Taverne gibt es eine Tür, die man nicht öffnen kann, aber hinter der Licht brennt.
-Die Fische im Brunnen haben Gesichter von Leuten, die vermisst werden.
-Wenn die Eulen dreimal rufen, wird ein Kind geboren, das zaubern kann.
-Der Rauch aus dem Schornstein der Hexe formt manchmal Buchstaben.
-Die Statue auf dem Marktplatz hat nachts eine andere Waffe in der Hand.
-Man sagt, der See sei eigentlich ein riesiges, schlafendes Auge.
-Die Spinnennetze im alten Turm sind so stark wie Stahlseile.
-Ein Buch in der Bibliothek hat Seiten, die sich von selbst umschreiben.
-Der Nebel am Morgen riecht manchmal nach Rosen, manchmal nach Verwesung.
-Die Katzen im Dorf haben Angst vor dem kleinen Mädchen mit den roten Augen.
-Wenn man einen Stein in den Abgrund wirft, hört man ihn niemals aufschlagen.
-Das Feuer im Herd zeigt manchmal Bilder aus der Zukunft.
-Der alte Mann am Straßenrand verkauft Träume in kleinen Flaschen.
-Die Bäume im Wald flüstern sich Geschichten zu, wenn niemand zuhört.
-Man sagt, die Königin habe ihr Herz in einer Kiste vergraben.
-Der Wind trägt manchmal Stimmen von Toten mit sich.
-Die Vogelscheuche hat heute Nacht ihren Standort gewechselt.
-Im verlassenen Haus brennt jede Nacht eine einzige Kerze.
-Die Schlangen im Sumpf haben zwei Köpfe und sprechen die Wahrheit.
-Der Schmied kann Eisen so dünn hämmern, dass es unsichtbar wird.
-Die Milch der schwarzen Ziege macht unsterblich, aber wahnsinnig.
-Der See ist so tief, dass er bis auf die andere Seite der Welt reicht.
-Die Krähen sammeln glänzende Dinge für ihren König.
-Ein Schatten ohne Körper schleicht durch die Gassen.
-Die Glocke im Turm läutet, wenn jemand eine Lüge erzählt.
-Der Nebel im Wald ist eigentlich der Atem eines Drachen.
-Die alte Frau im Wald kennt den Namen jedes Sterns.
-Ein Kind, das bei Vollmond geboren wird, wird niemals krank.
-Die Ratten im Keller tanzen im Kreis, wenn Musik spielt.
-Der Fluss fließt an Feiertagen rot wie Wein.
-Die Statue des Kriegers blutet aus den Augen, wenn Krieg droht.
-Ein Buch, das man nur im Dunkeln lesen kann.
-Der Wind flüstert Geheimnisse, die niemand wissen darf.
-Die Schatten im Wald greifen nach den Knöcheln der Wanderer.
-Man sagt, der See sei ein Tor zur Unterwelt.
-Der alte Brunnen erfüllt Wünsche, aber verdreht den Wortlaut.
-Die Krähen beobachten die Lebenden und berichten den Toten.
-Ein Schatten, der kälter ist als Eis.
-Die Milch schmeckt nach Honig, wenn ein Elf in der Nähe ist.
-Der Schmied schmiedet Schwerter, die niemals brechen.
-Im Wald gibt es eine Lichtung, auf der die Zeit stillsteht.
-Die Brücke singt, wenn man sie überquert.
-Man sagt, der See sei voller Gold, aber bewacht von einem Ungeheuer.
-Die Vögel warnen vor Gefahr, wenn man ihre Sprache versteht.
-Ein Schatten, der sich schneller bewegt als das Licht.
-Die Glocke läutet die Ankunft des Winters ein.
-Der Nebel bringt Vergessen.
-Die alte Frau webt das Schicksal der Menschen.
-Ein Kind, das mit Tieren sprechen kann.
-Die Ratten sind die Augen des Diebeskönigs.
-Der See zeigt einem das Gesicht seiner wahren Liebe.
-Die Statue erwacht zum Leben, wenn man sie küsst.
-Ein Buch, das die Gedanken des Lesers liest.
-Der Wind trägt die Seele eines Verstorbenen fort.
-Die Schatten verstecken Monster.
-Man sagt, der Wald sei das Zuhause der alten Götter.
-Der alte Brunnen ist der Eingang zu einer verborgenen Stadt.
-Die Krähen sind Boten des Todes.
-Ein Schatten, der einen beschützt.
-Die Milch heilt alle Wunden.
-Der Schmied kann Waffen reparieren, indem er sie nur berührt.
-Im Wald gibt es Bäume, deren Früchte Wissen schenken.
-Die Brücke führt zu einem Ort, den es gar nicht gibt.
-Man sagt, der See sei Tränen der Götter.
-Die Vögel singen Lieder über längst vergessene Helden.
-Ein Schatten, der so dunkel ist, dass er Licht verschluckt.
-Die Glocke läutet, wenn ein Kind geboren wird.
-Der Nebel verhüllt die Wahrheit.
-Die alte Frau kennt ein Lied, das Drachen einschläfert.
-Ein Kind, das niemals altert.
-Die Ratten warnen vor Erdbeben.
-Der See friert niemals zu, weil ein Feuergeist darin wohnt.
-Die Statue zeigt den Weg zum Schatz.
-Ein Buch, das nur der Auserwählte lesen kann.
-Der Wind bläst die Sorgen fort.
-Die Schatten sind eigentlich Portale.
-Man sagt, der Wald verändere sich jede Nacht.
-Der alte Brunnen ist unendlich tief.
-Die Krähen wissen, wer als nächstes stirbt.
-Ein Schatten, der die Form eines Wolfes hat.
-Die Milch macht stark wie ein Bär.
-Der Schmied hat einen Hammer, der Blitze wirft.
-Im Wald gibt es Blumen, die im Takt atmen.
-Die Brücke ist unsichtbar für die, die nicht daran glauben.
-Man sagt, der See sei verflucht.
-Die Vögel bringen Nachrichten aus fernen Ländern.
-Ein Schatten, der nach Blumen duftet.
-Die Glocke hat einen Riss, klingt aber perfekt.
-Der Nebel zeigt einem den Weg nach Hause.
-Die alte Frau hat eine Katze, die so alt ist wie sie selbst.
-Manchmal findet man im Wald Puppen, die an den Bäumen hängen.
-Der Wind heult an manchen Nächten wie ein Wolfsrudel.
-Ein Schatten wartet jeden Abend an der gleichen Straßenecke.
-Man sagt, der alte Müller habe Mehl mit Knochenstaub gestreckt.
-Der Brunnen gibt manchmal statt Wasser nur Staub und Asche.
-Die Krähen auf dem Dach beobachten jeden, der das Haus betritt.
-Ein Schatten löste sich vom Boden und verschwand in der Wand.
-Die Milch schmeckt nach Eisen, wenn der Vollmond scheint.
-Der Schmied hat ein Schwert geschmiedet, das im Dunkeln leuchtet.
-Im Wald hört man manchmal das Klappern von Pferdehufen, aber es ist kein Reiter zu sehen.
-Die Brücke stöhnt unter der Last der Sünden derer, die sie überqueren.
-Der Gärtner hat beim Umgraben eine Hand aus Stein gefunden, die noch warm war.
-Man sagt, das Wasser im Fluss fließe manchmal für eine Stunde rückwärts.
-Die Vögel meiden den alten Galgenhügel, selbst wenn dort Korn verstreut liegt.
-Ein Schatten ohne Besitzer wartet jede Nacht an der Kreuzung.
-Die Milch in der Kanne ist zu Eis gefroren, obwohl sie neben dem Herd stand.
-Der Schmied weigert sich, Pferde zu beschlagen, deren Augen rot leuchten.
-Im Wald hört man nachts das Weinen eines Kindes, das vor hundert Jahren verschwand.
-Die Brücke singt im Wind, aber es ist ein Klagelied.
-Man sagt, der See habe eine Stimme, die man nur unter Wasser hören kann.
-Die Statue im Park dreht sich immer weg, wenn man sie nicht ansieht.
-Ein Buch, das beim Lesen die Finger schwarz färbt, aber die Tinte geht nicht ab.
-Der Wind rüttelt an den Türen wie jemand, der herein will.
-Die Schatten im Keller scheinen ein Eigenleben zu haben.
-Man sagt, der Wald erinnere sich an jeden Tropfen Blut, der dort vergossen wurde.
-Der alte Brunnen riecht an manchen Tagen nach Eisen und Salz.
-Die Krähen sammeln sich auf dem Dach des Sterbehauses, bevor jemand krank wird.
-Ein Schatten, der aussieht wie der Tod, geht durch die Gassen.
-Die Milch schmeckt nach Galle, wenn man schlecht über die Toten spricht.
-Der Schmied sagt, er habe einmal einen Reiter beschlagen, dessen Pferd keine Hufe hatte.
-Im Wald gibt es Pilze, die wie kleine Totenschädel aussehen.
-Die Brücke führt ins Nichts, wenn der Nebel dicht genug ist.
-Man sagt, der See sei der Eingang zum Reich der Ertrunkenen.
-Die Vögel fallen manchmal tot vom Ast, ohne erkennbaren Grund.
-Ein Schatten, der im Licht nicht verschwindet.
-Die Glocke läutet tonlos, aber die Hunde jaulen trotzdem.
-Der Nebel kriecht unter die Kleidung und lässt die Haut taub werden.
-Die alte Frau hat Narben, die aussehen wie Buchstaben einer fremden Sprache.
-Ein Kind im Dorf hat Augen, die im Dunkeln leuchten wie die einer Katze.
-Die Ratten haben den Priester im Schlaf angeknabbert.
-Der See wirft manchmal Dinge an Land, die seit Jahrhunderten verloren waren.
-Der Totengräber hat gestern Nacht wieder mit einem leeren Grab gesprochen.
-Man sagt, das alte Waisenhaus sei nicht so leer, wie es aussieht.
-Wenn die Krähen schweigen, sollte man besser das Weite suchen.
-Ein Kind im Dorf behauptet, es könne die Farben der Lügen sehen.
-Die Spiegel im Gasthaus sind alle mit Tüchern verhängt, und niemand fragt warum.
-Es heißt, der neue Priester habe keinen Schatten, wenn er im Altarraum steht.
-Die Blumen auf dem Marktplatz sind über Nacht schwarz geworden.
-Manchmal hört man aus dem Brunnen nicht das Plätschern von Wasser, sondern von Münzen.
-Der Wind trägt Gerüche von Orten heran, die es auf keiner Karte gibt.
-Die Katzen haben angefangen, im Chor zu heulen, immer kurz vor Sonnenaufgang.
-Ein Schatten sitzt jede Nacht auf dem Schornstein des Bäckers.
-Die Milch in den Eimern war heute Morgen rot gefärbt.
-Der Schmied schmiedet nachts an etwas, das er tagsüber niemandem zeigt.
-Im Wald gibt es einen Baum, der blutet, wenn man die Rinde verletzt.
-Die Brücke über den Fluss knackt, als würden Knochen brechen.
-Man sagt, der See verlange jedes Jahr ein Opfer, sonst tritt er über die Ufer.
-Die Vögel meiden den alten Turm, als wäre die Luft dort giftig.
-Ein Schatten huschte durch mein Zimmer, obwohl die Fenster geschlossen waren.
-Die Glocke im Turm läutet manchmal, obwohl der Klöppel fehlt.
-Der Nebel am Morgen schmeckt nach Asche.
-Die alte Frau am Waldrand verkauft Tränke, die Erinnerungen löschen.
-Ein Kind wurde geboren, das schon bei der Geburt Zähne hatte.
-Die Ratten im Keller haben Muster in den Staub gelaufen, die wie Runen aussehen.
-Der See ist an manchen Tagen so klar, dass man die Ruinen auf dem Grund sehen kann.
-Die Statue auf dem Friedhof hat heute Morgen ihre Hände gefaltet.
-Ein Buch, das man nicht verbrennen kann, egal wie heiß das Feuer ist.
-Der Wind flüstert Namen von Leuten, die bald sterben werden.
-Die Schatten in der Gasse werden länger, obwohl die Sonne schon untergegangen ist.
-Man sagt, der Wald wachse jede Nacht ein Stück näher an das Dorf heran.
-Der alte Brunnen versiegte an dem Tag, als der König starb.
-Die Krähen haben angefangen, Steine auf die Dächer zu werfen.
-Ein Schatten folgte mir den ganzen Weg nach Hause, blieb aber an der Türschwelle stehen.
-Die Milch wird sauer, sobald der Fremde den Raum betritt.
-Der Schmied sagt, das Eisen schreie, wenn er es ins Feuer hält.
-Im Wald fand man Fußspuren, die plötzlich mitten im Schnee endeten.
-Die Brücke hat kein Geländer mehr, seit der letzte Bürgermeister hinabgestürzt ist.
-Man sagt, der See sei eigentlich ein schlafendes Auge eines Gottes.
-Die Vögel fallen tot vom Himmel, wenn der Nebel aus dem Sumpf aufsteigt.
-Ein Schatten stand hinter mir im Spiegel, aber ich war allein im Raum.
-Die Glocke läutete 13 Mal, obwohl die Uhr nur 12 Stunden hat.
-Der Nebel formte Hände, die nach den Vorbeigehenden griffen.
-Die alte Frau sah mich an und nannte mich bei einem Namen, den ich noch nie gehört hatte.
-Ein Kind malte ein Bild von meinem Haus, bevor es abbrannte.
-Die Ratten haben die Augen der toten Katze gefressen.
-Der See kochte und blubberte, obwohl es winterlich kalt war.
-Die Statue drehte ihren Kopf, um den Trauerzug zu beobachten.
-Ein Buch in der Bibliothek schreit, wenn man es öffnet.
-Der Wind riss die Fensterläden auf, obwohl sie verriegelt waren.
-Die Schatten unter dem Bett bewegten sich und flüsterten.
-Man sagt, der Wald sei ein Gefängnis für alte Geister.
-Der alte Brunnen stinkt nach Schwefel und Fäulnis.
-Die Krähen hackten auf die Fenster des Krankenhauses ein.
-Ein Schatten legte sich über mein Herz.
-Die Milch schmeckte metallisch, wie Blut.
-Der Schmied hat sich die Hand verbrannt, aber die Wunde blutet nicht.
-Im Wald sah ich ein Licht, das mich tiefer in die Dunkelheit lockte.
-Die Brücke schwankt, auch wenn kein Wind weht.
-Man sagt, der See spiegele nicht den Himmel, sondern eine andere Welt.
-Die Vögel haben aufgehört zu singen, seit der Fremde angekommen ist.
-Ein Schatten kroch die Wand hoch wie eine riesige Spinne.
-Die Glocke läutete den Tod, aber niemand war gestorben - noch nicht.
-Der Nebel drang durch die Ritzen der Tür und füllte den Raum.
-Die alte Frau lachte, und es klang wie brechendes Glas.
-Ein Kind stand mitten auf der Straße und starrte in die Sonne, ohne zu blinzeln.
-Die Ratten kamen aus den Löchern und starrten mich an.
-Der See färbte sich dunkelrot, als der Vollmond aufging.
-Die Statue weinte Blut, als der Krieg begann.
-Ein Buch, dessen Seiten leer sind, bis man seinen eigenen Namen hineinschreibt.
-Der Wind trug das Wimmern eines verlorenen Kindes heran.
-Die Schatten verschlangen das letzte Licht der Kerze.
-Man sagt, der Wald höre alles, was man sagt.
-Der alte Brunnen ist der Eingang zur Hölle, sagen die Alten.
-Die Krähen saßen in Reihen auf dem Zaun wie Richter.
-Ein Schatten, der keine Gestalt hat, aber Kälte ausstrahlt.
-Die Milch gerann sofort, als der Blitz einschlug.
-Der Schmied schmiedet Fesseln, die keinen Schlüssel haben.
-Im Wald gibt es eine Lichtung, auf der keine Vögel singen.
-Die Brücke ist nachts oft von Nebel verhüllt, und man hört Stimmen daraus.
-Man sagt, der See sei bodenlos und wer hineinfällt, fällt ewig.
-Die Vögel fliegen in Spiralen, als wären sie betrunken.
-Es heißt, wenn man seinen Namen rückwärts in den Staub schreibt, antwortet der Wind.
-Die Toten liegen unruhig, seit man den alten Baum gefällt hat.
-Manchmal klopft es dreimal an die Tür, aber niemand ist draußen - nur Kälte.
-Der Apotheker mischt zerriebene Knochen in seine "Wundermittel".
-Die Hunde bellen das leere Feld an, wo früher der Galgen stand.
-Wer bei Neumond in den Spiegel sieht, sieht sein Gesicht im Alter.
-Ein Flüstern geht durch die Wände, wenn alle schlafen.
-Die Kerzenflamme neigt sich immer nach Norden, egal woher der Wind weht.
-Im Keller der Kirche hat man eine zugemauerte Tür gefunden, die warm ist.
-Die Katzen machen einen großen Bogen um das Haus des neuen Arztes.
-Am Flussufer findet man manchmal Steine, die aussehen wie versteinerte Augen.
-Der Mond scheint durch das Dach, obwohl keine Ziegel fehlen.
-Der Friedhofsgärtner gräbt nachts Löcher und schüttet sie morgens wieder zu, ohne etwas hineinzulegen.
-Manchmal riecht der Wind nach Zimt, kurz bevor jemand stirbt.
-Die Katzen im Dorf starren alle gleichzeitig auf den Kirchturm, wenn die Uhr 12 schlägt.
-Ein Wanderer behauptete, er habe sein eigenes Grab im Wald gefunden, mit seinem Namen und dem Datum von morgen.
-Die Vogelscheuche hat heute Morgen Kleidung an, die gestern noch auf der Wäscheleine hing.
-Im alten Brunnen hört man manchmal das Klimpern von Münzen, obwohl niemand welche hineinwirft.
-Der Schmied hat ein Hufeisen geschmiedet, das immer nach Norden zeigt, egal wie man es dreht.
-Die Milch der Kuh des Pfarrers ist seit drei Tagen rot wie Blut.
-Ein Schatten huschte über den Mond, obwohl keine Wolke am Himmel war.
-Die Blumen auf dem Grab der Hexe verwelken nie, selbst im tiefsten Winter nicht.
-Man sagt, der Baron habe seine Seele in einem Kartenspiel gegen den Teufel verloren.
-Jede Nacht um dieselbe Zeit geht die Laterne vor dem Gasthaus aus und zwei Minuten später wieder an.
-Der alte Fischer hat einen Fisch gefangen, der menschliche Zähne hatte und um Gnade flehte.
-Die Puppe im Schaufenster des Spielzeugladens hat heute eine andere Augenfarbe.
-Wenn man das Ohr an die alte Eiche legt, kann man ein Herz schlagen hören.
-Der Nebel im Tal formte sich zu Gesichtern von Leuten, die vor Jahren verschwunden sind.
-Ein Buch in der Bibliothek lässt sich nicht öffnen, egal wie viel Kraft man aufwendet.
-Die Hühner legen Eier, die innen komplett schwarz sind.
-Der Wind heulte gestern Nacht so laut, dass es klang, als würde er meinen Namen rufen.
-Ein Fremder kam ins Dorf und kannte Geheimnisse von jedem, die niemandem sonst bekannt waren.
-Im Keller des Rathauses wurde eine Tür entdeckt, die auf keiner Bauzeichnung verzeichnet ist.
-Die Statue auf dem Marktplatz weint echte Tränen, wenn ein Unglück bevorsteht.
-Der See war heute Morgen so glatt wie ein Spiegel, obwohl ein starker Wind wehte.
-Manchmal hört man nachts Schritte auf dem Dach, obwohl dort niemand sein kann.
-Die Kerzen in der Kirche brennen mit einer blauen Flamme, wenn der Inquisitor die Stadt betritt.
-Ein Hund bellte eine leere Gasse an und wich winselnd zurück, als hätte ihn etwas geschlagen.
-Der Spiegel im Flur zeigte für einen Moment nicht mein Spiegelbild, sondern das eines alten Mannes.
-Die Äpfel im Garten schmecken nach Asche, seit der alte Gärtner gestorben ist.
-Ein Rabe landete auf meiner Schulter und flüsterte "Er kommt", bevor er wieder wegflog.
-Die Uhr im Wohnzimmer schlägt 13 Mal, immer wenn jemand im Haus krank wird.
-Der Schatten meines Nachbarn bewegte sich unabhängig von ihm.
-Im Wald gibt es einen Pfad, den man nur bei Vollmond sehen kann.
-Die Brücke über den Fluss stöhnte unter meinen Schritten, als hätte sie Schmerzen.
-Man sagt, im verlassenen Turm wohne ein Geist, der Einsamkeit sammelt.
-Die Fische im Teich schwimmen immer im Kreis, gegen den Uhrzeigersinn.
-Der Bäcker fand einen goldenen Ring in einem Brotlaib, den er selbst gebacken hatte.
-Die Wolken am Himmel formten sich zu einem riesigen Totenschädel.
-Ein Kind im Dorf malt Bilder von Orten, die es noch nie gesehen hat.
-Die Tür zum Keller war verschlossen, aber ich hörte deutlich Schritte dahinter.
-Der Wein im Keller des Wirts hat sich über Nacht in Essig verwandelt.
-Manchmal leuchten die Augen der Katzen im Dunkeln grün statt gelb.
-Der alte Mann auf der Bank füttert Tauben, die keinen Schatten werfen.
-Die Blumen im Garten drehen ihre Köpfe weg von der Sonne.
-Ein kalter Lufthauch wehte durch das geschlossene Fenster und löschte die Kerze.
-Die Dielenbretter knarren immer an derselben Stelle, auch wenn niemand darauf tritt.
-Im Spiegel sah ich eine Gestalt hinter mir stehen, aber als ich mich umdrehte, war niemand da.
-Der Wind trug ein Lied heran, das meine Großmutter mir immer vorgesungen hat.
-Die Vögel im Wald sind verstummt, als ich den alten Steinkreis betrat.
-Ein Schatten löste sich von der Wand und folgte mir nach Hause.
-Die Glocke der Kapelle läutete von selbst, obwohl das Seil gerissen ist.
-Man sagt, der See habe keinen Boden und führe direkt in die Unterwelt.
-Der Nebel war so dicht, dass ich meine eigene Hand vor Augen nicht sehen konnte.
-Die alte Frau am Markt verkaufte mir einen Apfel, der innen aus purem Gold war.
-Ein Kind lachte im leeren Schulgebäude.
-Die Ratten verlassen das sinkende Schiff, aber hier gibt es kein Schiff und kein Wasser.
-Der Mond schien heute Nacht heller als die Sonne am Tag.
-Die Statue des Gründers hat sich über Nacht umgedreht und schaut nun weg von der Stadt.
-Ein Buch fiel aus dem Regal und schlug eine Seite auf, auf der mein Todestag stand.
-Der Wind rüttelte an den Fensterläden, als wollte er eingelassen werden.
-Die Schatten im Wald wurden länger und griffen nach meinen Füßen.
-Man sagt, im alten Bergwerk hause ein Drache, der auf einem Berg aus Gold schläft.
-Der Brunnen im Burghof ist voller Knochen, aber niemand weiß, von wem sie stammen.
-Die Krähen kreisen über dem Haus des Bürgermeisters, als würden sie auf etwas warten.
-Ein Schatten stand am Ende meines Bettes und beobachtete mich beim Schlafen.
-Die Milch in der Schüssel wurde schwarz, als die Katze daran leckte.
-Der Schmied hörte auf zu hämmern, aber der Klang des Hammers hallte noch stundenlang nach.
-Im Wald fand ich eine Hütte aus Knochen, die mit Menschenhaut bespannt war.
-Die Brücke stürzte ein, kurz nachdem ich sie überquert hatte, ohne dass ein Stein fiel.
-Man sagt, der See sei aus den Tränen einer Riesin entstanden.
-Die Vögel flogen rückwärts, als der Magier den Zauber sprach.
-Ein Schatten verschlang das Licht der Lampe, ohne dass sie ausging.
-Die Glocke läutete den Untergang der Welt ein, aber niemand hörte sie außer mir.
-Der Nebel kroch wie ein lebendiges Wesen durch die Gassen der Stadt.
-Die alte Frau wusste Dinge über mich, die ich niemandem erzählt hatte.
-Ein Kind zeigte auf einen leeren Stuhl und sagte "Da sitzt der Mann".
-Die Ratten bauten ein Nest aus gestohlenen Goldmünzen.
-Der See leuchtete in allen Farben des Regenbogens, als der Stein hineinfiel.
-Die Statue blinzelte mir zu, als ich an ihr vorbeiging.
-Ein Buch blutete, als ich Seite 666 aufschlug.
-Der Wind flüsterte mir den Namen meines wahren Vaters ins Ohr.
-Die Schatten tanzten einen wilden Reigen um das Feuer.
-Man sagt, der Wald sei verzaubert und wer ihn betritt, vergisst seinen Namen.
-Der alte Brunnen spuckte Feuer statt Wasser.
-Die Krähen sprachen mit der Stimme eines toten Königs.
-Ein Schatten legte sich wie eine schwere Decke über die Stadt.
-Die Milch verwandelte sich in Wein, als der Heilige sie segnete.
-Der Schmied schmiedete ein Schwert aus Licht, das die Dunkelheit vertreiben konnte.
-Im Wald wuchsen Bäume aus Kristall, die im Wind sangen.
-Die Brücke führte nicht über den Fluss, sondern in eine andere Welt.
-Man sagt, der See sei ein Portal zu den Sternen.
-Die Vögel trugen Nachrichten von den Göttern.
-Ein Schatten wurde zu einem Licht, das den Weg wies.
-Die Glocke läutete die Geburt eines neuen Zeitalters ein.
-Der Nebel war nicht aus Wasser, sondern aus Träumen.
-Die alte Frau war in Wirklichkeit eine wunderschöne Prinzessin, die verflucht worden war.
-Ein Kind rettete das Dorf vor dem Untergang.
-Die Ratten waren die heimlichen Herrscher der Stadt.
-Der See war nicht tief, sondern unendlich weit.
-Die Statue war der versteinerte Held, der eines Tages erwachen würde.
-Ein Buch enthielt die Geschichte der Welt, wie sie wirklich war.
-Der Wind war der Atem der Erde.
-Die Schatten waren die Erinnerungen der Welt.
-Man sagt, der Wald sei der letzte Ort, an dem Magie noch existiert.
-Der alte Brunnen war die Quelle ewiger Jugend.
-Die Krähen waren die Wächter der Zeit.
-Ein Schatten, der niemals vergeht, solange es Licht gibt.
-Die Milch des Lebens fließt in Strömen.
-Der Schmied des Schicksals schmiedet das Leben jedes Einzelnen.
-Im Wald der Seelen finden die Toten ihre Ruhe.
-Die Brücke zur Unsterblichkeit ist schmal und gefährlich.
-Man sagt, der See der Wahrheit zeige jedem sein wahres Ich.
-Die Vögel der Hoffnung singen, wenn alles verloren scheint.
-Ein Schatten der Vergangenheit, der die Zukunft bestimmt.
-Die Glocke des Friedens läutet für alle Ewigkeit.
-Der Nebel des Vergessens nimmt jeden Schmerz.
-Die alte Frau der Weisheit kennt alle Antworten.
-Ein Kind der Liebe besiegt jeden Hass.
-Die Ratten des Verrats nagen an den Fundamenten der Macht.
-Der See der Träume lässt Wünsche wahr werden.
-Die Statue der Gerechtigkeit urteilt ohne Gnade.
-Ein Buch der Geheimnisse, das niemals geöffnet werden darf.
-Der Wind des Wandels bringt Neues.
-Die Schatten der Angst verschwinden im Licht des Mutes.
-Man sagt, der Wald der Wunder sei voller Überraschungen.
-Der alte Brunnen der Erkenntnis schenkt tiefes Wissen.
-Die Krähen der Weisheit sehen alles.
-Ein Schatten des Zweifels, der am Glauben nagt.
-Die Milch der Barmherzigkeit nährt die Armen.
-Der Schmied der Träume formt die Nacht.
-Im Wald der Stille hört man nur seinen eigenen Herzschlag.
-Die Brücke des Vertrauens trägt jede Last.
-Man sagt, der See der Ewigkeit habe keinen Anfang und kein Ende.
-Die Vögel der Freiheit kennen keine Grenzen.
-Ein Schatten der Liebe, der niemals weicht.
-Die Glocke der Freude klingt hell und klar.
-Der Nebel der Geborgenheit hüllt sanft ein.
-Die alte Frau des Trostes trocknet jede Träne.
-Ein Kind der Hoffnung bringt Licht in die Dunkelheit.
-Die Ratten der Gier fressen alles kahl.
-Der See der Ruhe spiegelt den Himmel.
-Die Statue der Macht steht fest und unerschütterlich.
-Ein Buch der Lügen, das schön klingt, aber giftig ist.
-Der Wind der Freiheit weht, wo er will.
-Die Schatten der Vergangenheit lassen einen nicht los.
-Man sagt, der Wald der Erinnerung bewahre alles auf.
-Der alte Brunnen der Jugend macht wieder jung.
-Die Krähen des Unglücks bringen schlechte Nachrichten.
-Ein Schatten der Hoffnung, der niemals stirbt.
-Die Milch der Freundschaft verbindet.
-Der Schmied des Glücks schmiedet das Schicksal.
-Im Wald der Abenteuer warten Gefahren und Schätze.
-Die Brücke der Liebe verbindet zwei Herzen.
-Man sagt, der See der Trauer sei salzig von Tränen.
-Die Vögel der Sehnsucht fliegen in die Ferne.
-Ein Schatten der Angst, der lähmt.
-Die Glocke der Warnung läutet bei Gefahr.
-Der Nebel der Täuschung führt in die Irre.
-Die alte Frau der Rache vergisst nie.
-Ein Kind der Unschuld sieht die Welt mit staunenden Augen.
-Die Ratten der Krankheit bringen den Tod.
-Der See der Klarheit zeigt den Weg.
-Die Statue der Schönheit blendet das Auge.
-Ein Buch der Wahrheit, das schwer zu ertragen ist.
-Der Wind der Leidenschaft entfacht das Feuer.
-Die Schatten der Einsamkeit sind kalt und leer.
-Man sagt, der Wald der Geister sei voller verlorener Seelen.
-Der alte Brunnen der Wünsche erfüllt jeden Wunsch, aber zu einem Preis.
-Die Krähen der Nacht bringen Dunkelheit.
-Im Keller des Wirtshauses soll ein Geheimgang zum Schloss führen.
-Die alte Eiche wurde vom Blitz getroffen, aber sie blüht immer noch.
-Manchmal riecht man im Wald den Duft von frisch gebackenem Brot, wo keine Hütte ist.
-Der Fluss hat eine Strömung, die stark genug ist, um ein Pferd mitzureißen.
-Die Vögel singen morgens Lieder, die wie menschliche Melodien klingen.
-Ein Schatten fiel auf mein Buch, aber es war niemand da.
-Die Glocke läutet zur Vesper, auch wenn der Küster krank ist.
-Der Nebel verschluckt alles Licht, selbst das der Laternen.
-Die alte Frau strickt Schals für Kinder, die noch nicht geboren sind.
-Ein Kind erzählte mir von einer Stadt aus Glas, die im Himmel schwebt.
-Die Ratten meiden das Haus am Ende der Straße.
-Der See ist so tief, dass noch nie jemand den Grund erreicht hat.
-Die Statue hält ein Schwert, das schärfer ist als jede Klinge.
-Ein Buch, in dem die Geschichte jedes Menschen geschrieben steht, der es liest.
-Der Wind weht immer aus Richtung des Friedhofs, egal wie das Wetter ist.
-Die Schatten werden länger, wenn man Angst hat.
-Man sagt, der Wald vergesse nie, was in ihm geschehen ist.
-Der alte Brunnen ist so tief, dass man den Aufschlag eines Steins nicht hört.
-Die Krähen wissen mehr, als sie sagen, wenn man ihre Sprache spricht.
-Ein Schatten folgte mir bis zu meiner Haustür und wartete dort.
-Die Milch wurde sauer, als die Uhr Mitternacht schlug.
-Der Schmied hämmert manchmal die ganze Nacht, obwohl er keinen Auftrag hat.
-Im Wald fand man ein verlassenes Lagerfeuer, das noch brannte.
+No one who went into the mistwood after midnight ever came back with their mind intact.
+Since the miller hanged himself, the wheels of the old mill never stand completely still.
+Not even the priest dares to bless the back part of the graveyard anymore.
+Last night I saw that pale, flickering light in the window of the abandoned tower again.
+The dogs bark every evening at the empty corner of the taproom, as if someone were standing there.
+The manor has been empty for years, but every morning the curtains are drawn differently.
+Even in high summer, the cellar of the estate is as cold as a freshly dug grave.
+Sometimes you can hear clear children's laughter from the well, even though it has been dry for years.
+When the wind blows from the north, it doesn't sound like wind, but like a woman weeping.
+The eyes of the statues in the garden seem to follow you, no matter where you step.
+In the nights before the new moon, the cats always disappear from the village.
+The blacksmith has been talking to the fire for weeks, and some swear the fire answers him.
+Behind the wall in the guest room, you sometimes hear scratching, as if something wants to get out.
+The old bridge is safe, as long as you don't look down into the water while crossing.
+They say the baron has cast no shadow since he returned from his journey.
+Every time the church bell strikes thirteen, someone in the village dies.
+The dolls in the toy shop change their positions when no one is looking.
+A carriage was found in the moor, completely intact, but without horses or driver.
+The milk turns sour as soon as it is brought near the old barrow.
+Some say the crows in this valley are actually the souls of the damned.
+The lake never freezes over, even when it hails stones and birds fall dead from the sky.
+A book was found under the floorboards of the tavern written in no known language.
+The new doctor has hands as cold as ice, and he never blinks.
+At night you can hear footsteps in the attic, even though there is no access to it.
+If you take a mirror into the forest, it sometimes shows things that aren't there.
+The scarecrow in the field has turned around since yesterday and is now facing the house.
+In the bakery cellar it sometimes smells of sulfur, not bread.
+The old oak bleeds red resin if you scratch its bark.
+Since the last storm, two days are missing from the town archive records.
+A stranger came to the village and knew everyone by name, though no one had ever seen him.
+The flowers on the witch's grave bloom even in the deepest winter.
+Sometimes, if you are very quiet, you can hear the river whispering.
+The clockmaker claims he has built a clock that makes time run backwards.
+In the library there is a book that starts screaming when read.
+The rats are leaving the village in droves, as if fleeing from something.
+Everyone who slept in room 13 complains of the same nightmares.
+The mist this morning smells of old smoke and burnt meat.
+There is a path in the forest that is not on any map and leads nowhere.
+The wolves no longer howl at the moon, but at the old manor on the hill.
+A child was found in the forest speaking a language dead for centuries.
+The reflection in the village well sometimes shows a different face than your own.
+If you give the beggar a gold coin, he tells you the date of your death.
+The candles in the chapel cannot be lit, no matter how hard you try.
+They say the innkeeper mixes something into the stew that makes guests forget.
+The fish in the pond all have milky white eyes and swim on their backs.
+A shadow flitted through the alley, but there was no one there to cast it.
+The armor in the hall rattles at night, as if someone were dancing in it.
+Since the comet appeared in the sky, all calves are born with two heads.
+The ferryman takes no money anymore, he now demands a story as payment.
+Sometimes the wind smells of the sea, even though we are hundreds of miles from the coast.
+The old runes on the archway sometimes glow faintly when storms approach.
+A letter arrived, dated a hundred years in the future.
+The mirror in the hallway is always fogged up, even when it is warm and dry.
+There are rumors of a tunnel leading directly from the crypt to the town hall cellar.
+The cats all stare at same empty spot on the wall and hiss simultaneously.
+If you fall asleep at the edge of the woods, you sometimes wake up in a completely different place.
+The butcher has knives that never dull, and no one knows what they are forged from.
+They say the lake has no bottom, and whoever falls in falls forever.
+The birds avoid the old church tower; they prefer to fly a wide arc around it.
+Every night at the same time, there are three knocks at the back door, but no one is there.
+In the fireplace fire yesterday, I saw the face of my grandfather warning me.
+The wine from the year of the great fire tastes of ash and tears.
+The music box sometimes plays by itself, but the melody is off-key and wrong.
+They say a dragon sleeps beneath the marketplace, just waiting to be woken.
+The old man on the bench feeds pigeons that don't exist.
+Behind the waterfall there is said to be a cave where time stands still.
+The dungeon walls sweat a black, oily substance.
+If you say the old king's name three times aloud, your nose starts to bleed.
+The sundial's shadow always points to 12 o'clock, no matter the time.
+The stairs have 13 steps when going up, but only 12 when going down.
+A hearse drives through the main street every night, but it never stops.
+The apples in the priest's garden are bloody red on the inside.
+It is rumored that the mayor has actually been dead for years.
+The spiders weave their webs in the shape of strange symbols.
+An empty boat has been drifting on the lake for days, but it never comes to shore.
+The bell in the tower sometimes rings, even though the clapper is missing.
+If you whistle in the fog, sometimes something whistles back.
+The bees' honey shimmers green and makes you dream strange things.
+The old bridge sings in the wind, a song of sorrow and loss.
+Sometimes you find wet footprints in the hallway in the morning leading into the nursery.
+The hurdy-gurdy man plays a melody you can't get out of your head.
+The ravens on the gallows hill are larger than elsewhere and have no fear.
+A ghostly rider searches for his lost head every night.
+The lanterns go out as soon as the night watchman has passed.
+In the forest there is a clearing where no snow remains.
+The chickens lay eggs with shells as hard as stone.
+They say the ranger traded his heart for eternal life.
+In the old mine you can still hear the hammering of the buried miners.
+The park pond turns dark red once a year.
+The statue in the square weeps real tears when misfortune is imminent.
+The wind sometimes carries scraps of conversations held years ago.
+A black dog with glowing red eyes guards the crossroads.
+The door to the cellar cannot be locked; the lock always springs open again.
+They say the miller grinds bones into the flour.
+The moths here are huge and have patterns on their wings that look like skulls.
+Sometimes you see a face in the tower window distorted with pain.
+The old well whispers wishes, but you should never grant them.
+The herbalist brews potions that let the dead speak for a short time.
+In winter, ice flowers grow on the windows that look like distorted grimaces.
+The shadow of the gallows is longer than it should be.
+Sometimes you hear horses neighing from the empty stable.
+The old gravedigger talks to the graves as if they were his children.
+A book in the antique shop turns its own pages.
+The Milky Way looks different here than in the neighboring village.
+There is a door in the manor that only appears when you aren't looking for it.
+The birds don't sing here, they scream.
+Sometimes it rains ash, even though no fire is burning.
+The lake is so clear you can see the ruins of a city on the bottom.
+The puppeteer controls her puppets without strings.
+A strange humming comes from the ground that makes your teeth vibrate.
+The mist in the valley glows faintly greenish at night.
+The bats fly here even in broad daylight.
+They say the innkeeper lost his soul in a card game.
+The old stones in the circle get warmer every night.
+A child in the village paints pictures of things that have yet to happen.
+The river flows uphill on some days.
+The shadows in the alley move, even when no one is there.
+If you spill salt, it sometimes forms letters.
+The blacksmith can bend iron with his bare hands when he is angry.
+There is a melody that causes madness if heard too long.
+The rats have started walking on two legs.
+The old lighthouse shines, though it has had no oil for years.
+In the catacombs mushrooms grow that glow in the dark.
+Sometimes you hear the clatter of dice from the empty back room.
+The wine here always tastes slightly of iron.
+The trees in the forest seem to move when you blink.
+A raven sits on the same fence post everyday and croaks "Never".
+The clocks in the village all stop at the same time, always at 3 am.
+They say the lake demands a sacrifice every year.
+The old man has no mirrors in his house because he doesn't want to see "the others".
+In the cellar you sometimes hear the rushing of the sea.
+The cats are afraid of the new priest.
+If you throw a coin into the well, it sometimes comes back up.
+The fog swallows sounds; you don't even hear your own footsteps.
+There is a room in the inn that always stays cold, no matter how much you heat it.
+The hero's statue has turned its head and is now looking east.
+Sometimes you smell perfume in the forest where no one is.
+The candle flames are sometimes blue instead of yellow.
+A ghost ship sails over the mist in the valley at full moon.
+The old folks say the mountain is growing.
+Sometimes you find bones in the garden that belong to no animal.
+The wind howls names if you listen closely.
+The scarecrow has fresh blood on its hands this morning.
+In the mirror you sometimes see someone standing behind you.
+The shadow of a man walks through the village, but he has no body.
+The bells ring by themselves when a storm approaches.
+There is a door you can only open if you close your eyes.
+The fish in the river have human teeth.
+They say the witch in the woods can steal dreams.
+The old well is deeper than the world.
+The moths always fly into the fire, as if wanting to die.
+A child was born who could already speak.
+The mist forms shapes that reach for you.
+The stars are wrong in the sky.
+Sometimes you hear laughter from the empty hall.
+The ground trembles slightly, as if something were breathing beneath it.
+The flowers wilt as soon as the baron passes by.
+There is a shadow that detaches from the body and acts independently.
+The lake does not reflect the moon.
+Sometimes birds fall dead from the sky for no apparent reason.
+The old oak has a face in the bark that changes with the years.
+The wind carries the smell of ozone and magic.
+A book that cannot be burned.
+The Rat Queen rules the sewers.
+The blacksmith hammers a rhythm that could wake the dead.
+In the forest there are mushrooms that scream when picked.
+The old bridge demands a toll from everyone who crosses it.
+They say the lake is a gateway to another world.
+The crows watch every step you take.
+A shadow cowering in the corner and whimpering.
+The milk tastes bitter when the full moon shines.
+The old man in the forest feeds wolves by hand.
+There is a melody you can only hear in dreams.
+The spiders weave webs strong enough to catch birds.
+A whisper coming from the walls.
+The statue blinks when no one is looking.
+The fog reaches for you with cold fingers.
+Sometimes you see lights in the swamp that lead you astray.
+The old tower has no entrance gate, but sometimes you see light in the upper window.
+The baker's cat has two tails.
+Calculated to contain over 600 entries.
+It is said that the cemetery gardener sleeps in an open grave.
+The apples taste of ash.
+The wind sings a lullaby that lets you never wake up again.
+A shadow longer than the man casting it.
+The trees whisper warnings.
+The lake is full of eels craving flesh.
+They say the baron drinks blood to stay young.
+The doll in the window has a different position today.
+A cold breath on your neck, though no wind blows.
+The door creaks as if speaking.
+The mirror shows things that are yet to happen.
+The birds fly in spirals over the old stone circle.
+A dog that casts no shadow.
+The bell tolls the death of someone still alive.
+There are rumors of a cult dwelling in the catacombs.
+The fog tastes metallic.
+The old woman at the market sells potions that bring "luck".
+A child that never blinks.
+The rats whisper secrets to each other.
+The lake boils sometimes, though it is cold.
+The statue moved its hand this morning.
+A book that cannot be opened.
+The wind carries the laughter of a dead child.
+The shadows lengthen when the sun is highest.
+They say the forest swallows wanderers.
+The old well stinks of decay.
+The crows all have white feathers today.
+A shadow moving against the wind.
+The milk turns to blood.
+The blacksmith forges weapons for ghosts.
+In the forest there is a hut standing on chicken legs.
+The bridge is built of bones.
+They say the lake is the eye of a sleeping giant.
+The birds have stopped singing.
+They say the tower's shadow points to a hidden treasure on the longest day of the year.
+If you whisper the dead man's name, the candle flame moves.
+The old bridge cannot bear the weight of a liar.
+In the forest there is a path that always leads back to the start.
+The birds avoid the judge's roof as if it were made of fire.
+A shadow flitted across the ground, though the sun was directly overhead.
+The bell sometimes rings by itself, always when a child dies.
+The mist in the moor has led many wanderers to their deaths.
+The old woman at the crossroads allegedly knows the day the world ends.
+Sometimes at night you see lights dancing in the abandoned mine.
+The rats ate the supplies, but the grain was completely untouched.
+The lake sometimes washes bones ashore that come from no animal.
+The statue in the park sheds red tears on every anniversary of the battle.
+A book you cannot open because it is bound in skin.
+The wind sometimes carries the laughter of a girl who drowned years ago.
+The shadows in the forest move as if to surround you.
+They say the old manor is built on an ancient graveyard.
+The village well has dried up, yet you hear water rushing.
+The crows accompany the hearse as if they were mourners.
+A shadow with no outline, looking like smoke.
+The birds fall burning from the sky.
+There is a cave that makes anyone who enters younger - until they disappear.
+The minstrel has no fingers, but plays the most beautiful harp in the world.
+If you stare into the mirror at night, you see not yourself, but your ancestor.
+The river sometimes carries gold dust, but whoever reaches for it drowns.
+The herbalist waters her plants with blood to make them grow faster.
+A wolf with human eyes guards the old king's grave.
+The bells of the sunken city ring underwater during storms.
+They say the mountain's shadow moves only hours after the sun.
+The pigeons on the roof coo in a rhythm sounding like Morse code.
+A wanderer passed by claiming to be the wind.
+The apples from the hangman's tree cure any disease, but cost your voice.
+The old lighthouse keeper speaks to the storms to calm them.
+In the tavern cellar there is a door you can't open, but light burns behind it.
+The fish in the well have faces of missing people.
+When the owls call three times, a child is born who can do magic.
+The smoke from the witch's chimney sometimes forms letters.
+The statue on the marketplace holds a different weapon at night.
+They say the lake is actually a giant, sleeping eye.
+The spider webs in the old tower are as strong as steel cables.
+A book in the library has pages that rewrite themselves.
+The morning mist sometimes smells of roses, sometimes of decay.
+The village cats are afraid of the little girl with red eyes.
+If you throw a stone into the abyss, you never hear it hit.
+The fire in the hearth sometimes shows images of the future.
+The old man by the roadside sells dreams in small bottles.
+The trees in the forest whisper stories to each other when no one is listening.
+They say the queen buried her heart in a box.
+The wind sometimes carries voices of the dead.
+The scarecrow changed its location to tonight.
+A single candle burns every night in the abandoned house.
+The snakes in the swamp have two heads and speak the truth.
+The blacksmith can hammer iron so thin it becomes invisible.
+The black goat's milk makes you immortal, but insane.
+The lake is so deep it reaches the other side of the world.
+The crows collect shiny things for their king.
+A bodiless shadow creeps through the alleys.
+The bell in the tower rings when someone tells a lie.
+The mist in the forest is actually a dragon's breath.
+The old woman in the woods knows the name of every star.
+A child born under a full moon never gets sick.
+The rats in the cellar dance in a circle when music plays.
+The river flows red as wine on holidays.
+The warrior's statue bleeds from the eyes when war threatens.
+A book only readable in the dark.
+The wind whispers secrets no one must know.
+The shadows in the forest reach for wanderers' ankles.
+They say the lake is a gateway to the underworld.
+The old well grants wishes, but twists the wording.
+The crows watch the living and report to the dead.
+A shadow colder than ice.
+The milk smells like honey when an elf is near.
+The blacksmith forges swords that never break.
+ In the forest there is a clearing where time stands still.
+The bridge sings when you cross it.
+They say the lake is full of gold, but guarded by a monster.
+The birds warn of danger if you understand their language.
+A shadow moving faster than light.
+The bell tolls the arrival of winter.
+The fog brings oblivion.
+The old woman weaves human fate.
+A child who can speak with animals.
+The rats are the eyes of the thief king.
+The lake shows you the face of your true love.
+The statue comes to life if you kiss it.
+A book that reads the reader's thoughts.
+The wind carries away a deceased soul.
+The shadows hide monsters.
+They say the forest is the home of the old gods.
+The old well is the entrance to a hidden city.
+The crows are messengers of death.
+A shadow that protects you.
+The milk heals all wounds.
+The blacksmith can repair weapons just by touching them.
+In the forest are trees whose fruits grant knowledge.
+The bridge leads to a place that doesn't exist.
+They say the lake is tears of the gods.
+The birds sing songs of long-forgotten heroes.
+A shadow so dark it swallows light.
+The bell rings when a child is born.
+The fog veils the truth.
+The old woman knows a song that lulls dragons to sleep.
+A child that never ages.
+The rats warn of earthquakes.
+The lake never freezes because a fire spirit lives in it.
+The statue points the way to treasure.
+A book only the chosen one can read.
+The wind blows worries away.
+The shadows are actually portals.
+They say the forest changes every night.
+The old well is infinitely deep.
+The crows know who dies next.
+A shadow shaped like a wolf.
+The milk makes you strong as a bear.
+The blacksmith has a hammer that throws lightning.
+In the forest there are flowers that breathe in rhythm.
+The bridge is invisible to those who don't believe in it.
+They say the lake is cursed.
+The birds bring news from distant lands.
+A shadow smelling of flowers.
+The bell has a crack but sounds perfect.
+The fog shows you the way home.
+The old woman has a cat as old as she is.
+Sometimes you find dolls hanging from trees in the forest.
+The wind howls like a wolf pack on some nights.
+A shadow waits at the same street corner every evening.
+They say the old miller stretched flour with bone dust.
+The well sometimes gives only dust and ash instead of water.
+The crows on the roof watch everyone entering the house.
+A shadow detached from the ground and disappeared into the wall.
+The milk tastes of iron when the full moon shines.
+The blacksmith forged a sword that glows in the dark.
+In the forest you sometimes hear horse hooves clattering, but no rider is seen.
+The bridge groans under the weight of sins of those crossing it.
+The gardener found a hand of stone while digging that was still warm.
+They say the river water sometimes flows backwards for an hour.
+The birds avoid the old gallows hill even when grain is scattered there.
+A shadow without an owner waits at the crossroads every night.
+The milk in the jug froze to ice, though it stood next to the stove.
+The blacksmith refuses to shoe horses whose eyes glow red.
+In the forest at night you hear the crying of a child who disappeared a hundred years ago.
+The bridge sings in the wind, but it is a lament.
+They say the lake has a voice you can only hear underwater.
+The statue in the park always turns away when you don't look at it.
+A book that stains fingers black when reading, but the ink doesn't come off.
+The wind rattles the doors like someone wanting in.
+The shadows in the cellar seem to have a life of their own.
+They say the forest remembers every drop of blood shed there.
+The old well smells of iron and salt on some days.
+The crows gather on the roof of the dying house before someone gets sick.
+A shadow looking like death walks through the alleys.
+The milk tastes of bile if you speak ill of the dead.
+The blacksmith says he once shod a rider whose horse had no hooves.
+In the forest there are mushrooms looking like little skulls.
+The bridge leads into nothingness when the fog is thick enough.
+They say the lake is the entrance to the realm of the drowned.
+The birds sometimes fall dead from the branch for no apparent reason.
+A shadow that does not disappear in the light.
+The bell rings soundlessly, but the dogs howl anyway.
+The fog creeps under clothes and numbs the skin.
+The old woman has scars looking like letters of a strange language.
+A child in the village has eyes glowing in the dark like a cat's.
+The rats gnawed on the priest in his sleep.
+The lake sometimes throws things on land lost for centuries.
+The gravedigger spoke to an empty grave again last night.
+They say the old orphanage isn't as empty as it looks.
+When the crows fall silent, you better run.
+A child in the village claims to see the colors of lies.
+The mirrors in the inn are all draped with cloths, and no one asks why.
+It is said the new priest has no shadow when standing in the sanctuary.
+The flowers on the marketplace turned black overnight.
+Sometimes you don't hear splashing water from the well, but coins.
+The wind carries smells from places not on any map.
+The cats started howling in chorus, always just before sunrise.
+A shadow sits on the baker's chimney every night.
+The milk in the buckets was colored red this morning.
+The blacksmith forges something at night he shows no one by day.
+In the forest there is a tree that bleeds if you hurt the bark.
+The bridge over the river cracks as if bones were breaking.
+They say the lake demands a sacrifice every year, or it floods.
+The birds avoid the old tower like the air there is toxic.
+A shadow flitted through my room, though windows were closed.
+The bell in the tower sometimes rings, though the clapper is missing.
+The morning mist tastes of ash.
+The old woman at the woods' edge sells potions erasing memories.
+A child was born having teeth at birth.
+The rats in the cellar ran patterns in the dust looking like runes.
+The lake is so clear on some days you can see ruins on the bottom.
+The statue in the cemetery folded its hands this morning.
+A book you cannot burn, no matter how hot the fire.
+The wind whispers names of people who will die soon.
+The shadows in the alley lengthen, though the sun has set.
+They say the forest grows a bit closer to the village every night.
+The old well dried up the day the king died.
+The crows started throwing stones on the roofs.
+A shadow followed me all the way home but stopped at the threshold.
+The milk turns sour as soon as the stranger enters the room.
+The blacksmith says the iron screams when he holds it in the fire.
+In the forest footprints were found ending suddenly in the snow.
+The bridge has no railing since the last mayor fell down.
+They say the lake is actually a sleeping eye of a god.
+The birds fall dead from the sky when the mist rises from the swamp.
+A shadow stood behind me in the mirror, but I was alone in the room.
+The bell rang 13 times, though the clock only has 12 hours.
+The fog formed hands grabbing at passersby.
+The old woman looked at me and called me by a name I never heard.
+A child painted a picture of my house before it burned down.
+The rats ate the dead cat's eyes.
+The lake boiled and bubbled, though it was freezing cold.
+The statue turned its head to watch the funeral procession.
+A book in the library screams when you open it.
+The wind tore the shutters open, though they were bolted.
+The shadows under the bed moved and whispered.
+They say the forest is a prison for old spirits.
+The old well stinks of sulfur and rot.
+The crows pecked at the hospital windows.
+A shadow lay over my heart.
+The milk tasted metallic, like blood.
+The blacksmith burned his hand, but the wound doesn't bleed.
+In the forest I saw a light luring me deeper into darkness.
+The bridge sways even when no wind blows.
+They say the lake reflects not the sky, but another world.
+The birds stopped singing since the stranger arrived.
+A shadow crawled up the wall like a giant spider.
+The bell tolled death, but no one had died - yet.
+The fog penetrated door cracks and filled the room.
+The old woman laughed, and it sounded like breaking glass.
+A child stood in the middle of the street staring into the sun without blinking.
+The rats came out of holes and stared at me.
+The lake turned dark red as the full moon rose.
+The statue cried blood when the war began.
+A book whose pages are empty until you write your own name in.
+The wind carried the whimpering of a lost child.
+The shadows devoured the last candle light.
+They say the forest hears everything you say.
+The old well is the entrance to hell, say the elders.
+The crows sat in rows on the fence like judges.
+A shadow having no form but radiating cold.
+The milk curdled immediately when lightning struck.
+The blacksmith forges shackles having no key.
+In the forest there is a clearing where no birds sing.
+The bridge is often veiled in mist at night, and voices are heard from it.
+They say the lake is bottomless and whoever falls in falls forever.
+The birds fly in spirals as if drunk.
+It is said if you write your name backwards in the dust, the wind answers.
+The dead lie uneasy since the old tree was felled.
+Sometimes three knocks on the door, but no one is outside - only cold.
+The pharmacist mixes ground bones into his "miracle cures".
+The dogs bark at the empty field where the gallows used to stand.
+Whoever looks into the mirror at new moon sees their face in old age.
+A whispering goes through walls when everyone sleeps.
+The candle flame always leans north, no matter the wind.
+In the church cellar a bricked-up door was found that is warm.
+The cats give a wide berth to the new doctor's house.
+On the riverbank you sometimes find stones looking like petrified eyes.
+The moon shines through the roof, though no tiles are missing.
+The cemetery gardener digs holes at night and fills them in morning, putting nothing inside.
+Sometimes the wind smells of cinnamon just before someone dies.
+The village cats all stare at the church tower simultaneously when the clock strikes 12.
+A wanderer claimed he found his own grave in the forest, with his name and tomorrow's date.
+The scarecrow wears clothes this morning that hung on the clothesline yesterday.
+In the old well you sometimes hear coins clinking, though no one throws any in.
+The blacksmith forged a horseshoe always pointing north, no matter how you turn it.
+The priest's cow's milk has been red as blood for three days.
+A shadow flitted across the moon, though no cloud was in the sky.
+The flowers on the witch's grave never wilt, even in deepest winter.
+They say the baron lost his soul in a card game against the devil.
+Every night at the same time the lantern outside the inn goes out and two minutes later on again.
+The old fisherman caught a fish having human teeth and begging for mercy.
+The doll in the shop window has a different eye color today.
+If you put your ear to the old oak, you can hear a heart beating.
+The valley mist formed faces of people missing for years.
+A book in the library cannot be opened, no matter the force.
+The chickens lay eggs completely black inside.
+The wind howled so loud last night it sounded like calling my name.
+A stranger came to town knowing secrets of everyone known to no one else.
+In the town hall cellar a door was discovered not on any blueprint.
+The marketplace statue sheds real tears when misfortune looms.
+The lake was smooth as a mirror this morning, though strong wind blew.
+Sometimes at night you hear footsteps on the roof, though no one can be there.
+The church candles burn with blue flame when the inquisitor enters town.
+A dog barked at an empty alley and backed away whining, as if hit.
+The hallway mirror showed for a moment not my reflection, but an old man's.
+The garden apples taste of ash since the old gardener died.
+A raven landed on my shoulder whispering "He is coming" before flying off.
+The living room clock strikes 13 times whenever someone in the house gets sick.
+My neighbor's shadow moved independently of him.
+In the forest there is a path you can only see at full moon.
+The bridge over the river moaned under my steps as if in pain.
+They say a ghost lives in the abandoned tower collecting loneliness.
+The pond fishes always swim in circles, counterclockwise.
+The baker found a golden ring in a loaf he baked himself.
+The sky clouds formed a giant skull.
+A child in the village paints pictures of places it has never seen.
+The cellar door was locked, but I clearly heard steps behind it.
+The innkeeper's cellar wine turned to vinegar overnight.
+Sometimes cat eyes glow green instead of yellow in the dark.
+The old man on the bench feeds pigeons casting no shadow.
+The garden flowers turn their heads away from the sun.
+A cold draft blew through the closed window extinguishing the candle.
+The floorboards always creak at the same spot, even if no one steps on it.
+In the mirror I saw a figure standing behind me, but turning around, no one was there.
+The wind carried a song my grandmother always sang to me.
+The forest birds went silent when I entered the old stone circle.
+A shadow detached from the wall and followed me home.
+The chapel bell rang by itself, though the rope is broken.
+They say the lake has no bottom and leads directly to the underworld.
+The fog was so thick I couldn't see my hand before my eyes.
+The old woman at the market sold me an apple made of pure gold inside.
+A child laughed in the empty school building.
+The rats leave the sinking ship, but here is no ship and no water.
+The moon shone brighter tonight than the sun by day.
+The founder's statue turned around overnight and now looks away from the city.
+A book fell from the shelf opening a page where my death date stood.
+The wind rattled the shutters as if wanting to be let in.
+The forest shadows grew longer and reached for my feet.
+They say a dragon lives in the old mine sleeping on a mountain of gold.
+The castle courtyard well is full of bones, but no one knows whose.
+The crows circle over the mayor's house as if waiting for something.
+A shadow stood at the end of my bed watching me sleep.
+The milk in the bowl turned black when the cat licked it.
+The blacksmith stopped hammering, but the sound echoed for hours.
+In the forest I found a hut of bones covered in human skin.
+The bridge collapsed shortly after I crossed it, without a stone falling.
+They say the lake was formed from a giantess's tears.
+The birds flew backwards as the mage cast the spell.
+A shadow devoured the lamp light without it going out.
+The bell tolled the world's end, but no one heard it but me.
+The mist crept like a living being through the city alleys.
+The old woman knew things about me I told no one.
+A child pointed to an empty chair saying "The man sits there".
+The rats built a nest of stolen gold coins.
+The lake glowed in all rainbow colors when the stone fell in.
+The statue winked at me as I passed.
+A book bled when I opened page 666.
+The wind whispered my true father's name in my ear.
+The shadows danced a wild round dance around the fire.
+They say the forest is enchanted and whoever enters forgets their name.
+The old well spat fire instead of water.
+The crows spoke with a dead king's voice.
+A shadow lay like a heavy blanket over the city.
+The milk turned to wine when the saint blessed it.
+The blacksmith forged a sword of light banishing darkness.
+In the forest grew crystal trees singing in the wind.
+The bridge led not over the river, but into another world.
+They say the lake is a portal to the stars.
+The birds carried messages from the gods.
+A shadow became a light showing the way.
+The bell tolled the birth of a new age.
+The mist was not water, but dreams.
+The old woman was in reality a beautiful princess who was cursed.
+A child saved the village from destruction.
+The rats were the secret rulers of the city.
+The lake was not deep, but infinitely wide.
+The statue was the petrified hero who would wake one day.
+A book contained the world's history as it really was.
+The wind was the earth's breath.
+The shadows were the world's memories.
+They say the forest is the last place magic still exists.
+The old well was the fountain of youth.
+The crows were time's guardians.
+A shadow never fading as long as there is light.
+The milk of life flows in streams.
+The blacksmith of fate forges everyone's life.
+In the forest of souls the dead find rest.
+The bridge to immortality is narrow and dangerous.
+They say the lake of truth shows everyone their true self.
+The birds of hope sing when all seems lost.
+A shadow of the past determining the future.
+The bell of peace rings for eternity.
+The fog of oblivion takes every pain.
+The old woman of wisdom knows all answers.
+A child of love defeats every hate.
+The rats of betrayal gnaw at power's foundations.
+The lake of dreams makes wishes come true.
+The statue of justice judges without mercy.
+A book of secrets never to be opened.
+The wind of change brings new things.
+The shadows of fear vanish in the light of courage.
+They say the forest of wonders is full of surprises.
+The old well of knowledge grants deep knowledge.
+The crows of wisdom see everything.
+A shadow of doubt gnawing at belief.
+The milk of mercy nourishes the poor.
+The blacksmith of dreams shapes the night.
+In the forest of silence you hear only your own heartbeat.
+The bridge of trust bears every burden.
+They say the lake of eternity has no beginning and no end.
+The birds of freedom know no borders.
+A shadow of love never yielding.
+The bell of joy sounds bright and clear.
+The mist of security wraps gently.
+The old woman of comfort dries every tear.
+A child of hope brings light into darkness.
+The rats of greed eat everything bare.
+The lake of calm reflects the sky.
+The statue of power stands firm and unshakeable.
+A book of lies sounding beautiful but poisonous.
+The wind of freedom blows where it wants.
+The shadows of the past won't let go.
+They say the forest of memory keeps everything.
+The old well of youth makes young again.
+The crows of misfortune bring bad news.
+A shadow of hope never dying.
+The milk of friendship connects.
+The blacksmith of luck forges fate.
+In the forest of adventure dangers and treasures wait.
+The bridge of love connects two hearts.
+They say the lake of sorrow is salty with tears.
+The birds of longing fly far away.
+A shadow of fear paralyzing.
+The bell of warning rings at danger.
+The fog of deception leads astray.
+The old woman of revenge never forgets.
+A child of innocence sees the world with amazed eyes.
+The rats of disease bring death.
+The lake of clarity shows the way.
+The statue of beauty blinds the eye.
+A book of truth hard to bear.
+The wind of passion kindles the fire.
+The shadows of loneliness are cold and empty.
+They say the forest of spirits is full of lost souls.
+The old well of wishes grants every wish, but at a price.
+The crows of night bring darkness.
+In the cellar of the inn a secret passage is said to lead to the castle.
+The old oak was struck by lightning, but it still blooms.
+Sometimes you smell the scent of fresh baked bread in the forest where no hut is.
+The river has a current strong enough to carry away a horse.
+The birds sing songs in the morning sounding like human melodies.
+A shadow fell on my book, but no one was there.
+The bell rings for vespers, even if the sexton is sick.
+The fog swallows all light, even that of lanterns.
+The old woman knits scarves for children not yet born.
+A child told me of a city of glass floating in the sky.
+The rats avoid the house at the end of the street.
+The lake is so deep no one ever reached the bottom.
+The statue holds a sword sharper than any blade.
+A book where the history of every person reading it is written.
+The wind always blows from the direction of the cemetery, no matter the weather.
+The shadows grow longer when you are afraid.
+They say the forest never forgets what happened in it.
+The old well is so deep you don't hear a stone hitting.
+The crows know more than they say if you speak their language.
+A shadow followed me to my doorstep and waited there.
+The milk turned sour when the clock struck midnight.
+The blacksmith sometimes hammers all night, though he has no order.
+In the forest a abandoned campfire was found still burning.
