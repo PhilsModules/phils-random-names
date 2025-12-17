@@ -31,68 +31,129 @@
 
 # <img src="https://flagcdn.com/48x36/de.png" width="28" height="21" alt="DE"> Deutsche Anleitung
 
-**Phil's Random Names** erlaubt es dir, komplexe Namensgeneratoren (Vorname, Nachname, Geschlecht) und einfache Zufallslisten (z.B. Getränke, Orte) direkt aus Foundry VTT Journalen zu erstellen.
+**Phil's Random Names** ist mehr als nur ein Namensgenerator. Es ist eine komplette Toolbox für SLs, um spontan Inhalte zu erstellen – von NPCs über Snacks bis hin zu Schätzen. Alles basierend auf einfachen Text-Journalen, die du selbst anpassen kannst!
 
-Das Modul kommt bereits **vollgepackt** mit Beispieldaten:
-*   **7 Völker-Listen:**
-    *   Menschen: ~3 Mio. Kombinationen 🤯
-    *   Elfen: ~2 Mio. Kombinationen
-    *   Mwangi: ~1 Mio. Kombinationen
-    *   Zwerge, Halblinge, Gnome, Goblins, Orks: je ~20.000+ Kombinationen
-    *   Leshys: ~30.000+ Kombinationen
-*   **5 Thematische Listen:** Fantasy Drinks, Food, Plants, Shops.
-*   **500+ Gerüchte:** Atmosphärische Plot-Hooks für deine Taverne. (GERMAN ONLY)
-*   **Insgesamt über 13.000 Einträge!** 📚
+## ✨ Hauptfunktionen
 
-## 🚀 Funktionen
+### 1. 🧙‍♂️ NPC Generator
+Erstelle per Klick passende Namen für deine Welt.
+*   **Völker:** Menschen (Mwangi, Inner Sea), Elfen, Zwerge, Gnome, Goblins, Halblinge, Orks, Leshys.
+*   **Optionen:** Wähle Geschlecht (Männlich/Weiblich/Zufall) und ob ein Nachname generiert werden soll.
+*   **Lore-Akkurat:** Die Namenslisten wurden sorgfältig kuratiert, um zur Pathfinder-Lore zu passen (z.B. Clannamen für Zwerge, obsessive Nachnamen für Gnome).
 
-* 🎲 **Komplexe Generatoren:** Erstelle NPCs mit Geschlechts-Auswahl (Männlich/Weiblich/Zufall) und optionalen Nachnamen.
-* 📜 **Einfache Listen:** Generiere zufällige Einträge aus einfachen Listen (Orte, Events, Loot).
-* 📂 **Journal-Basiert:** Alle Daten kommen aus einfachen Text-Journalen im Ordner "Phils Random Names". Du kannst sie jederzeit bearbeiten oder erweitern!
-* 🎨 **Schönes UI:** Ein übersichtliches Fenster für schnellen Zugriff auf alle deine Generatoren.
+### 2. 🎒 Echte Item-Generierung
+Aus den Listen "Food", "Drinks", "Trinkets", "Gemstones" und "Plants" werden nicht nur Namen gezogen. 
+*   **Drag & Drop:** Das Modul erstellt **echte Foundry Items** (Consumables oder Loot), die du direkt in Charakterbögen ziehen kannst.
+*   **System Support:**
+    *   **Pathfinder 2e:** Erstellt `Treasure` (Edelsteine, Plunder) oder `Consumable` (Essen, Tranken, Pflanzen) mit korrekter Preisaufteilung (GP/SP/CP).
+    *   **D&D 5e:** Erstellt `Loot` oder `Consumable` Items.
+    *   **Andere Systeme:** Erstellt generische Items.
 
-## 📦 Installation
+### 3. 💰 Realistische Preise & Beschreibungen (v1.5.0)
+Alle Gegenstände kommen jetzt mit immersiven Beschreibungen und Preisen!
+*   **Flavor-Text:** *"Banshee's Bell | A pale flower that screams when picked."*
+*   **Smart Pricing:** Preise basieren auf einer realistischen Ökonomie ("Bier-Index"). Im Chat werden Preise lesbar dargestellt (z.B. `1gp 5sp` statt `150cp`).
 
-1.  Öffne Foundry VTT.
-2.  Gehe zum Reiter **Add-on Modules**.
-3.  Klicke auf **Install Module**.
-4.  Füge die folgende **Manifest URL** unten ein:
-    ```text
-    https://github.com/PhilsModules/phils-random-names/releases/latest/download/module.json
-    ```
-5.  Klicke auf **Install**.
+### 4. 🎲 Einfache Bedienung
+*   **Clean UI:** Ein eigenes Fenster für alle Generatoren, erreichbar über das Würfel-Icon in der Token-Leiste.
+*   **Anpassbar:** Du willst eigene Listen? Erstelle einfach ein neues Journal im Ordner "Phils Random Names". 
+    *   **Tipp:** Wenn du Preise in Klammern dahinter schreibst `[10gp]`, erstellt das Modul daraus automatisch Items!
+    *   **Pro-Tipp:** Wenn der Name der Liste "Food", "Drink" oder "Plant" enthält (z.B. "Magische Pilze (Plants)"), werden die Items als *Consumables* erstellt!
 
-## 📖 Bedienung
+## 📚 Enthaltene Daten (13.000+ Einträge)
 
-1.  Öffne das Modul über das **Würfel-Icon** in der Token-Leiste (oder Journal-Leiste).
-2.  Klicke auf **"Ordner & Beispiele erstellen"**, falls noch keine Daten vorhanden sind.
-3.  **NPCs generieren:** Wähle Geschlecht und Optionen, klicke dann auf den Würfel.
-4.  **Listen nutzen:** Klicke einfach auf den Würfel neben einer Liste.
-5.  **Neue Generatoren:** Nutze die Buttons "+ NPC" oder "+ Liste" unten im Fenster, um neue leere Journal-Vorlagen zu erstellen.
+
+*   **NPC Namen (Kombinationen):**
+    *   🧝‍♀️ **Elfen:** ~2.000.000
+    *   🛡️ **Menschen (Inner Sea):** ~1.300.000
+    *   🌴 **Menschen (Mwangi):** ~1.000.000
+    *   👹 **Goblins:** ~320.000
+    *   🦶 **Halblinge:** ~280.000
+    *   🌆 **Menschen (Absalom):** ~25.000
+    *   ⚙️ **Gnome:** ~120.000
+    *   ⛏️ **Zwerge:** ~85.000
+    *   🟢 **Orks:** ~45.000
+    *   🌱 **Leshys:** ~28.000
+
+*   **Thematische Listen (Mit Preisen & Beschreibung):**
+    *   🍺 **Fantasy Drinks:** ~430 Getränke
+    *   � **Fantasy Food:** ~560 Gerichte
+    *   🗝️ **Fantasy Trinkets:** ~540 Plunder & kleine Schätze
+    *   💎 **Fantasy Gemstones:** ~390 Edelsteine
+    *   🌿 **Fantasy Plants:** ~500 magische & normale Pflanzen
+    *   🏪 **Shops:** ~500 Geschäftsnamen
+*   **Gerüchte:** 500+ Plot-Hooks für die Taverne.
 
 ---
 
-# <img src="https://flagcdn.com/48x36/gb.png" width="28" height="21" alt="EN"> English Instructions
+## 📦 Installation
+1.  In Foundry VTT auf **Add-on Modules** -> **Install Module**.
+2.  Manifest URL eingeben: `https://github.com/PhilsModules/phils-random-names/releases/latest/download/module.json`
+3.  Installieren & Aktivieren.
 
-**Phil's Random Names** allows you to create complex name generators (First Name, Surname, Gender) and simple random lists (e.g. Drinks, Places) directly from Foundry VTT Journals.
+## 📖 Erste Schritte
+1.  Öffne das Modul über das **Makro "Phil's Random Names"** (im Makro-Verzeichnis).
+2.  Klicke einmalig auf **"Ordner & Beispiele erstellen"**, um die Datenbank zu laden.
+3.  Viel Spaß beim Würfeln!
 
-## 🚀 Features
+---
 
-* 🎲 **Complex Generators:** Create NPCs with gender selection (Male/Female/Any) and optional surnames.
-* 📜 **Simple Lists:** Generate random entries from simple lists (Places, Events, Loot).
-* 📂 **Journal Based:** All data comes from simple text journals in the "Phils Random Names" folder. Edit or expand them anytime!
-* 🎨 **Clean UI:** A clean window for quick access to all your generators.
+# <img src="https://flagcdn.com/48x36/gb.png" width="28" height="21" alt="EN"> English Description
 
-## 📖 Usage
+**Phil's Random Names** is more than just a name generator. It's a complete toolbox for GMs to improvise content on the fly – from NPCs to snacks to treasures. All based on simple text journals that you can edit yourself!
 
-1.  Open the module via the **Dice Icon** in the Token controls.
-2.  Click **"Create Folder & Examples"** to initialize data.
-3.  **Generate NPCs:** Select options and click the dice.
-4.  **Use Lists:** Click the dice next to a list.
-5.  **New Generators:** Use the "+ NPC" or "+ List" buttons to create new empty journal templates.
+## ✨ Key Features
 
-# ⚖️ License
+### 1. 🧙‍♂️ NPC Generator
+Create fitting names for your world with a click.
+*   **Ancestries:** Humans (Mwangi, Inner Sea), Elves, Dwarves, Gnomes, Goblins, Halflings, Orcs, Leshys.
+*   **Options:** Select Gender (Male/Female/Any) and optional Surnames.
+*   **Lore-Accurate:** Name lists are curated to fit Pathfinder lore (e.g. Clan names for Dwarves).
 
+### 2. 🎒 Real Item Generation
+Generating from "Food", "Drinks", "Trinkets", "Gemstones", and "Plants" lists does more than just post text.
+*   **Drag & Drop:** The module creates **real Foundry Items** (Consumables or Loot) that can be dragged directly onto character sheets.
+*   **System Support:**
+    *   **Pathfinder 2e:** Creates `Treasure` or `Consumable` items with correct price breakdown (GP/SP/CP).
+    *   **D&D 5e:** Creates `Loot` or `Consumable` items.
+    *   **Generic:** Creates standard Items with description.
+
+### 3. 💰 Realistic Prices & Descriptions (v1.5.0)
+All items now come with immersive flavor text and realistic prices!
+*   **Flavor:** *"Banshee's Bell | A pale flower that screams when picked."*
+*   **Smart Pricing:** Prices are based on a realistic economy ("Beer Index"). Automation simplifies price display in chat (e.g. `1gp 5sp`).
+
+### 4. 🎲 Easy to Use
+*   **Clean UI:** A dedicated window for all generators, accessible via the Dice Icon in the Token controls.
+*   **Customizable:** Want your own lists? Just create a new Journal in the "Phils Random Names" folder.
+    *   **Tip:** If you add prices in brackets `[10gp]`, the module will automatically turn them into items!
+    *   **Pro-Tip:** If the list name contains "Food", "Drink", or "Plant" (e.g. "Magic Mushrooms (Plants)"), items will be created as *Consumables*!
+
+## 📚 Included Content (13,000+ Entries)
+
+
+*   **NPC Names (Combinations):**
+    *   🧝‍♀️ **Elves:** ~2,000,000
+    *   🛡️ **Humans (Inner Sea):** ~1,300,000
+    *   🌴 **Humans (Mwangi):** ~1,000,000
+    *   👹 **Goblins:** ~320,000
+    *   🦶 **Halflings:** ~280,000
+    *   🌆 **Humans (Absalom):** ~25,000
+    *   ⚙️ **Gnomes:** ~120,000
+    *   ⛏️ **Dwarves:** ~85,000
+    *   🟢 **Orcs:** ~45,000
+    *   🌱 **Leshys:** ~28,000
+
+*   **Thematic Lists (With Prices & Descriptions):**
+    *   🍺 **Fantasy Drinks:** ~430 items
+    *   🍖 **Fantasy Food:** ~560 items
+    *   🗝️ **Fantasy Trinkets:** ~540 items
+    *   💎 **Fantasy Gemstones:** ~390 items
+    *   🌿 **Fantasy Plants:** ~500 magical & mundane plants
+    *   🏪 **Shops:** ~500 shop names
+*   **Rumors:** 500+ plot hooks.
+
+## ⚖️ License
 **Phil's Random Names** is licensed under the [GPL-3.0 License](LICENSE).
 
 <div align="center">
@@ -105,6 +166,7 @@ Das Modul kommt bereits **vollgepackt** mit Beispieldaten:
     <br><br>
     <p><i>Made with ❤️ for the Foundry VTT Community</i></p>
 </div>
+
 
 
 
