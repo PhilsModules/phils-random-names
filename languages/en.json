@@ -26,5 +26,6 @@
     "PRN.App.Generated": "Generated",
     "PRN.App.ErrorGen": "Could not generate name for",
     "PRN.App.InfoCreated": "Phils Random Names: Folder and samples created!",
-    "PRN.Common.Title": "Phil's Random Names"
+    "PRN.Common.Title": "Phil's Random Names",
+    "PRN.App.ButtonPost": "Post to Chat"
 }

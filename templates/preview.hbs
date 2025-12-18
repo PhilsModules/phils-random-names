@@ -1,0 +1,24 @@
+<div class="phils-random-names-preview" style="display: flex; flex-direction: column; height: 100%; padding: 5px;">
+    <div class="preview-list">
+        {{#each items}}
+        <div class="preview-item" data-index="{{@index}}">
+            <div class="preview-text-container">
+                {{#if this.label}}<small class="preview-label">{{this.label}}</small>{{/if}}
+                <div class="preview-content-row">
+                    <span class="preview-name">{{this.fullData.name}}</span>
+                    <span class="preview-price">{{this.fullData.priceString}}</span>
+                </div>
+            </div>
+            <button type="button" data-action="reroll" title="Reroll">
+                <i class="fas fa-sync"></i>
+            </button>
+        </div>
+        {{/each}}
+    </div>
+
+    <div class="footer-actions">
+        <button type="button" data-action="post">
+            <i class="fas fa-comment"></i> {{localize "PRN.App.ButtonPost"}}
+        </button>
+    </div>
+</div>

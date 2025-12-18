@@ -1,5 +1,15 @@
 # Update Notes
 
+## Version 1.6.0 - The Reroll Update 🎲
+### Features
+*   **Preview & Reroll:** Kicking "Generate" for Food, Drinks, and Loot now opens a **Preview Window** instead of spamming the chat immediately.
+    *   **Reroll:** You can reroll individual items in the list until you are satisfied.
+    *   **Post:** Only post the final result to the chat when you are ready.
+*   **Menu & Loot:** The module now correctly creates real, clickable items for **Food** and **Drinks** in the chat (previously only worked for Loot).
+*   **Visuals:**
+    *   **Custom Icons:** Chat output now uses beautiful, custom hand-picked icons for Food, Drinks, Trinkets, and Gems instead of generic placeholders.
+    *   **Clean Layout:** The chat card layout has been improved. Items are grouped by category (Food/Drink) and prices are cleanly aligned to the right.
+
 ## Version 1.5.0 - The Flavor Text Update 📜
 
 ### Features

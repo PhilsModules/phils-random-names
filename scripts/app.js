@@ -8,7 +8,7 @@ export class RandomNameApp extends HandlebarsApplicationMixin(ApplicationV2) {
         id: "phils-random-names-app",
         tag: "form",
         window: {
-            title: "Phil's Random Names",
+            title: "PRN.Common.Title",
             icon: "fas fa-dice",
             resizable: true,
             controls: []
@@ -114,16 +114,16 @@ export class RandomNameApp extends HandlebarsApplicationMixin(ApplicationV2) {
                     <p style="font-size: 1.5em; font-weight: bold; text-align: center; margin: 0;">${name}</p>
                 </div>`
             });
-            ui.notifications.info(`Generated: ${name}`);
+            ui.notifications.info(`${game.i18n.localize("PRN.App.Generated")}: ${name}`);
         } else {
-            ui.notifications.warn(`Could not generate name for ${title}`);
+            ui.notifications.warn(`${game.i18n.localize("PRN.App.ErrorGen")} ${title}`);
         }
     }
 
     async _onCreate(event, target) {
         try {
             await RandomNameAPI.createOneClickContent();
-            ui.notifications.info("Phils Random Names: Folder and samples created!");
+            ui.notifications.info(game.i18n.localize("PRN.App.InfoCreated"));
             this.render();
         } catch (err) {
             console.error(err);
@@ -132,7 +132,10 @@ export class RandomNameApp extends HandlebarsApplicationMixin(ApplicationV2) {
     }
 
     async _onCreateComplexTemplate(event, target) {
-        const name = await this._promptName("Neuer NPC Generator", "Name des NPCs (z.B. 'Zwerg', 'Goblin'):");
+        const name = await this._promptName(
+            game.i18n.localize("PRN.App.TitleComplex"),
+            game.i18n.localize("PRN.App.LabelComplex")
+        );
         if (name) {
             await RandomNameAPI.createComplexTemplate(name);
             this.render();
@@ -140,7 +143,10 @@ export class RandomNameApp extends HandlebarsApplicationMixin(ApplicationV2) {
     }
 
     async _onCreateSimpleTemplate(event, target) {
-        const name = await this._promptName("Neue Liste", "Name der Liste (z.B. 'Orte', 'Tavernen'):");
+        const name = await this._promptName(
+            game.i18n.localize("PRN.App.TitleSimple"),
+            game.i18n.localize("PRN.App.LabelSimple")
+        );
         if (name) {
             await RandomNameAPI.createSimpleTemplate(name);
             this.render();
@@ -161,12 +167,12 @@ export class RandomNameApp extends HandlebarsApplicationMixin(ApplicationV2) {
                 `,
                 buttons: {
                     ok: {
-                        label: "Erstellen",
+                        label: game.i18n.localize("PRN.App.ButtonCreate"),
                         icon: `<i class="fas fa-check"></i>`,
                         callback: (html) => resolve(html.find('[name="name"]').val())
                     },
                     cancel: {
-                        label: "Abbrechen",
+                        label: game.i18n.localize("PRN.App.ButtonCancel"),
                         icon: `<i class="fas fa-times"></i>`,
                         callback: () => resolve(null)
                     }

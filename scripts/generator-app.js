@@ -1,4 +1,5 @@
 import { RandomNameAPI } from "./api.js";
+import { GeneratorPreviewApp } from "./preview-app.js";
 
 const { ApplicationV2, HandlebarsApplicationMixin } = foundry.applications.api;
 
@@ -65,7 +66,9 @@ export class RandomNameGeneratorApp extends HandlebarsApplicationMixin(Applicati
             config.count2 = parseInt(html.querySelector("#loot-gem-count").value) || 2;
         }
 
-        await RandomNameAPI.generateCombined(type, config);
-        ui.notifications.info(game.i18n.localize("PRN.Generator.SuccessMessage"));
+        const result = await RandomNameAPI.generateCombined(type, config);
+
+        // Open Preview
+        new GeneratorPreviewApp(result, type).render(true);
     }
 }

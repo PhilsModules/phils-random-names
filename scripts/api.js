@@ -41,11 +41,6 @@ export class RandomNameAPI {
     static getStructure() {
         const journals = this.getJournals();
         const structure = new Map();
-
-        // Regex to identify parts: "Category Name Suffix"
-        // Suffixes: 
-        // DE: "Vornamen Männlich", "Vornamen Weiblich", "Nachnamen"
-        // EN: "First Names Male", "First Names Female", "Surnames"
         const regex = /^(.*) (Vornamen Männlich|Vornamen Weiblich|Nachnamen|First Names Male|First Names Female|Surnames)$/;
 
         for (const journal of journals) {
@@ -68,7 +63,6 @@ export class RandomNameAPI {
 
             } else {
                 // Simple Category
-                // Use Journal ID as key to avoid collision if possible, or just Name
                 structure.set(journal.name, { id: journal.name, name: journal.name, isComplex: false, journal: journal });
             }
         }
@@ -88,8 +82,7 @@ export class RandomNameAPI {
 
         // Get First Name
         const firstNameJournal = targetGender === "male" ? categoryData.parts.male : categoryData.parts.female;
-        // Fallback: if specific gender missing, try the other? Or just empty? 
-        // Let's try to get a name if the journal exists.
+
         if (firstNameJournal) {
             firstName = this.getRandomName(firstNameJournal);
         }
@@ -108,11 +101,6 @@ export class RandomNameAPI {
 
     // --- New Generator Logic (Menu / Loot) ---
 
-    /**
-     * Parsing Price Ranges from text
-     * Formats: "Name [Price]" or "Name | Description [Price]"
-     * Returns { name: "Item", description: "...", price: 123 (in cp), priceString: "1gp 2sp" }
-     */
     static processItemWithPrice(rawLine) {
         // Formats: "Name [Price]" or "Name | Description [Price]"
         const match = rawLine.match(/(.*?)\[(.*?)\]/);
@@ -138,7 +126,6 @@ export class RandomNameAPI {
             description = parts.slice(1).join("|").trim();
         }
 
-        // Simplify Price (Top 2 Units)
         const simplified = this.simplifyPrice(priceCp);
 
         return {
@@ -151,7 +138,6 @@ export class RandomNameAPI {
     }
 
     static resolvePrice(priceStr) {
-        // Check for range "X-Y"
         const parts = priceStr.split("-");
         if (parts.length === 2) {
             const min = this.parseCurrency(parts[0]);
@@ -163,7 +149,6 @@ export class RandomNameAPI {
     }
 
     static parseCurrency(str) {
-        // Parse "1gp 5sp" etc.
         let totalCp = 0;
         const regex = /(\d+)\s*(pp|gp|sp|cp)/g;
         let match;
@@ -187,7 +172,6 @@ export class RandomNameAPI {
         let pp = 0;
         let gp = 0;
 
-        // Custom Logic for PF2e: Avoid Platinum, use higher Gold values
         if (isPf2e) {
             gp = Math.floor(remain / 100);
             remain %= 100;
@@ -204,33 +188,18 @@ export class RandomNameAPI {
         let newCp = 0;
         let parts = [];
 
-        // Logic: Keep top 2 non-zero units
-        // Priority: PP > GP > SP > CP
-
         if (pp > 0) {
             parts.push(`${pp}pp`);
             newCp += pp * 1000;
-
-            if (gp > 0) {
-                parts.push(`${gp}gp`);
-                newCp += gp * 100;
-            }
+            if (gp > 0) { parts.push(`${gp}gp`); newCp += gp * 100; }
         } else if (gp > 0) {
             parts.push(`${gp}gp`);
             newCp += gp * 100;
-
-            if (sp > 0) {
-                parts.push(`${sp}sp`);
-                newCp += sp * 10;
-            }
+            if (sp > 0) { parts.push(`${sp}sp`); newCp += sp * 10; }
         } else if (sp > 0) {
             parts.push(`${sp}sp`);
             newCp += sp * 10;
-
-            if (cp > 0) {
-                parts.push(`${cp}cp`);
-                newCp += cp;
-            }
+            if (cp > 0) { parts.push(`${cp}cp`); newCp += cp; }
         } else {
             parts.push(`${cp}cp`);
             newCp += cp;
@@ -240,7 +209,6 @@ export class RandomNameAPI {
     }
 
     static formatPrice(cp) {
-        // Legacy wrapper if needed, but we use simplifyPrice now upstream
         return this.simplifyPrice(cp).string;
     }
 
@@ -260,8 +228,30 @@ export class RandomNameAPI {
         const folder = await this.getOrCreateLootFolder();
         const systemId = game.system.id;
 
-        // Default image fallback
-        let img = "icons/svg/item-bag.svg";
+        // Custom Icons from User
+        let img = "modules/phils-random-names/assets/chest.jpg"; // Default
+
+        switch (typeContext) {
+            case "food":
+                img = "modules/phils-random-names/assets/bowl.jpg";
+                break;
+            case "drink":
+                img = "modules/phils-random-names/assets/keg.jpg";
+                break;
+            case "trinket":
+                img = "modules/phils-random-names/assets/trinket.jpg";
+                break;
+            case "gem":
+                // Using chest for gems as it implies treasure/value
+                img = "modules/phils-random-names/assets/chest.jpg";
+                break;
+            case "plant":
+                img = "modules/phils-random-names/assets/chest.jpg";
+                break;
+            default:
+                img = "modules/phils-random-names/assets/chest.jpg";
+                break;
+        }
 
         let itemData = {
             name: name,
@@ -270,30 +260,18 @@ export class RandomNameAPI {
             system: {}
         };
 
-        // Assign Description if present
         if (priceData.description) {
-            if (systemId === "pf2e") {
-                itemData.system.description = { value: `<p>${priceData.description}</p>` };
-            } else if (systemId === "dnd5e") {
-                itemData.system.description = { value: `<p>${priceData.description}</p>` };
-            }
+            itemData.system.description = { value: `<p>${priceData.description}</p>` };
         }
 
-        // Price breakdown
         let totalCp = priceData.priceCp;
-        let pp = 0;
-        let gp = 0;
-        let sp = 0;
-        let cp = 0;
+        let pp = 0; let gp = 0; let sp = 0; let cp = 0;
 
         if (systemId === "pf2e") {
-            // PF2e: Aggregate into GP, ignore PP
             gp = Math.floor(totalCp / 100); totalCp %= 100;
             sp = Math.floor(totalCp / 10); totalCp %= 10;
             cp = totalCp;
-            // pp remains 0
         } else {
-            // Standard/D&D5e: Use PP if applicable
             pp = Math.floor(totalCp / 1000); totalCp %= 1000;
             gp = Math.floor(totalCp / 100); totalCp %= 100;
             sp = Math.floor(totalCp / 10); totalCp %= 10;
@@ -305,11 +283,8 @@ export class RandomNameAPI {
             { value: priceData.priceCp / 100, denomination: "gp" };
 
         if (systemId === "pf2e") {
-            // PF2e Logic
-            if (typeContext === "food" || typeContext === "drink" || typeContext === "plant") {
+            if (["food", "drink", "plant"].includes(typeContext)) {
                 itemData.type = "consumable";
-                itemData.img = "systems/pf2e/icons/default-icons/consumable.svg";
-                // Merge into existing system object (description might be there)
                 foundry.utils.mergeObject(itemData.system, {
                     category: "other",
                     price: priceObject,
@@ -317,9 +292,7 @@ export class RandomNameAPI {
                     stackGroup: null
                 });
             } else {
-                // Default to Treasure for Trinkets/Gems
                 itemData.type = "treasure";
-                itemData.img = "systems/pf2e/icons/default-icons/treasure.svg";
                 foundry.utils.mergeObject(itemData.system, {
                     price: priceObject,
                     stackGroup: null,
@@ -327,26 +300,21 @@ export class RandomNameAPI {
                 });
             }
         } else if (systemId === "dnd5e") {
-            // D&D5e Logic
-            if (typeContext === "food" || typeContext === "drink" || typeContext === "plant") {
+            if (["food", "drink", "plant"].includes(typeContext)) {
                 itemData.type = "consumable";
-                itemData.img = "systems/dnd5e/icons/svg/items/consumable.svg";
                 foundry.utils.mergeObject(itemData.system, {
                     type: { value: "food", subtype: "" },
                     price: priceObject,
                     quantity: 1
                 });
             } else {
-                // Default to Loot
                 itemData.type = "loot";
-                itemData.img = "systems/dnd5e/icons/svg/items/loot.svg";
                 foundry.utils.mergeObject(itemData.system, {
                     price: priceObject,
                     quantity: 1
                 });
             }
         } else {
-            // Generic Fallback
             itemData.type = "item";
             itemData.system = {
                 price: priceData.priceCp / 100,
@@ -357,77 +325,143 @@ export class RandomNameAPI {
         return await Item.create(itemData);
     }
 
+    // --- Reroll Support ---
+
+    static async getSingleItem(sourceName, subType) {
+        const journals = this.getJournals();
+        const journal = journals.find(j => j.name === sourceName);
+        if (!journal) return null;
+
+        const raw = this.getRandomName(journal);
+        if (!raw) return null;
+
+        const data = this.processItemWithPrice(raw);
+        return {
+            text: `<b>${data.name}</b> <span style="float:right; opacity:0.8">${data.priceString}</span>`,
+            fullData: data,
+            source: sourceName,
+            subType: subType
+        };
+    }
+
     static async generateCombined(type, config) {
-        // Identify source categories
+        const items = [];
         const sources = [];
 
         // Helper to find journal by name (loose match)
         const journals = this.getJournals();
-        const findJournal = (namePart) => journals.find(j => j.name.includes(namePart));
+        const findJournalName = (namePart) => {
+            const j = journals.find(j => j.name.includes(namePart));
+            return j ? j.name : null;
+        };
 
         if (type === "menu") {
-            const foods = findJournal("Fantasy Food");
-            const drinks = findJournal("Fantasy Drinks");
-            if (foods) sources.push({ journal: foods, count: config.count1 || 10, label: "Food", type: "food" });
-            if (drinks) sources.push({ journal: drinks, count: config.count2 || 5, label: "Drinks", type: "drink" });
+            const fName = findJournalName("Fantasy Food");
+            const dName = findJournalName("Fantasy Drinks");
+            if (fName) sources.push({ name: fName, count: config.count1 || 10, label: "Food", subType: "menu", typeContext: "food" });
+            if (dName) sources.push({ name: dName, count: config.count2 || 5, label: "Drinks", subType: "menu", typeContext: "drink" });
         } else if (type === "loot") {
-            const trinkets = findJournal("Fantasy Trinkets");
-            const gems = findJournal("Fantasy Gemstones");
-            if (trinkets) sources.push({ journal: trinkets, count: config.count1 || 5, label: "Trinkets", type: "trinket" });
-            if (gems) sources.push({ journal: gems, count: config.count2 || 2, label: "Gemstones", type: "gem" });
+            const tName = findJournalName("Fantasy Trinkets");
+            const gName = findJournalName("Fantasy Gemstones");
+            if (tName) sources.push({ name: tName, count: config.count1 || 5, label: "Trinkets", subType: "loot", typeContext: "trinket" });
+            if (gName) sources.push({ name: gName, count: config.count2 || 2, label: "Gemstones", subType: "loot", typeContext: "gem" });
         }
 
-        let outputHtml = `<h3>${type === "menu" ? "Tavern Menu" : "Treasure Pouch"}</h3><hr>`;
-
         for (const source of sources) {
-            const allItems = this.getNames(source.journal);
-            if (!allItems.length) continue;
+            const journal = journals.find(j => j.name === source.name);
+            if (!journal) continue;
 
-            const selected = [];
-            // Random pick unique
-            const pool = [...allItems];
+            const allNames = this.getNames(journal);
+            const pool = [...allNames];
+
             for (let i = 0; i < source.count; i++) {
                 if (pool.length === 0) break;
                 const idx = Math.floor(Math.random() * pool.length);
-                selected.push(pool[idx]);
+                const raw = pool[idx];
                 pool.splice(idx, 1);
-            }
 
-            if (selected.length > 0) {
-                outputHtml += `<h4>${source.label}</h4><ul>`;
-                for (const raw of selected) {
-                    const data = this.processItemWithPrice(raw);
-
-                    // Create Real Item
-                    let displayHtml = `<b>${data.name}</b>`;
-                    if (game.user.isGM) {
-                        try {
-                            const item = await this.createItem(data.name, data, source.type);
-                            if (item) {
-                                // Use Content Link
-                                displayHtml = `@UUID[${item.uuid}]{${data.name}}`;
-                            }
-                        } catch (err) {
-                            console.error("Phils Random Names | Failed to create item:", err);
-                        }
-                    }
-
-                    // Flex layout for list item to handle long names
-                    outputHtml += `<li style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 2px;">
-                        <span style="flex: 1; margin-right: 5px;">${displayHtml}</span>
-                        <span style="white-space: nowrap; opacity:0.8; margin-top: 1px;">${data.priceString}</span>
-                    </li>`;
-                }
-                outputHtml += `</ul>`;
+                const data = this.processItemWithPrice(raw);
+                items.push({
+                    text: `<b>${data.name}</b> <span style="float:right; opacity:0.8">${data.priceString}</span>`,
+                    label: source.label,
+                    source: source.name,
+                    subType: source.subType,
+                    typeContext: source.typeContext,
+                    fullData: data
+                });
             }
         }
 
-        // Create Chat Message
+        return { type, items };
+    }
+
+    static async postToChat(type, items) {
+        const title = type === "menu" ? game.i18n.localize("PRN.Generator.TavernMenu") : game.i18n.localize("PRN.Generator.TreasurePouch");
+
+        let outputHtml = `<h3>${title}</h3><hr>`;
+
+        // Group by label (Food, Drinks, etc.)
+        // Map<Label, Item[]>
+        const grouped = new Map();
+        for (const item of items) {
+            const label = item.label || "Items";
+            if (!grouped.has(label)) grouped.set(label, []);
+            grouped.get(label).push(item);
+        }
+
+        // Iterate Groups
+        for (const [label, groupItems] of grouped) {
+            outputHtml += `<h3>${label}</h3>`;
+            outputHtml += `<ul style="list-style:none; padding:0; margin-bottom: 10px;">`;
+
+            for (const item of groupItems) {
+                let displayHtml = "";
+
+                if (game.user.isGM && item.fullData && (item.subType === "loot" || item.subType === "menu")) {
+                    try {
+                        const context = item.typeContext || "trinket";
+                        const realItem = await this.createItem(item.fullData.name, item.fullData, context);
+                        if (realItem) {
+                            // Flex row with auto margin to push price to the right
+                            displayHtml = `<div style="display: flex; align-items: center; width: 100%;">
+                                <div style="flex: 1; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; padding-right: 5px;">
+                                    @UUID[${realItem.uuid}]{${item.fullData.name}}
+                                </div>
+                                <div style="flex: 0 0 auto; margin-left: auto; text-align: right; white-space: nowrap; opacity: 0.8;">
+                                    ${item.fullData.priceString}
+                                </div>
+                            </div>`;
+                        }
+                    } catch (e) { console.error(e); }
+                } else {
+                    // Fallback purely text based
+                    const data = item.fullData;
+                    if (data) {
+                        displayHtml = `<div style="display: flex; align-items: center; width: 100%;">
+                                <div style="flex: 1; font-weight:bold; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; padding-right: 5px;">
+                                    ${data.name}
+                                </div>
+                                <div style="flex: 0 0 auto; margin-left: auto; text-align: right; white-space: nowrap; opacity: 0.8;">
+                                    ${data.priceString}
+                                </div>
+                            </div>`;
+                    } else {
+                        displayHtml = item.text; // Fallback to raw text
+                    }
+                }
+
+                outputHtml += `<li style="margin-bottom: 4px; border-bottom: none; padding-bottom:0;">${displayHtml}</li>`;
+            }
+            outputHtml += `</ul>`;
+        }
+
         ChatMessage.create({
             content: outputHtml,
             speaker: { alias: "Generator" }
         });
     }
+
+    // --- Content Creation ---
 
     static async createOneClickContent() {
         let folder = this.getFolder();
