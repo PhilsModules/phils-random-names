@@ -2,10 +2,6 @@
     {{#if hasCategories}}
     <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 5px;">
         <p style="margin: 0;">{{localize "PRN.App.ChooseCategory"}}</p>
-        <button type="button" data-action="create" title="{{localize 'PRN.App.UpdateContent'}}"
-            style="width: auto; padding: 2px 8px; font-size: 0.8em;">
-            <i class="fas fa-sync"></i>
-        </button>
     </div>
     <div class="category-list">
         {{#each categories}}

@@ -10,6 +10,14 @@
     /* Container hides overflow */
 }
 
+/* Fix for Preview App Scrolling */
+.phils-random-names-preview {
+    max-height: 600px;
+    /* Limit height essentially */
+    display: flex;
+    flex-direction: column;
+}
+
 .phils-random-names-content {
     display: flex;
     flex-direction: column;

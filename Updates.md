@@ -1,5 +1,17 @@
 # Update Notes
 
+## Version 1.6.3 - Bug Fixes 🐛
+### Bug Fixes
+*   **Preview Window:** Fixed an issue where the Result Preview window was not scrollable, cutting off the "Post" button for long lists.
+*   **Generator Logic:** Fixed a bug where setting a quantity to "0" (e.g. for Drinks) would incorrectly default to 5.
+
+## Version 1.6.1 - The Ownership Fix 🔒
+### Bug Fixes
+*   **Item Permissions:** Fixed a bug where generated items (Food, Drinks, Loot) were created with ownership `None`, preventing players from interacting with them. Items are now correctly created with `Owner` permission for all players.
+
+### Content
+*   **Refined Descriptions**: Approx 300 books, 435 drinks, 564 food items, 390 gemstones (including a second polish pass), 500 plants, and 540 trinkets have been updated with flavorful descriptions and price ranges.
+
 ## Version 1.6.0 - The Reroll Update 🎲
 ### Features
 *   **Preview & Reroll:** Kicking "Generate" for Food, Drinks, and Loot now opens a **Preview Window** instead of spamming the chat immediately.

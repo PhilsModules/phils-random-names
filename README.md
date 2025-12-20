@@ -1,35 +1,33 @@
 <div align="center">
 
-# Phil's Random Names
-
+# Phil's Random Names 🎲
 ![Foundry v12 Compatible](https://img.shields.io/badge/Foundry-v12-green)
-![Foundry v13 Compatible](https://img.shields.io/badge/Foundry-v13-brightgreen)
-![System](https://img.shields.io/badge/System-PF2e-blue)
+![System](https://img.shields.io/badge/System-Agnostic-blue)
 ![License](https://img.shields.io/badge/License-GPLv3-blue)
-[![Version](https://img.shields.io/badge/version-v1.6.0-blue)](https://github.com/PhilsModules/phils-pf2e-ai-translator/releases)
-[![Patreon](https://img.shields.io/badge/SUPPORT-Patreon-ff424d?logo=patreon)](https://www.patreon.com/PhilsModules)
+[![Version](https://img.shields.io/badge/version-1.6.3-blue)](https://github.com/PhilsModules/phils-random-names/releases)
+[![Foundry v11](https://img.shields.io/badge/foundry-v11-orange)](https://foundryvtt.com)
+![Latest Release Download](https://img.shields.io/github/downloads/PhilsModules/phils-random-names/latest/module.zip)
 
 <br>
 
-**Ein einfaches Modul, um zufällige Namen aus Journalen zu ziehen.**
+**Version 1.6.3**Ein mächtiges Modul für zufällige Namen, Loot & Tavernen-Menüs.**
 <br>
-*A simple module to pull random names from journals.*
+*A powerful module for random names, loot & tavern menus.*
 
 </div>
-
-<div align="center">
-<br>
-<img src="https://github.com/PhilsModules/phils-random-names/blob/main/cover.png" alt="Cover" width="800">
-
-</div>
-<br>
 
 > [!TIP]
 > ### 💡 Support
 > Dieses Modul ist kostenlos und Open Source. Wenn es dir gefällt, freue ich mich über Feedback!
 
+<div align="center">
+<br>
+<!-- Placeholder for Cover Image if available later -->
+<!-- <img src="cover.png" alt="Preview" width="800"> -->
+</div>
+<br>
 
-# <img src="https://flagcdn.com/48x36/de.png" width="28" height="21" alt="DE"> Deutsche Anleitung
+# <img src="https://flagcdn.com/48x36/de.png" width="28" height="21" alt="DE"> Deutsche Beschreibung
 
 **Phil's Random Names** ist mehr als nur ein Namensgenerator. Es ist eine komplette Toolbox für SLs, um spontan Inhalte zu erstellen – von NPCs über Snacks bis hin zu Schätzen. Alles basierend auf einfachen Text-Journalen, die du selbst anpassen kannst!
 
@@ -155,20 +153,3 @@ All items now come with immersive flavor text and realistic prices!
 
 ## ⚖️ License
 **Phil's Random Names** is licensed under the [GPL-3.0 License](LICENSE).
-
-<div align="center">
-    <h2>❤️ Support the Development</h2>
-    <p>If you enjoy this module and want to support open-source development for Foundry VTT, check out my Patreon!</p>
-    <p>Gefällt dir das Modul? Unterstütze die Weiterentwicklung auf Patreon!</p>
-    <a href="https://www.patreon.com/PhilsModules">
-        <img src="https://c5.patreon.com/external/logo/become_a_patron_button.png" alt="Become a Patron" width="200" />
-    </a>
-    <br><br>
-    <p><i>Made with ❤️ for the Foundry VTT Community</i></p>
-</div>
-
-
-
-
-
-

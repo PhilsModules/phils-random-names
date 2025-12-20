@@ -257,6 +257,7 @@ export class RandomNameAPI {
             name: name,
             folder: folder.id,
             img: img,
+            ownership: { default: 3 },
             system: {}
         };
 
@@ -358,13 +359,13 @@ export class RandomNameAPI {
         if (type === "menu") {
             const fName = findJournalName("Fantasy Food");
             const dName = findJournalName("Fantasy Drinks");
-            if (fName) sources.push({ name: fName, count: config.count1 || 10, label: "Food", subType: "menu", typeContext: "food" });
-            if (dName) sources.push({ name: dName, count: config.count2 || 5, label: "Drinks", subType: "menu", typeContext: "drink" });
+            if (fName) sources.push({ name: fName, count: config.count1 ?? 10, label: "Food", subType: "menu", typeContext: "food" });
+            if (dName) sources.push({ name: dName, count: config.count2 ?? 5, label: "Drinks", subType: "menu", typeContext: "drink" });
         } else if (type === "loot") {
             const tName = findJournalName("Fantasy Trinkets");
             const gName = findJournalName("Fantasy Gemstones");
-            if (tName) sources.push({ name: tName, count: config.count1 || 5, label: "Trinkets", subType: "loot", typeContext: "trinket" });
-            if (gName) sources.push({ name: gName, count: config.count2 || 2, label: "Gemstones", subType: "loot", typeContext: "gem" });
+            if (tName) sources.push({ name: tName, count: config.count1 ?? 5, label: "Trinkets", subType: "loot", typeContext: "trinket" });
+            if (gName) sources.push({ name: gName, count: config.count2 ?? 2, label: "Gemstones", subType: "loot", typeContext: "gem" });
         }
 
         for (const source of sources) {

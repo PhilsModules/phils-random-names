@@ -59,11 +59,17 @@ export class RandomNameGeneratorApp extends HandlebarsApplicationMixin(Applicati
         const config = {};
 
         if (type === "menu") {
-            config.count1 = parseInt(html.querySelector("#menu-food-count").value) || 10;
-            config.count2 = parseInt(html.querySelector("#menu-drink-count").value) || 5;
+            const c1 = parseInt(html.querySelector("#menu-food-count").value);
+            config.count1 = isNaN(c1) ? 10 : c1;
+
+            const c2 = parseInt(html.querySelector("#menu-drink-count").value);
+            config.count2 = isNaN(c2) ? 5 : c2;
         } else {
-            config.count1 = parseInt(html.querySelector("#loot-trinket-count").value) || 5;
-            config.count2 = parseInt(html.querySelector("#loot-gem-count").value) || 2;
+            const c1 = parseInt(html.querySelector("#loot-trinket-count").value);
+            config.count1 = isNaN(c1) ? 5 : c1;
+
+            const c2 = parseInt(html.querySelector("#loot-gem-count").value);
+            config.count2 = isNaN(c2) ? 2 : c2;
         }
 
         const result = await RandomNameAPI.generateCombined(type, config);

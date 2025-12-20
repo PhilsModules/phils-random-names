@@ -11,7 +11,13 @@ export class RandomNameApp extends HandlebarsApplicationMixin(ApplicationV2) {
             title: "PRN.Common.Title",
             icon: "fas fa-dice",
             resizable: true,
-            controls: []
+            controls: [
+                {
+                    icon: 'fas fa-sync',
+                    label: "PRN.App.UpdateContent",
+                    action: "create",
+                }
+            ]
         },
         classes: ["phils-random-names-dialog"],
         position: {
