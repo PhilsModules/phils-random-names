@@ -4,7 +4,7 @@
 ![Foundry v12 Compatible](https://img.shields.io/badge/Foundry-v12-green)
 ![System](https://img.shields.io/badge/System-Agnostic-blue)
 ![License](https://img.shields.io/badge/License-GPLv3-blue)
-[![Version](https://img.shields.io/badge/version-1.6.3-blue)](https://github.com/PhilsModules/phils-random-names/releases)
+[![Version](https://img.shields.io/badge/version-1.8.0-blue)](https://github.com/PhilsModules/phils-random-names/releases)
 [![Foundry v11](https://img.shields.io/badge/foundry-v11-orange)](https://foundryvtt.com)
 ![Latest Release Download](https://img.shields.io/github/downloads/PhilsModules/phils-random-names/latest/module.zip)
 
@@ -165,5 +165,6 @@ All items now come with immersive flavor text and realistic prices!
 
 ## ⚖️ License
 **Phil's Random Names** is licensed under the [GPL-3.0 License](LICENSE).
+
 
 
