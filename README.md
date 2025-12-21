@@ -47,7 +47,7 @@ Aus den Listen "Food", "Drinks", "Trinkets", "Gemstones" und "Plants" werden nic
     *   **D&D 5e:** Erstellt `Loot` oder `Consumable` Items.
     *   **Andere Systeme:** Erstellt generische Items.
 
-### 3. 💰 Realistische Preise & Beschreibungen (v1.5.0)
+### 3. 💰 Realistische Preise & Beschreibungen 
 Alle Gegenstände kommen jetzt mit immersiven Beschreibungen und Preisen!
 *   **Flavor-Text:** *"Banshee's Bell | A pale flower that screams when picked."*
 *   **GM Secrets (v1.7.0):** Jedes Item hat jetzt geheime GM-Notizen!
@@ -122,9 +122,8 @@ Generating from "Food", "Drinks", "Trinkets", "Gemstones", and "Plants" lists do
     *   **D&D 5e:** Creates `Loot` or `Consumable` items.
     *   **Generic:** Creates standard Items with description.
 
-### 3. 💰 Realistic Prices & Descriptions (v1.5.0)
+### 3. 💰 Realistic Prices & Descriptions 
 All items now come with immersive flavor text and realistic prices!
-*   **Flavor:** *"Banshee's Bell | A pale flower that screams when picked."*
 *   **Flavor:** *"Banshee's Bell | A pale flower that screams when picked."*
 *   **GM Secrets (v1.7.0):** Every item comes with hidden GM notes!
     *   *Hidden Mechanics:* "Edible. Heals 1d4 HP."
@@ -166,4 +165,5 @@ All items now come with immersive flavor text and realistic prices!
 
 ## ⚖️ License
 **Phil's Random Names** is licensed under the [GPL-3.0 License](LICENSE).
+
 
