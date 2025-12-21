@@ -50,7 +50,6 @@ Aus den Listen "Food", "Drinks", "Trinkets", "Gemstones" und "Plants" werden nic
 ### 3. 💰 Realistische Preise & Beschreibungen (v1.5.0)
 Alle Gegenstände kommen jetzt mit immersiven Beschreibungen und Preisen!
 *   **Flavor-Text:** *"Banshee's Bell | A pale flower that screams when picked."*
-*   **Flavor-Text:** *"Banshee's Bell | A pale flower that screams when picked."*
 *   **GM Secrets (v1.7.0):** Jedes Item hat jetzt geheime GM-Notizen!
     *   *Versteckte Mechaniken:* "Essbar. Heilt 1d4 HP."
     *   *Plot Hooks:* "Der Ring gehört einem vermissten Prinzen."
@@ -167,3 +166,4 @@ All items now come with immersive flavor text and realistic prices!
 
 ## ⚖️ License
 **Phil's Random Names** is licensed under the [GPL-3.0 License](LICENSE).
+
