@@ -50,6 +50,11 @@ Aus den Listen "Food", "Drinks", "Trinkets", "Gemstones" und "Plants" werden nic
 ### 3. 💰 Realistische Preise & Beschreibungen (v1.5.0)
 Alle Gegenstände kommen jetzt mit immersiven Beschreibungen und Preisen!
 *   **Flavor-Text:** *"Banshee's Bell | A pale flower that screams when picked."*
+*   **Flavor-Text:** *"Banshee's Bell | A pale flower that screams when picked."*
+*   **GM Secrets (v1.7.0):** Jedes Item hat jetzt geheime GM-Notizen!
+    *   *Versteckte Mechaniken:* "Essbar. Heilt 1d4 HP."
+    *   *Plot Hooks:* "Der Ring gehört einem vermissten Prinzen."
+    *   *Werte:* "Wert 50gp für Sammler."
 *   **Smart Pricing:** Preise basieren auf einer realistischen Ökonomie ("Bier-Index"). Im Chat werden Preise lesbar dargestellt (z.B. `1gp 5sp` statt `150cp`).
 
 ### 4. 🎲 Einfache Bedienung
@@ -74,11 +79,13 @@ Alle Gegenstände kommen jetzt mit immersiven Beschreibungen und Preisen!
     *   🌱 **Leshys:** ~28.000
 
 *   **Thematische Listen (Mit Preisen & Beschreibung):**
-    *   🍺 **Fantasy Drinks:** ~430 Getränke
-    *   � **Fantasy Food:** ~560 Gerichte
-    *   🗝️ **Fantasy Trinkets:** ~540 Plunder & kleine Schätze
-    *   💎 **Fantasy Gemstones:** ~390 Edelsteine
-    *   🌿 **Fantasy Plants:** ~500 magische & normale Pflanzen
+    *   🍺 **Fantasy Drinks:** ~436 Getränke mit Effekten
+    *   🍖 **Fantasy Food:** ~565 Gerichte & Snacks
+    *   🗝️ **Fantasy Trinkets:** ~540 Plunder & Geheimnisse
+    *   💎 **Fantasy Gemstones:** ~373 Edelsteine & magische Mineralien
+    *   🌿 **Fantasy Plants:** ~507 magische Pflanzen
+    *   🍄 **Fantasy Fungi:** ~305 seltsame Pilze
+    *   📚 **Fantasy Books:** ~305 Bücher mit Lore-Bonus
     *   🏪 **Shops:** ~500 Geschäftsnamen
 *   **Gerüchte:** 500+ Plot-Hooks für die Taverne.
 
@@ -119,6 +126,11 @@ Generating from "Food", "Drinks", "Trinkets", "Gemstones", and "Plants" lists do
 ### 3. 💰 Realistic Prices & Descriptions (v1.5.0)
 All items now come with immersive flavor text and realistic prices!
 *   **Flavor:** *"Banshee's Bell | A pale flower that screams when picked."*
+*   **Flavor:** *"Banshee's Bell | A pale flower that screams when picked."*
+*   **GM Secrets (v1.7.0):** Every item comes with hidden GM notes!
+    *   *Hidden Mechanics:* "Edible. Heals 1d4 HP."
+    *   *Plot Hooks:* "Belongs to a missing prince."
+    *   *Values:* "Worth 50gp to a collector."
 *   **Smart Pricing:** Prices are based on a realistic economy ("Beer Index"). Automation simplifies price display in chat (e.g. `1gp 5sp`).
 
 ### 4. 🎲 Easy to Use
@@ -143,12 +155,14 @@ All items now come with immersive flavor text and realistic prices!
     *   🌱 **Leshys:** ~28,000
 
 *   **Thematic Lists (With Prices & Descriptions):**
-    *   🍺 **Fantasy Drinks:** ~430 items
-    *   🍖 **Fantasy Food:** ~560 items
+    *   🍺 **Fantasy Drinks:** ~436 items
+    *   🍖 **Fantasy Food:** ~565 items
     *   🗝️ **Fantasy Trinkets:** ~540 items
-    *   💎 **Fantasy Gemstones:** ~390 items
-    *   🌿 **Fantasy Plants:** ~500 magical & mundane plants
-    *   🏪 **Shops:** ~500 shop names
+    *   💎 **Fantasy Gemstones:** ~373 items
+    *   🌿 **Fantasy Plants:** ~507 items
+    *   🍄 **Fantasy Fungi:** ~305 items
+    *   📚 **Fantasy Books:** ~305 items
+    *   🏪 **Shops:** ~500 items
 *   **Rumors:** 500+ plot hooks.
 
 ## ⚖️ License

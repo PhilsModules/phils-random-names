@@ -102,7 +102,7 @@ export class RandomNameAPI {
     // --- New Generator Logic (Menu / Loot) ---
 
     static processItemWithPrice(rawLine) {
-        // Formats: "Name [Price]" or "Name | Description [Price]"
+        // Formats: "Name [Price]" or "Name | Description [Price]" or "Name | Description | GM Secret [Price]"
         const match = rawLine.match(/(.*?)\[(.*?)\]/);
 
         let namePart = rawLine;
@@ -119,11 +119,20 @@ export class RandomNameAPI {
         // Check for Description (Separator "|")
         let name = namePart;
         let description = "";
+        let gmDescription = "";
 
         if (namePart.includes("|")) {
-            const parts = namePart.split("|");
-            name = parts[0].trim();
-            description = parts.slice(1).join("|").trim();
+            const parts = namePart.split("|").map(p => p.trim());
+            name = parts[0];
+
+            if (parts.length === 2) {
+                // Name | Description
+                description = parts[1];
+            } else if (parts.length >= 3) {
+                // Name | Description | GM Secret
+                description = parts[1];
+                gmDescription = parts.slice(2).join(" | "); // Join remaining just in case
+            }
         }
 
         const simplified = this.simplifyPrice(priceCp);
@@ -131,6 +140,7 @@ export class RandomNameAPI {
         return {
             name: name,
             description: description,
+            gmDescription: gmDescription,
             priceCp: simplified.cp,
             priceString: simplified.string,
             hasPrice: hasPrice
@@ -261,8 +271,10 @@ export class RandomNameAPI {
             system: {}
         };
 
-        if (priceData.description) {
-            itemData.system.description = { value: `<p>${priceData.description}</p>` };
+        if (priceData.description || priceData.gmDescription) {
+            itemData.system.description = {};
+            if (priceData.description) itemData.system.description.value = `<p>${priceData.description}</p>`;
+            if (priceData.gmDescription) itemData.system.description.gm = `<p>${priceData.gmDescription}</p>`;
         }
 
         let totalCp = priceData.priceCp;

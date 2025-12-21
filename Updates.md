@@ -1,4 +1,25 @@
-# Update Notes
+
+## Version 1.7.0 - The GM Secret Update 🤫
+### Features
+*   **GM Secrets for Everything:** I have manually updated **every single item** across all thematic lists (Drinks, Food, Trinkets, Gemstones, Plants, Books, Fungi) with a hidden "GM Secret" field!
+    *   **Mechanics:** Items now have concrete stats like `Heals 1d4 HP`, `Sickened 1`, `Worth 500gp`, or `+1 Lore (History)`.
+    *   **Secrets:** Some items are cursed, some are disguised treasures, and some have plot hooks for your campaign.
+    *   **Immersion:** Over **2,700 items** detailed by hand to be adventure-ready.
+*   **Expanded Lists:**
+    *   **Fantasy Books:** ~305 titles, each with a specific Lore or Skill bonus for reading.
+    *   **Fantasy Drinks:** ~436 beverages, from common ales to magical elixirs.
+    *   **Fantasy Food:** ~565 dishes, including regional specialties and monster-based meals.
+    *   **Fantasy Fungi:** ~305 mushrooms, clearly labeled as Edible, Poisonous, or Magical.
+
+
+## Version 1.6.4 - The Fungus Among Us 🍄
+### Content
+*   **New List:** Added `Fantasy_Fungi.md` with over **300 new items**! Includes:
+    *   **Edible:** Delicious forest snacks like *King Bolete* and *Golden Chanterelle*.
+    *   **Poisonous:** Deadly traps like *Death Angel* and *Wolf Fart* (puffballs).
+    *   **Magical:** Useful adventure items like *Glow Bulb* (light) and *Cloud Puff* (levitation).
+
+
 
 ## Version 1.6.3 - Bug Fixes 🐛
 ### Bug Fixes
