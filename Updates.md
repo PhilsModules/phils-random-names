@@ -1,4 +1,16 @@
 
+
+## Version 1.8.0 - The German Edition 🇩🇪
+### Features
+*   **Volle Deutsche Übersetzung:** Alle 7 Fantasy-Listen (**Essen, Getränke, Bücher, Kuriositäten, Pflanzen, Pilze, Edelsteine**) sind nun vollständig und qualitätsgesichert auf Deutsch verfügbar!
+    *   **Inhalt:** Über **3.000 Gegenstände** sind nun auf Deutsch verfügbar.
+    *   **Qualität:** Alle Texte wurden einem "Deep Review" unterzogen, um korrekte Pathfinder 2e Terminologie (z.B. *Benommen*, *Entkräftet*) und natürliche Phrasierung sicherzustellen.
+    *   **Format:** Alle Einträge behalten ihre GM-Geheimnisse, Marktpreise und Beschreibungen bei.
+*   **Intelligente Spracherkennung:**
+    *   Das Modul prüft nun automatisch die Sprache deiner Foundry VTT Installation (`game.i18n.lang`).
+    *   Ist die Sprache auf **Deutsch** eingestellt, werden automatisch die deutschen Listen (`_De.md`) geladen.
+    *   Ist die Sprache auf **Englisch** (oder anders) eingestellt, bleiben die englischen Originale erhalten.
+
 ## Version 1.7.0 - The GM Secret Update 🤫
 ### Features
 *   **GM Secrets for Everything:** I have manually updated **every single item** across all thematic lists (Drinks, Food, Trinkets, Gemstones, Plants, Books, Fungi) with a hidden "GM Secret" field!

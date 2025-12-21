@@ -205,8 +205,8 @@ Iron Horse
 Iron Mask
 Ivory Tower
 Jack of All Trades
-Jewel of the Nile
 Jester's Court
+Jewel of the Nile
 Just Desserts
 King's Arms
 King's Ransom

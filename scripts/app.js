@@ -74,6 +74,8 @@ export class RandomNameApp extends HandlebarsApplicationMixin(ApplicationV2) {
             else if (journal.name.includes("Trinkets")) typeContext = "trinket";
             else if (journal.name.includes("Gemstones")) typeContext = "gem";
             else if (journal.name.includes("Plants")) typeContext = "plant";
+            else if (journal.name.includes("Books")) typeContext = "book";
+            else if (journal.name.includes("Fungi")) typeContext = "fungus";
 
             if (typeContext) {
                 try {

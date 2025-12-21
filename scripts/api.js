@@ -256,7 +256,13 @@ export class RandomNameAPI {
                 img = "modules/phils-random-names/assets/chest.jpg";
                 break;
             case "plant":
-                img = "modules/phils-random-names/assets/chest.jpg";
+                img = "modules/phils-random-names/assets/plant.jpg";
+                break;
+            case "book":
+                img = "modules/phils-random-names/assets/book.jpg";
+                break;
+            case "fungus":
+                img = "modules/phils-random-names/assets/fungus.jpg";
                 break;
             default:
                 img = "modules/phils-random-names/assets/chest.jpg";
@@ -296,7 +302,7 @@ export class RandomNameAPI {
             { value: priceData.priceCp / 100, denomination: "gp" };
 
         if (systemId === "pf2e") {
-            if (["food", "drink", "plant"].includes(typeContext)) {
+            if (["food", "drink", "plant", "fungus"].includes(typeContext)) {
                 itemData.type = "consumable";
                 foundry.utils.mergeObject(itemData.system, {
                     category: "other",
@@ -313,7 +319,7 @@ export class RandomNameAPI {
                 });
             }
         } else if (systemId === "dnd5e") {
-            if (["food", "drink", "plant"].includes(typeContext)) {
+            if (["food", "drink", "plant", "fungus"].includes(typeContext)) {
                 itemData.type = "consumable";
                 foundry.utils.mergeObject(itemData.system, {
                     type: { value: "food", subtype: "" },
@@ -506,7 +512,35 @@ export class RandomNameAPI {
             examples = ["Mwangi_Commoner.md"];
         }
 
+        // Group files by Base Name to handle Localization
+        // e.g. "Fantasy_Food.md" and "Fantasy_Food_De.md" -> Base: "Fantasy_Food"
+        const fileMap = new Map();
+
         for (const filename of examples) {
+            let baseKey = filename.replace(".md", "");
+            let lang = "en";
+
+            if (baseKey.endsWith("_De")) {
+                baseKey = baseKey.substring(0, baseKey.length - 3);
+                lang = "de";
+            }
+
+            if (!fileMap.has(baseKey)) fileMap.set(baseKey, {});
+            fileMap.get(baseKey)[lang] = filename;
+        }
+
+        const filesToLoad = [];
+        for (const [baseKey, variants] of fileMap) {
+            // Priority: De if isGerman, else En
+            if (isGerman && variants.de) {
+                filesToLoad.push({ filename: variants.de, displayBase: baseKey });
+            } else if (variants.en) {
+                filesToLoad.push({ filename: variants.en, displayBase: baseKey });
+            }
+        }
+
+        for (const entry of filesToLoad) {
+            const filename = entry.filename;
             try {
                 // Fetch from module directory
                 const response = await fetch(`modules/phils-random-names/examples/${filename}`);
@@ -517,9 +551,9 @@ export class RandomNameAPI {
                 const text = await response.text();
 
                 // Determine Base Name: "Mwangi_Commoner.md" -> "Mwangi Commoner"
-                // Remove encoded spaces if needed, generally filenames are clean
-                const cleanName = decodeURIComponent(filename);
-                let baseName = cleanName.replace(/_/g, " ").replace(".md", "");
+                // Used for the Journal Name
+                const cleanName = decodeURIComponent(entry.displayBase);
+                let baseName = cleanName.replace(/_/g, " ");
 
                 // Auto-Capitalize first letter (e.g. "elf" -> "Elf")
                 baseName = baseName.charAt(0).toUpperCase() + baseName.slice(1);
