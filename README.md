@@ -168,5 +168,15 @@ All items now come with immersive flavor text and realistic prices!
 **Phil's Random Names** is licensed under the [GPL-3.0 License](LICENSE).
 
 
+<div align="center">
+    <h2>❤️ Support the Development</h2>
+    <p>If you enjoy this module and want to support open-source development for Foundry VTT, check out my Patreon!</p>
+    <p>Gefällt dir das Modul? Unterstütze die Weiterentwicklung auf Patreon!</p>
+    <a href="https://www.patreon.com/PhilsModules">
+        <img src="https://c5.patreon.com/external/logo/become_a_patron_button.png" alt="Become a Patron" width="200" />
+    </a>
+    <br><br>
+    <p><i>Made with ❤️ for the Foundry VTT Community</i></p>
+</div>
 
 
