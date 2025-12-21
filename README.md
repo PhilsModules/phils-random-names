@@ -1,16 +1,17 @@
 <div align="center">
 
 # Phil's Random Names 🎲
-![Foundry v12 Compatible](https://img.shields.io/badge/Foundry-v12-green)
-![System](https://img.shields.io/badge/System-Agnostic-blue)
-![License](https://img.shields.io/badge/License-GPLv3-blue)
-[![Version](https://img.shields.io/badge/version-1.8.0-blue)](https://github.com/PhilsModules/phils-random-names/releases)
-[![Foundry v11](https://img.shields.io/badge/foundry-v11-orange)](https://foundryvtt.com)
-![Latest Release Download](https://img.shields.io/github/downloads/PhilsModules/phils-random-names/latest/module.zip)
 
+![Foundry v12 Compatible](https://img.shields.io/badge/Foundry-v12-green)
+![Foundry v13 Compatible](https://img.shields.io/badge/Foundry-v13-brightgreen)
+![System](https://img.shields.io/badge/System-PF2e-blue)
+![License](https://img.shields.io/badge/License-GPLv3-blue)
+[![Version](https://img.shields.io/badge/version-v1.8.1-blue)](https://github.com/PhilsModules/phils-pf2e-ai-translator/releases)
+[![Patreon](https://img.shields.io/badge/SUPPORT-Patreon-ff424d?logo=patreon)](https://www.patreon.com/PhilsModules)
 <br>
 
-**Version 1.6.3**Ein mächtiges Modul für zufällige Namen, Loot & Tavernen-Menüs.**
+
+Ein mächtiges Modul für zufällige Namen, Loot & Tavernen-Menüs.**
 <br>
 *A powerful module for random names, loot & tavern menus.*
 
@@ -165,6 +166,7 @@ All items now come with immersive flavor text and realistic prices!
 
 ## ⚖️ License
 **Phil's Random Names** is licensed under the [GPL-3.0 License](LICENSE).
+
 
 
 
