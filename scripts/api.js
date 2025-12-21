@@ -160,15 +160,17 @@ export class RandomNameAPI {
 
     static parseCurrency(str) {
         let totalCp = 0;
-        const regex = /(\d+)\s*(pp|gp|sp|cp)/g;
+        // Supports English (pp, gp, sp, cp) and German (pm, gm, sm, km)
+        const regex = /(\d+)\s*(pp|gp|sp|cp|pm|gm|sm|km)/gi;
         let match;
         while ((match = regex.exec(str)) !== null) {
             const val = parseInt(match[1]);
-            const unit = match[2];
-            if (unit === "pp") totalCp += val * 1000;
-            if (unit === "gp") totalCp += val * 100;
-            if (unit === "sp") totalCp += val * 10;
-            if (unit === "cp") totalCp += val;
+            const unit = match[2].toLowerCase();
+
+            if (unit === "pp" || unit === "pm") totalCp += val * 1000;
+            if (unit === "gp" || unit === "gm") totalCp += val * 100;
+            if (unit === "sp" || unit === "sm") totalCp += val * 10;
+            if (unit === "cp" || unit === "km") totalCp += val;
         }
         return totalCp;
     }
@@ -195,23 +197,32 @@ export class RandomNameAPI {
         const sp = Math.floor(remain / 10); remain %= 10;
         const cp = remain;
 
+        // Localize Suffixes
+        const isGerman = game.i18n.lang === "de";
+        const tx = {
+            pp: isGerman ? "pm" : "pp",
+            gp: isGerman ? "gm" : "gp",
+            sp: isGerman ? "sm" : "sp",
+            cp: isGerman ? "km" : "cp"
+        };
+
         let newCp = 0;
         let parts = [];
 
         if (pp > 0) {
-            parts.push(`${pp}pp`);
+            parts.push(`${pp}${tx.pp}`);
             newCp += pp * 1000;
-            if (gp > 0) { parts.push(`${gp}gp`); newCp += gp * 100; }
+            if (gp > 0) { parts.push(`${gp}${tx.gp}`); newCp += gp * 100; }
         } else if (gp > 0) {
-            parts.push(`${gp}gp`);
+            parts.push(`${gp}${tx.gp}`);
             newCp += gp * 100;
-            if (sp > 0) { parts.push(`${sp}sp`); newCp += sp * 10; }
+            if (sp > 0) { parts.push(`${sp}${tx.sp}`); newCp += sp * 10; }
         } else if (sp > 0) {
-            parts.push(`${sp}sp`);
+            parts.push(`${sp}${tx.sp}`);
             newCp += sp * 10;
-            if (cp > 0) { parts.push(`${cp}cp`); newCp += cp; }
+            if (cp > 0) { parts.push(`${cp}${tx.cp}`); newCp += cp; }
         } else {
-            parts.push(`${cp}cp`);
+            parts.push(`${cp}${tx.cp}`);
             newCp += cp;
         }
 

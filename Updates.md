@@ -1,5 +1,11 @@
 
 
+## Version 1.8.1 - The Currency Fix 💸
+### Bug Fixes
+*   **Deutsches Währungssystem:** Fixed a bug where currency abbreviations in German lists (gm, sm, km, pm) were parsed as "Free" because the system only understood English terms. The module now correctly detects and calculates German prices.
+*   **Chat Display:** The Chat Output will now also display German abbreviations (e.g. `5gm` instead of `5gp`) if the Foundry language is set to German.
+*   **Verification:** Verified with new German gemstone lists.
+
 ## Version 1.8.0 - The German Edition 🇩🇪
 ### Features
 *   **Volle Deutsche Übersetzung:** Alle 7 Fantasy-Listen (**Essen, Getränke, Bücher, Kuriositäten, Pflanzen, Pilze, Edelsteine**) sind nun vollständig und qualitätsgesichert auf Deutsch verfügbar!
