@@ -179,6 +179,33 @@ export class RandomNameAPI {
         if (totalCp === 0) return { cp: 0, string: "Free" };
 
         const isPf2e = game.system.id === "pf2e";
+        const isStandalone = game.system.id === "generic";
+
+        // Standalone Upgrade: Show GP, SP, CP (No PP)
+        if (isStandalone) {
+            let remain = totalCp;
+
+            // 1 gp = 100 cp. 1 pp = 10 gp = 1000 cp.
+            // We want to merge PP into GP.
+            const gp = Math.floor(remain / 100);
+            remain %= 100;
+
+            const sp = Math.floor(remain / 10);
+            const cp = remain % 10;
+
+            // Localization
+            const isGerman = game.i18n.lang === "de";
+            const tx = { gp: isGerman ? "gm" : "gp", sp: isGerman ? "sm" : "sp", cp: isGerman ? "km" : "cp" };
+
+            let parts = [];
+            if (gp > 0) parts.push(`${gp}${tx.gp}`);
+            if (sp > 0) parts.push(`${sp}${tx.sp}`);
+            if (cp > 0) parts.push(`${cp}${tx.cp}`);
+
+            if (parts.length === 0) return { cp: 0, string: "0" + tx.cp }; // Fallback for 0
+
+            return { cp: totalCp, string: parts.join(" ") };
+        }
 
         let remain = totalCp;
         let pp = 0;
@@ -250,33 +277,35 @@ export class RandomNameAPI {
         const systemId = game.system.id;
 
         // Custom Icons from User
-        let img = "modules/phils-random-names/assets/chest.jpg"; // Default
+        let img = "modules/phils-random-names/assets/treasures.jpg"; // Default
 
         switch (typeContext) {
             case "food":
-                img = "modules/phils-random-names/assets/bowl.jpg";
+                img = "modules/phils-random-names/assets/foods.jpg";
                 break;
             case "drink":
-                img = "modules/phils-random-names/assets/keg.jpg";
+                img = "modules/phils-random-names/assets/drinks.jpg";
                 break;
             case "trinket":
-                img = "modules/phils-random-names/assets/trinket.jpg";
+                img = "modules/phils-random-names/assets/trinkets.jpg";
                 break;
             case "gem":
-                // Using chest for gems as it implies treasure/value
-                img = "modules/phils-random-names/assets/chest.jpg";
+                img = "modules/phils-random-names/assets/gems.jpg";
                 break;
             case "plant":
-                img = "modules/phils-random-names/assets/plant.jpg";
+                img = "modules/phils-random-names/assets/plants.jpg";
                 break;
             case "book":
-                img = "modules/phils-random-names/assets/book.jpg";
+                img = "modules/phils-random-names/assets/books.jpg";
                 break;
             case "fungus":
-                img = "modules/phils-random-names/assets/fungus.jpg";
+                img = "modules/phils-random-names/assets/shrooms.jpg";
+                break;
+            case "treasure":
+                img = "modules/phils-random-names/assets/treasures.jpg";
                 break;
             default:
-                img = "modules/phils-random-names/assets/chest.jpg";
+                img = "modules/phils-random-names/assets/treasures.jpg";
                 break;
         }
 
@@ -393,8 +422,10 @@ export class RandomNameAPI {
         } else if (type === "loot") {
             const tName = findJournalName("Fantasy Trinkets");
             const gName = findJournalName("Fantasy Gemstones");
+            const trName = findJournalName("Fantasy Treasures");
             if (tName) sources.push({ name: tName, count: config.count1 ?? 5, label: "Trinkets", subType: "loot", typeContext: "trinket" });
             if (gName) sources.push({ name: gName, count: config.count2 ?? 2, label: "Gemstones", subType: "loot", typeContext: "gem" });
+            if (trName) sources.push({ name: trName, count: config.count3 ?? 1, label: "Treasures", subType: "loot", typeContext: "treasure" });
         }
 
         for (const source of sources) {

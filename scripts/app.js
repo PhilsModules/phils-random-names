@@ -93,7 +93,12 @@ export class RandomNameApp extends HandlebarsApplicationMixin(ApplicationV2) {
             displayText += `<br><span style="font-size: 0.6em; color: var(--color-text-light-2);">${data.priceString}</span>`;
         }
 
-        this._displayResult(journal.name, displayText);
+        // Standalone Support: Pass full data object to preserve Description/GM Notes
+        if (game.system.id === "generic") {
+            this._displayResult(journal.name, data);
+        } else {
+            this._displayResult(journal.name, displayText);
+        }
     }
 
     async _onGenerateComplex(event, target) {
@@ -115,14 +120,25 @@ export class RandomNameApp extends HandlebarsApplicationMixin(ApplicationV2) {
         this._displayResult(categoryName, name);
     }
 
-    _displayResult(title, name) {
-        if (name) {
-            ChatMessage.create({
-                content: `<div class="phils-random-name-card">
-                    <p style="font-size: 1.5em; font-weight: bold; text-align: center; margin: 0;">${name}</p>
-                </div>`
-            });
-            ui.notifications.info(`${game.i18n.localize("PRN.App.Generated")}: ${name}`);
+    _displayResult(title, content) {
+        if (content) {
+            // Check if content is object (Standalone Rich Data)
+            if (typeof content === 'object') {
+                ChatMessage.create({
+                    content: content
+                });
+                ui.notifications.info(`${game.i18n.localize("PRN.App.Generated")}: ${content.name}`);
+            } else {
+                // String content (Legacy/Foundry HTML)
+                ChatMessage.create({
+                    content: `<div class="phils-random-name-card">
+                        <p style="font-size: 1.5em; font-weight: bold; text-align: center; margin: 0;">${content}</p>
+                    </div>`
+                });
+                // Strip HTML for notification
+                const cleanName = content.replace(/<[^>]*>?/gm, '');
+                ui.notifications.info(`${game.i18n.localize("PRN.App.Generated")}: ${cleanName}`);
+            }
         } else {
             ui.notifications.warn(`${game.i18n.localize("PRN.App.ErrorGen")} ${title}`);
         }

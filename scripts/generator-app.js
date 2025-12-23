@@ -70,6 +70,9 @@ export class RandomNameGeneratorApp extends HandlebarsApplicationMixin(Applicati
 
             const c2 = parseInt(html.querySelector("#loot-gem-count").value);
             config.count2 = isNaN(c2) ? 0 : c2;
+
+            const c3 = parseInt(html.querySelector("#loot-treasure-count").value);
+            config.count3 = isNaN(c3) ? 0 : c3;
         }
 
         const result = await RandomNameAPI.generateCombined(type, config);

@@ -1,5 +1,17 @@
 
 
+## Version 1.9.0 - The Treasure Update 💎
+### Features
+*   **Update Notification:** The module now checks for updates on startup. If a new version is detected, a message with an "Update Lists" button is posted to the chat, streamlining the update process.
+*   **Generator UI Update:** The "Treasure Pouch" generator has been upgraded! You can now specifically choose how many **Treasures**, **Trinkets**, and **Gemstones** you want to generate.
+*   **New Content:**
+    *   **Fantasy Treasures:** Added `Fantasy_Treasures.md` (and German `_De`) with **300 new entries**! These are higher-value items like art objects, minor magic items, and curiosities.
+    *   **New Assets:** Added new, dedicated images for all lists (Books, Foods, Drinks, Gems, Plants, Treasures, Trinkets, Fungi).
+
+### Improvements
+*   **Assets:** All lists now have their own dedicated cover image in the loot generator.
+*   **Localization:** Full English and German support for the new Treasure list and UI.
+
 ## Version 1.8.1 - The Currency Fix 💸
 ### Bug Fixes
 *   **Deutsches Währungssystem:** Fixed a bug where currency abbreviations in German lists (gm, sm, km, pm) were parsed as "Free" because the system only understood English terms. The module now correctly detects and calculates German prices.
