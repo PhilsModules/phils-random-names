@@ -6,12 +6,12 @@
 ![Foundry v13 Compatible](https://img.shields.io/badge/Foundry-v13-brightgreen)
 ![System](https://img.shields.io/badge/System-PF2e-blue)
 ![License](https://img.shields.io/badge/License-GPLv3-blue)
-[![Version](https://img.shields.io/badge/version-v1.9.0-blue)](https://github.com/PhilsModules/phils-pf2e-ai-translator/releases)
+[![Version](https://img.shields.io/badge/version-v1.9.0-blue)](https://github.com/PhilsModules/phils-random-names/releases)
 [![Patreon](https://img.shields.io/badge/SUPPORT-Patreon-ff424d?logo=patreon)](https://www.patreon.com/PhilsModules)
 <br>
 
 
-Ein mächtiges Modul für zufällige Namen, Loot & Tavernen-Menüs.**
+**Ein mächtiges Modul für zufällige Namen, Loot & Tavernen-Menüs.**
 <br>
 *A powerful module for random names, loot & tavern menus.*
 
@@ -44,7 +44,7 @@ Erstelle per Klick passende Namen für deine Welt.
 Aus den Listen "Food", "Drinks", "Trinkets", "Gemstones" und "Plants" werden nicht nur Namen gezogen. 
 *   **Drag & Drop:** Das Modul erstellt **echte Foundry Items** (Consumables oder Loot), die du direkt in Charakterbögen ziehen kannst.
 *   **System Support:**
-    *   **Pathfinder 2e:** Erstellt `Treasure` (Edelsteine, Plunder) oder `Consumable` (Essen, Tranken, Pflanzen) mit korrekter Preisaufteilung (GP/SP/CP).
+    *   **Pathfinder 2e:** Erstellt `Treasure` (Edelsteine, Plunder) oder `Consumable` (Essen, Tränke, Pflanzen) mit korrekter Preisaufteilung (GP/SP/CP). Hinweis: `Treasure` ist der technische Foundry-Begriff für das Item-Set (Schatz).
     *   **D&D 5e:** Erstellt `Loot` oder `Consumable` Items.
     *   **Andere Systeme:** Erstellt generische Items.
 
@@ -79,14 +79,14 @@ Alle Gegenstände kommen jetzt mit immersiven Beschreibungen und Preisen!
     *   🌱 **Leshys:** ~28.000
 
 *   **Thematische Listen (Mit Preisen & Beschreibung):**
-    *   🍺 **Fantasy Drinks:** ~436 Getränke mit Effekten
-    *   🍖 **Fantasy Food:** ~565 Gerichte & Snacks
-    *   🗝️ **Fantasy Trinkets:** ~540 Plunder & Geheimnisse
-    *   💎 **Fantasy Gemstones:** ~373 Edelsteine & magische Mineralien
-    *   🏆 **Fantasy Treasures:** ~300 Schätze
-    *   🌿 **Fantasy Plants:** ~507 magische Pflanzen
-    *   🍄 **Fantasy Fungi:** ~305 seltsame Pilze
-    *   📚 **Fantasy Books:** ~305 Bücher mit Lore-Bonus
+    *   🍺 **Fantasy Drinks:** ~436 Getränke mit Effekten (z.B. *Goblin-Fusel*, *Elfen-Honigmet*)
+    *   🍖 **Fantasy Food:** ~565 Gerichte & Snacks (z.B. *Zwergen-Steinbrot*, *Drachensteak*)
+    *   🗝️ **Fantasy Trinkets:** ~540 Plunder & Geheimnisse (z.B. *Rostiger Schlüssel*, *Singende Muschel*)
+    *   💎 **Fantasy Gemstones:** ~373 Edelsteine & magische Mineralien (z.B. *Blutstein*, *Sternen-Rosenquarz*)
+    *   🏆 **Fantasy Schätze (Treasures):** ~300 Schätze (z.B. *Goldenes Idol*, *Verfluchte Maske*)
+    *   🌿 **Fantasy Plants:** ~507 magische Pflanzen (z.B. *Eisenhut*, *Königsblüte*)
+    *   🍄 **Fantasy Fungi:** ~305 seltsame Pilze (z.B. *Leucht-Pilz*, *Todesengel*)
+    *   📚 **Fantasy Books:** ~305 Bücher mit Lore-Bonus (z.B. *Die Geschichte von Absalom*, *Goblin-Poesie*)
     *   🏪 **Shops:** ~500 Geschäftsnamen
 *   **Gerüchte:** 500+ Plot-Hooks für die Taverne.
 
@@ -155,14 +155,14 @@ All items now come with immersive flavor text and realistic prices!
     *   🌱 **Leshys:** ~28,000
 
 *   **Thematic Lists (With Prices & Descriptions):**
-    *   🍺 **Fantasy Drinks:** ~436 items
-    *   🍖 **Fantasy Food:** ~565 items
-    *   🗝️ **Fantasy Trinkets:** ~540 items
-    *   💎 **Fantasy Gemstones:** ~373 items
-    *   🏆 **Fantasy Treasures:** ~300 items
-    *   🌿 **Fantasy Plants:** ~507 items
-    *   🍄 **Fantasy Fungi:** ~305 items
-    *   📚 **Fantasy Books:** ~305 items
+    *   🍺 **Fantasy Drinks:** ~436 items (e.g. *Dwarven Stout*, *Elven Honeymead*)
+    *   🍖 **Fantasy Food:** ~565 items (e.g. *Dragon Steak*, *Spiced Potatoes*)
+    *   🗝️ **Fantasy Trinkets:** ~540 items (e.g. *Rusty Key*, *Clockwork Beetle*)
+    *   💎 **Fantasy Gemstones:** ~373 items (e.g. *Bloodstone*, *Star Rose Quartz*)
+    *   🏆 **Fantasy Treasures:** ~300 items (e.g. *Golden Idol*, *Cursed Mask*)
+    *   🌿 **Fantasy Plants:** ~507 items (e.g. *Wolfsbane*, *Kings-Bloom*)
+    *   🍄 **Fantasy Fungi:** ~305 items (e.g. *Glow Bulb*, *Death Angel*)
+    *   📚 **Fantasy Books:** ~305 items (e.g. *History of Absalom*, *Goblin Poetry*)
     *   🏪 **Shops:** ~500 items
 *   **Rumors:** 500+ plot hooks.
 
