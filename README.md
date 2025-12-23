@@ -6,7 +6,7 @@
 ![Foundry v13 Compatible](https://img.shields.io/badge/Foundry-v13-brightgreen)
 ![System](https://img.shields.io/badge/System-PF2e-blue)
 ![License](https://img.shields.io/badge/License-GPLv3-blue)
-[![Version](https://img.shields.io/badge/version-v1.8.1-blue)](https://github.com/PhilsModules/phils-pf2e-ai-translator/releases)
+[![Version](https://img.shields.io/badge/version-v1.9.0-blue)](https://github.com/PhilsModules/phils-pf2e-ai-translator/releases)
 [![Patreon](https://img.shields.io/badge/SUPPORT-Patreon-ff424d?logo=patreon)](https://www.patreon.com/PhilsModules)
 <br>
 
@@ -51,7 +51,7 @@ Aus den Listen "Food", "Drinks", "Trinkets", "Gemstones" und "Plants" werden nic
 ### 3. 💰 Realistische Preise & Beschreibungen 
 Alle Gegenstände kommen jetzt mit immersiven Beschreibungen und Preisen!
 *   **Flavor-Text:** *"Banshee's Bell | A pale flower that screams when picked."*
-*   **GM Secrets (v1.7.0):** Jedes Item hat jetzt geheime GM-Notizen!
+*   **GM Secrets:** Jedes Item hat jetzt geheime GM-Notizen!
     *   *Versteckte Mechaniken:* "Essbar. Heilt 1d4 HP."
     *   *Plot Hooks:* "Der Ring gehört einem vermissten Prinzen."
     *   *Werte:* "Wert 50gp für Sammler."
@@ -83,6 +83,7 @@ Alle Gegenstände kommen jetzt mit immersiven Beschreibungen und Preisen!
     *   🍖 **Fantasy Food:** ~565 Gerichte & Snacks
     *   🗝️ **Fantasy Trinkets:** ~540 Plunder & Geheimnisse
     *   💎 **Fantasy Gemstones:** ~373 Edelsteine & magische Mineralien
+    *   🏆 **Fantasy Treasures:** ~300 Schätze
     *   🌿 **Fantasy Plants:** ~507 magische Pflanzen
     *   🍄 **Fantasy Fungi:** ~305 seltsame Pilze
     *   📚 **Fantasy Books:** ~305 Bücher mit Lore-Bonus
@@ -158,6 +159,7 @@ All items now come with immersive flavor text and realistic prices!
     *   🍖 **Fantasy Food:** ~565 items
     *   🗝️ **Fantasy Trinkets:** ~540 items
     *   💎 **Fantasy Gemstones:** ~373 items
+    *   🏆 **Fantasy Treasures:** ~300 items
     *   🌿 **Fantasy Plants:** ~507 items
     *   🍄 **Fantasy Fungi:** ~305 items
     *   📚 **Fantasy Books:** ~305 items
@@ -178,5 +180,4 @@ All items now come with immersive flavor text and realistic prices!
     <br><br>
     <p><i>Made with ❤️ for the Foundry VTT Community</i></p>
 </div>
-
 
