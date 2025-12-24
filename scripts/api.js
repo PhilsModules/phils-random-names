@@ -67,7 +67,35 @@ export class RandomNameAPI {
             }
         }
 
-        return Array.from(structure.values()).sort((a, b) => a.name.localeCompare(b.name));
+        // Localization / Renaming
+        const lang = game.i18n.lang;
+        const renames = {
+            "Fantasy Food": { en: "Provisions and Travel Fare", de: "Speisen und Reiseproviant" },
+            "Fantasy Drinks": { en: "Brews and Elixirs", de: "Getränke und Elixiere" },
+            "Fantasy Trinkets": { en: "Curiosities and Oddities", de: "Kuriositäten und Fundstücke" },
+            "Fantasy Gemstones": { en: "Precious Gemstones", de: "Kostbare Edelsteine" },
+            "Fantasy Treasures": { en: "Treasures and Riches", de: "Schätze und Reichtümer" },
+            "Fantasy Plants": { en: "Flora and Wild Plants", de: "Flora und Wildpflanzen" },
+            "Fantasy Fungi": { en: "Fungi and Spores", de: "Pilze und Sporen" },
+            "Fantasy Books": { en: "Legendary Books and Manuscripts", de: "Sagenhafte Bücher und Schriften" }
+        };
+
+        for (const item of structure.values()) {
+            if (renames[item.id]) {
+                item.name = (lang === "de") ? renames[item.id].de : renames[item.id].en;
+            }
+        }
+
+        return Array.from(structure.values()).sort((a, b) => {
+            // Sort by Original ID to keep "Fantasy" items at top
+            const aIsFantasy = a.id.startsWith("Fantasy");
+            const bIsFantasy = b.id.startsWith("Fantasy");
+
+            if (aIsFantasy && !bIsFantasy) return -1;
+            if (!aIsFantasy && bIsFantasy) return 1;
+
+            return a.name.localeCompare(b.name);
+        });
     }
 
     static generateComplex(categoryData, gender, withSurname) {

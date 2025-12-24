@@ -1,4 +1,14 @@
 
+## Version 1.9.1 - The German Polish Update 🇩🇪
+### Improvements
+*   **Linguistic Polish:** A comprehensive stylistic review of all German lists (`Fantasy_x_De.md`).
+    *   **Catalog Style:** Removed leading articles ("Ein", "Der", "Die") for concise, professional descriptions.
+    *   **Terminology:** Standardized Pathfinder 2e terms (e.g. *Würfe* instead of *Checks*).
+    *   **Atmosphere:** Refined descriptions for a more immersive, atmospheric tone.
+*   **UI Tweaks:**
+    *   **Sorting:** The Generator UI now lists "Fantasy" item lists at the top for quicker access.
+    *   **Translations:** The "Fantasy" lists now have immersive names in both English (e.g. *Brews and Elixirs*) and German (e.g. *Getränke und Elixiere*).
+*   **Renaming:** "Fantasy" prefix removed from display names for a cleaner look.
 
 ## Version 1.9.0 - The Treasure Update 💎
 ### Features
