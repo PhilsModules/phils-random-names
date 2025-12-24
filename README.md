@@ -17,16 +17,14 @@
 
 </div>
 
-> [!TIP]
-> ### 💡 Support
-> Dieses Modul ist kostenlos und Open Source. Wenn es dir gefällt, freue ich mich über Feedback!
-
 <div align="center">
 <br>
-<!-- Placeholder for Cover Image if available later -->
-<!-- <img src="cover.png" alt="Preview" width="800"> -->
+<img src="https://github.com/PhilsModules/phils-random-names/blob/main/back.png" alt="Preview" width="800">
+
 </div>
 <br>
+
+
 
 # <img src="https://flagcdn.com/48x36/de.png" width="28" height="21" alt="DE"> Deutsche Beschreibung
 
@@ -180,4 +178,5 @@ All items now come with immersive flavor text and realistic prices!
     <br><br>
     <p><i>Made with ❤️ for the Foundry VTT Community</i></p>
 </div>
+
 
