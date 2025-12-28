@@ -1,4 +1,9 @@
 
+## Version 1.9.2 - Localization Patch 🌍
+### Bug Fixes
+*   **Kategorie-Überschriften:** Die Überschriften im Generator (z.B. "Essen", "Getränke") werden nun korrekt ins Deutsche übersetzt.
+
+
 ## Version 1.9.1 - The German Polish Update 🇩🇪
 ### Improvements
 *   **Linguistic Polish:** A comprehensive stylistic review of all German lists (`Fantasy_x_De.md`).

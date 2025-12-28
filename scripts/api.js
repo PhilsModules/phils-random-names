@@ -445,15 +445,15 @@ export class RandomNameAPI {
         if (type === "menu") {
             const fName = findJournalName("Fantasy Food");
             const dName = findJournalName("Fantasy Drinks");
-            if (fName) sources.push({ name: fName, count: config.count1 ?? 10, label: "Food", subType: "menu", typeContext: "food" });
-            if (dName) sources.push({ name: dName, count: config.count2 ?? 5, label: "Drinks", subType: "menu", typeContext: "drink" });
+            if (fName) sources.push({ name: fName, count: config.count1 ?? 10, label: game.i18n.localize("PRN.Generator.FoodItems"), subType: "menu", typeContext: "food" });
+            if (dName) sources.push({ name: dName, count: config.count2 ?? 5, label: game.i18n.localize("PRN.Generator.Drinks"), subType: "menu", typeContext: "drink" });
         } else if (type === "loot") {
             const tName = findJournalName("Fantasy Trinkets");
             const gName = findJournalName("Fantasy Gemstones");
             const trName = findJournalName("Fantasy Treasures");
-            if (tName) sources.push({ name: tName, count: config.count1 ?? 5, label: "Trinkets", subType: "loot", typeContext: "trinket" });
-            if (gName) sources.push({ name: gName, count: config.count2 ?? 2, label: "Gemstones", subType: "loot", typeContext: "gem" });
-            if (trName) sources.push({ name: trName, count: config.count3 ?? 1, label: "Treasures", subType: "loot", typeContext: "treasure" });
+            if (tName) sources.push({ name: tName, count: config.count1 ?? 5, label: game.i18n.localize("PRN.Generator.Trinkets"), subType: "loot", typeContext: "trinket" });
+            if (gName) sources.push({ name: gName, count: config.count2 ?? 2, label: game.i18n.localize("PRN.Generator.Gems"), subType: "loot", typeContext: "gem" });
+            if (trName) sources.push({ name: trName, count: config.count3 ?? 1, label: game.i18n.localize("PRN.Generator.Treasures"), subType: "loot", typeContext: "treasure" });
         }
 
         for (const source of sources) {
