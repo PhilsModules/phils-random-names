@@ -6,7 +6,7 @@
 ![Foundry v13 Compatible](https://img.shields.io/badge/Foundry-v13-brightgreen)
 ![System](https://img.shields.io/badge/System-PF2e-blue)
 ![License](https://img.shields.io/badge/License-GPLv3-blue)
-[![Version](https://img.shields.io/badge/version-v1.10.0-blue)](https://github.com/PhilsModules/phils-random-names/releases)
+[![Version](https://img.shields.io/badge/version-v1.10.3-blue)](https://github.com/PhilsModules/phils-random-names/releases)
 [![Patreon](https://img.shields.io/badge/SUPPORT-Patreon-ff424d?logo=patreon)](https://www.patreon.com/PhilsModules)
 <br>
 
@@ -200,6 +200,7 @@ All items now come with immersive flavor text and realistic prices!
     <br><br>
     <p><i>Made with ❤️ for the Foundry VTT Community</i></p>
 </div>
+
 
 
 
