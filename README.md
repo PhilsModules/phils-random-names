@@ -103,7 +103,10 @@ Alle Gegenstände kommen jetzt mit immersiven Beschreibungen und Preisen!
 ## 📦 Installation
 
 1.  In Foundry VTT auf **Add-on Modules** -> **Install Module**.
-2.  Manifest URL eingeben: `https://github.com/PhilsModules/phils-random-names/releases/latest/download/module.json`
+2.  Manifest URL eingeben: 
+   ```
+   https://github.com/PhilsModules/phils-random-names/releases/latest/download/module.json`
+   ```
 3.  Installieren & Aktivieren.
 
 ## 📖 Erste Schritte
@@ -197,3 +200,4 @@ All items now come with immersive flavor text and realistic prices!
     <br><br>
     <p><i>Made with ❤️ for the Foundry VTT Community</i></p>
 </div>
+
