@@ -77,7 +77,9 @@ export class RandomNameAPI {
             "Fantasy Treasures": { en: "Treasures and Riches", de: "Schätze und Reichtümer" },
             "Fantasy Plants": { en: "Flora and Wild Plants", de: "Flora und Wildpflanzen" },
             "Fantasy Fungi": { en: "Fungi and Spores", de: "Pilze und Sporen" },
-            "Fantasy Books": { en: "Legendary Books and Manuscripts", de: "Sagenhafte Bücher und Schriften" }
+            "Fantasy Books": { en: "Legendary Books and Manuscripts", de: "Sagenhafte Bücher und Schriften" },
+            "Shops": { en: "Shops and Establishments", de: "Geschäfte und Läden" },
+            "Rumors": { en: "Rumors and Legends", de: "Gerüchte und Legenden" }
         };
 
         for (const item of structure.values()) {
@@ -96,6 +98,27 @@ export class RandomNameAPI {
 
             return a.name.localeCompare(b.name);
         });
+    }
+
+    static getGroupedStructure() {
+        const sorted = this.getStructure();
+        const groups = {
+            items: [],   // Fantasy ...
+            general: [], // Shops, Rumors, etc.
+            names: []    // Complex generators
+        };
+
+        for (const item of sorted) {
+            if (item.id.startsWith("Fantasy")) {
+                groups.items.push(item);
+            } else if (item.isComplex) {
+                groups.names.push(item);
+            } else {
+                groups.general.push(item);
+            }
+        }
+
+        return groups;
     }
 
     static generateComplex(categoryData, gender, withSurname) {
@@ -590,7 +613,7 @@ export class RandomNameAPI {
             let baseKey = filename.replace(".md", "");
             let lang = "en";
 
-            if (baseKey.endsWith("_De")) {
+            if (baseKey.toLowerCase().endsWith("_de")) {
                 baseKey = baseKey.substring(0, baseKey.length - 3);
                 lang = "de";
             }

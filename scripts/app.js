@@ -41,10 +41,11 @@ export class RandomNameApp extends HandlebarsApplicationMixin(ApplicationV2) {
     };
 
     async _prepareContext(options) {
-        const categories = RandomNameAPI.getStructure();
+        const groups = RandomNameAPI.getGroupedStructure();
+        const hasCategories = (groups.items.length + groups.general.length + groups.names.length) > 0;
         return {
-            categories,
-            hasCategories: categories.length > 0
+            groups,
+            hasCategories
         };
     }
 

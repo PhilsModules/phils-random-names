@@ -4,7 +4,29 @@
         <p style="margin: 0;">{{localize "PRN.App.ChooseCategory"}}</p>
     </div>
     <div class="category-list">
-        {{#each categories}}
+        {{#if groups.items.length}}
+        <h3 class="group-header" style="border-bottom: 1px solid var(--color-border-light-2); margin: 5px 0; padding-bottom: 2px;">{{localize "PRN.App.GroupItems"}}</h3>
+        {{#each groups.items}}
+            {{> categoryItem this=this}}
+        {{/each}}
+        {{/if}}
+
+        {{#if groups.general.length}}
+        <h3 class="group-header" style="border-bottom: 1px solid var(--color-border-light-2); margin: 10px 0 5px 0; padding-bottom: 2px;">{{localize "PRN.App.GroupGeneral"}}</h3>
+        {{#each groups.general}}
+            {{> categoryItem this=this}}
+        {{/each}}
+        {{/if}}
+
+        {{#if groups.names.length}}
+        <h3 class="group-header" style="border-bottom: 1px solid var(--color-border-light-2); margin: 10px 0 5px 0; padding-bottom: 2px;">{{localize "PRN.App.GroupNames"}}</h3>
+        {{#each groups.names}}
+            {{> categoryItem this=this}}
+        {{/each}}
+        {{/if}}
+    </div>
+
+    {{#*inline "categoryItem"}}
         <div class="category-item {{#if this.isComplex}}complex-category{{else}}simple-category{{/if}}"
             data-category="{{#if this.isComplex}}{{this.name}}{{else}}{{this.journal.id}}{{/if}}">
 
@@ -44,8 +66,7 @@
 
             </div>
         </div>
-        {{/each}}
-    </div>
+    {{/inline}}
     {{else}}
     <div style="text-align: center; padding: 20px;">
         <p class="notification warning">Kein Ordner "Phils Random Namen" gefunden oder er ist leer.</p>

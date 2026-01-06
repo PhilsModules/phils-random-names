@@ -135,7 +135,6 @@ The Unbreakable Feather | A feather made of metal that feels like a real feather
 Mask of the Dead | A death mask of gold. When placed on a corpse, it looks as it did in life. | Religion. For funeral rites. [200 gp - 500 gp]
 Ring of the Dwarf Kings | A ring of iron with the symbol of Torag. Never rusts. | Religion. +1 item bonus to identifying Dwarven relics. [80 gp - 240 gp]
 Shard of the World Tree | A piece of bark said to come from a tree that connects the planes. | Nature. Vibrates near portals. [300 gp - 900 gp]
-Horn of Fog | A horn that makes no sound but expels thick fog. | Stealth. Creates *Fog Cloud* (as spell) 1x daily. [250 gp - 600 gp]
 The Petrified Gaze (Eye) | A single petrified eye. It rolls around and looks at people. | Occultism. Creepy, but harmless. [40 gp - 120 gp]
 Cloth of Darkness | A black cloth that swallows light. Objects under it are magically protected against scrying. | Stealth. +1 item bonus to Stealth for the covered object. [150 gp - 450 gp]
 Staff of the Lost Wanderers | A walking staff that is always warm. It glows faintly when one is lost. | Survival. +1 item bonus to Orientation. [50 gp - 150 gp]
@@ -298,3 +297,4 @@ The Iron Knot | An almost unsolvable metal puzzle. | Intelligence. Solver (Intel
 Torch of Eternity | Burns always, never consumed, works underwater. | Exploration. Everburning Torch (superior, blindingly bright). [200 gp - 500 gp]
 The Dancing Dagger | A dagger that can balance on its tip. | Performance. A circus prop. [40 gp - 120 gp]
 The Last Gear | A golden gear said to repair any machine. | Crafting. Turns one Repair success into Critical Success upon use (Consumable). [500 gp - 1500 gp]
+Mask of Silence | A mask without a mouth opening, made of smooth white stone. | Magic. The wearer cannot speak, but can read thoughts (+1 item bonus to Perception to Sense Motive). [200 gp - 600 gp]

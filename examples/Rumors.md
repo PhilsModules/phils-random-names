@@ -104,7 +104,6 @@ An empty boat has been drifting on the lake for days, but it never comes to shor
 At night you can hear footsteps in the attic, even though there is no access to it.
 Behind the wall in the guest room, you sometimes hear scratching, as if something wants to get out.
 Behind the waterfall there is said to be a cave where time stands still.
-Calculated to contain over 600 entries.
 Even in high summer, the cellar of the estate is as cold as a freshly dug grave.
 Every night at the same time the lantern outside the inn goes out and two minutes later on again.
 Every night at the same time, there are three knocks at the back door, but no one is there.
@@ -126,8 +125,8 @@ In the catacombs mushrooms grow that glow in the dark.
 In the cellar of the inn a secret passage is said to lead to the castle.
 In the cellar you sometimes hear the rushing of the sea.
 In the church cellar a bricked-up door was found that is warm.
-In the fireplace fire yesterday, I saw the face of my grandfather warning me.
-In the forest a abandoned campfire was found still burning.
+In the fire yesterday, I saw the face of my grandfather warning me.
+In the forest an abandoned campfire was found still burning.
 In the forest are trees whose fruits grant knowledge.
 In the forest at night you hear the crying of a child who disappeared a hundred years ago.
 In the forest footprints were found ending suddenly in the snow.
@@ -142,7 +141,7 @@ In the forest there are mushrooms looking like little skulls.
 In the forest there are mushrooms that scream when picked.
 In the forest there is a clearing where no birds sing.
 In the forest there is a clearing where no snow remains.
- In the forest there is a clearing where time stands still.
+In the forest there is a clearing where time stands still.
 In the forest there is a hut standing on chicken legs.
 In the forest there is a path that always leads back to the start.
 In the forest there is a path you can only see at full moon.
@@ -202,7 +201,6 @@ The bees' honey shimmers green and makes you dream strange things.
 The bell has a crack but sounds perfect.
 The bell in the tower rings when someone tells a lie.
 The bell in the tower sometimes rings, even though the clapper is missing.
-The bell in the tower sometimes rings, though the clapper is missing.
 The bell of joy sounds bright and clear.
 The bell of peace rings for eternity.
 The bell of warning rings at danger.
@@ -510,7 +508,7 @@ The river flows red as wine on holidays.
 The river flows uphill on some days.
 The river has a current strong enough to carry away a horse.
 The river sometimes carries gold dust, but whoever reaches for it drowns.
-The scarecrow changed its location to tonight.
+The scarecrow changed its location last night.
 The scarecrow has fresh blood on its hands this morning.
 The scarecrow in the field has turned around since yesterday and is now facing the house.
 The scarecrow wears clothes this morning that hung on the clothesline yesterday.
@@ -627,7 +625,6 @@ They say the forest swallows wanderers.
 They say the innkeeper lost his soul in a card game.
 They say the innkeeper mixes something into the stew that makes guests forget.
 They say the lake demands a sacrifice every year, or it floods.
-They say the lake demands a sacrifice every year.
 They say the lake has a voice you can only hear underwater.
 They say the lake has no bottom and leads directly to the underworld.
 They say the lake has no bottom, and whoever falls in falls forever.
@@ -636,7 +633,6 @@ They say the lake is a gateway to the underworld.
 They say the lake is a portal to the stars.
 They say the lake is actually a giant, sleeping eye.
 They say the lake is actually a sleeping eye of a god.
-They say the lake is bottomless and whoever falls in falls forever.
 They say the lake is cursed.
 They say the lake is full of gold, but guarded by a monster.
 They say the lake is tears of the gods.
