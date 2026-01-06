@@ -66,7 +66,7 @@ Alle Gegenstände kommen jetzt mit immersiven Beschreibungen und Preisen!
 
 ### 4. 🎲 Einfache Bedienung
 
-- **Clean UI:** Ein eigenes Fenster für alle Generatoren, erreichbar über das Würfel-Icon Macro in de Macro-Ordner.
+- **Clean UI:** Ein eigenes Fenster für alle Generatoren, erreichbar über das Würfel-Icon Macro in dem Macro-Ordner.
 - **Anpassbar:** Du willst eigene Listen? Erstelle einfach ein neues Journal im Ordner "Phils Random Names".
   - **Tipp:** Wenn du Preise in Klammern dahinter schreibst `[10gp]`, erstellt das Modul daraus automatisch Items!
   - **Pro-Tipp:** Wenn der Name der Liste "Food", "Drink" oder "Plant" enthält (z.B. "Magische Pilze (Plants)"), werden die Items als _Consumables_ erstellt!
@@ -200,6 +200,7 @@ All items now come with immersive flavor text and realistic prices!
     <br><br>
     <p><i>Made with ❤️ for the Foundry VTT Community</i></p>
 </div>
+
 
 
 
