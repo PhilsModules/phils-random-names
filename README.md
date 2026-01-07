@@ -3,7 +3,7 @@
 # Phil's Random Names 🎲
 
 ![Foundry v13 Compatible](https://img.shields.io/badge/Foundry-v13-brightgreen?style=flat-square) ![Foundry v12 Compatible](https://img.shields.io/badge/Foundry-v12-green?style=flat-square) ![System](https://img.shields.io/badge/System-PF2e-blue?style=flat-square)
-![License](https://img.shields.io/badge/License-GPLv3-blue?style=flat-square) [![Version](https://img.shields.io/badge/Version-1.10.3-orange?style=flat-square)](https://github.com/PhilsModules/phils-random-names/releases) [![Patreon](https://img.shields.io/badge/SUPPORT-Patreon-ff424d?style=flat-square&logo=patreon)](https://www.patreon.com/PhilsModules)
+![License](https://img.shields.io/badge/License-GPLv3_%2F_CC_BY--NC--ND-blue?style=flat-square) [![Version](https://img.shields.io/badge/Version-1.10.3-orange?style=flat-square)](https://github.com/PhilsModules/phils-random-names/releases) [![Patreon](https://img.shields.io/badge/SUPPORT-Patreon-ff424d?style=flat-square&logo=patreon)](https://www.patreon.com/PhilsModules)
 
 <br>
 
@@ -213,7 +213,12 @@ Alle Gegenstände kommen jetzt mit immersiven Beschreibungen und Preisen!
 
 ## 📜 License
 
-This module is licensed under the [GPL-3.0 License](LICENSE).
+This module uses a dual license structure.
+
+- **Code:** GNU GPLv3
+- **Assets:** CC BY-NC-ND 4.0
+
+See `LICENSE` file for details.
 
 <br>
 
