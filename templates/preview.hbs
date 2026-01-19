@@ -5,11 +5,19 @@
             <div class="preview-text-container">
                 {{#if this.label}}<small class="preview-label">{{this.label}}</small>{{/if}}
                 <div class="preview-content-row">
-                    <span class="preview-name">{{this.fullData.name}}</span>
-                    <span class="preview-price">{{this.fullData.priceString}}</span>
+                    {{#if this.fullData}}
+                        {{#if this.realItemUuid}}
+                        <a class="preview-name preview-link" data-action="inspect" data-uuid="{{this.realItemUuid}}">{{this.fullData.name}}</a>
+                        {{else}}
+                        <span class="preview-name">{{this.fullData.name}}</span>
+                        {{/if}}
+                        <span class="preview-price">{{this.fullData.priceString}}</span>
+                    {{else}}
+                    <span class="preview-name">{{{this.text}}}</span>
+                    {{/if}}
                 </div>
             </div>
-            <button type="button" data-action="reroll" title="Reroll">
+            <button type="button" data-action="reroll" title="{{localize 'PRN.Preview.Reroll'}}">
                 <i class="fas fa-sync"></i>
             </button>
         </div>

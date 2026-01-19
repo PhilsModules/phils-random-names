@@ -31,5 +31,9 @@
     "PRN.App.ErrorGen": "Name konnte nicht generiert werden für",
     "PRN.App.InfoCreated": "Phils Random Names: Ordner und Beispiele erstellt!",
     "PRN.Common.Title": "Phil's Random Names",
-    "PRN.App.ButtonPost": "In den Chat posten"
+    "PRN.App.ButtonPost": "In den Chat posten",
+    "PRN.Preview.Title": "Ergebnis Vorschau",
+    "PRN.Preview.Reroll": "Neu würfeln",
+    "PRN.Generator.Custom": "Benutzerdefiniert",
+    "PRN.Generator.RandomName": "Zufallsname"
 }

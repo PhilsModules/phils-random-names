@@ -78,6 +78,6 @@ export class RandomNameGeneratorApp extends HandlebarsApplicationMixin(Applicati
         const result = await RandomNameAPI.generateCombined(type, config);
 
         // Open Preview
-        new GeneratorPreviewApp(result, type).render(true);
+        new GeneratorPreviewApp(result, type).render({ force: true });
     }
 }

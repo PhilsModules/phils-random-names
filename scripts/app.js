@@ -1,5 +1,6 @@
 import { RandomNameAPI } from "./api.js";
 import { RandomNameGeneratorApp } from "./generator-app.js";
+import { GeneratorPreviewApp } from "./preview-app.js";
 
 const { ApplicationV2, HandlebarsApplicationMixin } = foundry.applications.api;
 
@@ -54,51 +55,15 @@ export class RandomNameApp extends HandlebarsApplicationMixin(ApplicationV2) {
     }
 
     _onOpenGenerator(event, target) {
-        new RandomNameGeneratorApp().render(true);
+        new RandomNameGeneratorApp().render({ force: true });
     }
 
     async _onGenerateSimple(event, target) {
         const journalId = target.dataset.journalId;
-        const journal = game.journal.get(journalId);
-        if (!journal) return;
-
-        const rawName = RandomNameAPI.getRandomName(journal);
-        const data = RandomNameAPI.processItemWithPrice(rawName);
-
-        let displayText = data.name;
-
-        // Try to create real item
-        if (game.user.isGM && data.hasPrice) {
-            let typeContext = "generic"; // Default to generic loot
-            if (journal.name.includes("Food")) typeContext = "food";
-            else if (journal.name.includes("Drinks")) typeContext = "drink";
-            else if (journal.name.includes("Trinkets")) typeContext = "trinket";
-            else if (journal.name.includes("Gemstones")) typeContext = "gem";
-            else if (journal.name.includes("Plants")) typeContext = "plant";
-            else if (journal.name.includes("Books")) typeContext = "book";
-            else if (journal.name.includes("Fungi")) typeContext = "fungus";
-
-            if (typeContext) {
-                try {
-                    const item = await RandomNameAPI.createItem(data.name, data, typeContext);
-                    if (item) {
-                        displayText = `@UUID[${item.uuid}]{${data.name}}`;
-                    }
-                } catch (e) {
-                    console.error("PRN | Failed to create item", e);
-                }
-            }
-        }
-
-        if (data.hasPrice) {
-            displayText += `<br><span style="font-size: 0.6em; color: var(--color-text-light-2);">${data.priceString}</span>`;
-        }
-
-        // Standalone Support: Pass full data object to preserve Description/GM Notes
-        if (game.system.id === "generic") {
-            this._displayResult(journal.name, data);
-        } else {
-            this._displayResult(journal.name, displayText);
+        const result = await RandomNameAPI.generateSimple(journalId);
+        
+        if (result) {
+            new GeneratorPreviewApp({ items: [result] }, "simple").render({ force: true });
         }
     }
 
@@ -117,33 +82,15 @@ export class RandomNameApp extends HandlebarsApplicationMixin(ApplicationV2) {
 
         if (!catData) return;
 
-        const name = RandomNameAPI.generateComplex(catData, gender, withSurname);
-        this._displayResult(categoryName, name);
-    }
-
-    _displayResult(title, content) {
-        if (content) {
-            // Check if content is object (Standalone Rich Data)
-            if (typeof content === 'object') {
-                ChatMessage.create({
-                    content: content
-                });
-                ui.notifications.info(`${game.i18n.localize("PRN.App.Generated")}: ${content.name}`);
-            } else {
-                // String content (Legacy/Foundry HTML)
-                ChatMessage.create({
-                    content: `<div class="phils-random-name-card">
-                        <p style="font-size: 1.5em; font-weight: bold; text-align: center; margin: 0;">${content}</p>
-                    </div>`
-                });
-                // Strip HTML for notification
-                const cleanName = content.replace(/<[^>]*>?/gm, '');
-                ui.notifications.info(`${game.i18n.localize("PRN.App.Generated")}: ${cleanName}`);
-            }
-        } else {
-            ui.notifications.warn(`${game.i18n.localize("PRN.App.ErrorGen")} ${title}`);
+        const result = RandomNameAPI.generateComplex(catData, gender, withSurname);
+        
+        if (result) {
+             new GeneratorPreviewApp({ items: [result] }, "complex").render({ force: true });
         }
     }
+
+    // _displayResult removed as it is no longer used by generation methods.
+    // Keeping check logic for safety if something else used it, but for now we replace usage.
 
     async _onCreate(event, target) {
         try {

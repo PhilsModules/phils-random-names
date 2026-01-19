@@ -1,5 +1,37 @@
 # Update Notes
 
+## v2.0.0 - The Privacy Update 🕵️‍♂️
+
+### Features
+
+- **Private Generation:** All random generations (NPCs, Loot, Menus, etc.) now open in a **Preview Window** first!
+  - **No more chat spam:** You see the result privately before sharing it.
+  - **Reroll:** Don't like the generated name or item? Just click the **Reroll** button in the preview window until it fits.
+  - **Post to Chat:** Once you are happy with the result, click "Post" to share it with your players.
+- **Unified UI:** The preview window logic has been standardized across all generators.
+- **Smart Localization:** The module now automatically updates the text content of standard lists (e.g. Treasures, Food) when you switch the Foundry language (English <-> German).
+- **Organization:** Standard lists are now moved to a subfolder "Core Lists" to keep your main folder clean for your own custom lists. Existing lists will be migrated automatically.
+- **Inspect Items:** You can now click on generated items in the preview window to open their sheet and read the full description before posting.
+- **Smart Item Reuse:** If you generate an item (e.g. "Sword of Truth") that already exists in the "Phils Generated Loot" folder, the module will now reuse that item instead of creating a duplicate. If you rename the original item, a new one will be created next time.
+
+## v1.10.4
+
+- **Fix:** Fixed a localization issue where the "No Folder Found" error message was hardcoded in German. It now correctly uses the localized string for all languages.
+
+## v1.10.3
+
+- **Bug Fix:** Fixed an issue where the "Phil's Random Names" macro would not be created for some users.
+- **New Feature:** Added a "Reinstall Macro" button in the module settings to manually restore the macro if it is missing.
+- **Backup:** Included a manual macro file in `macros/phils_random_names_macro.json` for manual import.
+
+## v1.10.2
+
+- Manifest cleanup and normalization.
+
+## v1.10.1
+
+- **Fix:** Added missing `url` field to module manifest.
+
 ## v1.10.0 - The Structure Update 🏗️
 
 ### Features

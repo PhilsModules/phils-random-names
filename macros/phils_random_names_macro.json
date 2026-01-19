@@ -1,0 +1,8 @@
+{
+  "name": "Phil's Random Names",
+  "type": "script",
+  "scope": "global",
+  "img": "icons/sundries/gaming/dice-runed-brown.webp",
+  "command": "const { RandomNameApp } = game.modules.get(\"phils-random-names\").api;\nnew RandomNameApp().render({ force: true });",
+  "flags": {}
+}

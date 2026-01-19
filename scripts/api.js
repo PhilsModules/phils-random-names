@@ -1,12 +1,25 @@
 export class RandomNameAPI {
     static getFolder() {
-        return game.journal.folders.find(f => f.name === "Phils Random Names");
+        return game.journal.folders.find(f => f.name === "Phils Random Names" && !f.folder);
     }
 
     static getJournals() {
-        const folder = this.getFolder();
-        if (!folder) return [];
-        return folder.contents;
+        const root = this.getFolder();
+        if (!root) return [];
+
+        const getSubfolderIds = (folder) => {
+            let ids = [folder.id];
+            const children = folder.children || [];
+            for (const child of children) {
+                // Compatibility for V10+ folder structure where children are FolderNodes
+                const childFolder = child.folder || child; 
+                ids = ids.concat(getSubfolderIds(childFolder));
+            }
+            return ids;
+        };
+
+        const allFolderIds = new Set(getSubfolderIds(root));
+        return game.journal.filter(j => j.folder && allFolderIds.has(j.folder.id));
     }
 
     static getNames(journalEntry) {
@@ -35,6 +48,31 @@ export class RandomNameAPI {
         const names = this.getNames(journalEntry);
         if (names.length === 0) return null;
         return names[Math.floor(Math.random() * names.length)];
+    }
+
+    // Localization Helper
+    static getTranslationMap() {
+        return {
+            "Fantasy Food": { en: "Provisions and Travel Fare", de: "Speisen und Reiseproviant" },
+            "Fantasy Drinks": { en: "Brews and Elixirs", de: "Getränke und Elixiere" },
+            "Fantasy Trinkets": { en: "Curiosities and Oddities", de: "Kuriositäten und Fundstücke" },
+            "Fantasy Gemstones": { en: "Precious Gemstones", de: "Kostbare Edelsteine" },
+            "Fantasy Treasures": { en: "Treasures and Riches", de: "Schätze und Reichtümer" },
+            "Fantasy Plants": { en: "Flora and Wild Plants", de: "Flora und Wildpflanzen" },
+            "Fantasy Fungi": { en: "Fungi and Spores", de: "Pilze und Sporen" },
+            "Fantasy Books": { en: "Legendary Books and Manuscripts", de: "Sagenhafte Bücher und Schriften" },
+            "Shops": { en: "Shops and Establishments", de: "Geschäfte und Läden" },
+            "Rumors": { en: "Rumors and Legends", de: "Gerüchte und Legenden" }
+        };
+    }
+
+    static getLocalizedLabel(key) {
+        const map = this.getTranslationMap();
+        const lang = game.i18n.lang;
+        if (map[key]) {
+            return (lang === "de") ? map[key].de : map[key].en;
+        }
+        return key;
     }
 
     // New: Smart Structure Parsing
@@ -67,25 +105,9 @@ export class RandomNameAPI {
             }
         }
 
-        // Localization / Renaming
-        const lang = game.i18n.lang;
-        const renames = {
-            "Fantasy Food": { en: "Provisions and Travel Fare", de: "Speisen und Reiseproviant" },
-            "Fantasy Drinks": { en: "Brews and Elixirs", de: "Getränke und Elixiere" },
-            "Fantasy Trinkets": { en: "Curiosities and Oddities", de: "Kuriositäten und Fundstücke" },
-            "Fantasy Gemstones": { en: "Precious Gemstones", de: "Kostbare Edelsteine" },
-            "Fantasy Treasures": { en: "Treasures and Riches", de: "Schätze und Reichtümer" },
-            "Fantasy Plants": { en: "Flora and Wild Plants", de: "Flora und Wildpflanzen" },
-            "Fantasy Fungi": { en: "Fungi and Spores", de: "Pilze und Sporen" },
-            "Fantasy Books": { en: "Legendary Books and Manuscripts", de: "Sagenhafte Bücher und Schriften" },
-            "Shops": { en: "Shops and Establishments", de: "Geschäfte und Läden" },
-            "Rumors": { en: "Rumors and Legends", de: "Gerüchte und Legenden" }
-        };
-
+        // Localization / Renaming from Map
         for (const item of structure.values()) {
-            if (renames[item.id]) {
-                item.name = (lang === "de") ? renames[item.id].de : renames[item.id].en;
-            }
+            item.name = this.getLocalizedLabel(item.id);
         }
 
         return Array.from(structure.values()).sort((a, b) => {
@@ -143,16 +165,73 @@ export class RandomNameAPI {
             surname = this.getRandomName(categoryData.parts.surnames);
         }
 
+        let fullName = "";
         // Combine
-        if (firstName && surname) return `${firstName} ${surname}`;
-        if (firstName) return firstName;
-        if (surname) return `(Only Surname) ${surname}`;
-        return null; // Failed to gen
+        if (firstName && surname) fullName = `${firstName} ${surname}`;
+        else if (firstName) fullName = firstName;
+        else if (surname) fullName = `(Only Surname) ${surname}`;
+        
+        return {
+            text: fullName,
+            source: categoryData.name,
+            subType: "complex",
+            config: { gender, withSurname } 
+        };
+    }
+
+    // New: Standardized generator for Simple items
+    static async generateSimple(journalId) {
+        const journal = game.journal.get(journalId);
+        if (!journal) return null;
+
+        const rawName = this.getRandomName(journal);
+        const data = this.processItemWithPrice(rawName);
+
+        let displayText = data.name;
+        let realItemUuid = null;
+        let typeContext = "generic";
+
+        // Determine context
+        if (journal.name.includes("Food")) typeContext = "food";
+        else if (journal.name.includes("Drinks")) typeContext = "drink";
+        else if (journal.name.includes("Trinkets")) typeContext = "trinket";
+        else if (journal.name.includes("Gemstones")) typeContext = "gem";
+        else if (journal.name.includes("Plants")) typeContext = "plant";
+        else if (journal.name.includes("Books")) typeContext = "book";
+        else if (journal.name.includes("Fungi")) typeContext = "fungus";
+
+        // Try to create real item
+        if (game.user.isGM && data.hasPrice) {
+            if (typeContext) {
+                try {
+                    const item = await this.createItem(data.name, data, typeContext);
+                    if (item) {
+                        displayText = `@UUID[${item.uuid}]{${data.name}}`;
+                        realItemUuid = item.uuid;
+                    }
+                } catch (e) {
+                    console.error("PRN | Failed to create item", e);
+                }
+            }
+        }
+
+        return {
+            text: displayText,
+            fullData: data,
+            priceString: data.hasPrice ? data.priceString : "",
+            source: journalId, // using ID for simple lookups
+            subType: "simple",
+            realItemUuid: realItemUuid,
+            typeContext: typeContext,
+            label: this.getLocalizedLabel(journal.name) // Localized Label
+        };
     }
 
     // --- New Generator Logic (Menu / Loot) ---
 
     static processItemWithPrice(rawLine) {
+        if (!rawLine) return { name: "Error", priceCp: 0, priceString: "", hasPrice: false };
+        
         // Formats: "Name [Price]" or "Name | Description [Price]" or "Name | Description | GM Secret [Price]"
         const match = rawLine.match(/(.*?)\[(.*?)\]/);
 
@@ -325,6 +404,15 @@ export class RandomNameAPI {
 
     static async createItem(name, priceData, typeContext) {
         const folder = await this.getOrCreateLootFolder();
+        
+        // 1. Deduplication Check: Reuse Item if it exists in the folder with the exact same name
+        const existingItem = folder.contents.find(i => i.name === name);
+        if (existingItem) {
+            // Optional: We could update the price here if we wanted strict consistency, 
+            // but reusing the existing instance is safer to preserve GM edits.
+            return existingItem;
+        }
+
         const systemId = game.system.id;
 
         // Custom Icons from User
@@ -373,6 +461,7 @@ export class RandomNameAPI {
             if (priceData.description) itemData.system.description.value = `<p>${priceData.description}</p>`;
             if (priceData.gmDescription) itemData.system.description.gm = `<p>${priceData.gmDescription}</p>`;
         }
+
 
         let totalCp = priceData.priceCp;
         let pp = 0; let gp = 0; let sp = 0; let cp = 0;
@@ -508,7 +597,16 @@ export class RandomNameAPI {
     }
 
     static async postToChat(type, items) {
-        const title = type === "menu" ? game.i18n.localize("PRN.Generator.TavernMenu") : game.i18n.localize("PRN.Generator.TreasurePouch");
+        // dynamic Title
+        let title = game.i18n.localize("PRN.Preview.Title");
+        if (type === "menu") title = game.i18n.localize("PRN.Generator.TavernMenu");
+        else if (type === "loot") title = game.i18n.localize("PRN.Generator.TreasurePouch");
+        else if (type === "custom") title = game.i18n.localize("PRN.Generator.Custom");
+        else {
+             // Try to infer from first item label if possible, or just "Result"
+             if(items.length > 0 && items[0].subType === "complex") title = game.i18n.localize("PRN.Generator.RandomName");
+             else if (items.length > 0 && items[0].label) title = items[0].label;
+        }
 
         let outputHtml = `<h3>${title}</h3><hr>`;
 
@@ -523,50 +621,46 @@ export class RandomNameAPI {
 
         // Iterate Groups
         for (const [label, groupItems] of grouped) {
-            outputHtml += `<h3>${label}</h3>`;
+            // Only show label if it's not "Items" or if we have multiple groups
+            if(label !== "Items" || grouped.size > 1) {
+                outputHtml += `<h3>${label}</h3>`;
+            }
             outputHtml += `<ul style="list-style:none; padding:0; margin-bottom: 10px;">`;
 
             for (const item of groupItems) {
                 let displayHtml = "";
 
-                if (game.user.isGM && item.fullData && (item.subType === "loot" || item.subType === "menu")) {
-                    try {
-                        const context = item.typeContext || "trinket";
-                        const realItem = await this.createItem(item.fullData.name, item.fullData, context);
-                        if (realItem) {
-                            // Flex row with auto margin to push price to the right
-                            displayHtml = `<div style="display: flex; align-items: center; width: 100%;">
+                if (game.user.isGM && item.fullData && (item.realItemUuid || ["loot", "menu", "simple"].includes(item.subType))) {
+                     // Prefer real item uuid if we have it created
+                     if(item.realItemUuid) {
+                        displayHtml = `<div style="display: flex; align-items: center; width: 100%;">
                                 <div style="flex: 1; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; padding-right: 5px;">
-                                    @UUID[${realItem.uuid}]{${item.fullData.name}}
+                                    @UUID[${item.realItemUuid}]{${item.fullData.name}}
                                 </div>
                                 <div style="flex: 0 0 auto; margin-left: auto; text-align: right; white-space: nowrap; opacity: 0.8;">
                                     ${item.fullData.priceString}
                                 </div>
                             </div>`;
-                        }
-                    } catch (e) { console.error(e); }
+                     } else {
+                        // Create it specifically now if it wasn't valid before? 
+                        // Actually generateSimple/generateCombined tries to create it.
+                        // If it failed, falling back to text is fine.
+                        
+                        // But wait, if text was passed in item.text, we might want to use that.
+                        // Let's rely on item.text as the display source since it might contain price HTML.
+                        displayHtml = item.text;
+                     }
                 } else {
                     // Fallback purely text based
-                    const data = item.fullData;
-                    if (data) {
-                        displayHtml = `<div style="display: flex; align-items: center; width: 100%;">
-                                <div style="flex: 1; font-weight:bold; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; padding-right: 5px;">
-                                    ${data.name}
-                                </div>
-                                <div style="flex: 0 0 auto; margin-left: auto; text-align: right; white-space: nowrap; opacity: 0.8;">
-                                    ${data.priceString}
-                                </div>
-                            </div>`;
-                    } else {
-                        displayHtml = item.text; // Fallback to raw text
-                    }
+                   displayHtml = item.text;
                 }
 
                 outputHtml += `<li style="margin-bottom: 4px; border-bottom: none; padding-bottom:0;">${displayHtml}</li>`;
             }
             outputHtml += `</ul>`;
         }
-
+        
+        // Use ChatMessage.create
         ChatMessage.create({
             content: outputHtml,
             speaker: { alias: "Generator" }
@@ -575,12 +669,58 @@ export class RandomNameAPI {
 
     // --- Content Creation ---
 
+    static getFolder() {
+        // Root Folder
+        return game.journal.folders.find(f => f.name === "Phils Random Names" && !f.folder); // Ensure it's a root folder
+    }
+
+    static getJournals() {
+        const root = this.getFolder();
+        if (!root) return [];
+
+        // Recursive helper to get all folder IDs
+        const getSubfolderIds = (folder) => {
+            let ids = [folder.id];
+            // folder.children is array of {folder: Folder, ...} in V10+
+            const children = folder.children || []; 
+            for (const child of children) {
+                if (child.folder) ids = ids.concat(getSubfolderIds(child.folder));
+            }
+            return ids;
+        };
+
+        const allFolderIds = new Set(getSubfolderIds(root));
+        return game.journal.filter(j => j.folder && allFolderIds.has(j.folder.id));
+    }
+
+    // ... (rest of methods like getStructure, createItem, etc. - unchanged until createOneClickContent)
+    // NOTE: For brevity in replace_file_content, assuming intermediate functions are preserved if I target correctly. Always be careful.
+    // Actually, replace_file_content replaces a block. I need to be careful not to delete getStructure etc.
+    // I should probably target specific blocks.
+
+    // Let's override getJournals first, then createOneClickContent separately?
+    // No, I'll do a large replacement if the context allows, or targeted.
+    // I'll target getFolder and getJournals first.
+    
+    // ... wait, I will split this into two calls for safety.
+    
     static async createOneClickContent() {
-        let folder = this.getFolder();
-        if (!folder) {
-            folder = await Folder.create({
+        let rootFolder = this.getFolder();
+        if (!rootFolder) {
+            rootFolder = await Folder.create({
                 name: "Phils Random Names",
                 type: "JournalEntry"
+            });
+        }
+
+        // Create/Get "Core Lists" subfolder
+        let coreFolder = game.journal.folders.find(f => f.name === "Core Lists" && f.folder?.id === rootFolder.id);
+        if (!coreFolder) {
+            coreFolder = await Folder.create({
+                name: "Core Lists",
+                type: "JournalEntry",
+                folder: rootFolder.id,
+                sorting: "m"
             });
         }
 
@@ -591,40 +731,44 @@ export class RandomNameAPI {
         const suffixSurname = isGerman ? "Nachnamen" : "Surnames";
 
         // Example Files to Load
-        // Dynamic Example Loading using FilePicker
         let examples = [];
         try {
-            // Attempt to browse the module directory
             const result = await FilePicker.browse("data", "modules/phils-random-names/examples");
-            examples = result.files
-                .filter(file => file.endsWith(".md"))
-                .map(file => file.split("/").pop()); // Extract filename
+            examples = result.files.filter(file => file.endsWith(".md")).map(file => file.split("/").pop());
         } catch (err) {
             console.warn("Phils Random Names | Could not browse examples via FilePicker. Falling back to default list.", err);
-            // Fallback if FilePicker fails (e.g. strict permissions)
-            examples = ["Mwangi_Commoner.md"];
+            examples = [
+                "Absalom_Names.md", "Dwarf.md", "Elf.md",
+                "Fantasy_Books.md", "Fantasy_Books_De.md",
+                "Fantasy_Drinks.md", "Fantasy_Drinks_De.md",
+                "Fantasy_Food.md", "Fantasy_Food_De.md",
+                "Fantasy_Fungi.md", "Fantasy_Fungi_De.md",
+                "Fantasy_Gemstones.md", "Fantasy_Gemstones_De.md",
+                "Fantasy_Plants.md", "Fantasy_Plants_De.md",
+                "Fantasy_Treasures.md", "Fantasy_Treasures_De.md",
+                "Fantasy_Trinkets.md", "Fantasy_Trinkets_De.md",
+                "Gnome.md", "Goblin.md", "Halfling.md", "Human.md", 
+                "Leshy.md", "Mwangi_Names.md", "Orc.md",
+                "Rumors.md", "Rumors_De.md", 
+                "Shops.md", "Shops_De.md"
+            ];
         }
 
-        // Group files by Base Name to handle Localization
-        // e.g. "Fantasy_Food.md" and "Fantasy_Food_De.md" -> Base: "Fantasy_Food"
+        // Group files by Base Name
         const fileMap = new Map();
-
         for (const filename of examples) {
             let baseKey = filename.replace(".md", "");
             let lang = "en";
-
             if (baseKey.toLowerCase().endsWith("_de")) {
                 baseKey = baseKey.substring(0, baseKey.length - 3);
                 lang = "de";
             }
-
             if (!fileMap.has(baseKey)) fileMap.set(baseKey, {});
             fileMap.get(baseKey)[lang] = filename;
         }
 
         const filesToLoad = [];
         for (const [baseKey, variants] of fileMap) {
-            // Priority: De if isGerman, else En
             if (isGerman && variants.de) {
                 filesToLoad.push({ filename: variants.de, displayBase: baseKey });
             } else if (variants.en) {
@@ -635,46 +779,37 @@ export class RandomNameAPI {
         for (const entry of filesToLoad) {
             const filename = entry.filename;
             try {
-                // Fetch from module directory
                 const response = await fetch(`modules/phils-random-names/examples/${filename}`);
-                if (!response.ok) {
-                    // console.warn(`Phils Random Names | Could not load ${filename}`);
-                    continue;
-                }
+                if (!response.ok) continue;
                 const text = await response.text();
 
-                // Determine Base Name: "Mwangi_Commoner.md" -> "Mwangi Commoner"
-                // Used for the Journal Name
                 const cleanName = decodeURIComponent(entry.displayBase);
                 let baseName = cleanName.replace(/_/g, " ");
-
-                // Auto-Capitalize first letter (e.g. "elf" -> "Elf")
                 baseName = baseName.charAt(0).toUpperCase() + baseName.slice(1);
 
-                // Parse Data
                 const lines = text.split("\n").map(l => l.trim()).filter(l => l);
                 const data = { male: [], female: [], surnames: [], list: [] };
                 let currentSection = "list";
 
                 for (const line of lines) {
-                    // Detect Headers (flexible matching)
                     if (line.match(/^Male:?$/i)) { currentSection = "male"; continue; }
                     if (line.match(/^Female:?$/i)) { currentSection = "female"; continue; }
                     if (line.match(/^Surnames?:?$/i)) { currentSection = "surnames"; continue; }
                     if (line.match(/^List:?$/i)) { currentSection = "list"; continue; }
-
                     data[currentSection].push(line);
                 }
 
-                // Check Category Type & Create
+                // Helper to create or Migrate
+                const migrateOrCreate = async (name, content) => {
+                     await this.createJournal(coreFolder, name, content, rootFolder);
+                };
+
                 if (data.male.length > 0 || data.female.length > 0 || data.surnames.length > 0) {
-                    // Complex Category
-                    if (data.male.length) await this.createJournal(folder, `${baseName} ${suffixMale}`, data.male);
-                    if (data.female.length) await this.createJournal(folder, `${baseName} ${suffixFemale}`, data.female);
-                    if (data.surnames.length) await this.createJournal(folder, `${baseName} ${suffixSurname}`, data.surnames);
+                    if (data.male.length) await migrateOrCreate(`${baseName} ${suffixMale}`, data.male);
+                    if (data.female.length) await migrateOrCreate(`${baseName} ${suffixFemale}`, data.female);
+                    if (data.surnames.length) await migrateOrCreate(`${baseName} ${suffixSurname}`, data.surnames);
                 } else if (data.list.length > 0) {
-                    // Simple Category
-                    await this.createJournal(folder, baseName, data.list);
+                    await migrateOrCreate(baseName, data.list);
                 }
 
             } catch (e) {
@@ -683,12 +818,24 @@ export class RandomNameAPI {
         }
     }
 
-    static async createJournal(folder, name, contentList) {
+    static async createJournal(targetFolder, name, contentList, checkSourceFolder = null) {
         const html = contentList.map(n => `<p>${n}</p>`).join("");
+        
+        // 1. Check Target Folder
+        let existing = targetFolder.contents.find(j => j.name === name);
+        
+        // 2. Check Source Folder (Migration)
+        if (!existing && checkSourceFolder) {
+            const legacy = checkSourceFolder.contents.find(j => j.name === name);
+            if (legacy) {
+                // Move it!
+                await legacy.update({ folder: targetFolder.id });
+                existing = legacy;
+                console.log(`Phils Random Names | Migrated ${name} to Core Lists.`);
+            }
+        }
 
-        const existing = folder.contents.find(j => j.name === name);
         if (existing) {
-            // Update existing
             const page = existing.pages.contents[0];
             if (page) {
                 await page.update({ "text.content": html });
@@ -699,34 +846,32 @@ export class RandomNameAPI {
 
         await JournalEntry.create({
             name: name,
-            folder: folder.id,
+            folder: targetFolder.id,
             pages: [{ name: "List", type: "text", text: { content: html, format: 1 } }]
         });
     }
+
+    // Keep createComplexTemplate and createSimpleTemplate in Root (User created)
     static async createComplexTemplate(baseName) {
         let folder = this.getFolder();
         if (!folder) {
             folder = await Folder.create({ name: "Phils Random Names", type: "JournalEntry" });
         }
-
+         // ... (localized suffixes) ...
+         // Note: I need to redefine suffixes here as they are local scope
         const isGerman = game.i18n.lang === "de";
         const suffixMale = isGerman ? "Vornamen Männlich" : "First Names Male";
         const suffixFemale = isGerman ? "Vornamen Weiblich" : "First Names Female";
         const suffixSurname = isGerman ? "Nachnamen" : "Surnames";
 
-        // Create 3 Empty Journals
         await this.createJournal(folder, `${baseName} ${suffixMale}`, [""]);
         await this.createJournal(folder, `${baseName} ${suffixFemale}`, [""]);
         await this.createJournal(folder, `${baseName} ${suffixSurname}`, [""]);
     }
-
+    
     static async createSimpleTemplate(baseName) {
-        let folder = this.getFolder();
-        if (!folder) {
-            folder = await Folder.create({ name: "Phils Random Names", type: "JournalEntry" });
-        }
-
-        // Create 1 Empty Journal
-        await this.createJournal(folder, baseName, [""]);
+         let folder = this.getFolder();
+         if (!folder) await Folder.create({ name: "Phils Random Names", type: "JournalEntry" });
+         await this.createJournal(folder, baseName, [""]);
     }
 }
