@@ -1,5 +1,14 @@
 # Update Notes
 
+## v2.1.3
+
+- **Feature:** Added item previews to **Tavern Menu** and **Treasure Pouch** generators. Items are now created immediately when opening the preview, allowing for clickable links and inspection.
+- **UI:** Renamed the "Generator" button to **"Tavern & Loot"** (EN) / **"Taverne & Beute"** (DE) to improve clarity.
+
+## v2.1.2
+
+- **Manifest Fix**: Corrected GitHub URLs in `module.json` and verified compatibility for Foundry V13.
+
 ## v2.1.1
 
 - **Bug Fix**: Fixed a double-encoding issue where names including an ampersand (e.g. "Past & Present") would display incorrectly as "Past &amp; Present".
