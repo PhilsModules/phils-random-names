@@ -1,5 +1,21 @@
 # Update Notes
 
+## v2.1.1
+
+- **Bug Fix**: Fixed a double-encoding issue where names including an ampersand (e.g. "Past & Present") would display incorrectly as "Past &amp; Present".
+
+## v2.1.0
+
+- **Chat Output Overhaul**:
+  - **Sender Alias**: The chat message sender is now the **User Name** (e.g. Gamemaster) instead of "Generator".
+  - **Custom Titles**: Added a field to the Generator (Menu/Loot) to set a custom title for the output card (e.g. "The Winking Skeever Menu").
+  - **Cleaner Layout**: Removed redundant "Random Name" headers. Removed default titles for simple lists.
+  - **Optimized Sub-Headers**: Group headers (Food, Drinks) are now hidden for single lists but visible for combined generators (Menu, Loot).
+- **Bug Fixes**:
+  - Fixed duplicate headers appearing when rolling simple lists.
+  - Fixed "Nachname" localization not displaying "Surname" in English.
+  - Restored clickability of generated items in Menus and Loot (creating them as real items in the world).
+
 ## v2.0.0 - The Privacy Update 🕵️‍♂️
 
 ### Features
