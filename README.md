@@ -2,13 +2,11 @@
 
 # Phil's Random Names 🎲
 
-![Foundry v14 Compatible](https://img.shields.io/badge/Foundry-v14-brightgreen?style=flat-square) ![Foundry v12/v13 Compatible](https://img.shields.io/badge/Foundry-v12%2Fv13-green?style=flat-square) ![Latest Release Download Count](https://img.shields.io/github/downloads/philsmodules/phils-random-names/latest/module.zip?color=2b82fc&label=DOWNLOADS&style=for-the-badge) [![Forge Installs](https://img.shields.io/badge/dynamic/json?label=Forge%20Installs&query=package.installs&url=https%3A%2F%2Fforge-vtt.com%2Fapi%2Fbazaar%2Fpackage%2Fphils-random-names&colorB=4aa94a&style=for-the-badge)](https://forge-vtt.com/bazaar#package=phils-random-names)
-
-# Phils Random Names (v3.0.0)
-
-[![Patreon](https://img.shields.io/badge/SUPPORT-Patreon-ff424d?style=flat-square&logo=patreon)](https://www.patreon.com/PhilsModules)
+![Foundry v14 Compatible](https://img.shields.io/badge/Foundry-v14-brightgreen?style=flat-square) ![Foundry v12 Compatible](https://img.shields.io/badge/Foundry-v12-green?style=flat-square) ![License](https://img.shields.io/badge/License-GPLv3-blue?style=flat-square)
+[![Version](https://img.shields.io/badge/Version-3.0.0-blue?style=flat-square)](https://github.com/philsmodules/phils-random-names/releases) [![Patreon](https://img.shields.io/badge/SUPPORT-Patreon-ff424d?style=flat-square&logo=patreon)](https://www.patreon.com/PhilsModules)
 
 <br>
+
 
 **A powerful deluxe toolset for random names, taverns, shops, loot & provisions.**
 <br>
