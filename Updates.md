@@ -1,5 +1,33 @@
 # Update Notes
 
+## v3.0.0 - The Deluxe Tabletop & Shop Overhaul
+
+- **Deluxe Dark-Fantasy Tabletop UI**: Completely revamped interface with polished gold accents, clear typography, and zero emojis for maximum roleplaying immersion.
+- **Custom Shop & List Generator**: A third generator tab to create custom merchant inventories, specialized wine cards, gemstone jeweler stocks, fish markets, or magical libraries with one click.
+- **Thematic Quick-Filters**: Instant filter buttons for sub-categories such as *Vegetarian / Vegan*, *Fish & Seafood*, *Meat & Game*, *Wine & Cider*, *Beers & Ales*, *Spirits*, *Herbals*, and *Magic*.
+- **Real-Time Live Search Counter**: Instant match counter as you type. Immediately reveals available matches and warns of typos before generating.
+- **Establishment Pricing Tiers**: Adjust prices seamlessly across quality levels (Cheap Dive, Rustic Tavern, Upscale Inn, Royal Luxury, or Custom) with intuitive multiplier sliders and price limits.
+- **Massively Expanded Catalogs**: Hundreds of new handcrafted entries featuring rich flavor descriptions, hidden GM secrets, and balanced economy prices.
+- **Streamlined Menu Layout**: The generator is featured prominently as a card at the top of the list and in the titlebar, while the footer is cleanly dedicated to creating custom templates.
+
+## v2.2.0 - Menu Pricing & Establishment Tiers 🍷👑
+
+- **Establishment Presets**: Easily switch between venue quality tiers with one click:
+  - 🐀 **Kaschemme / Cheap Dive** (0.3x price multiplier, cheap slum & beggar's fare)
+  - 🍺 **Taverne / Rustic Tavern** (1.0x standard price, hearty comfort food)
+  - 🍷 **Gasthaus / Upscale Inn** (2.5x price, fine dining & select wines)
+  - 👑 **Edel-Restaurant / Gourmet Luxury** (10.0x price, royal delicacies & haute cuisine)
+  - ⚙️ **Eigen / Custom** (Freely adjustable multiplier and price limits)
+- **Interactive Price Multiplier Slider**: Smooth 0.1x to 15.0x multiplier with real-time numeric badge feedback.
+- **Min & Max Price Limits**: Flexible floor and ceiling price bounds with multi-currency selectors (`cp`, `sp`, `gp` / `km`, `sm`, `gm`).
+- **Atmospheric Quality Tags**: Dishes and drinks now feature distinct quality badges and atmospheric flavor descriptions embedded directly in the item sheet, preview window, and chat card.
+- **Smart Reroll Support**: Rerolling items in the preview window preserves the configured establishment tier and pricing constraints.
+
+## v2.1.4
+
+- **Compatibility**: Officially verified for Foundry V14.
+- **Bug Fix**: Fixed an issue where German files starting with `Liste:` were not parsed correctly and were treated as list items.
+
 ## v2.1.3
 
 - **Feature:** Added item previews to **Tavern Menu** and **Treasure Pouch** generators. Items are now created immediately when opening the preview, allowing for clickable links and inspection.

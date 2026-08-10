@@ -2,14 +2,17 @@
 
 # Phil's Random Names 🎲
 
-![Foundry v13 Compatible](https://img.shields.io/badge/Foundry-v13-brightgreen?style=flat-square) ![Foundry v12 Compatible](https://img.shields.io/badge/Foundry-v12-green?style=flat-square) ![System](https://img.shields.io/badge/System-PF2e-blue?style=flat-square)
-![License](https://img.shields.io/badge/License-GPLv3_%2F_CC_BY--NC--ND-blue?style=flat-square) [![Version](https://img.shields.io/badge/Version-2.1.3-orange?style=flat-square)](https://github.com/PhilsModules/phils-random-names/releases) [![Patreon](https://img.shields.io/badge/SUPPORT-Patreon-ff424d?style=flat-square&logo=patreon)](https://www.patreon.com/PhilsModules)
+![Foundry v14 Compatible](https://img.shields.io/badge/Foundry-v14-brightgreen?style=flat-square) ![Foundry v12/v13 Compatible](https://img.shields.io/badge/Foundry-v12%2Fv13-green?style=flat-square) ![Latest Release Download Count](https://img.shields.io/github/downloads/philsmodules/phils-random-names/latest/module.zip?color=2b82fc&label=DOWNLOADS&style=for-the-badge) [![Forge Installs](https://img.shields.io/badge/dynamic/json?label=Forge%20Installs&query=package.installs&url=https%3A%2F%2Fforge-vtt.com%2Fapi%2Fbazaar%2Fpackage%2Fphils-random-names&colorB=4aa94a&style=for-the-badge)](https://forge-vtt.com/bazaar#package=phils-random-names)
+
+# Phils Random Names (v3.0.0)
+
+[![Patreon](https://img.shields.io/badge/SUPPORT-Patreon-ff424d?style=flat-square&logo=patreon)](https://www.patreon.com/PhilsModules)
 
 <br>
 
-**A powerful module for random names, loot & tavern menus.**
+**A powerful deluxe toolset for random names, taverns, shops, loot & provisions.**
 <br>
-_Ein mächtiges Modul für zufällige Namen, Loot & Tavernen-Menüs._
+_Ein mächtiges Deluxe-Werkzeug für zufällige Namen, Tavernen, Läden, Beute & Speisen._
 
 <br>
 
@@ -19,13 +22,19 @@ _Ein mächtiges Modul für zufällige Namen, Loot & Tavernen-Menüs._
 
 <br>
 
+<div align="center">
+<img src="https://raw.githubusercontent.com/PhilsModules/phils-random-names/main/main.png" alt="Phil's Random Names Preview" width="700">
+</div>
+
+<br>
+
 > [!TIP]
 >
-> ### 💡 Support
+> ### 💡 Support & Feedback
 >
-> **English:** This module is free and open source. If you like it, I appreciate any feedback!
+> **English:** This module is free and open source. If you like it, I appreciate any feedback and support on Patreon!
 >
-> **Deutsch:** Dieses Modul ist kostenlos und Open Source. Wenn es dir gefällt, freue ich mich über Feedback!
+> **Deutsch:** Dieses Modul ist kostenlos und Open Source. Wenn es dir gefällt, freue ich mich über dein Feedback und deine Unterstützung auf Patreon!
 
 <br>
 
@@ -33,89 +42,90 @@ _Ein mächtiges Modul für zufällige Namen, Loot & Tavernen-Menüs._
 
 <br>
 
-# <img src="https://flagcdn.com/48x36/gb.png" width="28" height="21" alt="EN"> English Instructions
+# English Instructions
 
-**Phil's Random Names** is more than just a name generator. It's a complete toolbox for GMs to improvise content on the fly – from NPCs to snacks to treasures. All based on simple text journals that you can edit yourself!
+**Phil's Random Names** is a complete deluxe toolbox for GMs to improvise content on the fly – from NPC names and tavern menus to treasure pouches, custom wine lists, and full merchant shops. Everything is built on simple, customizable journal entries that you can easily edit or expand.
 
 ## 🚀 Key Features
 
-### 1. 🧙‍♂️ NPC Generator
+### 1. Deluxe Dark-Fantasy Tabletop UI
+- **Immersive Aesthetic:** Sleek dark slate glassmorphism with polished gold accents and pure vector icons (zero immersion-breaking emojis).
+- **Fast Navigation:** Integrated search bar and category filter tabs (`All`, `NPCs & Names`, `Loot & Provisions`, `General Lists`).
+- **Featured Generator Hero Card:** Access the generator suite directly from the list or via the titlebar quick-access icon.
+- **Streamlined Footer:** Dedicated creation tools (`+ NPC Template`, `+ New List`) for creating custom lists in seconds.
 
-Create fitting names for your world with a click.
+### 2. Multi-Mode Generator Suite
+- **🍽️ Tavern Menu:** Roll tailored menus with independent counters and thematic filters for food and drinks.
+- **💰 Treasure Pouch:** Generate instant loot (trinkets, gemstones, treasures) without tavern quality metadata.
+- **🏪 Custom Shop & Lists:** Create specialized merchant inventories with customizable titles, item counts, source lists, and price multipliers (e.g. *Wine Lists*, *Fish Markets*, *Jewelers*, *Apothecaries*, or *Arcane Libraries*).
 
-- **Ancestries:** Humans (Mwangi, Inner Sea), Elves, Dwarves, Gnomes, Goblins, Halflings, Orcs, Leshys.
-- **Options:** Select Gender (Male/Female/Any) and optional Surnames.
-- **Lore-Accurate:** Name lists are curated to fit Pathfinder lore (e.g. Clan names for Dwarves).
+### 3. Thematic Quick-Filters & Real-Time Live Search
+- **Instant Sub-Category Pills:**
+  - **Food:** *Meat & Game*, *Fish & Seafood*, *Vegetarian / Vegan*, *Baking & Bread*, *Soups & Stews*, *Sweets & Desserts*.
+  - **Drinks:** *Beer & Ale*, *Wine & Cider*, *Spirits*, *Tea & Non-Alcoholic*, *Magical & Exotic*.
+  - **Books:** *Magic & Arcana*, *Nature & Beasts*, *History & Lore*, *Religion & Undead*, *Thievery & Tactics*.
+  - **Plants & Fungi:** *Healing*, *Poisonous*, *Mountain & Frost*, *Marsh & Aquatic*, *Bioluminescent*.
+  - **Gemstones:** *Precious Jewels*, *Quartz & Crystals*, *Organic & Fossils*, *Fire & Energy*.
+- **Live Search Counter:** Evaluates matches in real-time as you type. Shows an instant green badge for available hits or an animated red warning badge (`0 matches`) on typos to prevent accidental rolls.
 
-### 2. 🎒 Real Item Generation
+### 4. Establishment Tiers & Pricing Controls
+- **Quality Presets:**
+  - **Dive (0.3x):** Budget slum & beggar's fare.
+  - **Tavern (1.0x):** Standard tavern fare & hospitality.
+  - **Inn (2.5x):** Fine dining & select wines.
+  - **Luxury (10.0x):** Royal delicacies & haute cuisine.
+  - **Custom:** Freely adjustable multiplier (0.1x - 15.0x), price bounds (min/max), and custom atmosphere text.
+- **Atmospheric Quality Tags:** Generated dishes and beverages inherit atmospheric descriptions and quality badges in item sheets, preview cards, and chat messages.
 
-Generating from "Food", "Drinks", "Trinkets", "Gemstones", and "Plants" lists does more than just post text.
+### 5. Drag & Drop Item Generation
+- **Pathfinder 2e:** Creates `Treasure` or `Consumable` items with exact currency values (`gp`, `sp`, `cp`).
+- **D&D 5e:** Creates `Loot` or `Consumable` items.
+- **Generic Systems:** Creates standard items with full lore descriptions and value tags.
 
-- **Drag & Drop:** The module creates **real Foundry Items** (Consumables or Loot) that can be dragged directly onto character sheets.
-- **System Support:**
-  - **Pathfinder 2e:** Creates `Treasure` or `Consumable` items with correct price breakdown (GP/SP/CP).
-  - **D&D 5e:** Creates `Loot` or `Consumable` items.
-  - **Generic:** Creates standard Items with description.
+---
 
-### 3. 💰 Realistic Prices & Descriptions
+## 📚 Included Content (23,000+ Entries & 5,300,000+ Combinations)
 
-All items now come with immersive flavor text and realistic prices!
+- **NPC Names (5,300,000+ Combinations):**
+  - 🧝‍♀️ **Elves:** ~2,050,000 combinations
+  - 🛡️ **Humans (Inner Sea):** ~1,370,000 combinations
+  - 🌴 **Humans (Mwangi):** ~1,090,000 combinations
+  - 👹 **Goblins:** ~318,000 combinations
+  - 🦶 **Halflings:** ~194,000 combinations
+  - ⚙️ **Gnomes:** ~121,000 combinations
+  - ⛏️ **Dwarves:** ~84,000 combinations
+  - 🟢 **Orcs:** ~45,000 combinations
+  - 🌱 **Leshys:** ~28,000 combinations
+  - 🌆 **Humans (Absalom):** ~25,000 combinations
 
-- **Flavor:** _"Banshee's Bell | A pale flower that screams when picked."_
-- **GM Secrets:** Every item comes with hidden GM notes!
-  - _Hidden Mechanics:_ "Edible. Heals 1d4 HP."
-  - _Plot Hooks:_ "Belongs to a missing prince."
-  - _Values:_ "Worth 50gp to a collector."
-- **Smart Pricing:** Prices are based on a realistic economy ("Beer Index"). Automation simplifies price display in chat (e.g. `1gp 5sp`).
+- **Thematic Lists (with Prices, Lore Descriptions & GM Secrets):**
+  - 🍺 **Fantasy Drinks:** ~595 drinks (90+ Wines & Ciders, 155+ Beers & Ales, 92+ Spirits, 116+ Teas & Elixirs)
+  - 🍖 **Fantasy Food:** ~798 dishes (116+ Fish & Seafood, 301+ Meat & Game, 420+ Vegetarian & Cheese)
+  - 🗝️ **Fantasy Trinkets:** ~600 curiosities, oddities & pocket items
+  - 💎 **Fantasy Gemstones:** ~415 precious jewels, crystals & minerals
+  - 🏆 **Fantasy Treasures:** ~350 unique relics, heirlooms & valuables
+  - 🌿 **Fantasy Plants:** ~550 wild plants & healing herbs
+  - 🍄 **Fantasy Fungi:** ~355 cave mushrooms & glowing spores
+  - 📚 **Fantasy Books:** ~384 volumes (Herbals, Arcana, History, Thievery, Religion)
+  - 🏪 **Shops:** ~525 establishment & store names
+  - 📜 **Rumors & Legends:** ~660 tavern rumors & plot hooks
 
-### 4. 🎲 Easy to Use
-
-- **Clean UI:** A dedicated window for all generators, accessible via the Dice Icon in the Token controls.
-- **Customizable:** Want your own lists? Just create a new Journal in the "Phils Random Names" folder.
-  - **Tip:** If you add prices in brackets `[10gp]`, the module will automatically turn them into items!
-  - **Pro-Tip:** If the list name contains "Food", "Drink", or "Plant" (e.g. "Magic Mushrooms (Plants)"), items will be created as _Consumables_!
-
-## 📚 Included Content (13,000+ Entries)
-
-- **NPC Names (Combinations):**
-
-  - 🧝‍♀️ **Elves:** ~2,000,000
-  - 🛡️ **Humans (Inner Sea):** ~1,300,000
-  - 🌴 **Humans (Mwangi):** ~1,000,000
-  - 👹 **Goblins:** ~320,000
-  - 🦶 **Halflings:** ~280,000
-  - 🌆 **Humans (Absalom):** ~25,000
-  - ⚙️ **Gnomes:** ~120,000
-  - ⛏️ **Dwarves:** ~85,000
-  - 🟢 **Orcs:** ~45,000
-  - 🌱 **Leshys:** ~28,000
-
-- **Thematic Lists (With Prices & Descriptions):**
-  - 🍺 **Fantasy Drinks:** ~436 items (e.g. _Dwarven Stout_, _Elven Honeymead_)
-  - 🍖 **Fantasy Food:** ~565 items (e.g. _Dragon Steak_, _Spiced Potatoes_)
-  - 🗝️ **Fantasy Trinkets:** ~540 items (e.g. _Rusty Key_, _Clockwork Beetle_)
-  - 💎 **Fantasy Gemstones:** ~373 items (e.g. _Bloodstone_, _Star Rose Quartz_)
-  - 🏆 **Fantasy Treasures:** ~300 items (e.g. _Golden Idol_, _Cursed Mask_)
-  - 🌿 **Fantasy Plants:** ~507 items (e.g. _Wolfsbane_, _Kings-Bloom_)
-  - 🍄 **Fantasy Fungi:** ~305 items (e.g. _Glow Bulb_, _Death Angel_)
-  - 📚 **Fantasy Books:** ~305 items (e.g. _History of Absalom_, _Goblin Poetry_)
-  - 🏪 **Shops:** ~500 items
+---
 
 ## 📦 Installation
 
-1.  Open Foundry VTT -> **Add-on Modules**.
-2.  Click **Install Module**.
-3.  Paste Manifest URL:
-    ```text
-    https://github.com/PhilsModules/phils-random-names/releases/latest/download/module.json
-    ```
-4.  Click **Install**.
+1. In Foundry VTT, navigate to **Add-on Modules** -> **Install Module**.
+2. Paste the Manifest URL:
+   ```text
+   https://github.com/philsmodules/phils-random-names/releases/latest/download/module.json
+   ```
+3. Click **Install** and activate the module in your world.
 
 ## 📖 Getting Started
 
-1.  Open the module via the **Macro "Phil's Random Names"** (in the Macro Directory).
-2.  Click **"Generate Folders & Examples"** once to load the database.
-3.  Happy Rolling!
+1. Open the module using the **Macro "Phil's Random Names"** or the Token Controls dice icon.
+2. Click **"Create Folder & Samples"** (or the titlebar refresh icon) to initialize the lists in your world.
+3. Enjoy seamless random generation at your tabletop!
 
 <br>
 
@@ -123,97 +133,98 @@ All items now come with immersive flavor text and realistic prices!
 
 <br>
 
-# <img src="https://flagcdn.com/48x36/de.png" width="28" height="21" alt="DE"> Deutsche Beschreibung
+# Deutsche Anleitung
 
-**Phil's Random Names** ist mehr als nur ein Namensgenerator. Es ist eine komplette Toolbox für SLs, um spontan Inhalte zu erstellen – von NPCs über Snacks bis hin zu Schätzen. Alles basierend auf einfachen Text-Journalen, die du selbst anpassen kannst!
+**Phil's Random Names** ist eine vollständige Deluxe-Toolbox für Spielleitungen, um spontan Spielinhalte am Tisch zu zaubern – von NSC-Namen und Tavernen-Menüs über Beutebeutel bis hin zu Weinkarten und vollständigen Händler-Inventaren.
 
 ## 🚀 Hauptfunktionen
 
-### 1. 🧙‍♂️ NPC Generator
+### 1. Modernes Dark-Fantasy Tabletop-Design
+- **Stilvolles Erscheinungsbild:** Dunkles Schiefer-Glasmorphismus-Design mit goldenen Akzenten und reinen Vektor-Icons (garantiert ohne störende Emojis).
+- **Schnelle Suche & Filter:** Integrierte Live-Suchleiste und Schnellfilter-Reiter (`Alle`, `NPCs & Namen`, `Beute & Speisen`, `Allgemein & Listen`).
+- **Featured Generator-Karte:** Direkter Zugriff auf den Generator ganz oben in der Liste oder über das Laden-Icon in der Fenster-Kopfzeile.
+- **Aufgeräumte Fußleiste:** Schlanke Werkzeuge (`+ NPC-Vorlage`, `+ Neue Liste`) zum Erstellen eigener Listen in Sekunden.
 
-Erstelle per Klick passende Namen für deine Welt.
+### 2. Der 3-in-1 Generator
+- **🍽️ Tavernen-Menü:** Stelle mit wenigen Klicks komplette Speise- und Getränkekarten zusammen, inklusive separater Themenfilter für Essen und Getränke.
+- **💰 Schatzbeutel:** Schnelle Beutegenerierung (Plunder, Edelsteine, Schätze) ohne Tavernen-Badges.
+- **🏪 Eigener Laden & Listen:** Erstelle individuelle Händler-Auslagen mit eigenem Titel, flexibler Stückzahl und freier Preisanpassung (z. B. *reine Weinkarten*, *Fischmärkte*, *Juweliere*, *Alchemie-Apotheken* oder *Magier-Bibliotheken*).
 
-- **Völker:** Menschen (Mwangi, Inner Sea), Elfen, Zwerge, Gnome, Goblins, Halblinge, Orks, Leshys.
-- **Optionen:** Wähle Geschlecht (Männlich/Weiblich/Zufall) und ob ein Nachname generiert werden soll.
-- **Lore-Akkurat:** Die Namenslisten wurden sorgfältig kuratiert, um zur Pathfinder-Lore zu passen (z.B. Clannamen für Zwerge, obsessive Nachnamen für Gnome).
+### 3. Themen-Schnellfilter & Echtzeit-Stichwortsuche
+- **Sofortige Unterthemen-Filter (Pills):**
+  - **Speisen:** *Fleisch & Wild*, *Fisch & Meer*, *Vegetarisch / Vegan*, *Backwaren & Brot*, *Suppen & Eintöpfe*, *Süßes & Desserts*.
+  - **Getränke:** *Bier & Ale*, *Wein & Cider*, *Spirituosen*, *Tee & Alkoholfrei*, *Magisch & Exotisch*.
+  - **Bücher:** *Magie & Arkana*, *Natur & Bestien*, *Geschichte & Wissen*, *Religion & Untod*, *Schurkentum & Taktik*.
+  - **Pflanzen & Pilze:** *Heilend*, *Giftig*, *Gebirge & Eis*, *Moor & Wasser*, *Biolumineszent*.
+  - **Edelsteine:** *Edelsteine & Juwelen*, *Quarze & Kristalle*, *Organisch & Fossil*, *Feuer & Energie*.
+- **Echtzeit-Trefferzähler:** Berechnet Treffer sofort beim Tippen. Zeigt ein grünes Badge bei Treffern oder warnt mit einem roten Badge (`0 Treffer`) vor Tippfehlern, bevor ausgewürfelt wird.
 
-### 2. 🎒 Echte Item-Generierung
+### 4. Etablissements & Preiskontrolle
+- **Qualitätsstufen:**
+  - **Kaschemme (0.3x):** Billige Absteige & Armenspeise.
+  - **Taverne (1.0x):** Bodenständige Hausmannskost nach alter Schankhaus-Tradition.
+  - **Gasthaus (2.5x):** Gehobene Küche & erlesene Weine.
+  - **Luxus (10.0x):** Königliche Delikatessen & Haute Cuisine.
+  - **Eigen:** Stufenloser Multiplikator (0.1x - 15.0x), Preisgrenzen (Min/Max) und eigene Atmosphäre-Zitate.
+- **Atmosphärische Badges:** Generierte Speisen und Getränke tragen stimmungsvolle Qualitäts-Zitate und Badges direkt auf dem Item-Bogen, in der Vorschau und im Chat.
 
-Aus den Listen "Food", "Drinks", "Trinkets", "Gemstones" und "Plants" werden nicht nur Namen gezogen.
+### 5. Echte Foundry-Items (Drag & Drop)
+- **Pathfinder 2e:** Erstellt echte `Treasure`- oder `Consumable`-Items mit korrekter Währungsaufteilung (`gm`, `sm`, `km`).
+- **D&D 5e:** Erstellt `Loot`- oder `Consumable`-Items.
+- **Generische Systeme:** Erstellt Standard-Items mit vollständiger Beschreibung und Wertangabe.
 
-- **Drag & Drop:** Das Modul erstellt **echte Foundry Items** (Consumables oder Loot), die du direkt in Charakterbögen ziehen kannst.
-- **System Support:**
-  - **Pathfinder 2e:** Erstellt `Treasure` (Edelsteine, Plunder) oder `Consumable` (Essen, Tränke, Pflanzen) mit korrekter Preisaufteilung (GP/SP/CP). Hinweis: `Treasure` ist der technische Foundry-Begriff für das Item-Set (Schatz).
-  - **D&D 5e:** Erstellt `Loot` oder `Consumable` Items.
-  - **Andere Systeme:** Erstellt generische Items.
+---
 
-### 3. 💰 Realistische Preise & Beschreibungen
+## 📚 Enthaltene Daten (23.000+ Einträge & 5.300.000+ Kombinationen)
 
-Alle Gegenstände kommen jetzt mit immersiven Beschreibungen und Preisen!
+- **NSC-Namen (5.300.000+ Kombinationen):**
+  - 🧝‍♀️ **Elfen:** ~2.050.000 Kombinationen
+  - 🛡️ **Menschen (Inner Sea):** ~1.370.000 Kombinationen
+  - 🌴 **Menschen (Mwangi):** ~1.090.000 Kombinationen
+  - 👹 **Goblins:** ~318.000 Kombinationen
+  - 🦶 **Halblinge:** ~194.000 Kombinationen
+  - ⚙️ **Gnome:** ~121.000 Kombinationen
+  - ⛏️ **Zwerge:** ~84.000 Kombinationen
+  - 🟢 **Orks:** ~45.000 Kombinationen
+  - 🌱 **Leshys:** ~28.000 Kombinationen
+  - 🌆 **Menschen (Absalom):** ~25.000 Kombinationen
 
-- **Flavor-Text:** _"Banshee's Bell | A pale flower that screams when picked."_
-- **GM Secrets:** Jedes Item hat jetzt geheime GM-Notizen!
-  - _Versteckte Mechaniken:_ "Essbar. Heilt 1d4 HP."
-  - _Plot Hooks:_ "Der Ring gehört einem vermissten Prinzen."
-  - _Werte:_ "Wert 50gp für Sammler."
-- **Smart Pricing:** Preise basieren auf einer realistischen Ökonomie ("Bier-Index"). Im Chat werden Preise lesbar dargestellt (z.B. `1gp 5sp` statt `150cp`).
+- **Thematische Listen (mit Preisen, Beschreibungen & Spielleiter-Geheimnissen):**
+  - 🍺 **Getränke & Elixiere:** ~595 Getränke (90+ Weine & Cider, 155+ Biere & Ales, 92+ Spirituosen, 116+ Tees & Alkoholfreies)
+  - 🍖 **Speisen & Reiseproviant:** ~798 Speisen (116+ Fisch & Meer, 301+ Fleisch & Wild, 420+ Vegetarisch & Käse)
+  - 🗝️ **Kuriositäten & Fundstücke:** ~600 Plunder- & Taschengegenstände
+  - 💎 **Kostbare Edelsteine:** ~415 Edelsteine, Kristalle & Minerale
+  - 🏆 **Schätze & Reichtümer:** ~350 einzigartige Relikte, Erbstücke & Kostbarkeiten
+  - 🌿 **Flora & Wildpflanzen:** ~550 Wildpflanzen & Heilkräuter
+  - 🍄 **Pilze & Sporen:** ~355 Höhlen- und Würzpilze
+  - 📚 **Sagenhafte Bücher:** ~384 Bände (Pflanzenkunde, Arkana, Geschichte, Schurkentum, Religion)
+  - 🏪 **Geschäfte & Läden:** ~525 Ladenbezeichnungen
+  - 📜 **Gerüchte & Legenden:** ~660 Tavernen-Gerüchte & Abenteueraufhänger
 
-### 4. 🎲 Einfache Bedienung
-
-- **Clean UI:** Ein eigenes Fenster für alle Generatoren, erreichbar über das Würfel-Icon in der Token-Leiste.
-- **Anpassbar:** Du willst eigene Listen? Erstelle einfach ein neues Journal im Ordner "Phils Random Names".
-  - **Tipp:** Wenn du Preise in Klammern dahinter schreibst `[10gp]`, erstellt das Modul daraus automatisch Items!
-  - **Pro-Tipp:** Wenn der Name der Liste "Food", "Drink" oder "Plant" enthält (z.B. "Magische Pilze (Plants)"), werden die Items als _Consumables_ erstellt!
-
-## 📚 Enthaltene Daten (13.000+ Einträge)
-
-- **NPC Namen (Kombinationen):**
-
-  - 🧝‍♀️ **Elfen:** ~2.000.000
-  - 🛡️ **Menschen (Inner Sea):** ~1.300.000
-  - 🌴 **Menschen (Mwangi):** ~1.000.000
-  - 👹 **Goblins:** ~320.000
-  - 🦶 **Halblinge:** ~280.000
-  - 🌆 **Menschen (Absalom):** ~25.000
-  - ⚙️ **Gnome:** ~120.000
-  - ⛏️ **Zwerge:** ~85.000
-  - 🟢 **Orks:** ~45.000
-  - 🌱 **Leshys:** ~28.000
-
-- **Thematische Listen (Mit Preisen & Beschreibung):**
-  - 🍺 **Fantasy Drinks:** ~436 Getränke mit Effekten (z.B. _Goblin-Fusel_, _Elfen-Honigmet_)
-  - 🍖 **Fantasy Food:** ~565 Gerichte & Snacks (z.B. _Zwergen-Steinbrot_, _Drachensteak_)
-  - 🗝️ **Fantasy Trinkets:** ~540 Plunder & Geheimnisse (z.B. _Rostiger Schlüssel_, _Singende Muschel_)
-  - 💎 **Fantasy Gemstones:** ~373 Edelsteine & magische Mineralien (z.B. _Blutstein_, _Sternen-Rosenquarz_)
-  - 🏆 **Fantasy Schätze (Treasures):** ~300 Schätze (z.B. _Goldenes Idol_, _Verfluchte Maske_)
-  - 🌿 **Fantasy Plants:** ~507 magische Pflanzen (z.B. _Eisenhut_, _Königsblüte_)
-  - 🍄 **Fantasy Fungi:** ~305 seltsame Pilze (z.B. _Leucht-Pilz_, _Todesengel_)
-  - 📚 **Fantasy Books:** ~305 Bücher mit Lore-Bonus (z.B. _Die Geschichte von Absalom_, _Goblin-Poesie_)
-  - 🏪 **Shops:** ~500 Geschäftsnamen
-- **Gerüchte:** 500+ Plot-Hooks für die Taverne.
+---
 
 ## 📦 Installation
 
-1.  In Foundry VTT auf **Add-on Modules** -> **Install Module**.
-2.  Manifest URL eingeben:
-    ```text
-    https://github.com/PhilsModules/phils-random-names/releases/latest/download/module.json
-    ```
-3.  Installieren & Aktivieren.
+1. In Foundry VTT auf **Add-on Modules** -> **Install Module** klicken.
+2. Manifest URL einfügen:
+   ```text
+   https://github.com/philsmodules/phils-random-names/releases/latest/download/module.json
+   ```
+3. Installieren & in der Spielwelt aktivieren.
 
 ## 📖 Erste Schritte
 
-1.  Öffne das Modul über das **Makro "Phil's Random Names"** (im Makro-Verzeichnis).
-2.  Klicke einmalig auf **"Ordner & Beispiele erstellen"**, um die Datenbank zu laden.
-3.  Viel Spaß beim Würfeln!
+1. Öffne das Modul über das **Makro "Phil's Random Names"** oder das Würfelsymbol in den Token-Steuerungen.
+2. Klicke einmalig auf **"Ordner & Beispiele erstellen"** (oder das Aktualisieren-Symbol in der Titelleiste).
+3. Viel Spaß beim Auswürfeln am Spieltisch!
 
 <br>
 
 ---
 
-## 📜 License
+<br>
 
-This module uses a dual license structure.
+## 📜 License
 
 - **Code:** GNU GPLv3
 - **Assets:** CC BY-NC-ND 4.0
@@ -232,4 +243,3 @@ See `LICENSE` file for details.
     <br><br>
     <p><i>Made with ❤️ for the Foundry VTT Community</i></p>
 </div>
-
