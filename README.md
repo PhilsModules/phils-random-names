@@ -21,7 +21,7 @@ _Ein mächtiges Deluxe-Werkzeug für zufällige Namen, Tavernen, Läden, Beute &
 <br>
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/PhilsModules/phils-random-names/main/main.png" alt="Phil's Random Names Preview" width="700">
+<img src="https://raw.githubusercontent.com/PhilsModules/phils-random-names/main/main.png" alt="Phil's Random Names Preview" width="1200">
 </div>
 
 <br>
